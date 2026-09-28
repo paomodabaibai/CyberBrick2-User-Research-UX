@@ -1,0 +1,146 @@
+t+    0 conn=False ctr=True K4=False hold=-1ms armed=False l=+0.00 r=+0.00
+beat t+0 K4=False armed=False
+t+   32 conn=True ctr=True K4=False hold=-1ms armed=False l=-0.00 r=-0.01
+beat t+5009 K4=False armed=False
+beat t+10016 K4=False armed=False
+beat t+15030 K4=False armed=False
+beat t+20042 K4=False armed=False
+beat t+25055 K4=False armed=False
+t+27118 conn=True ctr=True K4=True hold=0ms armed=False l=-0.00 r=-0.01
+t+27152 conn=True ctr=True K4=True hold=34ms armed=False l=-0.00 r=-0.01
+t+27186 conn=True ctr=True K4=True hold=68ms armed=False l=-0.00 r=-0.01
+t+27220 conn=True ctr=True K4=True hold=102ms armed=False l=-0.00 r=-0.01
+t+27253 conn=True ctr=True K4=True hold=135ms armed=False l=-0.00 r=-0.01
+t+27287 conn=True ctr=True K4=True hold=169ms armed=False l=-0.00 r=-0.01
+t+27321 conn=True ctr=True K4=True hold=203ms armed=False l=-0.00 r=-0.01
+t+27354 conn=True ctr=True K4=True hold=236ms armed=False l=-0.00 r=-0.01
+t+27388 conn=True ctr=True K4=True hold=270ms armed=False l=-0.00 r=-0.01
+t+27424 conn=True ctr=True K4=True hold=306ms armed=False l=+0.00 r=-0.00
+t+27457 conn=True ctr=True K4=True hold=339ms armed=False l=-0.00 r=-0.01
+t+27495 conn=True ctr=True K4=True hold=377ms armed=False l=-0.00 r=-0.01
+t+27528 conn=True ctr=True K4=True hold=410ms armed=False l=-0.00 r=-0.01
+t+27562 conn=True ctr=True K4=True hold=444ms armed=False l=-0.00 r=-0.01
+t+27596 conn=True ctr=True K4=True hold=478ms armed=False l=-0.00 r=-0.01
+t+27629 conn=True ctr=True K4=True hold=511ms armed=False l=-0.00 r=-0.01
+t+27663 conn=True ctr=True K4=True hold=545ms armed=False l=-0.00 r=-0.01
+t+27697 conn=True ctr=True K4=True hold=579ms armed=False l=-0.00 r=-0.01
+t+27730 conn=True ctr=True K4=True hold=612ms armed=False l=-0.00 r=-0.01
+t+27766 conn=True ctr=True K4=True hold=648ms armed=False l=-0.00 r=-0.01
+t+27800 conn=True ctr=True K4=True hold=682ms armed=False l=-0.00 r=-0.01
+t+27833 conn=True ctr=True K4=True hold=715ms armed=False l=-0.00 r=-0.01
+t+27867 conn=True ctr=True K4=True hold=749ms armed=False l=-0.00 r=-0.01
+t+27901 conn=True ctr=True K4=True hold=783ms armed=False l=-0.00 r=-0.01
+t+27935 conn=True ctr=True K4=True hold=817ms armed=False l=+0.03 r=-0.01
+t+27968 conn=True ctr=True K4=True hold=850ms armed=False l=-0.00 r=-0.01
+t+28003 conn=True ctr=True K4=True hold=885ms armed=False l=-0.00 r=-0.01
+t+28036 conn=True ctr=True K4=True hold=918ms armed=False l=-0.00 r=-0.01
+t+28070 conn=True ctr=True K4=True hold=952ms armed=False l=-0.00 r=-0.01
+t+28104 conn=True ctr=True K4=True hold=986ms armed=False l=-0.00 r=-0.01
+t+28139 conn=True ctr=True K4=True hold=1021ms armed=True l=-0.00 r=-0.01
+t+28173 conn=True ctr=True K4=True hold=1055ms armed=True l=-0.00 r=-0.01
+t+28207 conn=True ctr=True K4=True hold=1089ms armed=True l=-0.00 r=-0.01
+t+28240 conn=True ctr=True K4=True hold=1122ms armed=True l=-0.00 r=-0.01
+t+28274 conn=True ctr=True K4=True hold=1156ms armed=True l=-0.00 r=-0.01
+t+28308 conn=True ctr=True K4=True hold=1190ms armed=True l=-0.00 r=-0.01
+t+28343 conn=True ctr=True K4=True hold=1225ms armed=True l=-0.00 r=-0.01
+t+28377 conn=True ctr=True K4=True hold=1259ms armed=True l=-0.00 r=-0.01
+t+28413 conn=True ctr=True K4=True hold=1295ms armed=True l=-0.00 r=-0.01
+t+28446 conn=True ctr=True K4=True hold=1328ms armed=True l=-0.00 r=-0.01
+t+28481 conn=True ctr=True K4=True hold=1363ms armed=True l=-0.00 r=-0.01
+t+28514 conn=True ctr=True K4=True hold=1396ms armed=True l=-0.00 r=-0.01
+t+28548 conn=True ctr=True K4=True hold=1430ms armed=True l=-0.00 r=-0.01
+t+28584 conn=True ctr=True K4=True hold=1466ms armed=True l=-0.00 r=-0.01
+t+28618 conn=True ctr=True K4=True hold=1500ms armed=True l=-0.00 r=-0.01
+t+28652 conn=True ctr=True K4=True hold=1534ms armed=True l=-0.00 r=-0.01
+t+28685 conn=True ctr=True K4=True hold=1567ms armed=True l=-0.01 r=-0.01
+t+28719 conn=True ctr=True K4=True hold=1601ms armed=True l=-0.00 r=-0.01
+t+28753 conn=True ctr=True K4=True hold=1635ms armed=True l=-0.00 r=-0.01
+t+28787 conn=True ctr=True K4=True hold=1669ms armed=True l=-0.00 r=-0.01
+t+28820 conn=True ctr=True K4=True hold=1702ms armed=True l=-0.01 r=-0.01
+t+28854 conn=True ctr=True K4=True hold=1736ms armed=True l=-0.00 r=-0.01
+t+28888 conn=True ctr=True K4=True hold=1770ms armed=True l=-0.00 r=-0.01
+t+28922 conn=True ctr=True K4=True hold=1804ms armed=True l=-0.00 r=-0.01
+t+28956 conn=True ctr=True K4=True hold=1838ms armed=True l=-0.00 r=-0.01
+t+28990 conn=True ctr=True K4=True hold=1872ms armed=True l=-0.00 r=-0.01
+t+29023 conn=True ctr=True K4=True hold=1905ms armed=True l=-0.00 r=-0.01
+t+29057 conn=True ctr=True K4=True hold=1939ms armed=True l=-0.00 r=-0.01
+t+29093 conn=True ctr=True K4=True hold=1975ms armed=True l=-0.00 r=-0.01
+t+29128 conn=True ctr=True K4=True hold=2010ms armed=True l=-0.00 r=-0.01
+t+29162 conn=True ctr=True K4=True hold=2044ms armed=True l=-0.00 r=-0.01
+t+29195 conn=True ctr=True K4=True hold=2077ms armed=True l=-0.00 r=-0.01
+t+29231 conn=True ctr=True K4=True hold=2113ms armed=True l=-0.00 r=-0.01
+t+29265 conn=True ctr=True K4=True hold=2147ms armed=True l=-0.00 r=-0.01
+t+29298 conn=True ctr=True K4=True hold=2180ms armed=True l=-0.00 r=-0.01
+t+29332 conn=True ctr=True K4=True hold=2214ms armed=True l=-0.00 r=-0.01
+t+29368 conn=True ctr=True K4=True hold=2250ms armed=True l=-0.00 r=-0.01
+t+29402 conn=True ctr=True K4=True hold=2284ms armed=True l=-0.00 r=-0.01
+t+29435 conn=True ctr=True K4=True hold=2317ms armed=True l=-0.00 r=-0.01
+t+29469 conn=True ctr=True K4=True hold=2351ms armed=True l=-0.00 r=-0.01
+t+29503 conn=True ctr=True K4=True hold=2385ms armed=True l=-0.00 r=-0.01
+t+29536 conn=True ctr=True K4=True hold=2418ms armed=True l=-0.00 r=-0.01
+t+29570 conn=True ctr=True K4=True hold=2452ms armed=True l=-0.00 r=-0.01
+t+29605 conn=True ctr=True K4=True hold=2487ms armed=True l=-0.00 r=-0.01
+t+29640 conn=True ctr=True K4=True hold=2522ms armed=True l=-0.00 r=-0.01
+t+29673 conn=True ctr=True K4=True hold=2555ms armed=True l=-0.00 r=-0.01
+t+29708 conn=True ctr=True K4=True hold=2590ms armed=True l=-0.01 r=-0.01
+t+29742 conn=True ctr=True K4=True hold=2624ms armed=True l=-0.00 r=-0.01
+t+29776 conn=True ctr=True K4=True hold=2658ms armed=True l=-0.00 r=-0.01
+t+29809 conn=True ctr=True K4=True hold=2691ms armed=True l=-0.00 r=-0.01
+t+29843 conn=True ctr=True K4=True hold=2725ms armed=True l=-0.00 r=-0.01
+t+29877 conn=True ctr=True K4=True hold=2759ms armed=True l=-0.01 r=-0.01
+t+29910 conn=True ctr=True K4=True hold=2792ms armed=True l=-0.00 r=-0.01
+t+29950 conn=True ctr=True K4=True hold=2832ms armed=True l=-0.00 r=-0.01
+t+29984 conn=True ctr=True K4=True hold=2866ms armed=True l=-0.00 r=-0.01
+t+30019 conn=True ctr=True K4=True hold=2901ms armed=True l=-0.00 r=-0.01
+t+30052 conn=True ctr=True K4=True hold=2934ms armed=True l=-0.00 r=-0.01
+t+30086 conn=True ctr=True K4=True hold=2968ms armed=True l=-0.00 r=-0.01
+beat t+30086 K4=True armed=True
+t+30121 conn=True ctr=True K4=True hold=3003ms armed=True l=-0.00 r=-0.01
+t+30154 conn=True ctr=True K4=True hold=3036ms armed=True l=-0.00 r=-0.01
+t+30188 conn=True ctr=True K4=True hold=3070ms armed=True l=-0.00 r=-0.01
+t+30222 conn=True ctr=True K4=True hold=3104ms armed=True l=-0.00 r=-0.01
+t+30256 conn=True ctr=True K4=True hold=3138ms armed=True l=-0.00 r=-0.01
+t+30291 conn=True ctr=True K4=True hold=3173ms armed=True l=+0.01 r=-0.00
+t+30325 conn=True ctr=True K4=True hold=3207ms armed=True l=-0.00 r=-0.01
+t+30358 conn=True ctr=True K4=True hold=3240ms armed=True l=-0.00 r=-0.01
+t+30392 conn=True ctr=True K4=True hold=3274ms armed=True l=-0.00 r=-0.01
+t+30426 conn=True ctr=True K4=True hold=3308ms armed=True l=-0.00 r=-0.01
+t+30460 conn=True ctr=True K4=True hold=3342ms armed=True l=-0.00 r=-0.01
+t+30493 conn=True ctr=True K4=True hold=3375ms armed=True l=-0.00 r=-0.01
+t+30527 conn=True ctr=True K4=True hold=3409ms armed=True l=-0.00 r=-0.01
+t+30561 conn=True ctr=True K4=False hold=-1ms armed=True l=-0.00 r=-0.01
+t+32698 conn=True ctr=False K4=False hold=-1ms armed=False l=-0.00 r=-0.20
+t+32892 conn=True ctr=True K4=False hold=-1ms armed=False l=-0.00 r=-0.13
+t+33120 conn=True ctr=False K4=False hold=-1ms armed=False l=-0.00 r=-0.27
+t+33964 conn=True ctr=True K4=False hold=-1ms armed=False l=-0.00 r=-0.06
+beat t+35089 K4=False armed=False
+t+35444 conn=True ctr=False K4=False hold=-1ms armed=False l=-0.00 r=+0.22
+t+36388 conn=True ctr=True K4=False hold=-1ms armed=False l=-0.00 r=+0.02
+t+39966 conn=False ctr=True K4=False hold=-1ms armed=False l=+0.00 r=+0.00
+beat t+40090 K4=False armed=False
+t+41204 conn=True ctr=True K4=False hold=-1ms armed=False l=-0.00 r=-0.00
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "E:\课程作业\大三上\张茫 用户研究与体验设计\05_程序与测试\serial_runtime\Lib\site-packages\mpremote\__main__.py", line 6, in <module>
+    sys.exit(main.main())
+             ^^^^^^^^^^^
+  File "E:\课程作业\大三上\张茫 用户研究与体验设计\05_程序与测试\serial_runtime\Lib\site-packages\mpremote\main.py", line 622, in main
+    handler_func(state, args)
+  File "E:\课程作业\大三上\张茫 用户研究与体验设计\05_程序与测试\serial_runtime\Lib\site-packages\mpremote\commands.py", line 500, in do_exec
+    _do_execbuffer(state, args.expr[0], args.follow)
+  File "E:\课程作业\大三上\张茫 用户研究与体验设计\05_程序与测试\serial_runtime\Lib\site-packages\mpremote\commands.py", line 489, in _do_execbuffer
+    ret, ret_err = state.transport.follow(timeout=None, data_consumer=stdout_write_bytes)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\课程作业\大三上\张茫 用户研究与体验设计\05_程序与测试\serial_runtime\Lib\site-packages\mpremote\transport_serial.py", line 220, in follow
+    data = self.read_until(1, b"\x04", timeout=timeout, data_consumer=data_consumer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\课程作业\大三上\张茫 用户研究与体验设计\05_程序与测试\serial_runtime\Lib\site-packages\mpremote\transport_serial.py", line 158, in read_until
+    if self.is_pty or self.serial.inWaiting() > 0:
+                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\课程作业\大三上\张茫 用户研究与体验设计\05_程序与测试\serial_runtime\Lib\site-packages\serial\serialutil.py", line 594, in inWaiting
+    return self.in_waiting
+           ^^^^^^^^^^^^^^^
+  File "E:\课程作业\大三上\张茫 用户研究与体验设计\05_程序与测试\serial_runtime\Lib\site-packages\serial\serialwin32.py", line 259, in in_waiting
+    raise SerialException("ClearCommError failed ({!r})".format(ctypes.WinError()))
+serial.serialutil.SerialException: ClearCommError failed (PermissionError(13, '设备不识别此命令。', None, 22))

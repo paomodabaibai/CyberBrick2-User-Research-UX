@@ -1,0 +1,7 @@
+battery_walk: waiting for live remote; center both levers, hold K4 for 1s, release to enable
+battery_walk: enabled; move one lever forward for one step
+battery_walk: state= ready
+battery_walk: state= stopped
+battery_walk: ended by stop/fault: K4 pressed
+battery_walk: session finished
+battery_walk: PWM off

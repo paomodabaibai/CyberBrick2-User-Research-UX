@@ -1,0 +1,26 @@
+test_actual_config_entire_gait (test_core.Tests.test_actual_config_entire_gait) ... ok
+test_alternate_and_retain_pose (test_core.Tests.test_alternate_and_retain_pose) ... ok
+test_arm_and_link_loss (test_core.Tests.test_arm_and_link_loss) ... ok
+test_axis_reversal_and_saturation (test_core.Tests.test_axis_reversal_and_saturation) ... ok
+test_busy_drops (test_core.Tests.test_busy_drops) ... ok
+test_conflict_consumes (test_core.Tests.test_conflict_consumes) ... ok
+test_default_config_no_activation (test_core.Tests.test_default_config_no_activation) ... ok
+test_edge_and_recentre (test_core.Tests.test_edge_and_recentre) ... ok
+test_frames (test_core.Tests.test_frames) ... ok
+test_limits (test_core.Tests.test_limits) ... ok
+test_motion_bounded_continuous (test_core.Tests.test_motion_bounded_continuous) ... ok
+test_stop_dominates_enable (test_core.Tests.test_stop_dominates_enable) ... ok
+test_stop_freezes_and_requires_recovery (test_core.Tests.test_stop_freezes_and_requires_recovery) ... ok
+test_continuous_release_and_time_limit (test_receiver.Integration.test_continuous_release_and_time_limit) ... ok
+test_loss_latches_and_reconnection_cannot_resume (test_receiver.Integration.test_loss_latches_and_reconnection_cannot_resume) ... ok
+test_no_enable_no_pwm (test_receiver.Integration.test_no_enable_no_pwm) ... ok
+test_unverified_no_pwm (test_receiver.Integration.test_unverified_no_pwm) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.003s
+
+OK
+Supported robot ready? Neutral levers, release attack, hold enable 1 second.
+ARMED (initial stance commanded)
+LINK LOST: holding legs. Support robot, Ctrl-C, restart to recover.
+Supported robot ready? Neutral levers, release attack, hold enable 1 second.

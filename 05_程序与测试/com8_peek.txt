@@ -1,0 +1,7 @@
+[  0.83s] Firmware ver: 01.01.04.13
+Loader ver: 99.00.02.51
+[  1.04s] MPY: soft_reset
+[  1.24s] 0-[97mINFO[0m- [MAIN]0
+[  1.64s] 0-[97mINFO[0m- [MAIN]MASTER_INIT.
+0-[97mINFO[0m- [MAIN]PARSE_UPDATE
+[  1.85s] 0-[97mINFO[0m- [MAIN]AUTO_SLEEP_DIS.

@@ -1,0 +1,109 @@
+{
+  "parameters": {
+    "body_outer": 69.0,
+    "body_clearance_per_side": 0.4,
+    "frame_outer": 75.0,
+    "skirt_depth": 8.0,
+    "lip_thickness": 3.0,
+    "lip_opening": 64.0,
+    "bridge_bottom": 22.0,
+    "bridge_thickness": 3.0,
+    "servo_opening_x": 23.8,
+    "servo_opening_y": 12.8,
+    "servo_ear_pitch": 27.8,
+    "body_mount_hole": 3.2,
+    "servo_mount_hole": 2.4,
+    "shaft_offset_x": 5.34
+  },
+  "parts": {
+    "01_body_fit_gauge": {
+      "valid": true,
+      "watertight": true,
+      "solid_count": 1,
+      "print_bounds_mm": [
+        75.0,
+        75.0,
+        3.0
+      ],
+      "volume_mm3": 2258.879999999998
+    },
+    "02_servo_fit_gauge": {
+      "valid": true,
+      "watertight": true,
+      "solid_count": 1,
+      "print_bounds_mm": [
+        38.0,
+        22.0,
+        3.0
+      ],
+      "volume_mm3": 1566.9366394729839
+    },
+    "03_body_mount_frame": {
+      "valid": true,
+      "watertight": true,
+      "solid_count": 1,
+      "print_bounds_mm": [
+        75.0,
+        75.0,
+        30.0
+      ],
+      "volume_mm3": 16398.60895380552
+    },
+    "04_servo_bridge": {
+      "valid": true,
+      "watertight": true,
+      "solid_count": 1,
+      "print_bounds_mm": [
+        75.0,
+        22.0,
+        3.0
+      ],
+      "volume_mm3": 3906.300807480206
+    },
+    "05_horn_arm_trial": {
+      "valid": true,
+      "watertight": true,
+      "solid_count": 1,
+      "print_bounds_mm": [
+        50.0,
+        10.0,
+        3.0
+      ],
+      "volume_mm3": 1304.1225819853892
+    },
+    "06_palm_trial": {
+      "valid": true,
+      "watertight": true,
+      "solid_count": 1,
+      "print_bounds_mm": [
+        31.0,
+        23.0,
+        10.0
+      ],
+      "volume_mm3": 1519.1920373349387
+    }
+  },
+  "checks": {
+    "servo_frame_intersection_mm3": 0.0,
+    "servo_bridge_intersection_mm3": 0.0,
+    "servo_horn_intersection_mm3": 0,
+    "servo_arm_intersection_mm3": 0,
+    "horn_arm_intersection_mm3": 0,
+    "arm_palm_intersection_mm3": 0,
+    "body_bounds_mm": [
+      [
+        -34.5,
+        -34.5,
+        -39.0
+      ],
+      [
+        34.5,
+        34.5,
+        0.0
+      ]
+    ],
+    "frame_bridge_intersection_mm3": 0.0,
+    "body_fit": "69.8 square sleeve vs 69 body envelope; physical tolerance and drill locations require trial",
+    "horn_fit": "hole centres from official half-arm CAD; insertion depth and screw fit require trial"
+  }
+}

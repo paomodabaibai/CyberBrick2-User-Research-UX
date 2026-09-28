@@ -1,0 +1,16 @@
+{
+  "palm_longest_dimension_mm": 45.0,
+  "palm_XYZ_mm": [
+    45.0,
+    17.870636538191253,
+    33.30230315896235
+  ],
+  "palm_faces": 420590,
+  "palm_watertight": true,
+  "rod_reach_mm": 42.5,
+  "rod_overall_length_mm": 55.0,
+  "rod_width_mm": 10,
+  "rod_thickness_mm": 3,
+  "rod_tip_hole_pitch_mm": 5,
+  "note": "Palm has no mounting interface yet. Rod and palm are NOT an assembled or tested pair. Geometric limits are not load ratings."
+}

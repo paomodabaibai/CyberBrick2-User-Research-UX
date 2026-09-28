@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="860" viewBox="0 0 1000 860" font-family="'Microsoft YaHei', sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/>
+    </marker>
+    <marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2471a3"/>
+    </marker>
+  </defs>
+
+  <rect width="1000" height="860" fill="#fdfdfd"/>
+  <text x="500" y="34" text-anchor="middle" font-size="22" font-weight="bold">Otto V9 四关节 90° 机械中位安装图（v01，纯资料件，非实测成果）</text>
+  <text x="500" y="56" text-anchor="middle" font-size="13" fill="#555">映射（2026-09-22 实测接线）：S1=左髋(GPIO3)　S2=左踝(GPIO2，现360°连续舵机·禁用)　S3=右髋(GPIO1)　S4=右踝(GPIO0)</text>
+
+  <!-- ===================== 正面图 ===================== -->
+  <g>
+    <rect x="30" y="80" width="450" height="520" fill="#ffffff" stroke="#bbb"/>
+    <text x="255" y="104" text-anchor="middle" font-size="16" font-weight="bold">正面图（机器人面向观察者）</text>
+    <text x="255" y="122" text-anchor="middle" font-size="12" fill="#c0392b">注意：机器人自身左侧 = 图中右侧（镜像！）</text>
+
+    <!-- head -->
+    <rect x="185" y="140" width="140" height="90" rx="14" fill="#eef3f8" stroke="#666" stroke-width="2"/>
+    <circle cx="225" cy="180" r="7" fill="#fff" stroke="#666"/><circle cx="285" cy="180" r="7" fill="#fff" stroke="#666"/>
+    <rect x="235" y="205" width="40" height="10" fill="#c9d6e3"/>
+
+    <!-- body -->
+    <rect x="170" y="230" width="170" height="130" rx="10" fill="#e6edf4" stroke="#666" stroke-width="2"/>
+    <text x="255" y="300" text-anchor="middle" font-size="12" fill="#666">身体（内装两颗髋舵机）</text>
+
+    <!-- left hip servo (robot left = viewer right) -->
+    <rect x="312" y="262" width="46" height="34" fill="#f9e79f" stroke="#b7950b" stroke-width="2"/>
+    <text x="335" y="256" text-anchor="middle" font-size="12" font-weight="bold" fill="#7d6608">S1 左髋 GPIO3</text>
+    <line x1="290" y1="279" x2="392" y2="279" stroke="#c0392b" stroke-width="2.5" marker-start="url(#arr)" marker-end="url(#arr)"/>
+    <text x="398" y="283" font-size="11" fill="#c0392b">髋轴＝左右向水平轴</text>
+
+    <!-- right hip servo (robot right = viewer left) -->
+    <rect x="152" y="262" width="46" height="34" fill="#f9e79f" stroke="#b7950b" stroke-width="2"/>
+    <text x="175" y="256" text-anchor="middle" font-size="12" font-weight="bold" fill="#7d6608">S3 右髋 GPIO1</text>
+    <line x1="118" y1="279" x2="220" y2="279" stroke="#c0392b" stroke-width="2.5" marker-start="url(#arr)" marker-end="url(#arr)"/>
+
+    <!-- legs -->
+    <rect x="296" y="360" width="34" height="120" fill="#dde8f0" stroke="#666" stroke-width="2"/>
+    <rect x="180" y="360" width="34" height="120" fill="#dde8f0" stroke="#666" stroke-width="2"/>
+    <text x="255" y="425" text-anchor="middle" font-size="11" fill="#888">腿（连接髋输出与踝输出）</text>
+
+    <!-- left ankle (robot left = viewer right): axis toward viewer -->
+    <circle cx="313" cy="486" r="17" fill="#d5f5e3" stroke="#1e8449" stroke-width="2"/>
+    <circle cx="313" cy="486" r="3" fill="#1e8449"/>
+    <text x="356" y="480" font-size="12" font-weight="bold" fill="#1e8449">S2 左踝 GPIO2</text>
+    <text x="356" y="495" font-size="11" fill="#1e8449">360°连续舵机占位·禁用</text>
+    <text x="356" y="510" font-size="11" fill="#1e8449">换180° PG001前不发任何定位脉冲</text>
+
+    <!-- right ankle -->
+    <circle cx="197" cy="486" r="17" fill="#d5f5e3" stroke="#1e8449" stroke-width="2"/>
+    <circle cx="197" cy="486" r="3" fill="#1e8449"/>
+    <text x="60" y="480" font-size="12" font-weight="bold" fill="#1e8449">S4 右踝 GPIO0</text>
+    <text x="60" y="495" font-size="11" fill="#1e8449">180°位置舵机</text>
+
+    <!-- feet -->
+    <rect x="288" y="500" width="52" height="26" rx="6" fill="#cfe0ee" stroke="#666" stroke-width="2"/>
+    <rect x="172" y="500" width="52" height="26" rx="6" fill="#cfe0ee" stroke="#666" stroke-width="2"/>
+    <text x="255" y="548" text-anchor="middle" font-size="12" fill="#555">脚底贴地面 = 中位安装的验收姿态</text>
+
+    <!-- toe direction (toward viewer) -->
+    <circle cx="255" cy="575" r="10" fill="none" stroke="#2471a3" stroke-width="2"/>
+    <circle cx="255" cy="575" r="3" fill="#2471a3"/>
+    <text x="272" y="580" font-size="12" fill="#2471a3">＝脚尖方向（指向观察者）</text>
+
+    <!-- ankle axis symbol explanation -->
+    <text x="255" y="600" text-anchor="middle" font-size="11" fill="#1e8449">踝轴＝前后向水平轴（正面图上为 ⊙ 指向观察者）→ 脚尖翘/踩</text>
+  </g>
+
+  <!-- ===================== 侧面图 ===================== -->
+  <g>
+    <rect x="520" y="80" width="450" height="520" fill="#ffffff" stroke="#bbb"/>
+    <text x="745" y="104" text-anchor="middle" font-size="16" font-weight="bold">侧面图（看机器人左侧面）</text>
+    <text x="745" y="122" text-anchor="middle" font-size="12" fill="#555">用于确认两根水平轴的方向语义</text>
+
+    <!-- ground -->
+    <line x1="545" y1="545" x2="945" y2="545" stroke="#999" stroke-width="2"/>
+    <text x="945" y="562" text-anchor="end" font-size="11" fill="#999">地面</text>
+
+    <!-- body -->
+    <rect x="660" y="170" width="110" height="130" rx="10" fill="#e6edf4" stroke="#666" stroke-width="2"/>
+    <text x="715" y="240" text-anchor="middle" font-size="12" fill="#666">身体</text>
+
+    <!-- hip axis: mediolateral -> pointing at viewer in this view: dot symbol -->
+    <circle cx="715" cy="315" r="16" fill="#fdf2d0" stroke="#c0392b" stroke-width="2"/>
+    <circle cx="715" cy="315" r="3.5" fill="#c0392b"/>
+    <text x="740" y="320" font-size="12" fill="#c0392b">髋轴 ⊙ 指向观察者（左右向）</text>
+
+    <!-- leg -->
+    <rect x="700" y="330" width="30" height="110" fill="#dde8f0" stroke="#666" stroke-width="2"/>
+
+    <!-- swing arc -->
+    <path d="M 715 335 A 85 85 0 0 1 775 430" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arr)"/>
+    <path d="M 715 335 A 85 85 0 0 0 655 430" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arr)"/>
+    <text x="812" y="452" font-size="12" fill="#c0392b">腿前后摆（迈步）</text>
+    <text x="812" y="468" font-size="11" fill="#c0392b">实测：S1/S3 +10°＝向右转</text>
+
+    <!-- ankle axis: front-back horizontal -->
+    <line x1="640" y1="455" x2="800" y2="455" stroke="#1e8449" stroke-width="2.5" marker-start="url(#arrB)" marker-end="url(#arrB)"/>
+    <circle cx="720" cy="455" r="6" fill="#1e8449"/>
+    <text x="812" y="445" font-size="12" fill="#1e8449">踝轴＝前后向水平轴</text>
+
+    <!-- foot + toe -->
+    <rect x="685" y="462" width="70" height="28" rx="6" fill="#cfe0ee" stroke="#666" stroke-width="2"/>
+    <text x="812" y="500" font-size="12" fill="#555">脚尖 → 图右（行走前方）</text>
+    <path d="M 700 460 Q 690 430 700 415" fill="none" stroke="#1e8449" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arrB)"/>
+    <text x="812" y="520" font-size="11" fill="#1e8449">实测：S4 +10°＝翘脚尖</text>
+    <text x="812" y="536" font-size="11" fill="#1e8449">（S2 换 PG001 后同法定）</text>
+  </g>
+
+  <!-- ===================== 中位安装要点 ===================== -->
+  <g>
+    <rect x="30" y="615" width="940" height="235" fill="#fff8ec" stroke="#d5b895"/>
+    <text x="50" y="642" font-size="15" font-weight="bold">90° 中位安装流程（阶段二，逐关节执行：左髋 → 右髋 → 左踝 → 右踝）</text>
+    <text x="50" y="668" font-size="13">① 托住机器人使脚悬空；松开/拆下该路可能受力的舵盘与腿脚连接（禁止在机械顶住时强制回中）。</text>
+    <text x="50" y="690" font-size="13">② <tspan font-family="Consolas,monospace">center_joint.send('left_hip', confirmed=True)</tspan> 只给这一路发 90° 脉冲（电气中位＝500µs/2500µs 的线性中点 1500µs，<tspan font-weight="bold">不套 center/trim</tspan>）。</text>
+    <text x="50" y="712" font-size="13">③ 舵机响应后，在保持中位时装上舵盘：按最接近的花键齿位装；明显偏斜就重装，剩余误差只用少量 trim 修。</text>
+    <text x="50" y="734" font-size="13">④ 花键注意：<tspan font-weight="bold">手册原装 SG90 与本项目 CB1 舵机（PG001 180°/PG002 360°）不假定花键兼容</tspan>，各用各自原配舵盘；</text>
+    <text x="65" y="754" font-size="13">手册第 5–8 页（01_研究参考/robot-battle-reference/manual_hi_p5..p8.png，照片页）装舵盘时人工对照姿态，图中"180°"标注即舵盘对位参考。</text>
+    <text x="50" y="776" font-size="13">⑤ 中位附近 ±3~5° 小幅双向测试（<tspan font-family="Consolas,monospace">bench_v02.joint(名称, ±deg, confirmed=True)</tspan>），记录实际方向与安全范围，填《逐关节安装记录表》后才标 calibrated=True。</text>
+    <text x="50" y="806" font-size="13" font-weight="bold" fill="#c0392b">验收依据是"双脚平放 + 身体无明显倾斜 + 各关节双向有余量"，不是"四个舵盘外观朝同一方向"。</text>
+    <text x="50" y="830" font-size="12" fill="#555">几何依据：髋轴/踝轴方向由运动学约束（腿前后摆、脚尖翘踩）+ 2026-09-22 实测方向（S1/S3 +10°=向右转、S4 +10°=翘脚尖）确定；示意图非 CAD 剖视，比例示意。</text>
+  </g>
+</svg>

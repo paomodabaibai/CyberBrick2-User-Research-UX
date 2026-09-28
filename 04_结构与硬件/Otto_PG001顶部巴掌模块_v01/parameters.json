@@ -1,0 +1,16 @@
+{
+  "body_outer": 69.0,
+  "body_clearance_per_side": 0.4,
+  "frame_outer": 75.0,
+  "skirt_depth": 8.0,
+  "lip_thickness": 3.0,
+  "lip_opening": 64.0,
+  "bridge_bottom": 22.0,
+  "bridge_thickness": 3.0,
+  "servo_opening_x": 23.8,
+  "servo_opening_y": 12.8,
+  "servo_ear_pitch": 27.8,
+  "body_mount_hole": 3.2,
+  "servo_mount_hole": 2.4,
+  "shaft_offset_x": 5.34
+}

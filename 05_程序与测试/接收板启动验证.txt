@@ -1,0 +1,4 @@
+[  0.82s] Firmware ver: 01.01.04.13
+Loader ver: 99.00.02.51
+[  1.02s] MPY: soft_reset
+[  1.84s] battery_walk: waiting for live remote; center both levers, hold K4 for 1s, release to enable

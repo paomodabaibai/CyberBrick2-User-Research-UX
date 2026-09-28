@@ -1,0 +1,136 @@
+{
+  "parameters": {
+    "body_outer_mm": 69.0,
+    "body_fit_per_side_mm": 0.4,
+    "frame_outer_mm": 75.0,
+    "skirt_depth_mm": 8.0,
+    "crank_radius_mm": 10.0,
+    "rod_centres_mm": 34.0,
+    "crank_axis_x_mm": 6.0,
+    "gearbox_z_offset_mm": 6.8,
+    "shaft_socket_radial_clearance_mm": 0.15,
+    "guide_rod_diameter_mm": 3.0,
+    "guide_y_mm": 20.0,
+    "guide_running_diametral_clearance_mm": 0.45,
+    "guide_fixed_diametral_clearance_mm": 0.15,
+    "pivot_hole_diameter_mm": 3.2,
+    "fist_socket_per_side_mm": 0.25,
+    "retain_screw_clearance_mm": 2.7,
+    "retain_head_diameter_mm": 5.2
+  },
+  "parts": {
+    "09_body_collar": {
+      "solids": 1,
+      "valid_brep": true,
+      "watertight": true,
+      "volume_mm3": 7184.18,
+      "print_size_mm": [
+        89.0,
+        75.0,
+        8.0
+      ]
+    },
+    "01_mount_and_guides": {
+      "solids": 1,
+      "valid_brep": true,
+      "watertight": true,
+      "volume_mm3": 38975.87,
+      "print_size_mm": [
+        122.5,
+        75.0,
+        50.8
+      ]
+    },
+    "06_optional_sensor_bracket": {
+      "solids": 1,
+      "valid_brep": true,
+      "watertight": true,
+      "volume_mm3": 2896.59,
+      "print_size_mm": [
+        28.0,
+        10.0,
+        30.8
+      ]
+    },
+    "07_body_fit_gauge": {
+      "solids": 1,
+      "valid_brep": true,
+      "watertight": true,
+      "volume_mm3": 2258.88,
+      "print_size_mm": [
+        75.0,
+        75.0,
+        3.0
+      ]
+    },
+    "02_crank_keyed_hub": {
+      "solids": 1,
+      "valid_brep": true,
+      "watertight": true,
+      "volume_mm3": 1218.3,
+      "print_size_mm": [
+        20.2,
+        12.4,
+        10.0
+      ]
+    },
+    "08_output_shaft_fit_gauge": {
+      "solids": 1,
+      "valid_brep": true,
+      "watertight": true,
+      "volume_mm3": 604.48,
+      "print_size_mm": [
+        12.4,
+        12.4,
+        6.0
+      ]
+    },
+    "03_connecting_rod": {
+      "solids": 1,
+      "valid_brep": true,
+      "watertight": true,
+      "volume_mm3": 1224.59,
+      "print_size_mm": [
+        42.0,
+        8.0,
+        4.0
+      ]
+    },
+    "04_carriage_and_wrist": {
+      "solids": 1,
+      "valid_brep": true,
+      "watertight": true,
+      "volume_mm3": 8313.79,
+      "print_size_mm": [
+        32.0,
+        48.0,
+        10.0
+      ]
+    },
+    "05_hollow_boxing_glove_TPU": {
+      "solids": 1,
+      "valid_brep": true,
+      "watertight": true,
+      "volume_mm3": 11960.22,
+      "print_size_mm": [
+        26.0,
+        30.0,
+        29.0
+      ]
+    }
+  },
+  "manufacturer_step_sha256": "4cf383cfa71ea844a761c7caa4764fb1087fa61ca0c42718fba1bc0b70962863",
+  "motion": {
+    "angle_samples": 37,
+    "step_deg": 10.0,
+    "stroke_mm": 20.0,
+    "slider_min_x_mm": 30.0,
+    "slider_max_x_mm": 50.0,
+    "max_rod_angle_deg": 17.1046351766438,
+    "moving_collisions": [],
+    "fixed_collisions": [],
+    "max_observed_overlap_mm3": 0,
+    "scope": "Discrete exact-solid intersections; not continuous collision, load, friction, FEA or physical verification."
+  },
+  "status": "DIGITAL_CHECKS_PASS_PHYSICAL_UNVERIFIED"
+}

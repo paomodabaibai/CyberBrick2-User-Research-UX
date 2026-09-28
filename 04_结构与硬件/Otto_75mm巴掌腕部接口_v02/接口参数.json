@@ -1,0 +1,9 @@
+{
+  "palm_longest_mm": 75.0,
+  "rod_reach_mm": 51.0,
+  "rod_total_mm": 63.5,
+  "fit_clearance_per_side_mm": 0.25,
+  "cross_bolt_x_mm": 59.0,
+  "cross_bolt_z_mm": 6.0,
+  "cross_bolt_seat_y_mm": 11.0
+}

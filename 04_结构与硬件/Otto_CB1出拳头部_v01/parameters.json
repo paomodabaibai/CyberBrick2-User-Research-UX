@@ -1,0 +1,19 @@
+{
+  "body_outer_mm": 69.0,
+  "body_fit_per_side_mm": 0.4,
+  "frame_outer_mm": 75.0,
+  "skirt_depth_mm": 8.0,
+  "crank_radius_mm": 10.0,
+  "rod_centres_mm": 34.0,
+  "crank_axis_x_mm": 6.0,
+  "gearbox_z_offset_mm": 6.8,
+  "shaft_socket_radial_clearance_mm": 0.15,
+  "guide_rod_diameter_mm": 3.0,
+  "guide_y_mm": 20.0,
+  "guide_running_diametral_clearance_mm": 0.45,
+  "guide_fixed_diametral_clearance_mm": 0.15,
+  "pivot_hole_diameter_mm": 3.2,
+  "fist_socket_per_side_mm": 0.25,
+  "retain_screw_clearance_mm": 2.7,
+  "retain_head_diameter_mm": 5.2
+}

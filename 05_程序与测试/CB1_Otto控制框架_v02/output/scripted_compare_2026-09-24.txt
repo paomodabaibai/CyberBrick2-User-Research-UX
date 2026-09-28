@@ -1,0 +1,14 @@
+demo_scripted: 1 step pair(s), ~9s, strict enable on scripted frames (NO radio involved)
+enabled (stance commanded; recenter required before steps)
+demo_scripted: t+0.002s state=ready
+step start left (support right)
+demo_scripted: t+0.575s state=walking
+step done left pose=[8.0, 8.0, 0.0, 0.0]
+demo_scripted: t+2.376s state=ready
+step start right (support left)
+demo_scripted: t+4.177s state=walking
+step done right pose=[-8.0, -8.0, 0.0, 0.0]
+demo_scripted: t+5.974s state=ready
+demo_scripted: done, state=ready
+output released (servo torque off)
+demo_scripted: PWM off (servo power stays on)

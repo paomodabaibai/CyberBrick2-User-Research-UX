@@ -1,0 +1,91 @@
+[
+  {
+    "file": "OttoDIYLib-main.zip",
+    "url": "https://codeload.github.com/OttoDIY/OttoDIYLib/zip/refs/heads/main",
+    "bytes": 58241,
+    "sha256": "063505ed2e101f9658d7896adde8f7445091c04eb2fbc976f28064050489cbef"
+  },
+  {
+    "file": "Otto-V9/3Dprint/OttoDIY_Leg_V9.stl",
+    "url": "https://raw.githubusercontent.com/Open-Hardware-Leaders/OttoDIY/master/3Dprint/OttoDIY_Leg_V9.stl",
+    "bytes": 154184,
+    "sha256": "c075a166153dc1239547d09f0cebf5a589ddada051a353a6b114052ff3e509ee"
+  },
+  {
+    "file": "Otto-V9/3Dprint/OttoDIY_body_V9.stl",
+    "url": "https://raw.githubusercontent.com/Open-Hardware-Leaders/OttoDIY/master/3Dprint/OttoDIY_body_V9.stl",
+    "bytes": 455084,
+    "sha256": "cb955d9f5791ee01bc301ccc4fd406fbdc992bb7ff9e1e5ebb6b4575442a9216"
+  },
+  {
+    "file": "Otto-V9/3Dprint/OttoDIY_foot_V9.stl",
+    "url": "https://raw.githubusercontent.com/Open-Hardware-Leaders/OttoDIY/master/3Dprint/OttoDIY_foot_V9.stl",
+    "bytes": 272184,
+    "sha256": "e3ed6a71058ca019efc0b3fc793fd34347685a4d0b9023e0e9d633daf2c56b08"
+  },
+  {
+    "file": "Otto-V9/3Dprint/OttoDIY_head_V9.stl",
+    "url": "https://raw.githubusercontent.com/Open-Hardware-Leaders/OttoDIY/master/3Dprint/OttoDIY_head_V9.stl",
+    "bytes": 373784,
+    "sha256": "d0f8ecf31bc2b55466dd2a8705d243d8e11d2ea93bb21d8b1a982da0a16cb425"
+  },
+  {
+    "file": "Otto-V9/CAD/OttoDIY_v09.step",
+    "url": "https://raw.githubusercontent.com/Open-Hardware-Leaders/OttoDIY/master/CAD/OttoDIY_v09.step",
+    "bytes": 8628505,
+    "sha256": "81bfdde04ea6f4d9b64fd9ab84aaf940e6dea7f485b9b89e4e1c2b5511a6d247"
+  },
+  {
+    "file": "Otto-V9/README.md",
+    "url": "https://raw.githubusercontent.com/Open-Hardware-Leaders/OttoDIY/master/README.md",
+    "bytes": 12129,
+    "sha256": "40205582f5a89887285fbec16303345277cecd40712a761389db8586e7a4e4f1"
+  },
+  {
+    "file": "Zowi/parts/stl/body.stl",
+    "url": "https://raw.githubusercontent.com/JavierIH/zowi/master/parts/stl/body.stl",
+    "bytes": 101784,
+    "sha256": "31553dcc5ed3e232baf37f29e496c90253713de3e0bf15371f0f7ce823e2631a"
+  },
+  {
+    "file": "Zowi/parts/stl/chassis.stl",
+    "url": "https://raw.githubusercontent.com/JavierIH/zowi/master/parts/stl/chassis.stl",
+    "bytes": 166484,
+    "sha256": "15e82530e17136b8f1833bef7bd061492a25e307af64b163f008659d7606405c"
+  },
+  {
+    "file": "Zowi/parts/stl/footL.stl",
+    "url": "https://raw.githubusercontent.com/JavierIH/zowi/master/parts/stl/footL.stl",
+    "bytes": 111684,
+    "sha256": "a5a570f2ce616365cae790faec68896687b00729c23c605da2694c3f211ef69a"
+  },
+  {
+    "file": "Zowi/parts/stl/footR.stl",
+    "url": "https://raw.githubusercontent.com/JavierIH/zowi/master/parts/stl/footR.stl",
+    "bytes": 111684,
+    "sha256": "6a0d061f6ddeb5a88263a42969def82e8032fb209bac6ac17a01a95e9c8fa5ca"
+  },
+  {
+    "file": "Zowi/parts/stl/leg.stl",
+    "url": "https://raw.githubusercontent.com/JavierIH/zowi/master/parts/stl/leg.stl",
+    "bytes": 78284,
+    "sha256": "381f94a5c507534a6eabbf5c14517db40f470b98114c93cec3ae4215ab37ab28"
+  },
+  {
+    "file": "Zowi/parts/freecad/zowi.fcstd",
+    "url": "https://raw.githubusercontent.com/JavierIH/zowi/master/parts/freecad/zowi.fcstd",
+    "bytes": 10041074,
+    "sha256": "271c910363602cc50cede5487edd2229a50f171a6d56208f71d32cdde46af085"
+  },
+  {
+    "file": "Zowi/README.md",
+    "url": "https://raw.githubusercontent.com/JavierIH/zowi/master/README.md",
+    "bytes": 2024,
+    "sha256": "314df8bc725ab6261c0584690b62f2df6f8b9a01c41dcc0abfb6248a8c44de12"
+  },
+  {
+    "file": "Zowi/LICENSE",
+    "url": "https://raw.githubusercontent.com/JavierIH/zowi/master/LICENSE",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

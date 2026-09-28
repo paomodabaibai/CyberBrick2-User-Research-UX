@@ -1,0 +1,6 @@
+walk_session: 120.0s, strict enable (4 calibrated joints + live frame + K4 up)
+enabled (stance commanded; recenter required before steps)
+walk_session: t+0.003s state=ready
+walk_session: time up, state=ready
+output released (servo torque off)
+walk_session: PWM off (servo power stays on)

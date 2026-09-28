@@ -1,0 +1,39 @@
+t+    1 conn=False l=+0.00 r=+0.00 K4=False
+t+   55 conn=True l=-0.00 r=+0.01 K4=False
+t+  268 conn=True l=+0.00 r=+0.00 K4=False
+t+  321 conn=True l=-0.00 r=+0.01 K4=False
+t+ 2047 conn=True l=+0.01 r=+0.00 K4=False
+t+ 2101 conn=True l=-0.00 r=+0.01 K4=False
+t+ 2364 conn=True l=-0.00 r=+0.00 K4=False
+t+ 2417 conn=True l=-0.00 r=+0.01 K4=False
+t+ 2629 conn=True l=-0.00 r=+0.00 K4=False
+t+ 2682 conn=True l=-0.00 r=+0.01 K4=False
+t+ 3102 conn=True l=-0.00 r=+0.00 K4=False
+t+ 3208 conn=True l=-0.00 r=+0.01 K4=False
+t+ 3837 conn=True l=-0.01 r=+0.01 K4=False
+t+ 3891 conn=True l=-0.00 r=+0.01 K4=False
+t+ 3997 conn=True l=-0.00 r=+0.00 K4=False
+t+ 4050 conn=True l=-0.00 r=+0.01 K4=False
+t+ 5728 conn=True l=-0.00 r=+0.00 K4=False
+t+ 5782 conn=True l=-0.00 r=+0.01 K4=False
+t+ 6046 conn=True l=-0.00 r=+0.00 K4=False
+t+ 6102 conn=True l=-0.00 r=+0.01 K4=False
+t+ 6259 conn=True l=-0.00 r=+0.00 K4=False
+t+ 6313 conn=True l=-0.00 r=+0.01 K4=False
+t+ 6471 conn=True l=-0.00 r=+0.00 K4=False
+t+ 6524 conn=True l=-0.00 r=+0.01 K4=False
+t+ 7414 conn=True l=-0.00 r=+0.00 K4=False
+t+ 7467 conn=True l=-0.00 r=+0.01 K4=False
+t+ 7781 conn=True l=+0.01 r=+0.01 K4=False
+t+ 7837 conn=True l=-0.00 r=+0.01 K4=False
+t+ 9303 conn=True l=-0.00 r=+0.00 K4=False
+t+ 9357 conn=True l=-0.00 r=+0.01 K4=False
+t+10979 conn=True l=-0.00 r=+0.00 K4=False
+t+11032 conn=True l=-0.00 r=+0.01 K4=False
+t+12188 conn=True l=+0.01 r=+0.01 K4=False
+t+12241 conn=True l=-0.00 r=+0.01 K4=False
+t+14754 conn=True l=-0.01 r=+0.01 K4=False
+t+14807 conn=True l=-0.00 r=+0.01 K4=False
+t+16271 conn=True l=-0.00 r=+0.00 K4=False
+t+16325 conn=True l=-0.00 r=+0.01 K4=False
+PROBE DONE

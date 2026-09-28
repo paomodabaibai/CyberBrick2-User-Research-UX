@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="204" font-family="sans-serif">
+<rect width="100%" height="100%" fill="white"/>
+<text x="46" y="24" font-size="14">phase / state timeline (software replay)</text>
+<text x="6" y="71.0" font-size="12">state</text>
+<rect x="46.0" y="54" width="9.1" height="34" fill="#9db8e8" stroke="#999"/>
+<rect x="56.1" y="54" width="89.9" height="34" fill="#ff9c9c" stroke="#999"/>
+<text x="58.1" y="78.0" font-size="10">walking</text>
+<rect x="147.0" y="54" width="29.3" height="34" fill="#9db8e8" stroke="#999"/>
+<rect x="177.3" y="54" width="89.9" height="34" fill="#ff9c9c" stroke="#999"/>
+<text x="179.3" y="78.0" font-size="10">walking</text>
+<rect x="268.2" y="54" width="29.3" height="34" fill="#9db8e8" stroke="#999"/>
+<rect x="298.5" y="54" width="89.9" height="34" fill="#ff9c9c" stroke="#999"/>
+<text x="300.5" y="78.0" font-size="10">walking</text>
+<rect x="389.4" y="54" width="110.1" height="34" fill="#9db8e8" stroke="#999"/>
+<text x="391.4" y="78.0" font-size="10">ready</text>
+<rect x="500.5" y="54" width="74.7" height="34" fill="#ff9c9c" stroke="#999"/>
+<text x="502.5" y="78.0" font-size="10">walking</text>
+<rect x="576.2" y="54" width="100.0" height="34" fill="#9db8e8" stroke="#999"/>
+<text x="578.2" y="78.0" font-size="10">stopped</text>
+<rect x="677.2" y="54" width="176.8" height="34" fill="#9db8e8" stroke="#999"/>
+<text x="679.2" y="78.0" font-size="10">fault</text>
+<text x="6" y="123.0" font-size="12">phase</text>
+<rect x="46.0" y="106" width="9.1" height="34" fill="#cccccc" stroke="#999"/>
+<rect x="56.1" y="106" width="12.1" height="34" fill="#ffd9a0" stroke="#999"/>
+<rect x="69.2" y="106" width="21.2" height="34" fill="#a0c8ff" stroke="#999"/>
+<rect x="91.5" y="106" width="22.2" height="34" fill="#a0ffc8" stroke="#999"/>
+<rect x="114.7" y="106" width="16.2" height="34" fill="#ffb0b0" stroke="#999"/>
+<rect x="131.8" y="106" width="14.1" height="34" fill="#e0c0ff" stroke="#999"/>
+<rect x="147.0" y="106" width="29.3" height="34" fill="#cccccc" stroke="#999"/>
+<rect x="177.3" y="106" width="12.1" height="34" fill="#ffd9a0" stroke="#999"/>
+<rect x="190.4" y="106" width="21.2" height="34" fill="#a0c8ff" stroke="#999"/>
+<rect x="212.6" y="106" width="22.2" height="34" fill="#a0ffc8" stroke="#999"/>
+<rect x="235.9" y="106" width="16.2" height="34" fill="#ffb0b0" stroke="#999"/>
+<rect x="253.0" y="106" width="14.1" height="34" fill="#e0c0ff" stroke="#999"/>
+<rect x="268.2" y="106" width="29.3" height="34" fill="#cccccc" stroke="#999"/>
+<rect x="298.5" y="106" width="12.1" height="34" fill="#ffd9a0" stroke="#999"/>
+<rect x="311.6" y="106" width="21.2" height="34" fill="#a0c8ff" stroke="#999"/>
+<rect x="333.9" y="106" width="22.2" height="34" fill="#a0ffc8" stroke="#999"/>
+<rect x="357.1" y="106" width="16.2" height="34" fill="#ffb0b0" stroke="#999"/>
+<rect x="374.2" y="106" width="14.1" height="34" fill="#e0c0ff" stroke="#999"/>
+<rect x="389.4" y="106" width="110.1" height="34" fill="#cccccc" stroke="#999"/>
+<rect x="500.5" y="106" width="12.1" height="34" fill="#ffd9a0" stroke="#999"/>
+<rect x="513.6" y="106" width="21.2" height="34" fill="#a0c8ff" stroke="#999"/>
+<rect x="535.8" y="106" width="22.2" height="34" fill="#a0ffc8" stroke="#999"/>
+<rect x="559.1" y="106" width="16.2" height="34" fill="#ffb0b0" stroke="#999"/>
+<rect x="576.2" y="106" width="277.8" height="34" fill="#cccccc" stroke="#999"/>
+<line x1="46.0" y1="48" x2="46.0" y2="164" stroke="#333" stroke-dasharray="2,2"/>
+<text x="48.0" y="176" font-size="9" transform="rotate(45 48.0 176)">enabled (stance commanded; recenter required</text>
+<line x1="56.1" y1="48" x2="56.1" y2="164" stroke="#333" stroke-dasharray="2,2"/>
+<text x="58.1" y="176" font-size="9" transform="rotate(45 58.1 176)">step start left (support right)</text>
+<line x1="147.0" y1="48" x2="147.0" y2="164" stroke="#333" stroke-dasharray="2,2"/>
+<text x="149.0" y="176" font-size="9" transform="rotate(45 149.0 176)">step done left pose=[8.0, 8.0, 0.0, 0.0]</text>
+<line x1="177.3" y1="48" x2="177.3" y2="164" stroke="#333" stroke-dasharray="2,2"/>
+<text x="179.3" y="176" font-size="9" transform="rotate(45 179.3 176)">step start right (support left)</text>
+<line x1="268.2" y1="48" x2="268.2" y2="164" stroke="#333" stroke-dasharray="2,2"/>
+<text x="270.2" y="176" font-size="9" transform="rotate(45 270.2 176)">step done right pose=[-8.0, -8.0, 0.0, 0.0]</text>
+<line x1="298.5" y1="48" x2="298.5" y2="164" stroke="#333" stroke-dasharray="2,2"/>
+<text x="300.5" y="176" font-size="9" transform="rotate(45 300.5 176)">step start left (support right)</text>
+<line x1="338.9" y1="48" x2="338.9" y2="164" stroke="#333" stroke-dasharray="2,2"/>
+<text x="340.9" y="176" font-size="9" transform="rotate(45 340.9 176)">request dropped: step in progress</text>
+<line x1="389.4" y1="48" x2="389.4" y2="164" stroke="#333" stroke-dasharray="2,2"/>
+<text x="391.4" y="176" font-size="9" transform="rotate(45 391.4 176)">step done left pose=[8.0, 8.0, 0.0, 0.0]</text>
+<line x1="409.6" y1="48" x2="409.6" y2="164" stroke="#333" stroke-dasharray="2,2"/>
+<text x="411.6" y="176" font-size="9" transform="rotate(45 411.6 176)">request rejected: both levers forward (confl</text>
+<line x1="450.0" y1="48" x2="450.0" y2="164" stroke="#333" stroke-dasharray="2,2"/>
+<text x="452.0" y="176" font-size="9" transform="rotate(45 452.0 176)">request rejected (left): same-side left step</text>
+<line x1="500.5" y1="48" x2="500.5" y2="164" stroke="#333" stroke-dasharray="2,2"/>
+<text x="502.5" y="176" font-size="9" transform="rotate(45 502.5 176)">step start right (support left)</text>
+<line x1="576.2" y1="48" x2="576.2" y2="164" stroke="#333" stroke-dasharray="2,2"/>
+<text x="578.2" y="176" font-size="9" transform="rotate(45 578.2 176)">stop during right step: K4 pressed</text>
+<line x1="677.2" y1="48" x2="677.2" y2="164" stroke="#333" stroke-dasharray="2,2"/>
+<text x="679.2" y="176" font-size="9" transform="rotate(45 679.2 176)">FAULT: link lost (no valid frame)</text>
+<line x1="763.1" y1="48" x2="763.1" y2="164" stroke="#333" stroke-dasharray="2,2"/>
+<text x="765.1" y="176" font-size="9" transform="rotate(45 765.1 176)">request rejected (right): state=fault</text>
+</svg>

@@ -1,0 +1,37 @@
+name: cb2
+description: CyberBrick CB2 项目编程助手
+
+# 注意：lang_style 刻意放在 sections 最末尾。
+# 它会随用户语言切换而变化，是缓存断点②与③之间的「半静态段」；
+# 放在末尾可让前面的稳定指令（identity/security/...）独立成更大的缓存前缀。
+sections:
+  identity:
+    - identity/octo.md
+  security:
+    - security/common.md
+  environment:
+    - environment/cb2.md
+  workspace:
+    - workspace/common.md
+    - workspace/cb2.md
+  workflow:
+    - workflow/1000_base.md
+    - workflow/1100_write-sync-run.md
+    - workflow/1150_runtime-params.md
+    - workflow/1200_autostart-loop-risk.md
+    - workflow/1300_100-step-limit.md
+    - workflow/1400_new-project-hint.md
+    - workflow/1500_network-connectivity-check.md
+    - workflow/1600_runtime-control.md
+    - workflow/2000_cb2-auto-port.md
+    - workflow/2100_cb2-wiring-validation.md
+    - workflow/2200_cb2-version-mismatch.md
+    - workflow/2300_cb2-safe-set-text.md
+  code_style:
+    - code_style/common.md
+    - code_style/cb2.md
+  lang_style:
+    zh:
+      - lang_style/zh/octo.md
+    en:
+      - lang_style/en/octo.md

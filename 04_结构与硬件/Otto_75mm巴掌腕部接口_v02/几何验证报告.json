@@ -1,0 +1,158 @@
+{
+  "parameters": {
+    "palm_longest_mm": 75.0,
+    "rod_reach_mm": 51.0,
+    "rod_total_mm": 63.5,
+    "fit_clearance_per_side_mm": 0.25,
+    "cross_bolt_x_mm": 59.0,
+    "cross_bolt_z_mm": 6.0,
+    "cross_bolt_seat_y_mm": 11.0
+  },
+  "parts": {
+    "01_腕部局部试装件": {
+      "watertight": true,
+      "positive_volume": true,
+      "components": 1,
+      "faces": 108606,
+      "volume_mm3": 8822.361954336922,
+      "assembly_bounds_mm": [
+        [
+          51.0,
+          -14.892192840576172,
+          -13.232851028442383
+        ],
+        [
+          70.0,
+          14.89220142364502,
+          22.678096771240234
+        ]
+      ],
+      "print_extents_mm": [
+        35.91094779968262,
+        29.78439426422119,
+        19.0
+      ]
+    },
+    "02_插入连接块": {
+      "watertight": true,
+      "positive_volume": true,
+      "components": 1,
+      "faces": 1332,
+      "volume_mm3": 1482.9583785750522,
+      "assembly_bounds_mm": [
+        [
+          43.5,
+          -6.0,
+          3.0
+        ],
+        [
+          66.5,
+          6.0,
+          9.0
+        ]
+      ],
+      "print_extents_mm": [
+        23.0,
+        12.0,
+        6.0
+      ]
+    },
+    "03_杆末端试装片": {
+      "watertight": true,
+      "positive_volume": true,
+      "components": 1,
+      "faces": 1076,
+      "volume_mm3": 425.91537786559866,
+      "assembly_bounds_mm": [
+        [
+          43.5,
+          -5.0,
+          0.0
+        ],
+        [
+          58.5,
+          5.0,
+          3.0
+        ]
+      ],
+      "print_extents_mm": [
+        15.0,
+        10.0,
+        3.0
+      ]
+    },
+    "04_完整手掌75mm_带接口": {
+      "watertight": true,
+      "positive_volume": true,
+      "components": 1,
+      "faces": 414846,
+      "volume_mm3": 37778.51623325324,
+      "assembly_bounds_mm": [
+        [
+          51.0,
+          -14.892192840576172,
+          -16.670888900756836
+        ],
+        [
+          126.0,
+          14.89220142364502,
+          38.832950592041016
+        ]
+      ],
+      "print_extents_mm": [
+        75.0,
+        55.50383949279785,
+        29.78439426422119
+      ]
+    },
+    "05_完整连接杆_杆距51mm": {
+      "watertight": true,
+      "positive_volume": true,
+      "components": 1,
+      "faces": 2564,
+      "volume_mm3": 1709.232608691005,
+      "assembly_bounds_mm": [
+        [
+          -5.0,
+          -5.0,
+          0.0
+        ],
+        [
+          58.5,
+          5.0,
+          3.0
+        ]
+      ],
+      "print_extents_mm": [
+        63.5,
+        10.0,
+        3.0
+      ]
+    }
+  },
+  "checks": {
+    "palm_adapter_overlap_mm3": 0.0,
+    "palm_rod_overlap_mm3": 0.0,
+    "adapter_rod_overlap_mm3": 0.0,
+    "palm_withdraw_1mm_overlap_mm3": 0.0,
+    "palm_withdraw_5mm_overlap_mm3": 0.0,
+    "palm_withdraw_10mm_overlap_mm3": 0.0,
+    "palm_withdraw_16mm_overlap_mm3": 0.0,
+    "withdraw_1mm_root_shank_overlap_mm3": 0.0,
+    "withdraw_1mm_root_head_overlap_mm3": 0.0,
+    "withdraw_2mm_root_shank_overlap_mm3": 0.0,
+    "withdraw_2mm_root_head_overlap_mm3": 0.0,
+    "withdraw_5mm_root_shank_overlap_mm3": 0.0,
+    "withdraw_5mm_root_head_overlap_mm3": 0.0,
+    "withdraw_10mm_root_shank_overlap_mm3": 0.0,
+    "withdraw_10mm_root_head_overlap_mm3": 0.0,
+    "withdraw_16mm_root_shank_overlap_mm3": 0.0,
+    "withdraw_16mm_root_head_overlap_mm3": 0.0,
+    "cross_shank_palm_overlap_mm3": 0.0,
+    "cross_head_palm_overlap_mm3": 0.0,
+    "cross_nut_envelope_palm_overlap_mm3": 0.0,
+    "root_screw_tip_palm_overlap_mm3": 0.0,
+    "root_screw_head_palm_overlap_mm3": 0.0
+  },
+  "reference_wrist_z_before_shift": 19.700889178802257
+}
