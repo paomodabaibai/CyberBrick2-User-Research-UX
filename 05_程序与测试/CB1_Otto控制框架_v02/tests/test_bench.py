@@ -23,7 +23,8 @@ def raw_frame(left=None, right=None, k4=1):
     if right is not None:
         f[config.REMOTE['right_channel']] = int(
             config.REMOTE['right_center'] + right * config.REMOTE['right_span'])
-    f[6 + config.REMOTE['stop_button']] = k4
+    if config.REMOTE['stop_button'] is not None:
+        f[6 + config.REMOTE['stop_button']] = k4
     return f
 
 

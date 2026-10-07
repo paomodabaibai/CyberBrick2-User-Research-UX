@@ -11,6 +11,7 @@ import unittest
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+import config
 import demo_scripted
 import sim_config
 
@@ -48,11 +49,12 @@ class TestDemoScripted(unittest.TestCase):
         f0 = link.read()
         self.assertEqual(len(f0), 10)
         # initial frame: both levers at measured resting centers, K4 released
-        self.assertEqual(f0[0], demo_scripted._CENTER_L)
-        self.assertEqual(f0[3], demo_scripted._CENTER_R)
+        lc = config.REMOTE['left_channel']
+        rc = config.REMOTE['right_channel']
+        self.assertEqual(f0[lc], demo_scripted._CENTER_L)
+        self.assertEqual(f0[rc], demo_scripted._CENTER_R)
         self.assertEqual(f0[9], 1)
         # push frames exceed the step threshold after normalization
-        import config
         import input_adapter
         pushed = demo_scripted._L_FRAME
         u = input_adapter.from_rc(pushed, 0, config)

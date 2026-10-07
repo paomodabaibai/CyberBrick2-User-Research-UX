@@ -1,0 +1,131 @@
+{
+  "chosen_parameters": {
+    "fist_height_mm": 46,
+    "module_offset_mm": -22,
+    "fist_yaw_deg": 14,
+    "wrist_extension_mm": 38,
+    "fist_x_mm": 0,
+    "fist_y_mm": 0,
+    "fist_pitch_deg": 0,
+    "fist_roll_deg": 0,
+    "crank_radius_mm": 10,
+    "rod_centres_mm": 34,
+    "design_stroke_mm": 20,
+    "preview_wrist_anchor_z_mm": 45.8,
+    "original_fist_wrist_center": [
+      0.14354,
+      0.492645323,
+      0.473214
+    ],
+    "coordinate_axes": "X=forward, Y=robot left, Z=up; body top Z=0"
+  },
+  "source_fist_watertight": false,
+  "exports": [
+    {
+      "file": "整机_收回_参数预览.stl",
+      "bytes": 37566884,
+      "triangles": 751336,
+      "bounds_mm": [
+        [
+          -83.935,
+          -57.0,
+          -89.0
+        ],
+        [
+          103.273,
+          57.0,
+          70.032
+        ]
+      ],
+      "separate_shells_expected": true
+    },
+    {
+      "file": "攻击模块_收回_参数预览.stl",
+      "bytes": 36259484,
+      "triangles": 725188,
+      "bounds_mm": [
+        [
+          -83.935,
+          -37.5,
+          -8.0
+        ],
+        [
+          103.273,
+          37.5,
+          70.032
+        ]
+      ],
+      "separate_shells_expected": true
+    },
+    {
+      "file": "整机_打出_参数预览.stl",
+      "bytes": 37566884,
+      "triangles": 751336,
+      "bounds_mm": [
+        [
+          -83.935,
+          -57.0,
+          -89.0
+        ],
+        [
+          123.273,
+          57.0,
+          70.032
+        ]
+      ],
+      "separate_shells_expected": true
+    },
+    {
+      "file": "攻击模块_打出_参数预览.stl",
+      "bytes": 36259484,
+      "triangles": 725188,
+      "bounds_mm": [
+        [
+          -83.935,
+          -37.5,
+          -8.0
+        ],
+        [
+          123.273,
+          37.5,
+          70.032
+        ]
+      ],
+      "separate_shells_expected": true
+    }
+  ],
+  "assembly_component_names": [
+    "otto_body_0",
+    "otto_Leg_0",
+    "otto_Leg_1",
+    "otto_foot_0",
+    "otto_foot_1",
+    "output_gear",
+    "washer_B",
+    "pin_B",
+    "washer_A",
+    "pin_A",
+    "carriage",
+    "link",
+    "crank",
+    "ref_13",
+    "ref_12",
+    "ref_11",
+    "ref_10",
+    "ref_09",
+    "ref_08",
+    "ref_07",
+    "ref_06",
+    "ref_05",
+    "ref_03",
+    "ref_02",
+    "ref_01",
+    "ref_00",
+    "base",
+    "guide_rod_+20",
+    "guide_rod_-20",
+    "body_collar",
+    "新拳头",
+    "腕部延长示意"
+  ]
+}

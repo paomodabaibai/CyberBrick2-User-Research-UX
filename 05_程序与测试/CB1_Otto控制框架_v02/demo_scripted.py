@@ -34,8 +34,12 @@ TAIL_S = 1.0      # stabilized stance after the last step, before release
 
 def _frame(left_raw, right_raw):
     # Official 10-value frame [L1,L2,L3,R1,R2,R3,K1,K2,K3,K4];
-    # K4 = 1 means released (button_active=0).
-    return [left_raw, 2048, 2048, right_raw, 2048, 2048, 1, 1, 1, 1]
+    # lever values go to their CONFIGURED channels (left/right were
+    # swapped 2026-09-24 evening: left=3, right=0).
+    f = [2048] * 6 + [1] * 4
+    f[config.REMOTE['left_channel']] = left_raw
+    f[config.REMOTE['right_channel']] = right_raw
+    return f
 
 
 _CENTER = _frame(_CENTER_L, _CENTER_R)

@@ -135,7 +135,7 @@ class Controller:
         self.log('output released (servo torque off)')
 
     # --- stepping --------------------------------------------------------
-    def request_step(self, side):
+    def request_step(self, side, backward=False):
         if self.state == S.WALKING:
             self.log('request dropped (%s): step in progress' % side)
             return 'dropped'
@@ -144,10 +144,8 @@ class Controller:
             return 'rejected'
         try:
             self.trajectory = self.planner.plan_step(
-                side, self.pose, self.last_foot, jm=self.jm)
-        except gait_planner.SameSideNotSupported as exc:
-            self.log('request rejected (%s): %s' % (side, exc))
-            return 'rejected_same_side'
+                side, self.pose, self.last_foot, backward=backward,
+                jm=self.jm)
         except joint_model.LimitViolation as exc:
             self.log('request rejected (%s): %s' % (side, exc))
             return 'rejected_limit'
@@ -155,8 +153,8 @@ class Controller:
         self.support_side = self.planner.support_side_strategy(side)
         self.state = S.WALKING
         self._fresh_step = True   # pre-request idle time must not count
-        self.log('step start %s (support %s)%s' %
-                 (side, self.support_side,
+        self.log('step start %s%s (support %s)%s' %
+                 (side, ' BACKWARD' if backward else '', self.support_side,
                   ' [DEBUG incomplete output]' if self.debug_incomplete else ''))
         return 'started'
 
@@ -191,6 +189,10 @@ class Controller:
                 self.request_step('left')
             elif ev == CM.STEP_RIGHT:
                 self.request_step('right')
+            elif ev == CM.STEP_BACK_LEFT:
+                self.request_step('left', backward=True)
+            elif ev == CM.STEP_BACK_RIGHT:
+                self.request_step('right', backward=True)
             elif ev == CM.REJECTED_CONFLICT:
                 self.log('request rejected: both levers forward (conflict)')
             elif ev == CM.DROPPED_BUSY:

@@ -20,7 +20,28 @@ import states
 import timeutil
 
 
-def run(seconds=45.0, cfg=None, link=None, session=None, log=print):
+def wait_for_frames(link, cfg, timeout_ms=8000, need=10, log=print):
+    """Block until `need` consecutive valid frames arrive (or timeout).
+
+    Why: right after a serial soft reset, rc_slave_init needs a moment
+    before frames flow; enabling inside that cold window is rejected even
+    though the link is fine (observed 2026-09-24: enable failed instantly,
+    an 8 s probe seconds later read 199/200 frames).
+    """
+    import input_adapter
+    t0 = timeutil.now_ms()
+    good = 0
+    while timeutil.diff_ms(timeutil.now_ms(), t0) < timeout_ms:
+        inp = input_adapter.from_rc(link.read(), timeutil.now_ms(), cfg)
+        good = good + 1 if inp.connected else 0
+        if good >= need:
+            return True
+        main_v02._sleep_ms(20)
+    return False
+
+
+def run(seconds=45.0, cfg=None, link=None, session=None, log=print,
+        warmup_ms=8000):
     cfg = cfg or config
     session = session or main_v02.start(cfg, link=link)
     if session.link is None:
@@ -29,6 +50,10 @@ def run(seconds=45.0, cfg=None, link=None, session=None, log=print):
     log('walk_session: %.1fs, strict enable (4 calibrated joints + live '
         'frame + K4 up)' % seconds)
     try:
+        if not wait_for_frames(session.link, cfg, timeout_ms=warmup_ms,
+                               log=log):
+            raise RuntimeError('walk_session: no frames after %d ms - '
+                               'check transmitter/link' % warmup_ms)
         session.enable()
         t_start = timeutil.now_ms()
         end = t_start + int(seconds * 1000)

@@ -12,7 +12,6 @@ import sim_config
 import joint_model
 import gait_planner
 import trajectory
-from gait_planner import SameSideNotSupported
 
 VC = sim_config.virtual()
 JM = joint_model.JointModel(VC)
@@ -47,36 +46,93 @@ class TestFirstAndAlternate(unittest.TestCase):
         h = config.GAIT['hip_swing']
         self.assertAlmostEqual(end[0], -h)
         self.assertAlmostEqual(end[1], -h)
-        # swing pose: right ankle (index 3) gets the extra lift
+        # swing pose: the STEPPING ankle (index 3, S4) tilts TOE-DOWN
+        # (unloaded/lifted) and the support ankle (S2) toe-up. With the
+        # 2026-09-24 flipped ankle signs (-1/-1) and S4+=toe down, the
+        # right-step stepping ankle is POSITIVE; support is negative.
         swing = traj.segments[2].target
-        self.assertAlmostEqual(swing[3], -(config.GAIT['lean'] + config.GAIT['lift']))
-        self.assertAlmostEqual(swing[2], -config.GAIT['lean'])
+        self.assertAlmostEqual(swing[3], (config.GAIT['lean'] + config.GAIT['lift']))
+        self.assertAlmostEqual(swing[2], config.GAIT['lean'])
 
     def test_6_alternate_step_continuous_no_jump(self):
         p = gait_planner.GaitPlanner(VC)
         first = run_trajectory(p.plan_step('left', [0.0] * 4, None, jm=JM))
-        second = run_trajectory(
-            p.plan_step('right', first[-1], 'left', jm=JM))
+        traj2 = p.plan_step('right', first[-1], 'left', jm=JM)
+        # seamless handover: second trajectory starts exactly at first end
+        # (v03 prepare retracts from there; the START must be the end pose)
+        self.assertEqual(traj2.pose, first[-1])
+        second = run_trajectory(traj2)
         # per-tick change must stay small for a 20 ms loop (smooth steps)
         max_step = max(abs(b[i] - a[i])
                        for a, b in zip(second, second[1:])
                        for i in range(4))
         # 16 deg hip swing across >= 250 ms -> bound well below a servo jump
-        self.assertLess(max_step, 3.0)
+        # (2026-09-24: raised to 5 with lean=15/lift=10 v03 amplitudes - the
+        # ankle now covers 25 deg inside the 300 ms swing phase)
+        self.assertLess(max_step, 5.0)
         # alternate end mirrors the first step
         self.assertAlmostEqual(second[-1][0], -config.GAIT['hip_swing'])
-        # seamless handover: second trajectory starts exactly at first end
-        self.assertEqual(second[0], first[-1])
 
 
 class TestSameSide(unittest.TestCase):
-    def test_7_same_side_explicitly_rejected(self):
+    """v03 (2026-09-24): repeated same-side steps are SUPPORTED - the user's
+    control model is hold-one-lever = continuous same-side steps = turn."""
+
+    def test_7_same_side_retracts_through_center(self):
         p = gait_planner.GaitPlanner(VC)
-        end = run_trajectory(p.plan_step('left', [0.0] * 4, None, jm=JM))[-1]
-        with self.assertRaises(SameSideNotSupported):
-            p.plan_step('left', end, 'left', jm=JM)
-        # strategy hook exists and defaults to unsupported
-        self.assertEqual(p.same_side_strategy('left', 'left'), 'not_supported')
+        first = run_trajectory(p.plan_step('left', [0.0] * 4, None, jm=JM))
+        traj = p.plan_step('left', first[-1], 'left', jm=JM)
+        segs = traj.segments
+        # prepare RETRACTS the hips to stance (0), not holds them apart
+        self.assertEqual(segs[0].target, [0.0, 0.0, 0.0, 0.0])
+        # the step still ends at the full swing bias
+        end = run_trajectory(traj)[-1]
+        for a, b in zip(end, [config.GAIT['hip_swing'],
+                               config.GAIT['hip_swing'], 0.0, 0.0]):
+            self.assertAlmostEqual(a, b, places=6)
+        self.assertEqual(p.same_side_strategy('left', 'left'), 'retract')
+
+    def test_7b_same_side_still_smooth(self):
+        p = gait_planner.GaitPlanner(VC)
+        first = run_trajectory(p.plan_step('left', [0.0] * 4, None, jm=JM))
+        traj2 = p.plan_step('left', first[-1], 'left', jm=JM)
+        self.assertEqual(traj2.pose, first[-1])   # seamless handover
+        second = run_trajectory(traj2)
+        max_step = max(abs(b[i] - a[i])
+                       for a, b in zip(second, second[1:])
+                       for i in range(4))
+        self.assertLess(max_step, 5.0)   # v03 amplitudes (see test_6 note)
+
+
+class TestBackwardStep(unittest.TestCase):
+    """v03: backward=True reverses the hip swing only; the weight-shift
+    lean still depends on the stepping SIDE (weight must go onto the same
+    support foot whichever way the foot travels)."""
+
+    def test_backward_swings_hips_the_other_way(self):
+        p = gait_planner.GaitPlanner(VC)
+        fwd = p.plan_step('left', [0.0] * 4, None, jm=JM)
+        back = p.plan_step('left', [0.0] * 4, None, backward=True, jm=JM)
+        h = config.GAIT['hip_swing']
+        self.assertAlmostEqual(fwd.segments[2].target[0], h)
+        self.assertAlmostEqual(back.segments[2].target[0], -h)
+        self.assertAlmostEqual(back.segments[-1].target[1], -h)
+        # lean targets identical: same side, same support, same weight shift
+        self.assertEqual(fwd.segments[1].target, back.segments[1].target)
+        self.assertEqual(fwd.segments[2].target[2:],
+                         back.segments[2].target[2:])
+        # phase set unchanged
+        self.assertEqual([s.name for s in back.segments],
+                         ['prepare', 'weight_shift', 'unload_swing',
+                          'land', 'stabilize'])
+
+    def test_backward_right_mirrors(self):
+        p = gait_planner.GaitPlanner(VC)
+        back = p.plan_step('right', [0.0] * 4, None, backward=True, jm=JM)
+        h = config.GAIT['hip_swing']
+        # right side has step_sign -1: backward flips it to +h
+        self.assertAlmostEqual(back.segments[2].target[0], h)
+        self.assertAlmostEqual(back.segments[2].target[1], h)
 
 
 class TestPhaseOrdering(unittest.TestCase):
@@ -113,20 +169,20 @@ class TestPhaseOrdering(unittest.TestCase):
         self.assertAlmostEqual(traj.pose[2], 0.0, places=6)
         self.assertAlmostEqual(traj.pose[3], 0.0, places=6)
 
-    def test_asymmetric_start_keeps_each_hip_individually(self):
+    def test_asymmetric_start_retracts_each_hip_smoothly(self):
         p = gait_planner.GaitPlanner(VC)
         start = [3.0, -2.0, 1.0, 0.5]     # e.g. frozen mid-step by a stop
         traj = p.plan_step('left', start, None, jm=JM)
         segs = traj.segments
-        # prepare holds EACH hip at its own value, ankles to stance
-        self.assertEqual(segs[0].target, [3.0, -2.0, 0.0, 0.0])
-        # weight_shift still holds both at their own values
-        self.assertEqual(segs[1].target[:2], [3.0, -2.0])
-        # interpolation starts from the real commanded pose
+        # v03 prepare retracts BOTH hips to stance (0) - never assume they
+        # are equal: each interpolates from its own value through 20 ms ticks
+        self.assertEqual(segs[0].target, [0.0, 0.0, 0.0, 0.0])
+        # weight_shift holds the retracted stance
+        self.assertEqual(segs[1].target[:2], [0.0, 0.0])
+        # interpolation starts from the real commanded pose, no teleport
         pose, phase, done = traj.update(1)
-        self.assertAlmostEqual(pose[0], 3.0 + (3.0 - 3.0) * 0, places=6)
-        pose, phase, done = traj.update(10)
-        self.assertLess(pose[0], 3.0 + 0.001)     # not teleported to target
+        self.assertAlmostEqual(pose[0], 3.0, places=3)
+        self.assertAlmostEqual(pose[1], -2.0, places=3)
         self.assertFalse(done)
 
     def test_phase_continuity_by_construction(self):
@@ -137,7 +193,7 @@ class TestPhaseOrdering(unittest.TestCase):
         while not done:
             pose, phase, done = traj.update(20)
             for a, b in zip(prev, pose):
-                self.assertLessEqual(abs(b - a), 3.0)
+                self.assertLessEqual(abs(b - a), 5.0)
             prev = pose
 
     def test_step_and_ankle_signs_are_configurable(self):

@@ -30,7 +30,8 @@ def raw_frame(left=None, right=None, k4=1):
     if right is not None:
         f[config.REMOTE['right_channel']] = int(
             config.REMOTE['right_center'] + right * config.REMOTE['right_span'])
-    f[6 + config.REMOTE['stop_button']] = k4
+    if config.REMOTE['stop_button'] is not None:
+        f[6 + config.REMOTE['stop_button']] = k4
     return f
 
 
@@ -137,14 +138,23 @@ class TestOperatorEntries(unittest.TestCase):
         self.assertEqual(s.ctrl.state, states.DISABLED)
         self.assertFalse(s.last_inp.connected)
 
-    def test_enable_rejected_while_k4_held_right_now(self):
+    def test_k4_button_is_fully_inert(self):
+        # User decision 2026-09-24: K4 has NO function. A frame with the
+        # K4 byte at its pressed value must not block enable, stop a walk,
+        # or gate recover - from_rc ignores the button entirely.
         s = make_session(FakeLink(raw_frame(k4=0)))
-        with self.assertRaisesRegex(RuntimeError, 'K4'):
-            s.enable()
-        self.assertEqual(s.ctrl.state, states.DISABLED)
-        s.link.frame = raw_frame()                 # K4 released
-        s.enable()
+        s.enable()                                  # pressed byte ignored
         self.assertEqual(s.ctrl.state, states.READY)
+        s.link.frame = raw_frame(left=0.9)
+        self.assertEqual(s.poll(), states.WALKING)
+        s.link.frame = raw_frame(k4=0, left=0.9)    # pressed byte mid-walk
+        self.assertEqual(s.poll(), states.WALKING)
+        s.ctrl.stop('test')
+        s.link.frame = None
+        with self.assertRaisesRegex(RuntimeError, 'no valid frame'):
+            s.recover()
+        s.link.frame = raw_frame(k4=0)              # recover not K4-gated
+        self.assertEqual(s.recover(), states.READY)
 
     def test_enable_feeds_live_frame_recenter_gate_applies(self):
         s = make_session(FakeLink(raw_frame(left=0.9)))
@@ -168,15 +178,12 @@ class TestOperatorEntries(unittest.TestCase):
     def test_recover_same_fresh_gate(self):
         s = make_session(FakeLink(raw_frame()))
         s.enable()
-        s.link.frame = raw_frame(k4=0)             # stop via poll
-        self.assertEqual(s.poll(), states.STOPPED)
+        s.ctrl.stop('test')                        # operator stop (no K4 now)
+        self.assertEqual(s.ctrl.state, states.STOPPED)
         s.link.frame = None                        # link dead: no recover
         with self.assertRaisesRegex(RuntimeError, 'no valid frame'):
             s.recover()
-        s.link.frame = raw_frame(k4=0)             # K4 still held: no recover
-        with self.assertRaisesRegex(RuntimeError, 'K4'):
-            s.recover()
-        s.link.frame = raw_frame()                 # live and K4 free
+        s.link.frame = raw_frame()                 # live frame: recover works
         self.assertEqual(s.recover(), states.READY)
         self.assertTrue(s.ctrl.debug_incomplete is None)
 
@@ -317,9 +324,10 @@ class TestDocumentedFlowEndToEnd(unittest.TestCase):
         s.poll()
         self.walk_to_done('left')
         self.walk_to_done('right')
-        # 5. stop (K4) and recover through the live gate
-        s.link.frame = raw_frame(k4=0)
-        self.assertEqual(s.poll(), states.STOPPED)
+        # 5. operator stop (K4 is inert since 2026-09-24) and recover
+        # through the live gate
+        s.ctrl.stop('operator')
+        self.assertEqual(s.ctrl.state, states.STOPPED)
         s.link.frame = raw_frame()
         self.assertEqual(s.recover(), states.READY)
         s.poll()                                   # recenter observed

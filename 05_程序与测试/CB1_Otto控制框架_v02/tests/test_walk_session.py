@@ -22,7 +22,8 @@ def raw_frame(left=0.0, right=0.0, k4=1):
         config.REMOTE['left_center'] + left * config.REMOTE['left_span'])
     f[config.REMOTE['right_channel']] = int(
         config.REMOTE['right_center'] + right * config.REMOTE['right_span'])
-    f[6 + config.REMOTE['stop_button']] = k4
+    if config.REMOTE['stop_button'] is not None:
+        f[6 + config.REMOTE['stop_button']] = k4
     return f
 
 
@@ -41,13 +42,14 @@ class SeqLink:
 
 def small_gait_cfg():
     """Virtual profile with 20 ms phases and a scripted left-then-right
-    walk: 10 center frames, a left push, 30 center, a right push, center."""
+    walk: 20 center frames (warmup + enable + recenter), a left push,
+    30 center, a right push, center."""
     cfg = sim_config.virtual()
     cfg.GAIT = copy.deepcopy(cfg.GAIT)
     for k in list(cfg.GAIT):
         if k.endswith('_ms'):
             cfg.GAIT[k] = 20
-    frames = ([raw_frame(0, 0)] * 10 +
+    frames = ([raw_frame(0, 0)] * 20 +
               [raw_frame(left=0.8)] + [raw_frame(0, 0)] * 30 +
               [raw_frame(right=0.8)] + [raw_frame(0, 0)] * 200)
     return cfg, SeqLink(frames)
@@ -67,17 +69,18 @@ class TestWalkSession(unittest.TestCase):
         self.assertTrue(sess.ctrl.driver.released)   # guaranteed cleanup
         self.assertEqual(sess.ctrl.state, 'disabled')
 
-    def test_k4_stop_then_release(self):
+    def test_k4_pressed_byte_fully_ignored(self):
+        # K4 has no function (user decision 2026-09-24): frames with the
+        # K4 byte pressed must neither stop the walk nor block anything.
         cfg, _ = small_gait_cfg()
-        link = SeqLink([raw_frame(0, 0)] * 5 +
-                       [raw_frame(left=0.8)] + [raw_frame(0, 0)] * 3 +
-                       [raw_frame(0, 0, k4=0)] + [raw_frame(0, 0)] * 200)
+        link = SeqLink([raw_frame(0, 0)] * 15 +
+                       [raw_frame(left=0.8)] + [raw_frame(0, 0, k4=0)] * 200)
         logs = []
         sess = walk_session.run(1.5, cfg=cfg, link=link, log=logs.append)
         text = '\n'.join(logs)
         self.assertIn('step start left', text)
-        self.assertIn('K4', text)                    # stop observed
-        self.assertIn('state=stopped', text.lower())
+        self.assertNotIn('stopped', text.lower())       # byte changed nothing
+        self.assertIn('time up, state=ready', text)
         self.assertTrue(sess.ctrl.driver.released)
 
     def test_enable_refused_without_frame_never_moves(self):

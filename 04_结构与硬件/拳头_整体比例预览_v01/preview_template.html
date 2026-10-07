@@ -1,0 +1,58 @@
+<div id="fist-proportions">
+  <div class="viz-controls">
+    <label class="form-label">拳头高度 <span id="fp-size-label" class="tabular-nums">45 mm</span>
+      <input id="fp-size" class="form-range" type="range" min="30" max="70" step="1" value="45">
+    </label>
+    <label class="form-label">出拳位置 <span id="fp-phase-label" class="tabular-nums">收回</span>
+      <input id="fp-phase" class="form-range" type="range" min="0" max="360" step="5" value="180">
+    </label>
+  </div>
+  <div class="viz-row">
+    <label class="form-label">视角 <select id="fp-view" class="form-select"><option value="three">立体</option><option value="side">侧面</option><option value="front">正面</option><option value="top">俯视</option></select></label>
+    <label class="form-check"><input id="fp-body" class="form-check-input" type="checkbox" checked><span class="form-check-label">显示 Otto 身体与脚</span></label>
+    <button id="fp-retract" type="button" class="btn">收回</button><button id="fp-extend" type="button" class="btn">打出</button>
+  </div>
+  <canvas id="fp-canvas" role="img" aria-label="可拖动旋转的新拳头与出拳机构三维比例预览"></canvas>
+  <div id="fp-readout" class="text-small tabular-nums" aria-live="polite"></div>
+  <div class="text-small text-muted">红：新拳头 · 蓝：滑架 · 绿：连杆 · 黄：曲柄 · 灰：机身与支架</div>
+</div>
+<style>
+#fist-proportions{color:var(--foreground)}
+#fist-proportions canvas{width:100%;height:480px;display:block;touch-action:none;cursor:grab}
+@media(max-width:480px){#fist-proportions canvas{height:370px}}
+</style>
+<script type="application/json" id="fp-mesh-data">__MESH_DATA__</script>
+<script>
+(()=>{
+const root=document.getElementById('fist-proportions'),canvas=root.querySelector('#fp-canvas'),ctx=canvas.getContext('2d');
+const meshes=JSON.parse(document.getElementById('fp-mesh-data').textContent),size=root.querySelector('#fp-size'),phase=root.querySelector('#fp-phase'),body=root.querySelector('#fp-body');
+let yaw=.65,pitch=.38,pending=false;
+const probe=document.createElement('canvas');probe.width=probe.height=1;const pc=probe.getContext('2d'),swatch=document.createElement('span');swatch.hidden=true;root.appendChild(swatch);
+function color(token){swatch.style.color='var(--background)';pc.fillStyle=getComputedStyle(swatch).color;pc.fillRect(0,0,1,1);swatch.style.color='var('+token+')';pc.fillStyle=getComputedStyle(swatch).color;pc.fillRect(0,0,1,1);return [...pc.getImageData(0,0,1,1).data].slice(0,3);}
+function request(){if(!pending){pending=true;requestAnimationFrame(draw);}}
+function save(){window.openai?.setWidgetState?.({modelContent:{fist_height_mm:+size.value,crank_angle_deg:+phase.value,show_body:body.checked},privateContent:{yaw,pitch}})?.catch(()=>{});}
+function restore(s){const m=s?.modelContent,p=s?.privateContent;if(m){size.value=Math.max(30,Math.min(70,m.fist_height_mm||45));phase.value=Number.isFinite(m.crank_angle_deg)?m.crank_angle_deg:180;body.checked=m.show_body!==false;}if(p&&Number.isFinite(p.yaw)&&Number.isFinite(p.pitch)){yaw=p.yaw;pitch=p.pitch;}request();}
+function draw(){
+pending=false;const w=canvas.clientWidth,h=canvas.clientHeight,dpr=window.devicePixelRatio||1;canvas.width=w*dpr;canvas.height=h*dpr;ctx.setTransform(dpr,0,0,dpr,0,0);ctx.clearRect(0,0,w,h);
+const H=+size.value,t=+phase.value*Math.PI/180,ax=6+10*Math.cos(t),ay=10*Math.sin(t),sx=ax+Math.sqrt(34*34-ay*ay),phi=Math.atan2(-ay,sx-ax),ct=Math.cos(t-Math.PI),st=Math.sin(t-Math.PI),cl=Math.cos(phi),sl=Math.sin(phi);
+root.querySelector('#fp-size-label').textContent=H+' mm';root.querySelector('#fp-phase-label').textContent=(sx-30).toFixed(1)+' / 20 mm';
+root.querySelector('#fp-readout').textContent='拳头 高 '+H+' × 长 '+(H*.98529).toFixed(1)+' × 宽 '+(H*.66861).toFixed(1)+' mm　｜　腕部示意对齐，未做接口与干涉验证';
+const colors={body:color('--muted-foreground'),frame:color('--muted-foreground'),metal:color('--foreground'),carriage:color('--blue'),link:color('--green'),crank:color('--yellow'),fist:color('--red')};
+const scale=Math.min(w/255,h/(body.checked?210:140)),cy=Math.cos(yaw),sy=Math.sin(yaw),cp=Math.cos(pitch),sp=Math.sin(pitch),zc=body.checked?-10:30;
+const project=v=>{const x=v[0]-15,y=v[1],z=v[2]-zc,xx=x*cy-y*sy,depth=x*sy+y*cy;return [w/2+xx*scale,h/2-(z*cp+depth*sp)*scale,depth*cp-z*sp];};
+const tris=[];
+for(const m of meshes){
+ if(m.kind==='body'&&!body.checked)continue;
+ const vv=m.v.map(v=>{const [x,y,z]=v;switch(m.kind){case'fist':return[x*H+sx+10,y*H,z*H+45.8];case'slide':return[x+sx-30,y,z];case'pinA':return[x+ax+4,y+ay,z];case'crank':return[6+(x-6)*ct-y*st,(x-6)*st+y*ct,z];case'link':return[ax+(x+4)*cl-y*sl,ay+(x+4)*sl+y*cl,z];default:return v;}});
+ const pv=vv.map(project),col=colors[m.color];
+ for(const f of m.f){const a=vv[f[0]],b=vv[f[1]],c=vv[f[2]],ux=b[0]-a[0],uy=b[1]-a[1],uz=b[2]-a[2],vx=c[0]-a[0],vy=c[1]-a[1],vz=c[2]-a[2],nx=uy*vz-uz*vy,ny=uz*vx-ux*vz,nz=ux*vy-uy*vx,len=Math.hypot(nx,ny,nz);if(len<1e-10)continue;const lit=.60+.4*Math.max(0,(nx*.35-ny*.35+nz*.87)/len),p=f.map(i=>pv[i]);tris.push({p,d:(p[0][2]+p[1][2]+p[2][2])/3,c:'rgb('+col.map(v=>Math.round(v*lit)).join(',')+')'});}
+}
+tris.sort((a,b)=>b.d-a.d);for(const t of tris){ctx.fillStyle=t.c;ctx.beginPath();ctx.moveTo(t.p[0][0],t.p[0][1]);ctx.lineTo(t.p[1][0],t.p[1][1]);ctx.lineTo(t.p[2][0],t.p[2][1]);ctx.closePath();ctx.fill();}
+}
+for(const el of [size,phase,body]){el.addEventListener('input',request);el.addEventListener('change',save);}
+root.querySelector('#fp-retract').onclick=()=>{phase.value=180;save();request();};root.querySelector('#fp-extend').onclick=()=>{phase.value=0;save();request();};
+root.querySelector('#fp-view').onchange=e=>{[yaw,pitch]=({three:[.65,.38],side:[0,0],front:[-Math.PI/2,0],top:[0,Math.PI/2]})[e.target.value];save();request();};
+let drag=null;canvas.onpointerdown=e=>{drag=[e.clientX,e.clientY,yaw,pitch];canvas.setPointerCapture(e.pointerId);};canvas.onpointermove=e=>{if(drag){yaw=drag[2]+(e.clientX-drag[0])*.008;pitch=Math.max(-1.5,Math.min(1.57,drag[3]+(e.clientY-drag[1])*.008));request();}};canvas.onpointerup=()=>{drag=null;save();};canvas.onpointercancel=()=>{drag=null;};
+new ResizeObserver(request).observe(canvas);new MutationObserver(request).observe(document.documentElement,{attributes:true,attributeFilter:['class','style','data-theme']});window.addEventListener('openai:set_globals',e=>{if(e.detail?.globals?.widgetState)restore(e.detail.globals.widgetState);});restore(window.openai?.widgetState);
+})();
+</script>

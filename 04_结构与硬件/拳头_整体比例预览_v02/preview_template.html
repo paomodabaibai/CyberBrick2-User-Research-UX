@@ -1,0 +1,96 @@
+<div id="fist-proportions">
+  <div class="viz-controls" id="fp-adjustments"></div>
+  <div class="viz-row">
+    <label class="form-label">视角 <select id="fp-view" class="form-select"><option value="top">俯视调正</option><option value="three">立体</option><option value="side">侧面</option><option value="front">正面</option></select></label>
+    <label class="form-check"><input id="fp-body" class="form-check-input" type="checkbox" checked><span class="form-check-label">显示身体与脚</span></label>
+    <label class="form-check"><input id="fp-axis" class="form-check-input" type="checkbox" checked><span class="form-check-label">中轴参考线</span></label>
+    <button id="fp-retract" type="button" class="btn">收回</button><button id="fp-extend" type="button" class="btn">打出</button>
+  </div>
+  <canvas id="fp-canvas" role="img" aria-label="可调整拳头三轴旋转、模块前后位置及腕部延长的真实网格比例预览"></canvas>
+  <div id="fp-clearance" class="tabular-nums" aria-live="polite"></div>
+  <div id="fp-readout" class="text-small tabular-nums"></div>
+  <div class="text-small text-muted">红：拳头 · 蓝：滑架及腕部延长示意 · 绿：内部连杆 · 黄：曲柄</div>
+  <div class="text-small text-muted">比例方案，未做干涉或平衡验证；身体套圈固定，后移后的安装座待重做。</div>
+</div>
+<style>
+#fist-proportions{color:var(--foreground)}
+#fist-proportions canvas{width:100%;height:430px;display:block;touch-action:none;cursor:grab}
+#fist-proportions .fp-adjust{display:grid;gap:4px;min-width:0}
+#fist-proportions .fp-pair{display:grid;grid-template-columns:minmax(70px,1fr) 82px;align-items:center;gap:10px}
+#fist-proportions #fp-adjustments{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 20px}
+@media(max-width:480px){#fist-proportions canvas{height:330px}#fist-proportions #fp-adjustments{grid-template-columns:minmax(0,1fr)}}
+</style>
+<script type="application/json" id="fp-mesh-data">__MESH_DATA__</script>
+<script>
+(()=>{
+const root=document.getElementById('fist-proportions'),canvas=root.querySelector('#fp-canvas'),ctx=canvas.getContext('2d');
+const meshes=JSON.parse(document.getElementById('fp-mesh-data').textContent),body=root.querySelector('#fp-body'),axis=root.querySelector('#fp-axis');
+const specs=[
+ ['fist_height_mm','拳头高度（mm）',30,70,1,42],
+ ['module_offset_mm','模块前后（mm，负值后移）',-60,20,1,0],
+ ['fist_yaw_deg','左右转正 · 绕竖轴 Z（°）',-180,180,.5,0],
+ ['wrist_extension_mm','腕部延长（mm，拳头前伸）',0,80,1,0],
+ ['fist_pitch_deg','抬头低头 · 绕横轴 Y（°）',-90,90,.5,0],
+ ['fist_roll_deg','侧倾 · 绕出拳轴 X（°）',-180,180,.5,0],
+ ['crank_angle_deg','曲柄位置（°，0打出 / 180收回）',0,360,5,360]
+];
+const values={},inputs={};
+for(const [key,label,min,max,step,value] of specs){
+ values[key]=value;
+ const field=document.createElement('div');field.className='fp-adjust';
+ const lab=document.createElement('label');lab.className='form-label';lab.htmlFor='fp-'+key;lab.textContent=label;
+ const row=document.createElement('div');row.className='fp-pair';
+ const range=document.createElement('input');Object.assign(range,{type:'range',min,max,step,value,id:'fp-'+key,className:'form-range'});
+ const num=document.createElement('input');Object.assign(num,{type:'number',min,max,step,value,className:'form-control'});num.setAttribute('aria-label',label+' 精确数值');
+ inputs[key]=[range,num];
+ const set=(v,commit)=>{if(v==='')return;const n=Number(v);if(!Number.isFinite(n))return;values[key]=Math.max(min,Math.min(max,n));for(const e of inputs[key])e.value=values[key];request();if(commit)save();};
+ range.oninput=()=>set(range.value,false);range.onchange=()=>set(range.value,true);num.oninput=()=>set(num.value,false);num.onchange=()=>{set(num.value,true);num.value=values[key];};
+ row.append(range,num);field.append(lab,row);root.querySelector('#fp-adjustments').appendChild(field);
+}
+let yaw=0,pitch=Math.PI/2,pending=false;
+const probe=document.createElement('canvas');probe.width=probe.height=1;const pc=probe.getContext('2d'),swatch=document.createElement('span');swatch.hidden=true;root.appendChild(swatch);
+function color(token){swatch.style.color='var(--background)';pc.fillStyle=getComputedStyle(swatch).color;pc.fillRect(0,0,1,1);swatch.style.color='var('+token+')';pc.fillStyle=getComputedStyle(swatch).color;pc.fillRect(0,0,1,1);return [...pc.getImageData(0,0,1,1).data].slice(0,3);}
+function request(){if(!pending){pending=true;requestAnimationFrame(draw);}}
+function save(){window.openai?.setWidgetState?.({modelContent:{...values,show_body:body.checked,preview_version:2},privateContent:{yaw,pitch,show_axis:axis.checked,view:root.querySelector('#fp-view').value}})?.catch(()=>{});}
+function restore(s){const m=s?.modelContent,p=s?.privateContent;if(m){for(const [key,label,min,max] of specs){if(Number.isFinite(m[key])){values[key]=Math.max(min,Math.min(max,m[key]));for(const e of inputs[key])e.value=values[key];}}body.checked=m.show_body!==false;}if(m?.preview_version===2&&p&&Number.isFinite(p.yaw)&&Number.isFinite(p.pitch)){yaw=p.yaw;pitch=p.pitch;axis.checked=p.show_axis!==false;root.querySelector('#fp-view').value=p.view||'top';}request();}
+function draw(){
+pending=false;const w=canvas.clientWidth,h=canvas.clientHeight,dpr=window.devicePixelRatio||1;canvas.width=w*dpr;canvas.height=h*dpr;ctx.setTransform(dpr,0,0,dpr,0,0);ctx.clearRect(0,0,w,h);
+const H=values.fist_height_mm,E=values.wrist_extension_mm,O=values.module_offset_mm,t=values.crank_angle_deg*Math.PI/180;
+const ax=6+10*Math.cos(t),ay=10*Math.sin(t),sx=ax+Math.sqrt(34*34-ay*ay),phi=Math.atan2(-ay,sx-ax),ct=Math.cos(t-Math.PI),st=Math.sin(t-Math.PI),cl=Math.cos(phi),sl=Math.sin(phi);
+const rx=values.fist_roll_deg*Math.PI/180,ry=values.fist_pitch_deg*Math.PI/180,rz=values.fist_yaw_deg*Math.PI/180;
+function rotateFist(v){let [x,y,z]=v.map(a=>a*H);[y,z]=[y*Math.cos(rx)-z*Math.sin(rx),y*Math.sin(rx)+z*Math.cos(rx)];[x,z]=[x*Math.cos(ry)+z*Math.sin(ry),-x*Math.sin(ry)+z*Math.cos(ry)];return[x*Math.cos(rz)-y*Math.sin(rz),x*Math.sin(rz)+y*Math.cos(rz),z];}
+const fistV=meshes.find(m=>m.kind==='fist').v.map(rotateFist),tip=Math.max(...fistV.map(v=>v[0]));
+const backTip=40+E+tip-78,frontTip=backTip+20;
+root.querySelector('#fp-clearance').textContent='拳尖相对前支架：收回 '+backTip.toFixed(1)+' mm · 打出 '+frontTip.toFixed(1)+' mm（正值为超出）';
+root.querySelector('#fp-readout').textContent='高 '+H+' mm · Z/Y/X旋转 '+values.fist_yaw_deg+'° / '+values.fist_pitch_deg+'° / '+values.fist_roll_deg+'° · 模块位移 '+O+' mm · 腕部延长 '+E+' mm · 固定行程 20 mm';
+const colors={body:color('--muted-foreground'),frame:color('--muted-foreground'),metal:color('--foreground'),carriage:color('--blue'),link:color('--green'),crank:color('--yellow'),fist:color('--red')};
+const transformed=[];
+for(const m of meshes){
+ if(m.kind==='body'&&!body.checked)continue;
+ let vv;
+ if(m.kind==='fist')vv=fistV.map(v=>[v[0]+sx+10+E,v[1],v[2]+45.8]);
+ else vv=m.v.map(v=>{const [x,y,z]=v;switch(m.kind){case'slide':return[x+sx-30,y,z];case'pinA':return[x+ax+4,y+ay,z];case'crank':return[6+(x-6)*ct-y*st,(x-6)*st+y*ct,z];case'link':return[ax+(x+4)*cl-y*sl,ay+(x+4)*sl+y*cl,z];default:return [...v];}});
+ if(m.kind!=='body'&&m.name!=='body_collar')vv=vv.map(v=>[v[0]+O,v[1],v[2]]);
+ transformed.push({v:vv,f:m.f,col:colors[m.color]});
+}
+if(E>0){const a=sx+10+O,b=a+E;transformed.push({v:[[a,-5,41.8],[b,-5,41.8],[b,5,41.8],[a,5,41.8],[a,-5,49.8],[b,-5,49.8],[b,5,49.8],[a,5,49.8]],f:[[0,2,1],[0,3,2],[4,5,6],[4,6,7],[0,1,5],[0,5,4],[1,2,6],[1,6,5],[2,3,7],[2,7,6],[3,0,4],[3,4,7]],col:colors.carriage});}
+const cy=Math.cos(yaw),sy=Math.sin(yaw),cp=Math.cos(pitch),sp=Math.sin(pitch);
+const camera=v=>{const [x,y,z]=v,xx=x*cy-y*sy,depth=x*sy+y*cy;return[xx,z*cp+depth*sp,depth*cp-z*sp];};
+const raw=transformed.map(m=>m.v.map(camera));let minX=Infinity,maxX=-Infinity,minY=Infinity,maxY=-Infinity;
+for(const vs of raw)for(const v of vs){minX=Math.min(minX,v[0]);maxX=Math.max(maxX,v[0]);minY=Math.min(minY,v[1]);maxY=Math.max(maxY,v[1]);}
+const scale=Math.min((w-50)/Math.max(220,maxX-minX),(h-45)/Math.max(body.checked?170:100,maxY-minY)),xc=(minX+maxX)/2,yc=(minY+maxY)/2;
+const project=v=>{const c=camera(v);return[w/2+(c[0]-xc)*scale,h/2-(c[1]-yc)*scale,c[2]];};
+const tris=[];
+for(let j=0;j<transformed.length;j++){const m=transformed[j],vv=m.v,pv=raw[j].map(c=>[w/2+(c[0]-xc)*scale,h/2-(c[1]-yc)*scale,c[2]]),col=m.col;
+for(const f of m.f){const a=vv[f[0]],b=vv[f[1]],c=vv[f[2]],ux=b[0]-a[0],uy=b[1]-a[1],uz=b[2]-a[2],vx=c[0]-a[0],vy=c[1]-a[1],vz=c[2]-a[2],nx=uy*vz-uz*vy,ny=uz*vx-ux*vz,nz=ux*vy-uy*vx,len=Math.hypot(nx,ny,nz);if(len<1e-10)continue;const lit=.60+.4*Math.max(0,(nx*.35-ny*.35+nz*.87)/len),p=f.map(i=>pv[i]);tris.push({p,d:(p[0][2]+p[1][2]+p[2][2])/3,c:'rgb('+col.map(v=>Math.round(v*lit)).join(',')+')'});}}
+tris.sort((a,b)=>b.d-a.d);for(const t of tris){ctx.fillStyle=t.c;ctx.beginPath();ctx.moveTo(t.p[0][0],t.p[0][1]);ctx.lineTo(t.p[1][0],t.p[1][1]);ctx.lineTo(t.p[2][0],t.p[2][1]);ctx.closePath();ctx.fill();}
+if(axis.checked){const a=project([-65+O,0,45.8]),b=project([sx+10+E+tip+10+O,0,45.8]);ctx.strokeStyle='rgb('+color('--foreground').join(',')+')';ctx.lineWidth=1;ctx.setLineDash([5,5]);ctx.beginPath();ctx.moveTo(a[0],a[1]);ctx.lineTo(b[0],b[1]);ctx.stroke();ctx.setLineDash([]);}
+}
+for(const el of [body,axis]){el.addEventListener('input',request);el.addEventListener('change',save);}
+function phase(v){values.crank_angle_deg=v;for(const el of inputs.crank_angle_deg)el.value=v;save();request();}
+root.querySelector('#fp-retract').onclick=()=>phase(180);root.querySelector('#fp-extend').onclick=()=>phase(0);
+root.querySelector('#fp-view').onchange=e=>{[yaw,pitch]=({three:[.65,.38],side:[0,0],front:[-Math.PI/2,0],top:[0,Math.PI/2]})[e.target.value];save();request();};
+let drag=null;canvas.onpointerdown=e=>{drag=[e.clientX,e.clientY,yaw,pitch];canvas.setPointerCapture(e.pointerId);};canvas.onpointermove=e=>{if(drag){yaw=drag[2]+(e.clientX-drag[0])*.008;pitch=Math.max(-1.5,Math.min(1.57,drag[3]+(e.clientY-drag[1])*.008));request();}};canvas.onpointerup=()=>{drag=null;save();};canvas.onpointercancel=()=>{drag=null;};
+new ResizeObserver(request).observe(canvas);new MutationObserver(request).observe(document.documentElement,{attributes:true,attributeFilter:['class','style','data-theme']});window.addEventListener('openai:set_globals',e=>{if(e.detail?.globals?.widgetState)restore(e.detail.globals.widgetState);});restore(window.openai?.widgetState);
+})();
+</script>

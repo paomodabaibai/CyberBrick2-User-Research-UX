@@ -1,49 +1,41 @@
-"""Single-step gait planner: five phases, first/alternate/same-side.
+"""Single-step gait planner: five phases, forward/backward, same-side ok.
 
 Phases for stepping with foot F (support = opposite foot). Targets are pose
 offsets [left_hip, right_hip, left_ankle, right_ankle] relative to stance.
 Let S = GAIT['step_sign_left'/'step_sign_right'] for the stepping side and
 A_L/A_R = GAIT['ankle_sign_left'/'ankle_sign_right'] (per side: the mirrored
 ankle install - S2+=toe up, S4+=toe down, observed 2026-09-23 - means one
-shared sign would tilt the two feet in OPPOSITE spatial directions). lh, rh
-are the CURRENT commanded hip offsets of this step's start pose (each hip
-interpolates from its own value - never assume both hips are equal, e.g.
-after a mid-step stop froze them apart).
+shared sign would tilt the two feet in OPPOSITE spatial directions).
 
-1. prepare       ankles return to stance; each hip HOLDS its current value.
-                 Intent: clean starting contact before any weight moves.
-2. weight_shift  hips hold; LEFT ankle leans S*A_L*lean, RIGHT ankle leans
-                 S*A_R*lean. Intent: transfer body weight onto the support
-                 foot (the per-side signs are what make both feet tilt the
-                 same spatial way on this mirrored install).
-3. unload_swing  MAIN HIP SWING happens here: both hips go to S*hip_swing
-                 while the stepping ankle tilts further to S*A_side*(lean+lift)
-                 (support ankle holds its lean value). Intent: unload the
-                 stepping foot and carry it to the step bias in one smooth
-                 motion.
-4. land          hips HOLD S*hip_swing (the swing is NOT repeated here);
-                 both ankles return to 0. Intent: stepping foot settles
-                 down onto the ground under the new hip bias.
-5. stabilize     hold the whole end pose [S*hip, S*hip, 0, 0]. Intent: a
-                 quiet moment that leaves the exact bias the NEXT step
-                 (opposite side) will start from.
+1. prepare       hips RETRACT to 0, ankles return to stance. The retract is
+                 what makes repeated SAME-SIDE steps possible (v03): the
+                 foot is carried back through center before the next swing,
+                 so holding one lever = continuous same-side steps = turn.
+                 For alternating steps this is the natural pass-through-
+                 center of Otto-style walking.
+2. weight_shift  hips hold 0; LEFT ankle leans S*A_L*lean, RIGHT ankle leans
+                 S*A_R*lean. Weight moves onto the support foot regardless
+                 of forward/backward - the lean direction depends only on
+                 the stepping SIDE, never on the step direction.
+3. unload_swing  MAIN HIP SWING: both hips go to W*hip_swing where
+                 W = S for a forward step and -S for a backward step, while
+                 the stepping ankle tilts further to S*A_side*(lean+lift)
+                 (support ankle holds its lean value).
+4. land          hips HOLD the swing bias; both ankles return to 0.
+5. stabilize     hold the end pose. A quiet moment that leaves the bias the
+                 NEXT step (either side, either direction) retracts from.
 
-DISCLAIMER: this sequencing is a design choice for a no-knee Otto; it is
-NOT proven to balance or to walk. It exists so live bench tests change one
-thing at a time. Same-side repetition stays explicitly rejected: a foot
-that just finished needs an extra preparation strategy that v02 does not
-implement (see same_side_strategy).
+v03 changes (2026-09-24, after live remote-walk validation):
+- repeated same-side steps are SUPPORTED via the prepare-phase retract
+  (v02 rejected them; the user's control model is hold-to-repeat)
+- backward=True plans the same five phases with the hip swing reversed
 
-Signs are configuration on purpose: the mirrored hip installation means
-electrical sign and spatial direction agree only after live observation;
-flip step_sign_* / ankle_sign_* in config, never the planner.
+DISCLAIMER: signs are configuration on purpose: the mirrored hip install
+means electrical sign and spatial direction agree only after live
+observation; flip step_sign_* / ankle_sign_* in config, never the planner.
 """
 
 import trajectory
-
-
-class SameSideNotSupported(Exception):
-    """Repeated same-side steps need an extra preparation strategy."""
 
 
 class GaitPlanner:
@@ -73,40 +65,34 @@ class GaitPlanner:
         return 'right' if stepping_side == 'left' else 'left'
 
     def same_side_strategy(self, side, last_foot):
-        """Extension point for repeated same-side steps. v02: unsupported."""
-        return 'not_supported'
+        """v03: same-side repetition retracts through center in prepare."""
+        return 'retract'
 
-    def plan_step(self, side, current_pose, last_foot, jm=None):
+    def plan_step(self, side, current_pose, last_foot, backward=False,
+                  jm=None):
         """Build the five-phase Trajectory from the actual current pose."""
         if side not in ('left', 'right'):
             raise ValueError(side)
-        if side == last_foot:
-            strategy = self.same_side_strategy(side, last_foot)
-            if strategy == 'not_supported':
-                raise SameSideNotSupported(
-                    'same-side %s step needs extra preparation; not in v02'
-                    % side)
         s = self.step_signs[side]
+        swing = -s if backward else s
         a_side = self.ankle_signs[side]
-        # Per-hip current values: never collapse both hips into one number.
-        lh, rh = current_pose[0], current_pose[1]
         lean_l = s * self.ankle_signs['left'] * self.lean
         lean_r = s * self.ankle_signs['right'] * self.lean
         stepping_ankle = s * a_side * (self.lean + self.lift)
         stepping_idx = 2 if side == 'left' else 3
         swing_ankles = [lean_l, lean_r]
         swing_ankles[stepping_idx - 2] = stepping_ankle
+        hip_l = swing * self.hip
+        hip_r = swing * self.hip
         d = self.durations
         segments = [
             # name, duration, [left_hip, right_hip, left_ankle, right_ankle]
-            ('prepare',      d['prepare'],      [lh, rh, 0.0, 0.0]),
-            ('weight_shift', d['weight_shift'], [lh, rh, lean_l, lean_r]),
-            ('unload_swing', d['unload_swing'], [s * self.hip, s * self.hip,
+            ('prepare',      d['prepare'],      [0.0, 0.0, 0.0, 0.0]),
+            ('weight_shift', d['weight_shift'], [0.0, 0.0, lean_l, lean_r]),
+            ('unload_swing', d['unload_swing'], [hip_l, hip_r,
                                                  swing_ankles[0],
                                                  swing_ankles[1]]),
-            ('land',         d['land'],         [s * self.hip, s * self.hip,
-                                                 0.0, 0.0]),
-            ('stabilize',    d['stabilize'],    [s * self.hip, s * self.hip,
-                                                 0.0, 0.0]),
+            ('land',         d['land'],         [hip_l, hip_r, 0.0, 0.0]),
+            ('stabilize',    d['stabilize'],    [hip_l, hip_r, 0.0, 0.0]),
         ]
         return trajectory.Trajectory(segments, current_pose, joint_model_ref=jm)
