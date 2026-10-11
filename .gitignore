@@ -3,6 +3,7 @@
 **/*.py[cod]
 **/.pytest_cache/
 **/.mplconfig/
+.venv/
 04_结构与硬件/cad_runtime/
 05_程序与测试/serial_runtime/
 
@@ -22,4 +23,6 @@
 **/~$*
 .DS_Store
 Thumbs.db
+*.baiduyun.uploading.cfg
+*保密协议*.pdf
 

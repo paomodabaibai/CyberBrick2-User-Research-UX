@@ -1,0 +1,5 @@
+[  1.02s] Firmware ver: 01.01.04.13
+Loader ver: 99.00.02.51
+MPY: soft_reset
+[  2.04s] battery_walk: waiting for remote link...
+[  2.24s] battery_walk: link up, auto-enabling stance; push a lever to step (hold = repeat, pull back = backward)

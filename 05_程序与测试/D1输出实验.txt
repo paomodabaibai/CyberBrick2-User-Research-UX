@@ -1,0 +1,6 @@
+test A: duty_ns(1600us)
+test B: duty_ns neutral
+test C: duty_ns(1400us)
+test D: duty_u16(1600us equivalent)
+test E: duty(102) legacy
+PWM OUTPUT TEST DONE

@@ -1,0 +1,3 @@
+# For uploading/diagnosing CB1 MicroPython boards on a new Windows PC.
+mpremote==1.29.0
+pyserial==3.5

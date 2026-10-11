@@ -1,0 +1,4 @@
+[  0.82s] Firmware ver: 01.01.04.13
+Loader ver: 99.00.02.51
+[  1.03s] MPY: soft_reset
+[  2.05s] otto_session: until power off - hold sticks FORWARD = walk, ONE stick = arc, BACK = backward, release = stand (period 1000ms, hip 30+/-25, ankle 20)

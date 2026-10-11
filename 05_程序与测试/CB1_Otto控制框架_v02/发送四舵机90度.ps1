@@ -3,9 +3,23 @@ param(
 )
 
 $ErrorActionPreference = 'Stop'
-$mpremote = Join-Path $PSScriptRoot '..\serial_runtime\Scripts\mpremote.exe'
+$projectRoot = (Resolve-Path (Join-Path $PSScriptRoot '..\..')).Path
+$candidates = @(
+    (Join-Path $projectRoot '.venv\Scripts\mpremote.exe'),
+    (Join-Path $PSScriptRoot '..\serial_runtime\Scripts\mpremote.exe')
+)
+$mpremote = $null
+foreach ($candidate in $candidates) {
+    if (Test-Path -LiteralPath $candidate) { $mpremote = $candidate; break }
+}
+if (-not $mpremote) {
+    $command = Get-Command mpremote -ErrorAction SilentlyContinue
+    if ($command) { $mpremote = $command.Source }
+}
+if (-not $mpremote) {
+    throw '找不到 mpremote。新电脑先运行：py -m venv .venv；.\.venv\Scripts\python.exe -m pip install -r requirements-serial.txt'
+}
 $boardFile = Join-Path $PSScriptRoot 'hold_90_cb1.py'
-if (-not (Test-Path -LiteralPath $mpremote)) { throw "找不到 mpremote：$mpremote" }
 if (-not (Test-Path -LiteralPath $boardFile)) { throw "找不到板端脚本：$boardFile" }
 
 if (-not $Port) {

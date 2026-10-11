@@ -1,0 +1,262 @@
+t+    1 ch2=1825 out=1500 armed=True engaged=False
+t+   46 ch2=1824 out=1500 armed=True engaged=False
+t+   89 ch2=1825 out=1500 armed=True engaged=False
+t+  173 ch2=1826 out=1500 armed=True engaged=False
+t+  215 ch2=1824 out=1500 armed=True engaged=False
+t+  302 ch2=1825 out=1500 armed=True engaged=False
+t+  346 ch2=1824 out=1500 armed=True engaged=False
+t+  389 ch2=1825 out=1500 armed=True engaged=False
+t+  474 ch2=1824 out=1500 armed=True engaged=False
+t+  558 ch2=1826 out=1500 armed=True engaged=False
+t+  601 ch2=1817 out=1500 armed=True engaged=False
+t+  644 ch2=1824 out=1500 armed=True engaged=False
+t+  687 ch2=1825 out=1500 armed=True engaged=False
+t+  772 ch2=1824 out=1500 armed=True engaged=False
+t+  814 ch2=1826 out=1500 armed=True engaged=False
+t+  857 ch2=1823 out=1500 armed=True engaged=False
+t+  900 ch2=1824 out=1500 armed=True engaged=False
+t+  943 ch2=1823 out=1500 armed=True engaged=False
+t+  986 ch2=1825 out=1500 armed=True engaged=False
+t+ 1029 ch2=1826 out=1500 armed=True engaged=False
+t+ 1071 ch2=1824 out=1500 armed=True engaged=False
+t+ 1156 ch2=1816 out=1500 armed=True engaged=False
+t+ 1198 ch2=1824 out=1500 armed=True engaged=False
+t+ 1243 ch2=1825 out=1500 armed=True engaged=False
+t+ 1287 ch2=1824 out=1500 armed=True engaged=False
+t+ 1457 ch2=1825 out=1500 armed=True engaged=False
+t+ 1500 ch2=1826 out=1500 armed=True engaged=False
+t+ 1542 ch2=1825 out=1500 armed=True engaged=False
+t+ 1670 ch2=1824 out=1500 armed=True engaged=False
+t+ 1756 ch2=1816 out=1500 armed=True engaged=False
+t+ 1799 ch2=1824 out=1500 armed=True engaged=False
+t+ 1925 ch2=1816 out=1500 armed=True engaged=False
+t+ 1968 ch2=1826 out=1500 armed=True engaged=False
+t+ 2011 ch2=1824 out=1500 armed=True engaged=False
+t+ 2053 ch2=1815 out=1500 armed=True engaged=False
+t+ 2096 ch2=1817 out=1500 armed=True engaged=False
+t+ 2138 ch2=1825 out=1500 armed=True engaged=False
+t+ 2223 ch2=1816 out=1500 armed=True engaged=False
+t+ 2266 ch2=1823 out=1500 armed=True engaged=False
+t+ 2308 ch2=1824 out=1500 armed=True engaged=False
+t+ 2351 ch2=1827 out=1500 armed=True engaged=False
+t+ 2396 ch2=1824 out=1500 armed=True engaged=False
+t+ 2438 ch2=1825 out=1500 armed=True engaged=False
+t+ 2524 ch2=1824 out=1500 armed=True engaged=False
+t+ 2567 ch2=1826 out=1500 armed=True engaged=False
+t+ 2609 ch2=1825 out=1500 armed=True engaged=False
+t+ 2737 ch2=1824 out=1500 armed=True engaged=False
+t+ 2779 ch2=1825 out=1500 armed=True engaged=False
+t+ 2949 ch2=1824 out=1500 armed=True engaged=False
+t+ 3034 ch2=1827 out=1500 armed=True engaged=False
+t+ 3076 ch2=1816 out=1500 armed=True engaged=False
+t+ 3119 ch2=1825 out=1500 armed=True engaged=False
+t+ 3246 ch2=1824 out=1500 armed=True engaged=False
+t+ 3289 ch2=1825 out=1500 armed=True engaged=False
+t+ 3333 ch2=1824 out=1500 armed=True engaged=False
+t+ 3376 ch2=1825 out=1500 armed=True engaged=False
+t+ 3460 ch2=1826 out=1500 armed=True engaged=False
+t+ 3546 ch2=1824 out=1500 armed=True engaged=False
+t+ 3589 ch2=1825 out=1500 armed=True engaged=False
+t+ 3673 ch2=1824 out=1500 armed=True engaged=False
+t+ 3716 ch2=1826 out=1500 armed=True engaged=False
+t+ 3758 ch2=1824 out=1500 armed=True engaged=False
+t+ 3801 ch2=1825 out=1500 armed=True engaged=False
+t+ 3844 ch2=1826 out=1500 armed=True engaged=False
+t+ 3889 ch2=1823 out=1500 armed=True engaged=False
+t+ 3932 ch2=1825 out=1500 armed=True engaged=False
+t+ 4058 ch2=1826 out=1500 armed=True engaged=False
+t+ 4100 ch2=1824 out=1500 armed=True engaged=False
+t+ 4143 ch2=1817 out=1500 armed=True engaged=False
+t+ 4186 ch2=1825 out=1500 armed=True engaged=False
+t+ 4270 ch2=1826 out=1500 armed=True engaged=False
+t+ 4313 ch2=1825 out=1500 armed=True engaged=False
+t+ 4355 ch2=1816 out=1500 armed=True engaged=False
+t+ 4398 ch2=1825 out=1500 armed=True engaged=False
+t+ 4482 ch2=1816 out=1500 armed=True engaged=False
+t+ 4525 ch2=1825 out=1500 armed=True engaged=False
+t+ 4656 ch2=1827 out=1500 armed=True engaged=False
+t+ 4698 ch2=1825 out=1500 armed=True engaged=False
+t+ 4741 ch2=1826 out=1500 armed=True engaged=False
+t+ 4784 ch2=1825 out=1500 armed=True engaged=False
+t+ 4995 ch2=1824 out=1500 armed=True engaged=False
+t+ 5080 ch2=1825 out=1500 armed=True engaged=False
+t+ 5166 ch2=1826 out=1500 armed=True engaged=False
+t+ 5208 ch2=1827 out=1500 armed=True engaged=False
+t+ 5251 ch2=1825 out=1500 armed=True engaged=False
+t+ 5337 ch2=1826 out=1500 armed=True engaged=False
+t+ 5379 ch2=1827 out=1500 armed=True engaged=False
+t+ 5422 ch2=1824 out=1500 armed=True engaged=False
+t+ 5467 ch2=1825 out=1500 armed=True engaged=False
+t+ 5511 ch2=1826 out=1500 armed=True engaged=False
+t+ 5554 ch2=1817 out=1500 armed=True engaged=False
+t+ 5597 ch2=1825 out=1500 armed=True engaged=False
+t+ 5639 ch2=1817 out=1500 armed=True engaged=False
+t+ 5682 ch2=1825 out=1500 armed=True engaged=False
+t+ 5725 ch2=1826 out=1500 armed=True engaged=False
+t+ 5768 ch2=1825 out=1500 armed=True engaged=False
+t+ 5812 ch2=1816 out=1500 armed=True engaged=False
+t+ 5854 ch2=1824 out=1500 armed=True engaged=False
+t+ 5897 ch2=1816 out=1500 armed=True engaged=False
+t+ 5939 ch2=1827 out=1500 armed=True engaged=False
+t+ 5982 ch2=1825 out=1500 armed=True engaged=False
+t+ 6025 ch2=1823 out=1500 armed=True engaged=False
+t+ 6069 ch2=1824 out=1500 armed=True engaged=False
+t+ 6112 ch2=1825 out=1500 armed=True engaged=False
+t+ 6405 ch2=1826 out=1500 armed=True engaged=False
+t+ 6534 ch2=1825 out=1500 armed=True engaged=False
+t+ 6618 ch2=1826 out=1500 armed=True engaged=False
+t+ 6702 ch2=1825 out=1500 armed=True engaged=False
+t+ 6745 ch2=1826 out=1500 armed=True engaged=False
+t+ 6788 ch2=1816 out=1500 armed=True engaged=False
+t+ 6830 ch2=1826 out=1500 armed=True engaged=False
+t+ 6875 ch2=1816 out=1500 armed=True engaged=False
+t+ 6918 ch2=1827 out=1500 armed=True engaged=False
+t+ 6960 ch2=1824 out=1500 armed=True engaged=False
+t+ 7004 ch2=1825 out=1500 armed=True engaged=False
+t+ 7172 ch2=1826 out=1500 armed=True engaged=False
+t+ 7214 ch2=1824 out=1500 armed=True engaged=False
+t+ 7257 ch2=1825 out=1500 armed=True engaged=False
+t+ 7300 ch2=1827 out=1500 armed=True engaged=False
+t+ 7344 ch2=1824 out=1500 armed=True engaged=False
+t+ 7386 ch2=1825 out=1500 armed=True engaged=False
+t+ 7429 ch2=1826 out=1500 armed=True engaged=False
+t+ 7472 ch2=1824 out=1500 armed=True engaged=False
+t+ 7515 ch2=1826 out=1500 armed=True engaged=False
+t+ 7559 ch2=1816 out=1500 armed=True engaged=False
+t+ 7602 ch2=1826 out=1500 armed=True engaged=False
+t+ 7644 ch2=1824 out=1500 armed=True engaged=False
+t+ 7687 ch2=1825 out=1500 armed=True engaged=False
+t+ 7730 ch2=1824 out=1500 armed=True engaged=False
+t+ 7774 ch2=1825 out=1500 armed=True engaged=False
+t+ 7942 ch2=1824 out=1500 armed=True engaged=False
+t+ 7984 ch2=1826 out=1500 armed=True engaged=False
+t+ 8027 ch2=1825 out=1500 armed=True engaged=False
+t+ 8073 ch2=1816 out=1500 armed=True engaged=False
+t+ 8115 ch2=1825 out=1500 armed=True engaged=False
+t+ 8241 ch2=1824 out=1500 armed=True engaged=False
+t+ 8284 ch2=1823 out=1500 armed=True engaged=False
+t+ 8326 ch2=1824 out=1500 armed=True engaged=False
+t+ 8369 ch2=1826 out=1500 armed=True engaged=False
+t+ 8455 ch2=1824 out=1500 armed=True engaged=False
+t+ 8499 ch2=1826 out=1500 armed=True engaged=False
+t+ 8542 ch2=1827 out=1500 armed=True engaged=False
+t+ 8585 ch2=1825 out=1500 armed=True engaged=False
+t+ 8669 ch2=1816 out=1500 armed=True engaged=False
+t+ 8713 ch2=1824 out=1500 armed=True engaged=False
+t+ 8756 ch2=1817 out=1500 armed=True engaged=False
+t+ 8799 ch2=1826 out=1500 armed=True engaged=False
+t+ 8841 ch2=1824 out=1500 armed=True engaged=False
+t+ 8884 ch2=1825 out=1500 armed=True engaged=False
+t+ 8927 ch2=1827 out=1500 armed=True engaged=False
+t+ 8969 ch2=1826 out=1500 armed=True engaged=False
+t+ 9012 ch2=1827 out=1500 armed=True engaged=False
+t+ 9054 ch2=1826 out=1500 armed=True engaged=False
+t+ 9097 ch2=1825 out=1500 armed=True engaged=False
+t+ 9140 ch2=1823 out=1500 armed=True engaged=False
+t+ 9184 ch2=1824 out=1500 armed=True engaged=False
+t+ 9227 ch2=1826 out=1500 armed=True engaged=False
+t+ 9269 ch2=1825 out=1500 armed=True engaged=False
+t+ 9312 ch2=1824 out=1500 armed=True engaged=False
+t+ 9397 ch2=1825 out=1500 armed=True engaged=False
+t+ 9441 ch2=1826 out=1500 armed=True engaged=False
+t+ 9484 ch2=1824 out=1500 armed=True engaged=False
+t+ 9526 ch2=1826 out=1500 armed=True engaged=False
+t+ 9569 ch2=1825 out=1500 armed=True engaged=False
+t+ 9612 ch2=1816 out=1500 armed=True engaged=False
+t+ 9655 ch2=1826 out=1500 armed=True engaged=False
+t+ 9699 ch2=1825 out=1500 armed=True engaged=False
+t+ 9742 ch2=1824 out=1500 armed=True engaged=False
+t+ 9785 ch2=1817 out=1500 armed=True engaged=False
+t+ 9828 ch2=1824 out=1500 armed=True engaged=False
+t+ 9871 ch2=1827 out=1500 armed=True engaged=False
+t+ 9915 ch2=1825 out=1500 armed=True engaged=False
+t+ 9957 ch2=1826 out=1500 armed=True engaged=False
+t+10042 ch2=1825 out=1500 armed=True engaged=False
+t+10085 ch2=1817 out=1500 armed=True engaged=False
+t+10128 ch2=1826 out=1500 armed=True engaged=False
+t+10212 ch2=1824 out=1500 armed=True engaged=False
+t+10297 ch2=1825 out=1500 armed=True engaged=False
+t+10341 ch2=1824 out=1500 armed=True engaged=False
+t+10425 ch2=1825 out=1500 armed=True engaged=False
+t+10512 ch2=1828 out=1500 armed=True engaged=False
+t+10555 ch2=1826 out=1500 armed=True engaged=False
+t+10598 ch2=1825 out=1500 armed=True engaged=False
+t+10641 ch2=1816 out=1500 armed=True engaged=False
+t+10683 ch2=1826 out=1500 armed=True engaged=False
+t+10767 ch2=1825 out=1500 armed=True engaged=False
+t+11023 ch2=1826 out=1500 armed=True engaged=False
+t+11066 ch2=1824 out=1500 armed=True engaged=False
+t+11108 ch2=1825 out=1500 armed=True engaged=False
+t+11151 ch2=1824 out=1500 armed=True engaged=False
+t+11236 ch2=1825 out=1500 armed=True engaged=False
+t+11279 ch2=1826 out=1500 armed=True engaged=False
+t+11322 ch2=1825 out=1500 armed=True engaged=False
+t+11365 ch2=1824 out=1500 armed=True engaged=False
+t+11452 ch2=1815 out=1500 armed=True engaged=False
+t+11495 ch2=1828 out=1500 armed=True engaged=False
+t+11538 ch2=1824 out=1500 armed=True engaged=False
+t+11580 ch2=1825 out=1500 armed=True engaged=False
+t+11623 ch2=1827 out=1500 armed=True engaged=False
+t+11665 ch2=1824 out=1500 armed=True engaged=False
+t+11708 ch2=1826 out=1500 armed=True engaged=False
+t+11751 ch2=1824 out=1500 armed=True engaged=False
+t+11793 ch2=1825 out=1500 armed=True engaged=False
+t+11837 ch2=1824 out=1500 armed=True engaged=False
+t+11879 ch2=1825 out=1500 armed=True engaged=False
+t+11922 ch2=1826 out=1500 armed=True engaged=False
+t+12006 ch2=1825 out=1500 armed=True engaged=False
+t+12050 ch2=1827 out=1500 armed=True engaged=False
+t+12092 ch2=1825 out=1500 armed=True engaged=False
+t+12177 ch2=1823 out=1500 armed=True engaged=False
+t+12220 ch2=1825 out=1500 armed=True engaged=False
+t+12264 ch2=1826 out=1500 armed=True engaged=False
+t+12306 ch2=1817 out=1500 armed=True engaged=False
+t+12349 ch2=1825 out=1500 armed=True engaged=False
+t+12391 ch2=1826 out=1500 armed=True engaged=False
+t+12436 ch2=1823 out=1500 armed=True engaged=False
+t+12479 ch2=1825 out=1500 armed=True engaged=False
+t+12563 ch2=1823 out=1500 armed=True engaged=False
+t+12606 ch2=1826 out=1500 armed=True engaged=False
+t+12648 ch2=1824 out=1500 armed=True engaged=False
+t+12691 ch2=1826 out=1500 armed=True engaged=False
+t+12776 ch2=1825 out=1500 armed=True engaged=False
+t+12819 ch2=1826 out=1500 armed=True engaged=False
+t+12862 ch2=1825 out=1500 armed=True engaged=False
+t+12904 ch2=1824 out=1500 armed=True engaged=False
+t+12947 ch2=1826 out=1500 armed=True engaged=False
+t+12991 ch2=1825 out=1500 armed=True engaged=False
+t+13033 ch2=1829 out=1500 armed=True engaged=False
+t+13076 ch2=1825 out=1500 armed=True engaged=False
+t+13118 ch2=1826 out=1500 armed=True engaged=False
+t+13161 ch2=1825 out=1500 armed=True engaged=False
+t+13204 ch2=1824 out=1500 armed=True engaged=False
+t+13331 ch2=1826 out=1500 armed=True engaged=False
+t+13458 ch2=1824 out=1500 armed=True engaged=False
+t+13542 ch2=1826 out=1500 armed=True engaged=False
+t+13585 ch2=1825 out=1500 armed=True engaged=False
+t+13627 ch2=1828 out=1500 armed=True engaged=False
+t+13670 ch2=1825 out=1500 armed=True engaged=False
+t+13713 ch2=1824 out=1500 armed=True engaged=False
+t+13756 ch2=1825 out=1500 armed=True engaged=False
+t+13800 ch2=1826 out=1500 armed=True engaged=False
+t+13843 ch2=1824 out=1500 armed=True engaged=False
+t+13929 ch2=1825 out=1500 armed=True engaged=False
+t+14014 ch2=1826 out=1500 armed=True engaged=False
+t+14100 ch2=1814 out=1500 armed=True engaged=False
+t+14142 ch2=1824 out=1500 armed=True engaged=False
+t+14185 ch2=1826 out=1500 armed=True engaged=False
+t+14270 ch2=1825 out=1500 armed=True engaged=False
+t+14355 ch2=1826 out=1500 armed=True engaged=False
+t+14398 ch2=1825 out=1500 armed=True engaged=False
+t+14442 ch2=1826 out=1500 armed=True engaged=False
+t+14485 ch2=1825 out=1500 armed=True engaged=False
+t+14611 ch2=1827 out=1500 armed=True engaged=False
+t+14654 ch2=1826 out=1500 armed=True engaged=False
+t+14696 ch2=1824 out=1500 armed=True engaged=False
+t+14739 ch2=1825 out=1500 armed=True engaged=False
+t+14785 ch2=1827 out=1500 armed=True engaged=False
+t+14828 ch2=1825 out=1500 armed=True engaged=False
+t+14871 ch2=1826 out=1500 armed=True engaged=False
+t+14913 ch2=1824 out=1500 armed=True engaged=False
+t+14958 ch2=1825 out=1500 armed=True engaged=False
+ATTACK PROBE DONE
