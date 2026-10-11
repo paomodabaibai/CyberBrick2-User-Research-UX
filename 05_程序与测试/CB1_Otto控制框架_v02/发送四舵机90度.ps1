@@ -5,12 +5,13 @@ param(
 $ErrorActionPreference = 'Stop'
 $projectRoot = (Resolve-Path (Join-Path $PSScriptRoot '..\..')).Path
 $candidates = @(
+    $env:MPREMOTE_EXE,
     (Join-Path $projectRoot '.venv\Scripts\mpremote.exe'),
     (Join-Path $PSScriptRoot '..\serial_runtime\Scripts\mpremote.exe')
 )
 $mpremote = $null
 foreach ($candidate in $candidates) {
-    if (Test-Path -LiteralPath $candidate) { $mpremote = $candidate; break }
+    if ($candidate -and (Test-Path -LiteralPath $candidate)) { $mpremote = $candidate; break }
 }
 if (-not $mpremote) {
     $command = Get-Command mpremote -ErrorAction SilentlyContinue
