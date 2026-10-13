@@ -91,9 +91,12 @@ class RemotePolicy:
                 self.attack_ready = False
                 self.attack_since = None
         else:
-            # Return towards neutral stops immediately; full neutral rearms.
-            self.attack_ready = False
-            self.attack_since = None
+            # On the outward stroke, the stick must cross this partial zone.
+            # Keep the initial trigger armed; after a punch began, partial
+            # return stops it and requires full neutral before retrigger.
+            if self.attack_since is not None:
+                self.attack_ready = False
+                self.attack_since = None
         return drive, turn, speed
 
 
@@ -123,7 +126,7 @@ def monitor(seconds=15):
         _sleep(200)
 
 
-def run(seconds=30, mode='both', mapping=None):
+def run(seconds=30, mode='both', mapping=None, trace=False):
     """Bounded live test. Ctrl-C/time limit/exception stop M1 and release legs.
 
     mode: walk / attack / both. All three axes must neutralize to arm.
@@ -140,6 +143,13 @@ def run(seconds=30, mode='both', mapping=None):
     channels = []
     motor = None
     service = None
+    trace_frames = 0
+    trace_engaged = 0
+    trace_attack_ticks = 0
+    trace_attack_min = 4096
+    trace_attack_max = -1
+    trace_min_angle = 180
+    trace_max_angle = 0
     try:
         if rc_module.rc_slave_init() is False:
             raise RuntimeError('radio init failed')
@@ -162,7 +172,15 @@ def run(seconds=30, mode='both', mapping=None):
                 dt = diff(now, last)
                 last = now
                 next_frame = now  # use diff below for wrap-safe scheduling
-                drive, turn, speed = policy.update(rc_module.rc_slave_data(), now)
+                raw = rc_module.rc_slave_data()
+                if trace and raw is not None:
+                    trace_frames += 1
+                    if len(raw) == 10:
+                        trace_attack_min = min(trace_attack_min, raw[policy.cfg['attack']])
+                        trace_attack_max = max(trace_attack_max, raw[policy.cfg['attack']])
+                drive, turn, speed = policy.update(raw, now)
+                if trace and speed:
+                    trace_attack_ticks += 1
                 if dt < 0 or dt > 100:
                     policy.reset()
                     drive, turn, speed = 0.0, 0.0, 0
@@ -187,6 +205,8 @@ def run(seconds=30, mode='both', mapping=None):
                             for gpio in PORTS:
                                 channels.append(PWM(Pin(gpio), freq=50))
                         engaged = drive != 0 or turn != 0
+                        if trace and engaged:
+                            trace_engaged += 1
                         target = 1.0 if engaged else 0.0
                         delta = dt / 500.0
                         scale = min(target, scale + delta) if target > scale else max(target, scale - delta)
@@ -200,6 +220,9 @@ def run(seconds=30, mode='both', mapping=None):
                             angle = 90 + offset
                             if not 65 <= angle <= 115:
                                 raise ValueError('second robot test angle limit')
+                            if trace:
+                                trace_min_angle = min(trace_min_angle, angle)
+                                trace_max_angle = max(trace_max_angle, angle)
                             pwm.duty_ns(int(500 + angle * 2000 / 180) * 1000)
                 # time.ticks_add is required at the 30-bit wrap boundary.
                 add = getattr(time, 'ticks_add', None)
@@ -218,3 +241,8 @@ def run(seconds=30, mode='both', mapping=None):
                 except Exception:
                     pass
         print('second punch: M1 stopped; leg PWM off (power remains on)')
+        if trace:
+            print('trace: frames', trace_frames, 'engaged', trace_engaged,
+                  'angle_min', trace_min_angle, 'angle_max', trace_max_angle,
+                  'attack_ticks', trace_attack_ticks,
+                  'attack_min', trace_attack_min, 'attack_max', trace_attack_max)

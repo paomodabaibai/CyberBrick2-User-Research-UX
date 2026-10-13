@@ -1,7 +1,7 @@
-"""COM14 robot + COM15 remote, manual timed entry; import is inert.
+"""Second robot manual timed entry; import is inert.
 
-Channel mapping retained at user request. Centers from current static frames.
-No boot changes or automatic startup. Actual yaw/attack observed by operator.
+Left ch3, right ch0, punch ch2 and K4 ch9 were verified one stick at a time.
+Receiver has no active boot.py/main.py; this does not auto-start on power-up.
 """
 import second_punch_remote
 
@@ -9,5 +9,6 @@ MAPPING = dict(left=3, right=0, attack=2, stop=9,
                left_center=2051, right_center=2128, attack_center=2146)
 
 
-def run(seconds=30, mode='both'):
-    return second_punch_remote.run(seconds=seconds, mode=mode, mapping=MAPPING)
+def run(seconds=30, mode='both', trace=False):
+    return second_punch_remote.run(seconds=seconds, mode=mode,
+                                   mapping=MAPPING, trace=trace)

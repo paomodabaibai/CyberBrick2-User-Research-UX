@@ -47,6 +47,12 @@ class PunchPolicyTests(unittest.TestCase):
         p = self.armed()
         self.assertEqual(p.update(frame(attack=0), 600)[2], 1024)
 
+    def test_attack_can_cross_partial_zone_before_full_push(self):
+        p = self.armed()
+        self.assertEqual(p.update(frame(attack=2300), 600)[2], 0)
+        self.assertEqual(p.update(frame(attack=2500), 620)[2], 0)
+        self.assertEqual(p.update(frame(attack=4000), 640)[2], 1024)
+
     def test_release_stops_and_partial_return_does_not_rearm(self):
         p = self.armed()
         p.update(frame(attack=4000), 600)
