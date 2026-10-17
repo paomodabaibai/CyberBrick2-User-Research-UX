@@ -11,7 +11,7 @@ PORTS = (3, 1, 2, 0)  # S1,S3,S2,S4: oscillator joint order
 DEFAULT = dict(left=3, right=0, attack=2, stop=9,
                left_center=1797, right_center=1959, attack_center=1825,
                span=1800, threshold=0.4, neutral=0.15,
-               arm_ms=500, attack_ms=1500, speed=1024)
+               arm_ms=500, speed=1024)
 
 
 def motor_service(motor):
@@ -36,7 +36,6 @@ class RemotePolicy:
                 or len(set(channels)) != 4
                 or c['span'] <= 0 or not 0 < c['neutral'] < c['threshold'] <= 1
                 or not 1 <= c['arm_ms'] <= 2000
-                or not 1 <= c['attack_ms'] <= 1500
                 or not 0 < c['speed'] <= 1024):
             raise ValueError('invalid mapping/test limits')
         self.reset()
@@ -44,7 +43,7 @@ class RemotePolicy:
     def reset(self):
         self.armed = False
         self.neutral_since = None
-        self.attack_since = None
+        self.attack_active = False
         self.attack_ready = False
 
     def update(self, raw, now):
@@ -81,22 +80,17 @@ class RemotePolicy:
         speed = 0
         if abs(a) <= c['neutral']:
             self.attack_ready = True
-            self.attack_since = None
+            self.attack_active = False
         elif abs(a) >= c['threshold'] and self.attack_ready:
-            if self.attack_since is None:
-                self.attack_since = now
-            if diff(now, self.attack_since) < c['attack_ms']:
-                speed = c['speed']  # either stick direction -> proven forward only
-            else:
-                self.attack_ready = False
-                self.attack_since = None
+            self.attack_active = True
+            speed = c['speed']  # keep moving while held; either direction -> forward
         else:
             # On the outward stroke, the stick must cross this partial zone.
             # Keep the initial trigger armed; after a punch began, partial
             # return stops it and requires full neutral before retrigger.
-            if self.attack_since is not None:
+            if self.attack_active:
                 self.attack_ready = False
-                self.attack_since = None
+                self.attack_active = False
         return drive, turn, speed
 
 

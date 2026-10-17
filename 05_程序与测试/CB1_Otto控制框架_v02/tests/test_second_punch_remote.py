@@ -34,14 +34,15 @@ class PunchPolicyTests(unittest.TestCase):
         p.update(frame(), 1000)
         self.assertTrue(p.armed)
 
-    def test_attack_limit_release_and_retrigger(self):
+    def test_attack_continues_while_held_and_stops_on_release(self):
         p = self.armed()
         self.assertEqual(p.update(frame(attack=4000), 600)[2], 1024)
-        self.assertEqual(p.update(frame(attack=4000), 2099)[2], 1024)
-        self.assertEqual(p.update(frame(attack=4000), 2100)[2], 0)
-        self.assertEqual(p.update(frame(attack=4000), 3000)[2], 0)
-        p.update(frame(), 3010)
-        self.assertEqual(p.update(frame(attack=4000), 3020)[2], 1024)
+        self.assertEqual(p.update(frame(attack=4000), 2100)[2], 1024)
+        self.assertEqual(p.update(frame(attack=4000), 6000)[2], 1024)
+        self.assertEqual(p.update(frame(attack=4000), 15000)[2], 1024)
+        p.update(frame(), 15010)
+        self.assertEqual(p.update(frame(), 15011)[2], 0)
+        self.assertEqual(p.update(frame(attack=4000), 15020)[2], 1024)
 
     def test_attack_both_directions_are_forward_only(self):
         p = self.armed()
@@ -91,7 +92,7 @@ class PunchPolicyTests(unittest.TestCase):
         self.assertLess(p.update(frame(left=0, right=0), 620)[0], 0)
 
     def test_invalid_parameters_do_not_construct_hardware(self):
-        for cfg in ({'speed': -1024}, {'attack_ms': 1501}, {'left': 9}, {'span': 0}):
+        for cfg in ({'speed': -1024}, {'left': 9}, {'span': 0}):
             with self.assertRaises(ValueError):
                 punch.RemotePolicy(cfg)
 
