@@ -86,10 +86,25 @@ class PunchPolicyTests(unittest.TestCase):
         self.assertEqual(p.update(frame(left=4000, right=4000, attack=4000), 640), (0, 0, 0))
         self.assertFalse(p.armed)
 
-    def test_k4_stops_legs_and_motor(self):
+    def test_k4_hold_dances_and_suppresses_walk_and_punch(self):
         p = self.armed()
         self.assertEqual(p.update(frame(left=4000, right=4000, attack=4000, stop=0), 600), (0, 0, 0))
-        self.assertFalse(p.armed)
+        self.assertTrue(p.armed)
+        self.assertTrue(p.dance_active)
+        self.assertEqual(p.update(frame(left=4000, right=4000, attack=4000, stop=0), 620), (0, 0, 0))
+        self.assertTrue(p.dance_active)
+        self.assertEqual(p.update(frame(stop=1), 640), (0, 0, 0))
+        self.assertFalse(p.dance_active)
+
+    def test_dance_offsets_are_bounded_smooth_and_vary_over_time(self):
+        dance = punch.DanceMotion(start_ms=100, start_pose=(0, 0, 0, 0))
+        poses = [dance.pose(t) for t in range(100, 2100, 20)]
+        self.assertEqual(poses[0], (0, 0, 0, 0))
+        self.assertGreater(len(set(tuple(round(v, 2) for v in p) for p in poses)), 20)
+        self.assertTrue(all(abs(p[i]) <= (12 if i < 2 else 8)
+                            for p in poses for i in range(4)))
+        self.assertTrue(all(max(abs(a-b) for a, b in zip(left, right)) <= 3
+                            for left, right in zip(poses, poses[1:])))
 
     def test_invalid_frame_fails_closed(self):
         for raw in ([], [1] * 9, frame(attack=float('nan')), frame(left=5000), frame(stop=2)):
@@ -118,7 +133,7 @@ class PunchPolicyTests(unittest.TestCase):
 
 class PunchLoopTests(unittest.TestCase):
     def exercise(self, mode='both', failure=False, loss=False, native_pwm=False,
-                 unbounded=False):
+                 unbounded=False, dance=False):
         clock = [0]
         events = []
         pwms = []
@@ -134,9 +149,11 @@ class PunchLoopTests(unittest.TestCase):
             def __init__(self, pin, freq):
                 self.pin = pin
                 self.off = False
+                self.writes = []
                 pwms.append(self)
             def duty_ns(self, ns):
                 events.append(('leg', clock[0]))
+                self.writes.append((clock[0], ns))
                 if failure and clock[0] >= 600:
                     raise RuntimeError('injected PWM failure')
             def deinit(self):
@@ -156,6 +173,12 @@ class PunchLoopTests(unittest.TestCase):
         def read():
             if loss and clock[0] >= 700:
                 return None
+            if dance:
+                if 600 <= clock[0] < 900:
+                    return frame(left=3597, right=3759, attack=4000, stop=0)
+                if 560 <= clock[0] < 600:
+                    return frame(attack=4000)
+                return frame()
             if clock[0] >= 600:
                 return frame(left=3597, right=3759, attack=4000)
             return frame()
@@ -226,6 +249,17 @@ class PunchLoopTests(unittest.TestCase):
         self.assertTrue(any(kind == 'leg' and t >= 1500 for kind, t in events))
         self.assertIn(('motor', 600), events)
         self.assertEqual(events[-1][0], 'stop')
+
+    def test_held_k4_stops_motor_and_moves_legs_within_limits(self):
+        events, pwms = self.exercise(dance=True)
+        self.assertIn(('motor', 560), events)
+        self.assertIn(('stop', 600), events)
+        self.assertFalse(any(kind == 'motor' and 600 <= t < 900 for kind, t in events))
+        dance_writes = [(t, ns) for pwm in pwms for t, ns in pwm.writes
+                        if 600 <= t < 900]
+        self.assertGreater(len(dance_writes), 30)
+        self.assertGreater(len(set(ns for _, ns in dance_writes)), 8)
+        self.assertTrue(all(1222000 <= ns <= 1778000 for _, ns in dance_writes))
 
 
 if __name__ == '__main__':

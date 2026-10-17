@@ -1,9 +1,9 @@
 """Install as main.py on the SECOND CB1 receiver only.
 
-On power-up, use both walking sticks and the two-speed punch stick.
-The controller itself requires all sticks neutral before arming. On a radio
-loss or K4 press it stops and requires a fresh neutral interval. Unexpected
-errors release PWM/M1 in run() before this entry retries.
+On power-up, use both walking sticks, the two-speed punch stick, and held K4
+for a small random dance. All sticks must be neutral before arming. Radio loss
+stops motion and requires a fresh neutral interval. Unexpected errors release
+PWM/M1 in run() before this entry retries.
 """
 import time
 from machine import Pin
