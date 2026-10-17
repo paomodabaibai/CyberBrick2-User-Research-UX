@@ -107,7 +107,7 @@ class DanceMotion:
     """Alternate large poses, with a brief hold so servos reach each target."""
     STEP_MS = 450
     MOVE_MS = 300
-    LIMITS = (20, 20, 16, 16)  # hips then ankles, in degrees
+    LIMITS = (25, 25, 25, 25)  # hips then ankles, in degrees
 
     def __init__(self, start_ms, start_pose=(0, 0, 0, 0)):
         self.start_ms = start_ms

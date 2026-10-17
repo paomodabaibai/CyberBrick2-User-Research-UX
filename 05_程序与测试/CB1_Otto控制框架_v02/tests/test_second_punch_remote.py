@@ -101,11 +101,11 @@ class PunchPolicyTests(unittest.TestCase):
         poses = [dance.pose(t) for t in range(100, 2100, 20)]
         self.assertEqual(poses[0], (0, 0, 0, 0))
         self.assertGreater(len(set(tuple(round(v, 2) for v in p) for p in poses)), 20)
-        self.assertTrue(all(abs(p[i]) <= (20 if i < 2 else 16)
+        self.assertTrue(all(abs(p[i]) <= 25
                             for p in poses for i in range(4)))
         self.assertGreaterEqual(max(abs(p[i]) for p in poses for i in (0, 1)), 16)
         self.assertGreaterEqual(max(abs(p[i]) for p in poses for i in (2, 3)), 12)
-        self.assertTrue(all(max(abs(a-b) for a, b in zip(left, right)) <= 3
+        self.assertTrue(all(max(abs(a-b) for a, b in zip(left, right)) <= 3.5
                             for left, right in zip(poses, poses[1:])))
 
     def test_dance_alternates_large_targets_and_holds_each_pose(self):
@@ -114,7 +114,7 @@ class PunchPolicyTests(unittest.TestCase):
             first = dance.pose(100 + step * 450 + 310)
             held = dance.pose(100 + step * 450 + 430)
             self.assertEqual(first, held)
-            for i, limit in enumerate((20, 20, 16, 16)):
+            for i, limit in enumerate((25, 25, 25, 25)):
                 self.assertGreaterEqual(abs(first[i]) + 1e-9, limit * 0.8)
             if step:
                 self.assertTrue(all(a*b < 0 for a, b in zip(previous, first)))
@@ -273,7 +273,7 @@ class PunchLoopTests(unittest.TestCase):
                         if 600 <= t < 900]
         self.assertGreater(len(dance_writes), 30)
         self.assertGreater(len(set(ns for _, ns in dance_writes)), 8)
-        self.assertTrue(all(1277000 <= ns <= 1723000 for _, ns in dance_writes))
+        self.assertTrue(all(1222000 <= ns <= 1778000 for _, ns in dance_writes))
 
 
 if __name__ == '__main__':
