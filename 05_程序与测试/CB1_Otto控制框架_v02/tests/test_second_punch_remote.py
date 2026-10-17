@@ -108,6 +108,18 @@ class PunchPolicyTests(unittest.TestCase):
         self.assertTrue(all(max(abs(a-b) for a, b in zip(left, right)) <= 3
                             for left, right in zip(poses, poses[1:])))
 
+    def test_dance_alternates_large_targets_and_holds_each_pose(self):
+        dance = punch.DanceMotion(100)
+        for step in range(8):
+            first = dance.pose(100 + step * 450 + 310)
+            held = dance.pose(100 + step * 450 + 430)
+            self.assertEqual(first, held)
+            for i, limit in enumerate((20, 20, 16, 16)):
+                self.assertGreaterEqual(abs(first[i]) + 1e-9, limit * 0.8)
+            if step:
+                self.assertTrue(all(a*b < 0 for a, b in zip(previous, first)))
+            previous = first
+
     def test_invalid_frame_fails_closed(self):
         for raw in ([], [1] * 9, frame(attack=float('nan')), frame(left=5000), frame(stop=2)):
             p = self.armed()

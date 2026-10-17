@@ -104,8 +104,9 @@ class RemotePolicy:
 
 
 class DanceMotion:
-    """Smooth changing poses, confined to small Otto joint offsets."""
-    STEP_MS = 300
+    """Alternate large poses, with a brief hold so servos reach each target."""
+    STEP_MS = 450
+    MOVE_MS = 300
     LIMITS = (20, 20, 16, 16)  # hips then ankles, in degrees
 
     def __init__(self, start_ms, start_pose=(0, 0, 0, 0)):
@@ -116,15 +117,17 @@ class DanceMotion:
     def _target(self, index):
         state = (self.seed + index * 2654435761) & 0xffffffff
         pose = []
-        for limit in self.LIMITS:
+        for joint, limit in enumerate(self.LIMITS):
             state = (1664525 * state + 1013904223) & 0xffffffff
-            pose.append((state >> 16) % (2 * limit + 1) - limit)
+            magnitude = limit * (80 + (state >> 16) % 21) / 100.0
+            sign = -1 if (index + (joint == 1)) % 2 else 1
+            pose.append(sign * magnitude)
         return tuple(pose)
 
     def pose(self, now):
         elapsed = max(0, diff(now, self.start_ms))
         step = elapsed // self.STEP_MS
-        fraction = (elapsed % self.STEP_MS) / self.STEP_MS
+        fraction = min(1.0, (elapsed % self.STEP_MS) / self.MOVE_MS)
         before = self.start_pose if step == 0 else self._target(step - 1)
         after = self._target(step)
         return tuple(a + (b - a) * fraction for a, b in zip(before, after))
