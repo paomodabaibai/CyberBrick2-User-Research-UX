@@ -106,7 +106,7 @@ class RemotePolicy:
 class DanceMotion:
     """Smooth changing poses, confined to small Otto joint offsets."""
     STEP_MS = 300
-    LIMITS = (12, 12, 8, 8)  # hips then ankles, in degrees
+    LIMITS = (20, 20, 16, 16)  # hips then ankles, in degrees
 
     def __init__(self, start_ms, start_pose=(0, 0, 0, 0)):
         self.start_ms = start_ms
