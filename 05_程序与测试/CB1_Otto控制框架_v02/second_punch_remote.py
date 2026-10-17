@@ -11,7 +11,8 @@ PORTS = (3, 1, 2, 0)  # S1,S3,S2,S4: oscillator joint order
 DEFAULT = dict(left=3, right=0, attack=2, stop=9,
                left_center=1797, right_center=1959, attack_center=1825,
                span=1800, threshold=0.4, neutral=0.15,
-               arm_ms=500, speed=1024)
+               arm_ms=500, slow_speed=1024, fast_speed=1800,
+               attack_up_is_high=True)
 
 
 def motor_service(motor):
@@ -36,7 +37,8 @@ class RemotePolicy:
                 or len(set(channels)) != 4
                 or c['span'] <= 0 or not 0 < c['neutral'] < c['threshold'] <= 1
                 or not 1 <= c['arm_ms'] <= 2000
-                or not 0 < c['speed'] <= 1024):
+                or not 0 < c['slow_speed'] < c['fast_speed'] <= 2048
+                or not isinstance(c['attack_up_is_high'], bool)):
             raise ValueError('invalid mapping/test limits')
         self.reset()
 
@@ -83,7 +85,8 @@ class RemotePolicy:
             self.attack_active = False
         elif abs(a) >= c['threshold'] and self.attack_ready:
             self.attack_active = True
-            speed = c['speed']  # keep moving while held; either direction -> forward
+            up = (a > 0) == c['attack_up_is_high']
+            speed = c['slow_speed'] if up else c['fast_speed']
         else:
             # On the outward stroke, the stick must cross this partial zone.
             # Keep the initial trigger armed; after a punch began, partial

@@ -46,7 +46,24 @@ class PunchPolicyTests(unittest.TestCase):
 
     def test_attack_both_directions_are_forward_only(self):
         p = self.armed()
-        self.assertEqual(p.update(frame(attack=0), 600)[2], 1024)
+        self.assertEqual(p.update(frame(attack=0), 600)[2], 1800)
+
+    def test_attack_two_speeds_follow_configured_up_direction(self):
+        p = punch.RemotePolicy({'slow_speed': 800, 'fast_speed': 1800,
+                                'attack_up_is_high': True})
+        p.update(frame(), 0)
+        p.update(frame(), 500)
+        self.assertEqual(p.update(frame(attack=4000), 600)[2], 800)
+        self.assertEqual(p.update(frame(attack=4000), 6000)[2], 800)
+        self.assertEqual(p.update(frame(), 6010)[2], 0)
+        self.assertEqual(p.update(frame(attack=0), 6020)[2], 1800)
+        p2 = punch.RemotePolicy({'slow_speed': 800, 'fast_speed': 1800,
+                                 'attack_up_is_high': False})
+        p2.update(frame(), 0)
+        p2.update(frame(), 500)
+        self.assertEqual(p2.update(frame(attack=0), 600)[2], 800)
+        self.assertEqual(p2.update(frame(), 610)[2], 0)
+        self.assertEqual(p2.update(frame(attack=4000), 620)[2], 1800)
 
     def test_attack_can_cross_partial_zone_before_full_push(self):
         p = self.armed()
@@ -92,7 +109,9 @@ class PunchPolicyTests(unittest.TestCase):
         self.assertLess(p.update(frame(left=0, right=0), 620)[0], 0)
 
     def test_invalid_parameters_do_not_construct_hardware(self):
-        for cfg in ({'speed': -1024}, {'left': 9}, {'span': 0}):
+        for cfg in ({'slow_speed': -1}, {'fast_speed': 2049},
+                    {'fast_speed': 1024}, {'attack_up_is_high': 1},
+                    {'left': 9}, {'span': 0}):
             with self.assertRaises(ValueError):
                 punch.RemotePolicy(cfg)
 

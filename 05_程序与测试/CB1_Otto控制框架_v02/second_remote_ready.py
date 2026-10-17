@@ -6,7 +6,8 @@ Receiver has no active boot.py/main.py; this does not auto-start on power-up.
 import second_punch_remote
 
 MAPPING = dict(left=3, right=0, attack=2, stop=9,
-               left_center=2051, right_center=2128, attack_center=2146)
+               left_center=2051, right_center=2128, attack_center=2146,
+               attack_up_is_high=True)
 
 
 def run(seconds=30, mode='both', trace=False):
