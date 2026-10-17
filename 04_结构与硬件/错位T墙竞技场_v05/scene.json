@@ -1,0 +1,4758 @@
+{
+  "version": "0.5",
+  "units": "mm",
+  "coordinate_system": {
+    "origin": "nominal arena lower-left corner, supporting table surface",
+    "x": "right",
+    "y": "up in top view",
+    "z": "upward in 3D",
+    "part_transform": "local CAD center XY and local bottom Z=0, rotate Z, then translate"
+  },
+  "arena": {
+    "nominal_size_mm": [
+      1260,
+      1260
+    ],
+    "actual_floor_bounds_xy_mm": [
+      0.2,
+      0.2,
+      1259.8,
+      1259.8
+    ],
+    "floor_top_z_mm": 6,
+    "all_obstacles_grounded_at_z_mm": 6,
+    "interior_clear_square_mm": [
+      1220,
+      1220
+    ],
+    "printer_nominal_mm": [
+      200,
+      200,
+      200
+    ]
+  },
+  "floor_grid": {
+    "rows": 7,
+    "cols": 7,
+    "pitch_mm": 180,
+    "tile_side_mm": 179.6,
+    "seam_mm": 0.4,
+    "row_labels_bottom_to_top": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ],
+    "col_labels_left_to_right": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "parts": {
+    "F01": {
+      "name": "floor_179p6",
+      "cn": "地板",
+      "size_mm": [
+        179.6,
+        179.6,
+        6
+      ],
+      "qty_A": 49,
+      "qty_B": 49,
+      "spare_or_test_qty": 0,
+      "stl": "stl/F01_floor_179p6.stl",
+      "step": "step/F01_floor_179p6.step",
+      "print_orientation": "walking_face_on_bed_pockets_up",
+      "stl_from_cad_transform": {
+        "rotation_x_deg": 180,
+        "translation_mm": [
+          0,
+          0,
+          6
+        ]
+      }
+    },
+    "J01": {
+      "name": "bridge_44x18x2",
+      "cn": "底面桥片",
+      "size_mm": [
+        44,
+        18,
+        2
+      ],
+      "qty_A": 84,
+      "qty_B": 84,
+      "spare_or_test_qty": 0,
+      "stl": "stl/J01_bridge_44x18x2.stl",
+      "step": "step/J01_bridge_44x18x2.step",
+      "print_orientation": "bottom_on_bed",
+      "stl_from_cad_transform": {
+        "rotation_x_deg": 0,
+        "translation_mm": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "W01": {
+      "name": "wall_180x40x60",
+      "cn": "横墙低段",
+      "size_mm": [
+        180,
+        40,
+        60
+      ],
+      "qty_A": 2,
+      "qty_B": 0,
+      "spare_or_test_qty": 0,
+      "stl": "stl/W01_wall_180x40x60.stl",
+      "step": "step/W01_wall_180x40x60.step",
+      "print_orientation": "bottom_on_bed",
+      "stl_from_cad_transform": {
+        "rotation_x_deg": 0,
+        "translation_mm": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "W02": {
+      "name": "wall_180x40x80",
+      "cn": "横墙中段与末段",
+      "size_mm": [
+        180,
+        40,
+        80
+      ],
+      "qty_A": 4,
+      "qty_B": 2,
+      "spare_or_test_qty": 0,
+      "stl": "stl/W02_wall_180x40x80.stl",
+      "step": "step/W02_wall_180x40x80.step",
+      "print_orientation": "bottom_on_bed",
+      "stl_from_cad_transform": {
+        "rotation_x_deg": 0,
+        "translation_mm": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "W03": {
+      "name": "wall_180x40x100",
+      "cn": "横墙高段",
+      "size_mm": [
+        180,
+        40,
+        100
+      ],
+      "qty_A": 2,
+      "qty_B": 0,
+      "spare_or_test_qty": 0,
+      "stl": "stl/W03_wall_180x40x100.stl",
+      "step": "step/W03_wall_180x40x100.step",
+      "print_orientation": "bottom_on_bed",
+      "stl_from_cad_transform": {
+        "rotation_x_deg": 0,
+        "translation_mm": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "W04": {
+      "name": "wall_120x40x80",
+      "cn": "支墙",
+      "size_mm": [
+        120,
+        40,
+        80
+      ],
+      "qty_A": 2,
+      "qty_B": 2,
+      "spare_or_test_qty": 0,
+      "stl": "stl/W04_wall_120x40x80.stl",
+      "step": "step/W04_wall_120x40x80.step",
+      "print_orientation": "bottom_on_bed",
+      "stl_from_cad_transform": {
+        "rotation_x_deg": 0,
+        "translation_mm": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "E01": {
+      "name": "edge_180x20x35",
+      "cn": "护沿长段",
+      "size_mm": [
+        180,
+        20,
+        35
+      ],
+      "qty_A": 26,
+      "qty_B": 26,
+      "spare_or_test_qty": 0,
+      "stl": "stl/E01_edge_180x20x35.stl",
+      "step": "step/E01_edge_180x20x35.step",
+      "print_orientation": "bottom_on_bed",
+      "stl_from_cad_transform": {
+        "rotation_x_deg": 0,
+        "translation_mm": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "E02": {
+      "name": "edge_140x20x35",
+      "cn": "护沿短段",
+      "size_mm": [
+        140,
+        20,
+        35
+      ],
+      "qty_A": 2,
+      "qty_B": 2,
+      "spare_or_test_qty": 0,
+      "stl": "stl/E02_edge_140x20x35.stl",
+      "step": "step/E02_edge_140x20x35.step",
+      "print_orientation": "bottom_on_bed",
+      "stl_from_cad_transform": {
+        "rotation_x_deg": 0,
+        "translation_mm": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "T01": {
+      "name": "target_open_cup_D90_H160",
+      "cn": "开口筒靶",
+      "size_mm": [
+        90,
+        90,
+        160
+      ],
+      "qty_A": 2,
+      "qty_B": 2,
+      "spare_or_test_qty": 0,
+      "stl": "stl/T01_target_open_cup_D90_H160.stl",
+      "step": "step/T01_target_open_cup_D90_H160.step",
+      "print_orientation": "bottom_on_bed",
+      "stl_from_cad_transform": {
+        "rotation_x_deg": 0,
+        "translation_mm": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "C01": {
+      "name": "seam_coupon_left",
+      "cn": "接缝样片左",
+      "size_mm": [
+        39.8,
+        40,
+        6
+      ],
+      "qty_A": 0,
+      "qty_B": 0,
+      "spare_or_test_qty": 1,
+      "stl": "stl/C01_seam_coupon_left.stl",
+      "step": "step/C01_seam_coupon_left.step",
+      "print_orientation": "walking_face_on_bed_pockets_up",
+      "stl_from_cad_transform": {
+        "rotation_x_deg": 180,
+        "translation_mm": [
+          0,
+          0,
+          6
+        ]
+      }
+    },
+    "C02": {
+      "name": "seam_coupon_right",
+      "cn": "接缝样片右",
+      "size_mm": [
+        39.8,
+        40,
+        6
+      ],
+      "qty_A": 0,
+      "qty_B": 0,
+      "spare_or_test_qty": 1,
+      "stl": "stl/C02_seam_coupon_right.stl",
+      "step": "step/C02_seam_coupon_right.step",
+      "print_orientation": "walking_face_on_bed_pockets_up",
+      "stl_from_cad_transform": {
+        "rotation_x_deg": 180,
+        "translation_mm": [
+          0,
+          0,
+          6
+        ]
+      }
+    },
+    "T02": {
+      "name": "target_test_D90_H80",
+      "cn": "半高筒靶试样",
+      "size_mm": [
+        90,
+        90,
+        80
+      ],
+      "qty_A": 0,
+      "qty_B": 0,
+      "spare_or_test_qty": 1,
+      "stl": "stl/T02_target_test_D90_H80.stl",
+      "step": "step/T02_target_test_D90_H80.step",
+      "print_orientation": "bottom_on_bed",
+      "stl_from_cad_transform": {
+        "rotation_x_deg": 0,
+        "translation_mm": [
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "instances": [
+    {
+      "id": "F-A1",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        90,
+        90
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        0.2,
+        0.2,
+        179.8,
+        179.8
+      ],
+      "height_mm": 6,
+      "color": "#eef0f2",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-A2",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        270,
+        90
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        180.2,
+        0.2,
+        359.8,
+        179.8
+      ],
+      "height_mm": 6,
+      "color": "#e1e5e8",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-A3",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        450,
+        90
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        360.2,
+        0.2,
+        539.8,
+        179.8
+      ],
+      "height_mm": 6,
+      "color": "#eef0f2",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-A4",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        630,
+        90
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        540.2,
+        0.2,
+        719.8,
+        179.8
+      ],
+      "height_mm": 6,
+      "color": "#e1e5e8",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-A5",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        810,
+        90
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        720.2,
+        0.2,
+        899.8,
+        179.8
+      ],
+      "height_mm": 6,
+      "color": "#eef0f2",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-A6",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        990,
+        90
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        900.2,
+        0.2,
+        1079.8,
+        179.8
+      ],
+      "height_mm": 6,
+      "color": "#e1e5e8",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-A7",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        1170,
+        90
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        1080.2,
+        0.2,
+        1259.8,
+        179.8
+      ],
+      "height_mm": 6,
+      "color": "#eef0f2",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-B1",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        90,
+        270
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        0.2,
+        180.2,
+        179.8,
+        359.8
+      ],
+      "height_mm": 6,
+      "color": "#e1e5e8",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-B2",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        270,
+        270
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        180.2,
+        180.2,
+        359.8,
+        359.8
+      ],
+      "height_mm": 6,
+      "color": "#eef0f2",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-B3",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        450,
+        270
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        360.2,
+        180.2,
+        539.8,
+        359.8
+      ],
+      "height_mm": 6,
+      "color": "#e1e5e8",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-B4",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        630,
+        270
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        540.2,
+        180.2,
+        719.8,
+        359.8
+      ],
+      "height_mm": 6,
+      "color": "#eef0f2",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-B5",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        810,
+        270
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        720.2,
+        180.2,
+        899.8,
+        359.8
+      ],
+      "height_mm": 6,
+      "color": "#e1e5e8",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-B6",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        990,
+        270
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        900.2,
+        180.2,
+        1079.8,
+        359.8
+      ],
+      "height_mm": 6,
+      "color": "#eef0f2",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-B7",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        1170,
+        270
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        1080.2,
+        180.2,
+        1259.8,
+        359.8
+      ],
+      "height_mm": 6,
+      "color": "#e1e5e8",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-C1",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        90,
+        450
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        0.2,
+        360.2,
+        179.8,
+        539.8
+      ],
+      "height_mm": 6,
+      "color": "#eef0f2",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-C2",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        270,
+        450
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        180.2,
+        360.2,
+        359.8,
+        539.8
+      ],
+      "height_mm": 6,
+      "color": "#e1e5e8",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-C3",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        450,
+        450
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        360.2,
+        360.2,
+        539.8,
+        539.8
+      ],
+      "height_mm": 6,
+      "color": "#eef0f2",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-C4",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        630,
+        450
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        540.2,
+        360.2,
+        719.8,
+        539.8
+      ],
+      "height_mm": 6,
+      "color": "#e1e5e8",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-C5",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        810,
+        450
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        720.2,
+        360.2,
+        899.8,
+        539.8
+      ],
+      "height_mm": 6,
+      "color": "#eef0f2",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-C6",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        990,
+        450
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        900.2,
+        360.2,
+        1079.8,
+        539.8
+      ],
+      "height_mm": 6,
+      "color": "#e1e5e8",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-C7",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        1170,
+        450
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        1080.2,
+        360.2,
+        1259.8,
+        539.8
+      ],
+      "height_mm": 6,
+      "color": "#eef0f2",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-D1",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        90,
+        630
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        0.2,
+        540.2,
+        179.8,
+        719.8
+      ],
+      "height_mm": 6,
+      "color": "#e1e5e8",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-D2",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        270,
+        630
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        180.2,
+        540.2,
+        359.8,
+        719.8
+      ],
+      "height_mm": 6,
+      "color": "#eef0f2",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-D3",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        450,
+        630
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        360.2,
+        540.2,
+        539.8,
+        719.8
+      ],
+      "height_mm": 6,
+      "color": "#e1e5e8",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-D4",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        630,
+        630
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        540.2,
+        540.2,
+        719.8,
+        719.8
+      ],
+      "height_mm": 6,
+      "color": "#eef0f2",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-D5",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        810,
+        630
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        720.2,
+        540.2,
+        899.8,
+        719.8
+      ],
+      "height_mm": 6,
+      "color": "#e1e5e8",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-D6",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        990,
+        630
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        900.2,
+        540.2,
+        1079.8,
+        719.8
+      ],
+      "height_mm": 6,
+      "color": "#eef0f2",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-D7",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        1170,
+        630
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        1080.2,
+        540.2,
+        1259.8,
+        719.8
+      ],
+      "height_mm": 6,
+      "color": "#e1e5e8",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-E1",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        90,
+        810
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        0.2,
+        720.2,
+        179.8,
+        899.8
+      ],
+      "height_mm": 6,
+      "color": "#eef0f2",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-E2",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        270,
+        810
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        180.2,
+        720.2,
+        359.8,
+        899.8
+      ],
+      "height_mm": 6,
+      "color": "#e1e5e8",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-E3",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        450,
+        810
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        360.2,
+        720.2,
+        539.8,
+        899.8
+      ],
+      "height_mm": 6,
+      "color": "#eef0f2",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-E4",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        630,
+        810
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        540.2,
+        720.2,
+        719.8,
+        899.8
+      ],
+      "height_mm": 6,
+      "color": "#e1e5e8",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-E5",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        810,
+        810
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        720.2,
+        720.2,
+        899.8,
+        899.8
+      ],
+      "height_mm": 6,
+      "color": "#eef0f2",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-E6",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        990,
+        810
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        900.2,
+        720.2,
+        1079.8,
+        899.8
+      ],
+      "height_mm": 6,
+      "color": "#e1e5e8",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-E7",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        1170,
+        810
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        1080.2,
+        720.2,
+        1259.8,
+        899.8
+      ],
+      "height_mm": 6,
+      "color": "#eef0f2",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-F1",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        90,
+        990
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        0.2,
+        900.2,
+        179.8,
+        1079.8
+      ],
+      "height_mm": 6,
+      "color": "#e1e5e8",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-F2",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        270,
+        990
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        180.2,
+        900.2,
+        359.8,
+        1079.8
+      ],
+      "height_mm": 6,
+      "color": "#eef0f2",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-F3",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        450,
+        990
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        360.2,
+        900.2,
+        539.8,
+        1079.8
+      ],
+      "height_mm": 6,
+      "color": "#e1e5e8",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-F4",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        630,
+        990
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        540.2,
+        900.2,
+        719.8,
+        1079.8
+      ],
+      "height_mm": 6,
+      "color": "#eef0f2",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-F5",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        810,
+        990
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        720.2,
+        900.2,
+        899.8,
+        1079.8
+      ],
+      "height_mm": 6,
+      "color": "#e1e5e8",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-F6",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        990,
+        990
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        900.2,
+        900.2,
+        1079.8,
+        1079.8
+      ],
+      "height_mm": 6,
+      "color": "#eef0f2",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-F7",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        1170,
+        990
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        1080.2,
+        900.2,
+        1259.8,
+        1079.8
+      ],
+      "height_mm": 6,
+      "color": "#e1e5e8",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-G1",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        90,
+        1170
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        0.2,
+        1080.2,
+        179.8,
+        1259.8
+      ],
+      "height_mm": 6,
+      "color": "#eef0f2",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-G2",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        270,
+        1170
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        180.2,
+        1080.2,
+        359.8,
+        1259.8
+      ],
+      "height_mm": 6,
+      "color": "#e1e5e8",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-G3",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        450,
+        1170
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        360.2,
+        1080.2,
+        539.8,
+        1259.8
+      ],
+      "height_mm": 6,
+      "color": "#eef0f2",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-G4",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        630,
+        1170
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        540.2,
+        1080.2,
+        719.8,
+        1259.8
+      ],
+      "height_mm": 6,
+      "color": "#e1e5e8",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-G5",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        810,
+        1170
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        720.2,
+        1080.2,
+        899.8,
+        1259.8
+      ],
+      "height_mm": 6,
+      "color": "#eef0f2",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-G6",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        990,
+        1170
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        900.2,
+        1080.2,
+        1079.8,
+        1259.8
+      ],
+      "height_mm": 6,
+      "color": "#e1e5e8",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "F-G7",
+      "part_id": "F01",
+      "role": "floor",
+      "center_xy_mm": [
+        1170,
+        1170
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        1080.2,
+        1080.2,
+        1259.8,
+        1259.8
+      ],
+      "height_mm": 6,
+      "color": "#eef0f2",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-1-1",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        180,
+        90
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        158.0,
+        81.0,
+        202.0,
+        99.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-1-2",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        360,
+        90
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        338.0,
+        81.0,
+        382.0,
+        99.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-1-3",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        540,
+        90
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        518.0,
+        81.0,
+        562.0,
+        99.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-1-4",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        720,
+        90
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        698.0,
+        81.0,
+        742.0,
+        99.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-1-5",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        900,
+        90
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        878.0,
+        81.0,
+        922.0,
+        99.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-1-6",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        1080,
+        90
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        1058.0,
+        81.0,
+        1102.0,
+        99.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-2-1",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        180,
+        270
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        158.0,
+        261.0,
+        202.0,
+        279.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-2-2",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        360,
+        270
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        338.0,
+        261.0,
+        382.0,
+        279.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-2-3",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        540,
+        270
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        518.0,
+        261.0,
+        562.0,
+        279.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-2-4",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        720,
+        270
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        698.0,
+        261.0,
+        742.0,
+        279.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-2-5",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        900,
+        270
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        878.0,
+        261.0,
+        922.0,
+        279.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-2-6",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        1080,
+        270
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        1058.0,
+        261.0,
+        1102.0,
+        279.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-3-1",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        180,
+        450
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        158.0,
+        441.0,
+        202.0,
+        459.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-3-2",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        360,
+        450
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        338.0,
+        441.0,
+        382.0,
+        459.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-3-3",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        540,
+        450
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        518.0,
+        441.0,
+        562.0,
+        459.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-3-4",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        720,
+        450
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        698.0,
+        441.0,
+        742.0,
+        459.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-3-5",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        900,
+        450
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        878.0,
+        441.0,
+        922.0,
+        459.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-3-6",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        1080,
+        450
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        1058.0,
+        441.0,
+        1102.0,
+        459.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-4-1",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        180,
+        630
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        158.0,
+        621.0,
+        202.0,
+        639.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-4-2",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        360,
+        630
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        338.0,
+        621.0,
+        382.0,
+        639.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-4-3",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        540,
+        630
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        518.0,
+        621.0,
+        562.0,
+        639.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-4-4",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        720,
+        630
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        698.0,
+        621.0,
+        742.0,
+        639.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-4-5",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        900,
+        630
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        878.0,
+        621.0,
+        922.0,
+        639.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-4-6",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        1080,
+        630
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        1058.0,
+        621.0,
+        1102.0,
+        639.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-5-1",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        180,
+        810
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        158.0,
+        801.0,
+        202.0,
+        819.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-5-2",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        360,
+        810
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        338.0,
+        801.0,
+        382.0,
+        819.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-5-3",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        540,
+        810
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        518.0,
+        801.0,
+        562.0,
+        819.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-5-4",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        720,
+        810
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        698.0,
+        801.0,
+        742.0,
+        819.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-5-5",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        900,
+        810
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        878.0,
+        801.0,
+        922.0,
+        819.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-5-6",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        1080,
+        810
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        1058.0,
+        801.0,
+        1102.0,
+        819.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-6-1",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        180,
+        990
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        158.0,
+        981.0,
+        202.0,
+        999.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-6-2",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        360,
+        990
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        338.0,
+        981.0,
+        382.0,
+        999.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-6-3",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        540,
+        990
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        518.0,
+        981.0,
+        562.0,
+        999.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-6-4",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        720,
+        990
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        698.0,
+        981.0,
+        742.0,
+        999.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-6-5",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        900,
+        990
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        878.0,
+        981.0,
+        922.0,
+        999.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-6-6",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        1080,
+        990
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        1058.0,
+        981.0,
+        1102.0,
+        999.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-7-1",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        180,
+        1170
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        158.0,
+        1161.0,
+        202.0,
+        1179.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-7-2",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        360,
+        1170
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        338.0,
+        1161.0,
+        382.0,
+        1179.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-7-3",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        540,
+        1170
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        518.0,
+        1161.0,
+        562.0,
+        1179.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-7-4",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        720,
+        1170
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        698.0,
+        1161.0,
+        742.0,
+        1179.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-7-5",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        900,
+        1170
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        878.0,
+        1161.0,
+        922.0,
+        1179.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-X-7-6",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        1080,
+        1170
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        1058.0,
+        1161.0,
+        1102.0,
+        1179.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-1-1",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        90,
+        180
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        81.0,
+        158.0,
+        99.0,
+        202.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-1-2",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        270,
+        180
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        261.0,
+        158.0,
+        279.0,
+        202.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-1-3",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        450,
+        180
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        441.0,
+        158.0,
+        459.0,
+        202.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-1-4",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        630,
+        180
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        621.0,
+        158.0,
+        639.0,
+        202.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-1-5",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        810,
+        180
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        801.0,
+        158.0,
+        819.0,
+        202.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-1-6",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        990,
+        180
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        981.0,
+        158.0,
+        999.0,
+        202.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-1-7",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        1170,
+        180
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        1161.0,
+        158.0,
+        1179.0,
+        202.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-2-1",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        90,
+        360
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        81.0,
+        338.0,
+        99.0,
+        382.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-2-2",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        270,
+        360
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        261.0,
+        338.0,
+        279.0,
+        382.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-2-3",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        450,
+        360
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        441.0,
+        338.0,
+        459.0,
+        382.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-2-4",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        630,
+        360
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        621.0,
+        338.0,
+        639.0,
+        382.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-2-5",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        810,
+        360
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        801.0,
+        338.0,
+        819.0,
+        382.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-2-6",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        990,
+        360
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        981.0,
+        338.0,
+        999.0,
+        382.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-2-7",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        1170,
+        360
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        1161.0,
+        338.0,
+        1179.0,
+        382.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-3-1",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        90,
+        540
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        81.0,
+        518.0,
+        99.0,
+        562.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-3-2",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        270,
+        540
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        261.0,
+        518.0,
+        279.0,
+        562.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-3-3",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        450,
+        540
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        441.0,
+        518.0,
+        459.0,
+        562.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-3-4",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        630,
+        540
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        621.0,
+        518.0,
+        639.0,
+        562.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-3-5",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        810,
+        540
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        801.0,
+        518.0,
+        819.0,
+        562.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-3-6",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        990,
+        540
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        981.0,
+        518.0,
+        999.0,
+        562.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-3-7",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        1170,
+        540
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        1161.0,
+        518.0,
+        1179.0,
+        562.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-4-1",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        90,
+        720
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        81.0,
+        698.0,
+        99.0,
+        742.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-4-2",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        270,
+        720
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        261.0,
+        698.0,
+        279.0,
+        742.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-4-3",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        450,
+        720
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        441.0,
+        698.0,
+        459.0,
+        742.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-4-4",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        630,
+        720
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        621.0,
+        698.0,
+        639.0,
+        742.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-4-5",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        810,
+        720
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        801.0,
+        698.0,
+        819.0,
+        742.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-4-6",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        990,
+        720
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        981.0,
+        698.0,
+        999.0,
+        742.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-4-7",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        1170,
+        720
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        1161.0,
+        698.0,
+        1179.0,
+        742.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-5-1",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        90,
+        900
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        81.0,
+        878.0,
+        99.0,
+        922.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-5-2",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        270,
+        900
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        261.0,
+        878.0,
+        279.0,
+        922.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-5-3",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        450,
+        900
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        441.0,
+        878.0,
+        459.0,
+        922.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-5-4",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        630,
+        900
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        621.0,
+        878.0,
+        639.0,
+        922.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-5-5",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        810,
+        900
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        801.0,
+        878.0,
+        819.0,
+        922.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-5-6",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        990,
+        900
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        981.0,
+        878.0,
+        999.0,
+        922.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-5-7",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        1170,
+        900
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        1161.0,
+        878.0,
+        1179.0,
+        922.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-6-1",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        90,
+        1080
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        81.0,
+        1058.0,
+        99.0,
+        1102.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-6-2",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        270,
+        1080
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        261.0,
+        1058.0,
+        279.0,
+        1102.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-6-3",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        450,
+        1080
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        441.0,
+        1058.0,
+        459.0,
+        1102.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-6-4",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        630,
+        1080
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        621.0,
+        1058.0,
+        639.0,
+        1102.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-6-5",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        810,
+        1080
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        801.0,
+        1058.0,
+        819.0,
+        1102.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-6-6",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        990,
+        1080
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        981.0,
+        1058.0,
+        999.0,
+        1102.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "J-Y-6-7",
+      "part_id": "J01",
+      "role": "bridge",
+      "center_xy_mm": [
+        1170,
+        1080
+      ],
+      "bottom_z_mm": 0,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        1161.0,
+        1058.0,
+        1179.0,
+        1102.0
+      ],
+      "height_mm": 2,
+      "color": "#6f7d87",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "LH1",
+      "part_id": "W01",
+      "role": "main_wall",
+      "center_xy_mm": [
+        110,
+        360
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        20.0,
+        340.0,
+        200.0,
+        380.0
+      ],
+      "height_mm": 60,
+      "color": "#4e5a67",
+      "variants": [
+        "A"
+      ]
+    },
+    {
+      "id": "RH1",
+      "part_id": "W01",
+      "role": "main_wall",
+      "center_xy_mm": [
+        1150,
+        900
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 180,
+      "bounds_xy_mm": [
+        1060.0,
+        880.0,
+        1240.0,
+        920.0
+      ],
+      "height_mm": 60,
+      "color": "#4e5a67",
+      "variants": [
+        "A"
+      ]
+    },
+    {
+      "id": "LH2",
+      "part_id": "W02",
+      "role": "main_wall",
+      "center_xy_mm": [
+        290,
+        360
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        200.0,
+        340.0,
+        380.0,
+        380.0
+      ],
+      "height_mm": 80,
+      "color": "#4e5a67",
+      "variants": [
+        "A"
+      ]
+    },
+    {
+      "id": "RH2",
+      "part_id": "W02",
+      "role": "main_wall",
+      "center_xy_mm": [
+        970,
+        900
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 180,
+      "bounds_xy_mm": [
+        880.0,
+        880.0,
+        1060.0,
+        920.0
+      ],
+      "height_mm": 80,
+      "color": "#4e5a67",
+      "variants": [
+        "A"
+      ]
+    },
+    {
+      "id": "LH3",
+      "part_id": "W03",
+      "role": "main_wall",
+      "center_xy_mm": [
+        470,
+        360
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        380.0,
+        340.0,
+        560.0,
+        380.0
+      ],
+      "height_mm": 100,
+      "color": "#4e5a67",
+      "variants": [
+        "A"
+      ]
+    },
+    {
+      "id": "RH3",
+      "part_id": "W03",
+      "role": "main_wall",
+      "center_xy_mm": [
+        790,
+        900
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 180,
+      "bounds_xy_mm": [
+        700.0,
+        880.0,
+        880.0,
+        920.0
+      ],
+      "height_mm": 100,
+      "color": "#4e5a67",
+      "variants": [
+        "A"
+      ]
+    },
+    {
+      "id": "LH4",
+      "part_id": "W02",
+      "role": "main_wall",
+      "center_xy_mm": [
+        650,
+        360
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        560.0,
+        340.0,
+        740.0,
+        380.0
+      ],
+      "height_mm": 80,
+      "color": "#4e5a67",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "RH4",
+      "part_id": "W02",
+      "role": "main_wall",
+      "center_xy_mm": [
+        610,
+        900
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 180,
+      "bounds_xy_mm": [
+        520.0,
+        880.0,
+        700.0,
+        920.0
+      ],
+      "height_mm": 80,
+      "color": "#4e5a67",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "LS",
+      "part_id": "W04",
+      "role": "main_wall",
+      "center_xy_mm": [
+        520,
+        440
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        500.0,
+        380.0,
+        540.0,
+        500.0
+      ],
+      "height_mm": 80,
+      "color": "#4e5a67",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "RS",
+      "part_id": "W04",
+      "role": "main_wall",
+      "center_xy_mm": [
+        740,
+        820
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 270,
+      "bounds_xy_mm": [
+        720.0,
+        760.0,
+        760.0,
+        880.0
+      ],
+      "height_mm": 80,
+      "color": "#4e5a67",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "E-S1",
+      "part_id": "E01",
+      "role": "perimeter",
+      "center_xy_mm": [
+        90,
+        10
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        0.0,
+        0.0,
+        180.0,
+        20.0
+      ],
+      "height_mm": 35,
+      "color": "#76828d",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "E-S2",
+      "part_id": "E01",
+      "role": "perimeter",
+      "center_xy_mm": [
+        270,
+        10
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        180.0,
+        0.0,
+        360.0,
+        20.0
+      ],
+      "height_mm": 35,
+      "color": "#76828d",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "E-S3",
+      "part_id": "E01",
+      "role": "perimeter",
+      "center_xy_mm": [
+        450,
+        10
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        360.0,
+        0.0,
+        540.0,
+        20.0
+      ],
+      "height_mm": 35,
+      "color": "#76828d",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "E-S4",
+      "part_id": "E01",
+      "role": "perimeter",
+      "center_xy_mm": [
+        630,
+        10
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        540.0,
+        0.0,
+        720.0,
+        20.0
+      ],
+      "height_mm": 35,
+      "color": "#76828d",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "E-S5",
+      "part_id": "E01",
+      "role": "perimeter",
+      "center_xy_mm": [
+        810,
+        10
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        720.0,
+        0.0,
+        900.0,
+        20.0
+      ],
+      "height_mm": 35,
+      "color": "#76828d",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "E-S6",
+      "part_id": "E01",
+      "role": "perimeter",
+      "center_xy_mm": [
+        990,
+        10
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        900.0,
+        0.0,
+        1080.0,
+        20.0
+      ],
+      "height_mm": 35,
+      "color": "#76828d",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "E-S7",
+      "part_id": "E01",
+      "role": "perimeter",
+      "center_xy_mm": [
+        1170,
+        10
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        1080.0,
+        0.0,
+        1260.0,
+        20.0
+      ],
+      "height_mm": 35,
+      "color": "#76828d",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "E-N1",
+      "part_id": "E01",
+      "role": "perimeter",
+      "center_xy_mm": [
+        90,
+        1250
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        0.0,
+        1240.0,
+        180.0,
+        1260.0
+      ],
+      "height_mm": 35,
+      "color": "#76828d",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "E-N2",
+      "part_id": "E01",
+      "role": "perimeter",
+      "center_xy_mm": [
+        270,
+        1250
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        180.0,
+        1240.0,
+        360.0,
+        1260.0
+      ],
+      "height_mm": 35,
+      "color": "#76828d",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "E-N3",
+      "part_id": "E01",
+      "role": "perimeter",
+      "center_xy_mm": [
+        450,
+        1250
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        360.0,
+        1240.0,
+        540.0,
+        1260.0
+      ],
+      "height_mm": 35,
+      "color": "#76828d",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "E-N4",
+      "part_id": "E01",
+      "role": "perimeter",
+      "center_xy_mm": [
+        630,
+        1250
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        540.0,
+        1240.0,
+        720.0,
+        1260.0
+      ],
+      "height_mm": 35,
+      "color": "#76828d",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "E-N5",
+      "part_id": "E01",
+      "role": "perimeter",
+      "center_xy_mm": [
+        810,
+        1250
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        720.0,
+        1240.0,
+        900.0,
+        1260.0
+      ],
+      "height_mm": 35,
+      "color": "#76828d",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "E-N6",
+      "part_id": "E01",
+      "role": "perimeter",
+      "center_xy_mm": [
+        990,
+        1250
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        900.0,
+        1240.0,
+        1080.0,
+        1260.0
+      ],
+      "height_mm": 35,
+      "color": "#76828d",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "E-N7",
+      "part_id": "E01",
+      "role": "perimeter",
+      "center_xy_mm": [
+        1170,
+        1250
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        1080.0,
+        1240.0,
+        1260.0,
+        1260.0
+      ],
+      "height_mm": 35,
+      "color": "#76828d",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "E-W1",
+      "part_id": "E01",
+      "role": "perimeter",
+      "center_xy_mm": [
+        10,
+        110
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        -0.0,
+        20.0,
+        20.0,
+        200.0
+      ],
+      "height_mm": 35,
+      "color": "#76828d",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "E-W2",
+      "part_id": "E01",
+      "role": "perimeter",
+      "center_xy_mm": [
+        10,
+        290
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        -0.0,
+        200.0,
+        20.0,
+        380.0
+      ],
+      "height_mm": 35,
+      "color": "#76828d",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "E-W3",
+      "part_id": "E01",
+      "role": "perimeter",
+      "center_xy_mm": [
+        10,
+        470
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        -0.0,
+        380.0,
+        20.0,
+        560.0
+      ],
+      "height_mm": 35,
+      "color": "#76828d",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "E-W4",
+      "part_id": "E01",
+      "role": "perimeter",
+      "center_xy_mm": [
+        10,
+        650
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        -0.0,
+        560.0,
+        20.0,
+        740.0
+      ],
+      "height_mm": 35,
+      "color": "#76828d",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "E-W5",
+      "part_id": "E01",
+      "role": "perimeter",
+      "center_xy_mm": [
+        10,
+        830
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        -0.0,
+        740.0,
+        20.0,
+        920.0
+      ],
+      "height_mm": 35,
+      "color": "#76828d",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "E-W6",
+      "part_id": "E01",
+      "role": "perimeter",
+      "center_xy_mm": [
+        10,
+        1010
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        -0.0,
+        920.0,
+        20.0,
+        1100.0
+      ],
+      "height_mm": 35,
+      "color": "#76828d",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "E-W7",
+      "part_id": "E02",
+      "role": "perimeter",
+      "center_xy_mm": [
+        10,
+        1170
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        -0.0,
+        1100.0,
+        20.0,
+        1240.0
+      ],
+      "height_mm": 35,
+      "color": "#76828d",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "E-E1",
+      "part_id": "E01",
+      "role": "perimeter",
+      "center_xy_mm": [
+        1250,
+        110
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        1240.0,
+        20.0,
+        1260.0,
+        200.0
+      ],
+      "height_mm": 35,
+      "color": "#76828d",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "E-E2",
+      "part_id": "E01",
+      "role": "perimeter",
+      "center_xy_mm": [
+        1250,
+        290
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        1240.0,
+        200.0,
+        1260.0,
+        380.0
+      ],
+      "height_mm": 35,
+      "color": "#76828d",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "E-E3",
+      "part_id": "E01",
+      "role": "perimeter",
+      "center_xy_mm": [
+        1250,
+        470
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        1240.0,
+        380.0,
+        1260.0,
+        560.0
+      ],
+      "height_mm": 35,
+      "color": "#76828d",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "E-E4",
+      "part_id": "E01",
+      "role": "perimeter",
+      "center_xy_mm": [
+        1250,
+        650
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        1240.0,
+        560.0,
+        1260.0,
+        740.0
+      ],
+      "height_mm": 35,
+      "color": "#76828d",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "E-E5",
+      "part_id": "E01",
+      "role": "perimeter",
+      "center_xy_mm": [
+        1250,
+        830
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        1240.0,
+        740.0,
+        1260.0,
+        920.0
+      ],
+      "height_mm": 35,
+      "color": "#76828d",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "E-E6",
+      "part_id": "E01",
+      "role": "perimeter",
+      "center_xy_mm": [
+        1250,
+        1010
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        1240.0,
+        920.0,
+        1260.0,
+        1100.0
+      ],
+      "height_mm": 35,
+      "color": "#76828d",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "E-E7",
+      "part_id": "E02",
+      "role": "perimeter",
+      "center_xy_mm": [
+        1250,
+        1170
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 90,
+      "bounds_xy_mm": [
+        1240.0,
+        1100.0,
+        1260.0,
+        1240.0
+      ],
+      "height_mm": 35,
+      "color": "#76828d",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "T-RED",
+      "part_id": "T01",
+      "role": "target",
+      "center_xy_mm": [
+        260,
+        650
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        215.0,
+        605.0,
+        305.0,
+        695.0
+      ],
+      "height_mm": 160,
+      "color": "#ed4c55",
+      "variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "T-BLUE",
+      "part_id": "T01",
+      "role": "target",
+      "center_xy_mm": [
+        1000,
+        610
+      ],
+      "bottom_z_mm": 6,
+      "rotation_z_deg": 0,
+      "bounds_xy_mm": [
+        955.0,
+        565.0,
+        1045.0,
+        655.0
+      ],
+      "height_mm": 160,
+      "color": "#3989f6",
+      "variants": [
+        "A",
+        "B"
+      ]
+    }
+  ],
+  "variants": {
+    "A": {
+      "title": "A 原图完整墙版",
+      "include_ids": [
+        "F-A1",
+        "F-A2",
+        "F-A3",
+        "F-A4",
+        "F-A5",
+        "F-A6",
+        "F-A7",
+        "F-B1",
+        "F-B2",
+        "F-B3",
+        "F-B4",
+        "F-B5",
+        "F-B6",
+        "F-B7",
+        "F-C1",
+        "F-C2",
+        "F-C3",
+        "F-C4",
+        "F-C5",
+        "F-C6",
+        "F-C7",
+        "F-D1",
+        "F-D2",
+        "F-D3",
+        "F-D4",
+        "F-D5",
+        "F-D6",
+        "F-D7",
+        "F-E1",
+        "F-E2",
+        "F-E3",
+        "F-E4",
+        "F-E5",
+        "F-E6",
+        "F-E7",
+        "F-F1",
+        "F-F2",
+        "F-F3",
+        "F-F4",
+        "F-F5",
+        "F-F6",
+        "F-F7",
+        "F-G1",
+        "F-G2",
+        "F-G3",
+        "F-G4",
+        "F-G5",
+        "F-G6",
+        "F-G7",
+        "J-X-1-1",
+        "J-X-1-2",
+        "J-X-1-3",
+        "J-X-1-4",
+        "J-X-1-5",
+        "J-X-1-6",
+        "J-X-2-1",
+        "J-X-2-2",
+        "J-X-2-3",
+        "J-X-2-4",
+        "J-X-2-5",
+        "J-X-2-6",
+        "J-X-3-1",
+        "J-X-3-2",
+        "J-X-3-3",
+        "J-X-3-4",
+        "J-X-3-5",
+        "J-X-3-6",
+        "J-X-4-1",
+        "J-X-4-2",
+        "J-X-4-3",
+        "J-X-4-4",
+        "J-X-4-5",
+        "J-X-4-6",
+        "J-X-5-1",
+        "J-X-5-2",
+        "J-X-5-3",
+        "J-X-5-4",
+        "J-X-5-5",
+        "J-X-5-6",
+        "J-X-6-1",
+        "J-X-6-2",
+        "J-X-6-3",
+        "J-X-6-4",
+        "J-X-6-5",
+        "J-X-6-6",
+        "J-X-7-1",
+        "J-X-7-2",
+        "J-X-7-3",
+        "J-X-7-4",
+        "J-X-7-5",
+        "J-X-7-6",
+        "J-Y-1-1",
+        "J-Y-1-2",
+        "J-Y-1-3",
+        "J-Y-1-4",
+        "J-Y-1-5",
+        "J-Y-1-6",
+        "J-Y-1-7",
+        "J-Y-2-1",
+        "J-Y-2-2",
+        "J-Y-2-3",
+        "J-Y-2-4",
+        "J-Y-2-5",
+        "J-Y-2-6",
+        "J-Y-2-7",
+        "J-Y-3-1",
+        "J-Y-3-2",
+        "J-Y-3-3",
+        "J-Y-3-4",
+        "J-Y-3-5",
+        "J-Y-3-6",
+        "J-Y-3-7",
+        "J-Y-4-1",
+        "J-Y-4-2",
+        "J-Y-4-3",
+        "J-Y-4-4",
+        "J-Y-4-5",
+        "J-Y-4-6",
+        "J-Y-4-7",
+        "J-Y-5-1",
+        "J-Y-5-2",
+        "J-Y-5-3",
+        "J-Y-5-4",
+        "J-Y-5-5",
+        "J-Y-5-6",
+        "J-Y-5-7",
+        "J-Y-6-1",
+        "J-Y-6-2",
+        "J-Y-6-3",
+        "J-Y-6-4",
+        "J-Y-6-5",
+        "J-Y-6-6",
+        "J-Y-6-7",
+        "LH1",
+        "RH1",
+        "LH2",
+        "RH2",
+        "LH3",
+        "RH3",
+        "LH4",
+        "RH4",
+        "LS",
+        "RS",
+        "E-S1",
+        "E-S2",
+        "E-S3",
+        "E-S4",
+        "E-S5",
+        "E-S6",
+        "E-S7",
+        "E-N1",
+        "E-N2",
+        "E-N3",
+        "E-N4",
+        "E-N5",
+        "E-N6",
+        "E-N7",
+        "E-W1",
+        "E-W2",
+        "E-W3",
+        "E-W4",
+        "E-W5",
+        "E-W6",
+        "E-W7",
+        "E-E1",
+        "E-E2",
+        "E-E3",
+        "E-E4",
+        "E-E5",
+        "E-E6",
+        "E-E7",
+        "T-RED",
+        "T-BLUE"
+      ],
+      "removed_wall_ids": [],
+      "installed_instance_count": 173,
+      "assembly_step": "assembly/arena_A_reference_only.step"
+    },
+    "B": {
+      "title": "B 低转向版",
+      "include_ids": [
+        "F-A1",
+        "F-A2",
+        "F-A3",
+        "F-A4",
+        "F-A5",
+        "F-A6",
+        "F-A7",
+        "F-B1",
+        "F-B2",
+        "F-B3",
+        "F-B4",
+        "F-B5",
+        "F-B6",
+        "F-B7",
+        "F-C1",
+        "F-C2",
+        "F-C3",
+        "F-C4",
+        "F-C5",
+        "F-C6",
+        "F-C7",
+        "F-D1",
+        "F-D2",
+        "F-D3",
+        "F-D4",
+        "F-D5",
+        "F-D6",
+        "F-D7",
+        "F-E1",
+        "F-E2",
+        "F-E3",
+        "F-E4",
+        "F-E5",
+        "F-E6",
+        "F-E7",
+        "F-F1",
+        "F-F2",
+        "F-F3",
+        "F-F4",
+        "F-F5",
+        "F-F6",
+        "F-F7",
+        "F-G1",
+        "F-G2",
+        "F-G3",
+        "F-G4",
+        "F-G5",
+        "F-G6",
+        "F-G7",
+        "J-X-1-1",
+        "J-X-1-2",
+        "J-X-1-3",
+        "J-X-1-4",
+        "J-X-1-5",
+        "J-X-1-6",
+        "J-X-2-1",
+        "J-X-2-2",
+        "J-X-2-3",
+        "J-X-2-4",
+        "J-X-2-5",
+        "J-X-2-6",
+        "J-X-3-1",
+        "J-X-3-2",
+        "J-X-3-3",
+        "J-X-3-4",
+        "J-X-3-5",
+        "J-X-3-6",
+        "J-X-4-1",
+        "J-X-4-2",
+        "J-X-4-3",
+        "J-X-4-4",
+        "J-X-4-5",
+        "J-X-4-6",
+        "J-X-5-1",
+        "J-X-5-2",
+        "J-X-5-3",
+        "J-X-5-4",
+        "J-X-5-5",
+        "J-X-5-6",
+        "J-X-6-1",
+        "J-X-6-2",
+        "J-X-6-3",
+        "J-X-6-4",
+        "J-X-6-5",
+        "J-X-6-6",
+        "J-X-7-1",
+        "J-X-7-2",
+        "J-X-7-3",
+        "J-X-7-4",
+        "J-X-7-5",
+        "J-X-7-6",
+        "J-Y-1-1",
+        "J-Y-1-2",
+        "J-Y-1-3",
+        "J-Y-1-4",
+        "J-Y-1-5",
+        "J-Y-1-6",
+        "J-Y-1-7",
+        "J-Y-2-1",
+        "J-Y-2-2",
+        "J-Y-2-3",
+        "J-Y-2-4",
+        "J-Y-2-5",
+        "J-Y-2-6",
+        "J-Y-2-7",
+        "J-Y-3-1",
+        "J-Y-3-2",
+        "J-Y-3-3",
+        "J-Y-3-4",
+        "J-Y-3-5",
+        "J-Y-3-6",
+        "J-Y-3-7",
+        "J-Y-4-1",
+        "J-Y-4-2",
+        "J-Y-4-3",
+        "J-Y-4-4",
+        "J-Y-4-5",
+        "J-Y-4-6",
+        "J-Y-4-7",
+        "J-Y-5-1",
+        "J-Y-5-2",
+        "J-Y-5-3",
+        "J-Y-5-4",
+        "J-Y-5-5",
+        "J-Y-5-6",
+        "J-Y-5-7",
+        "J-Y-6-1",
+        "J-Y-6-2",
+        "J-Y-6-3",
+        "J-Y-6-4",
+        "J-Y-6-5",
+        "J-Y-6-6",
+        "J-Y-6-7",
+        "LH4",
+        "RH4",
+        "LS",
+        "RS",
+        "E-S1",
+        "E-S2",
+        "E-S3",
+        "E-S4",
+        "E-S5",
+        "E-S6",
+        "E-S7",
+        "E-N1",
+        "E-N2",
+        "E-N3",
+        "E-N4",
+        "E-N5",
+        "E-N6",
+        "E-N7",
+        "E-W1",
+        "E-W2",
+        "E-W3",
+        "E-W4",
+        "E-W5",
+        "E-W6",
+        "E-W7",
+        "E-E1",
+        "E-E2",
+        "E-E3",
+        "E-E4",
+        "E-E5",
+        "E-E6",
+        "E-E7",
+        "T-RED",
+        "T-BLUE"
+      ],
+      "removed_wall_ids": [
+        "LH1",
+        "LH2",
+        "LH3",
+        "RH1",
+        "RH2",
+        "RH3"
+      ],
+      "installed_instance_count": 167,
+      "assembly_step": "assembly/arena_B_reference_only.step"
+    }
+  },
+  "gameplay": {
+    "status": "spawn positions and paths are design assumptions to validate by steering trials",
+    "spawns": [
+      {
+        "id": "S-RED",
+        "team": "red",
+        "center_xy_mm": [
+          260,
+          180
+        ],
+        "heading_deg": 0,
+        "heading_label": "+X",
+        "heading_by_variant": {
+          "A": 0,
+          "B": 90
+        }
+      },
+      {
+        "id": "S-BLUE",
+        "team": "blue",
+        "center_xy_mm": [
+          1000,
+          1080
+        ],
+        "heading_deg": 180,
+        "heading_label": "-X",
+        "heading_by_variant": {
+          "A": 180,
+          "B": 270
+        }
+      }
+    ],
+    "targets": [
+      {
+        "instance_id": "T-RED",
+        "attacker": "red",
+        "defender": "blue",
+        "center_xy_mm": [
+          260,
+          650
+        ]
+      },
+      {
+        "instance_id": "T-BLUE",
+        "attacker": "blue",
+        "defender": "red",
+        "center_xy_mm": [
+          1000,
+          610
+        ]
+      }
+    ],
+    "clearances": [
+      {
+        "id": "outer_start_lane",
+        "width_mm": 320,
+        "basis": "inner perimeter y20 to lower wall y340; symmetric upper lane"
+      },
+      {
+        "id": "side_target_bay",
+        "width_mm": 480,
+        "basis": "inner perimeter x20 to left stem x500; mirrored right"
+      },
+      {
+        "id": "B_new_gate",
+        "width_mm": 480,
+        "basis": "x20 inner edge to x500 stem after removing LH1/LH2/LH3; right mirrored"
+      },
+      {
+        "id": "central_stem_tip_diagonal",
+        "width_mm": 316.228,
+        "basis": "static diagonal distance between left stem envelope corner (540,500) and right stem corner (720,760); steering and gait remain unverified"
+      },
+      {
+        "id": "target_fall_reservation",
+        "radius_mm": 230,
+        "basis": "conservative reserved circle around each target; not a measured fall envelope"
+      }
+    ],
+    "routes": []
+  }
+}

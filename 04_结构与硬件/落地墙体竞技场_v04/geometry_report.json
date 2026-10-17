@@ -1,0 +1,113 @@
+{
+  "version": "0.4",
+  "units": "mm",
+  "physical_tested": false,
+  "scope": "Digital solid and mesh checks only; no slicer or printing validation.",
+  "join_check": {
+    "coupon_gap_mm": 0.4000000000000057,
+    "connector_left_intersection_mm3": 0.0,
+    "connector_right_intersection_mm3": 0.0,
+    "floor_top_mm": 6,
+    "pocket_ceiling_mm": 2.4,
+    "connector_top_mm": 2,
+    "physical_fit_tested": false
+  },
+  "parts": {
+    "01_wall_160x40x60": {
+      "dimensions_mm": [
+        160.0,
+        40.0,
+        60.0
+      ],
+      "cad_valid": true,
+      "cad_solids": 1,
+      "mesh_watertight": true,
+      "mesh_winding_consistent": true,
+      "connected_meshes": 1,
+      "cad_volume_mm3": 383175.929,
+      "mesh_volume_mm3": 383173.117,
+      "solid_mass_estimate_g_at_1p24": 475.14,
+      "fits_200_xy_with_8mm_brim_and_180_z": true
+    },
+    "02_ground_target_80x160": {
+      "dimensions_mm": [
+        80.0,
+        80.0,
+        160.0
+      ],
+      "cad_valid": true,
+      "cad_solids": 1,
+      "mesh_watertight": true,
+      "mesh_winding_consistent": true,
+      "connected_meshes": 1,
+      "cad_volume_mm3": 37641.206,
+      "mesh_volume_mm3": 37606.122,
+      "solid_mass_estimate_g_at_1p24": 46.68,
+      "fits_200_xy_with_8mm_brim_and_180_z": true
+    },
+    "03_floor_tile_179p6": {
+      "dimensions_mm": [
+        179.6,
+        179.6,
+        6.0
+      ],
+      "cad_valid": true,
+      "cad_solids": 1,
+      "mesh_watertight": true,
+      "mesh_winding_consistent": true,
+      "connected_meshes": 1,
+      "cad_volume_mm3": 190118.784,
+      "mesh_volume_mm3": 190118.796,
+      "solid_mass_estimate_g_at_1p24": 235.75,
+      "fits_200_xy_with_8mm_brim_and_180_z": true
+    },
+    "04_bridge_connector": {
+      "dimensions_mm": [
+        44.0,
+        18.0,
+        2.0
+      ],
+      "cad_valid": true,
+      "cad_solids": 1,
+      "mesh_watertight": true,
+      "mesh_winding_consistent": true,
+      "connected_meshes": 1,
+      "cad_volume_mm3": 1344.0,
+      "mesh_volume_mm3": 1344.0,
+      "solid_mass_estimate_g_at_1p24": 1.67,
+      "fits_200_xy_with_8mm_brim_and_180_z": true
+    },
+    "05_seam_coupon_left": {
+      "dimensions_mm": [
+        39.8,
+        40.0,
+        6.0
+      ],
+      "cad_valid": true,
+      "cad_solids": 1,
+      "mesh_watertight": true,
+      "mesh_winding_consistent": true,
+      "connected_meshes": 1,
+      "cad_volume_mm3": 8697.456,
+      "mesh_volume_mm3": 8697.456,
+      "solid_mass_estimate_g_at_1p24": 10.78,
+      "fits_200_xy_with_8mm_brim_and_180_z": true
+    },
+    "06_seam_coupon_right": {
+      "dimensions_mm": [
+        39.8,
+        40.0,
+        6.0
+      ],
+      "cad_valid": true,
+      "cad_solids": 1,
+      "mesh_watertight": true,
+      "mesh_winding_consistent": true,
+      "connected_meshes": 1,
+      "cad_volume_mm3": 8697.456,
+      "mesh_volume_mm3": 8697.456,
+      "solid_mass_estimate_g_at_1p24": 10.78,
+      "fits_200_xy_with_8mm_brim_and_180_z": true
+    }
+  }
+}

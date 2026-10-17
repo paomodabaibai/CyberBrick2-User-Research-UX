@@ -1,0 +1,64 @@
+{
+  "files": [
+    {
+      "path": "build_handcraft.py",
+      "bytes": 24161,
+      "sha256": "ccf9b47d9dbdaeec61c86fb7afefd4135ff4216b31e0f395ad24488ff875b597"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10588,
+      "sha256": "610eec43546d8ba81e58fef4dd2115b3626f7050eac61db0002e5d00aa22daf4"
+    },
+    {
+      "path": "validate_delivery.py",
+      "bytes": 2793,
+      "sha256": "fba12a0e95d46a8b298f2690f7d06d72585889b307f938d690f989402747484c"
+    },
+    {
+      "path": "制作与打印清单.json",
+      "bytes": 7694,
+      "sha256": "5aee999da77dbf8d505565d31196d3f8e4892a0d59f1d0012865e8d2796ed0ce"
+    },
+    {
+      "path": "文件核验.json",
+      "bytes": 787,
+      "sha256": "0349f9cddc50dd96c3afde9179b0d82577744add3e4856abe43fa2dcefa895e9"
+    },
+    {
+      "path": "output/pdf/01_材料尺寸与手搓说明_A4.pdf",
+      "bytes": 372691,
+      "sha256": "7dc42bae40b233c345c5f4c8af0b732ec4328ad0da9b40811e0e24535919fa93"
+    },
+    {
+      "path": "output/pdf/02_贴图与模板_A4_实际尺寸.pdf",
+      "bytes": 123770,
+      "sha256": "f60c76526723fa0c52c33cc7395f3a46404e8902f5469a79c006621b60a043c0"
+    },
+    {
+      "path": "output/pdf/03_贴图与模板_A3_实际尺寸.pdf",
+      "bytes": 220032,
+      "sha256": "2760cfded708767b382f66055b1836173ca750f747ba80f2863c8712305d090c"
+    },
+    {
+      "path": "output/preview/墙面贴图预览.png",
+      "bytes": 48483,
+      "sha256": "a39dfeb55869afe09d1a4494ff540e86bced28b42d8042aa6e93c8dc54511c9c"
+    },
+    {
+      "path": "output/preview/布局预览.png",
+      "bytes": 108531,
+      "sha256": "aa0a9cd0c6a34687d8fa0eae94b0ce3ac0dce584f04f8ed6d17523f1792f09b3"
+    },
+    {
+      "path": "output/preview/球靶做法预览.png",
+      "bytes": 152794,
+      "sha256": "18c00ee361961c7d48b43243885e90d44c1747bead766c1511554bd3ef0b3c41"
+    },
+    {
+      "path": "output/preview/裁切单预览.png",
+      "bytes": 118520,
+      "sha256": "9e6f3de1a4fc869e4668421045183fc1e3e71dacb73298a3ecb03c88705dd60a"
+    }
+  ]
+}

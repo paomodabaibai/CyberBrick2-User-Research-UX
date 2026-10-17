@@ -1,0 +1,38 @@
+{
+  "version": "0.6-concept",
+  "units": "mm",
+  "status": "Construction proposal only; no new printable CAD generated",
+  "physical_tested": false,
+  "confirmed_by_user": ["Suspended small targets are allowed", "Visible hit state persists until manual reset"],
+  "coordinate_system": {"origin": "Ready ball XY projection on walking surface", "positive_y": "Rear support direction", "z_zero": "Walking surface, excluding the 6 mm floor thickness"},
+  "example_only": {
+    "ball_diameter": 70,
+    "ready_ball_center": [0, 0, 135],
+    "magnetic_contact_approx": [0, 0, 170],
+    "guide_exit": [0, 40, 180],
+    "cord_effective_stop_length": 90,
+    "released_ball_center": [0, 40, 55],
+    "released_ball_bottom": 20,
+    "drop": 80,
+    "cord_ready_straight_span": 41.231,
+    "cord_slack_above_arm": 48.769,
+    "rear_post_center_xy": [0, 150],
+    "post_height": 230,
+    "post_section": [16, 20],
+    "arm_width": 20,
+    "arm_thickness": 10,
+    "arm_bottom": 180,
+    "thin_cap_and_spacer_thickness_included": false
+  },
+  "height_constraints": {
+    "minimum_example_floor_gap": 20,
+    "floor_gap_equation": "ready_center_height - drop - radius",
+    "released_center_equation": "guide_height - effective_cord_length - radius",
+    "arm_clearance": "Set from measured highest dynamic attack envelope plus a chosen margin; 180 is not a verified safe height"
+  },
+  "arena_placement": {
+    "red": {"ready_ball_xy": [260, 650], "post_xy": [260, 800], "guide_and_released_ball_xy": [260, 690], "attacker": "red"},
+    "blue": {"ready_ball_xy": [1000, 610], "post_xy": [1000, 460], "guide_and_released_ball_xy": [1000, 570], "attacker": "blue"}
+  },
+  "fabrication_boundary": "Old v05 cylinder target STL/STEP do not represent this target. Magnet force, real heights, cap attachment, guide friction and support mounting remain to be tested."
+}

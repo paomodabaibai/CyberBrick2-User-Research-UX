@@ -1,0 +1,172 @@
+{
+  "root": {
+    "id": "146:9",
+    "name": "竞技场手工制作 · 尺寸图与3D · 2026.10.17",
+    "width": 4048,
+    "height": 10732
+  },
+  "descendants": 4661,
+  "counts": {
+    "FRAME": 355,
+    "TEXT": 737,
+    "RECTANGLE": 121,
+    "VECTOR": 3421,
+    "ELLIPSE": 27
+  },
+  "imageNodes": [],
+  "fonts": [
+    "Noto Sans SC / Bold",
+    "Noto Sans SC / Regular"
+  ],
+  "textOverflows": [],
+  "rowBounds": [
+    {
+      "id": "146:10",
+      "name": "图册行 1",
+      "x": 64,
+      "y": 64,
+      "width": 3920,
+      "height": 1440
+    },
+    {
+      "id": "146:13",
+      "name": "图册行 2",
+      "x": 64,
+      "y": 1568,
+      "width": 3920,
+      "height": 1440
+    },
+    {
+      "id": "146:16",
+      "name": "图册行 3",
+      "x": 64,
+      "y": 3072,
+      "width": 3920,
+      "height": 1440
+    },
+    {
+      "id": "146:19",
+      "name": "图册行 4",
+      "x": 64,
+      "y": 4576,
+      "width": 3920,
+      "height": 1440
+    },
+    {
+      "id": "146:22",
+      "name": "09 A4贴图 11页 · 查看比例2px每毫米",
+      "x": 64,
+      "y": 6080,
+      "width": 3920,
+      "height": 1510
+    },
+    {
+      "id": "146:23",
+      "name": "10 A3贴图 6页 · 查看比例2px每毫米",
+      "x": 64,
+      "y": 7654,
+      "width": 3920,
+      "height": 1510
+    },
+    {
+      "id": "157:9",
+      "name": "补充图板 11–12 / 精确坐标与球靶孔位",
+      "x": 64,
+      "y": 9228,
+      "width": 3920,
+      "height": 1440
+    }
+  ],
+  "visualReview": "PASS: all 12 boards inspected; note overflow repaired; print notice widened; F5 label cleared; sling loops pass top and bottom.",
+  "lastMutation": {
+    "createdNodeIds": [
+      "158:9",
+      "158:10"
+    ],
+    "removedNodeIds": [
+      "157:301",
+      "157:302"
+    ],
+    "mutatedNodeIds": [
+      "157:282",
+      "157:283"
+    ],
+    "reason": "Both sling loops now pass the same top and bottom; knot clear of caption."
+  },
+  "physicalTesting": false,
+  "figmaFileKey": "e3jDhP0HbtQao537wypZgz",
+  "boards": [
+    {
+      "number": "01",
+      "nodeId": "146:11",
+      "title": "完整墙布局A",
+      "url": "https://www.figma.com/design/e3jDhP0HbtQao537wypZgz/2026-CyberBrick-2.0?node-id=146-11"
+    },
+    {
+      "number": "02",
+      "nodeId": "146:12",
+      "title": "开放通道B",
+      "url": "https://www.figma.com/design/e3jDhP0HbtQao537wypZgz/2026-CyberBrick-2.0?node-id=146-12"
+    },
+    {
+      "number": "03",
+      "nodeId": "146:14",
+      "title": "板材裁切",
+      "url": "https://www.figma.com/design/e3jDhP0HbtQao537wypZgz/2026-CyberBrick-2.0?node-id=146-14"
+    },
+    {
+      "number": "04",
+      "nodeId": "146:15",
+      "title": "墙体装配",
+      "url": "https://www.figma.com/design/e3jDhP0HbtQao537wypZgz/2026-CyberBrick-2.0?node-id=146-15"
+    },
+    {
+      "number": "05",
+      "nodeId": "146:17",
+      "title": "球靶状态与高度",
+      "url": "https://www.figma.com/design/e3jDhP0HbtQao537wypZgz/2026-CyberBrick-2.0?node-id=146-17"
+    },
+    {
+      "number": "06",
+      "nodeId": "146:18",
+      "title": "采购与打印",
+      "url": "https://www.figma.com/design/e3jDhP0HbtQao537wypZgz/2026-CyberBrick-2.0?node-id=146-18"
+    },
+    {
+      "number": "07",
+      "nodeId": "146:20",
+      "title": "整体3D A",
+      "url": "https://www.figma.com/design/e3jDhP0HbtQao537wypZgz/2026-CyberBrick-2.0?node-id=146-20"
+    },
+    {
+      "number": "08",
+      "nodeId": "146:21",
+      "title": "整体3D B",
+      "url": "https://www.figma.com/design/e3jDhP0HbtQao537wypZgz/2026-CyberBrick-2.0?node-id=146-21"
+    },
+    {
+      "number": "09",
+      "nodeId": "146:22",
+      "title": "A4贴图11页",
+      "url": "https://www.figma.com/design/e3jDhP0HbtQao537wypZgz/2026-CyberBrick-2.0?node-id=146-22"
+    },
+    {
+      "number": "10",
+      "nodeId": "146:23",
+      "title": "A3贴图6页",
+      "url": "https://www.figma.com/design/e3jDhP0HbtQao537wypZgz/2026-CyberBrick-2.0?node-id=146-23"
+    },
+    {
+      "number": "11",
+      "nodeId": "157:10",
+      "title": "精确定位坐标",
+      "url": "https://www.figma.com/design/e3jDhP0HbtQao537wypZgz/2026-CyberBrick-2.0?node-id=157-10"
+    },
+    {
+      "number": "12",
+      "nodeId": "157:11",
+      "title": "球靶孔位与装配",
+      "url": "https://www.figma.com/design/e3jDhP0HbtQao537wypZgz/2026-CyberBrick-2.0?node-id=157-11"
+    }
+  ]
+}

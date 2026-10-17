@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-13",
+  "pdf_pages": 6,
+  "stl_types": 12,
+  "step_part_types": 12,
+  "assembly_instances": {
+    "A": 173,
+    "B": 167
+  },
+  "diagram_scene_viewer_match": true,
+  "target_variation_clearance": [
+    {
+      "xy": [
+        260,
+        620
+      ],
+      "nearest_fixed_obstacle_mm": 240.0
+    },
+    {
+      "xy": [
+        1000,
+        640
+      ],
+      "nearest_fixed_obstacle_mm": 240.0
+    },
+    {
+      "xy": [
+        260,
+        650
+      ],
+      "nearest_fixed_obstacle_mm": 240.0
+    },
+    {
+      "xy": [
+        1000,
+        610
+      ],
+      "nearest_fixed_obstacle_mm": 240.0
+    },
+    {
+      "xy": [
+        260,
+        680
+      ],
+      "nearest_fixed_obstacle_mm": 240.0
+    },
+    {
+      "xy": [
+        1000,
+        580
+      ],
+      "nearest_fixed_obstacle_mm": 240.0
+    }
+  ],
+  "physical_tested": false,
+  "slicer_tested": false,
+  "scope": "Cross-artifact consistency, saved CAD/mesh reports, PDF text and rendered pages; no robot actions."
+}

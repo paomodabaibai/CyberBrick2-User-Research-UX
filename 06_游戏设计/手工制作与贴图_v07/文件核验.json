@@ -1,0 +1,36 @@
+{
+  "result": "PASS",
+  "pdfs": [
+    {
+      "pdf": "01_材料尺寸与手搓说明_A4.pdf",
+      "pages": 7,
+      "paper_mm": [
+        210,
+        297
+      ]
+    },
+    {
+      "pdf": "02_贴图与模板_A4_实际尺寸.pdf",
+      "pages": 11,
+      "paper_mm": [
+        210,
+        297
+      ]
+    },
+    {
+      "pdf": "03_贴图与模板_A3_实际尺寸.pdf",
+      "pages": 6,
+      "paper_mm": [
+        420,
+        297
+      ]
+    }
+  ],
+  "wall_faces": 20,
+  "pvc_rectangles": 28,
+  "pvc_area_including_braces_m2": 1.8237,
+  "A4_ruler_mm": 100,
+  "A3_imposition": "identity scale; translation only",
+  "render_review": "All 24 pages rendered and visually reviewed; revised guide pages re-rendered.",
+  "physical_robot_tested": false
+}

@@ -1,0 +1,449 @@
+{
+  "version": "v07",
+  "date": "2026-10-17",
+  "units": "mm",
+  "arena_confirmed_mm": [
+    1260,
+    1260
+  ],
+  "sheet_purchase": [
+    1220,
+    2440,
+    5
+  ],
+  "floor_grid": [
+    3,
+    2
+  ],
+  "floor_tile": [
+    420,
+    630,
+    5
+  ],
+  "pvc_cut_list": [
+    {
+      "id": "F",
+      "name": "底板",
+      "width": 420,
+      "height": 630,
+      "quantity": 6,
+      "thickness": 5
+    },
+    {
+      "id": "W60",
+      "name": "高60竖片",
+      "width": 180,
+      "height": 55,
+      "quantity": 2,
+      "thickness": 5
+    },
+    {
+      "id": "W80",
+      "name": "高80竖片",
+      "width": 180,
+      "height": 75,
+      "quantity": 4,
+      "thickness": 5
+    },
+    {
+      "id": "W100",
+      "name": "高100竖片",
+      "width": 180,
+      "height": 95,
+      "quantity": 2,
+      "thickness": 5
+    },
+    {
+      "id": "WS",
+      "name": "支墙竖片",
+      "width": 120,
+      "height": 75,
+      "quantity": 2,
+      "thickness": 5
+    },
+    {
+      "id": "B180",
+      "name": "横墙底脚",
+      "width": 180,
+      "height": 40,
+      "quantity": 8,
+      "thickness": 5
+    },
+    {
+      "id": "B120",
+      "name": "支墙底脚",
+      "width": 120,
+      "height": 40,
+      "quantity": 2,
+      "thickness": 5
+    },
+    {
+      "id": "TBASE",
+      "name": "靶座",
+      "width": 160,
+      "height": 120,
+      "quantity": 2,
+      "thickness": 5
+    }
+  ],
+  "optional_braces": {
+    "legs": [
+      15,
+      30
+    ],
+    "thickness": 5,
+    "quantity": 20
+  },
+  "floor_seam": {
+    "suggested_gap_max": 0.5,
+    "suggested_step_max": 0.2,
+    "underside_tape_max_thickness": 0.1,
+    "full_table_support": true
+  },
+  "perimeter": {
+    "section": [
+      20,
+      30
+    ],
+    "cut_lengths": [
+      {
+        "length": 420,
+        "quantity": 6
+      },
+      {
+        "length": 610,
+        "quantity": 4
+      }
+    ],
+    "purchase": "5 pieces 1200 long OR 7 pieces 1000 long"
+  },
+  "target_wood": {
+    "section": [
+      20,
+      20
+    ],
+    "arms": [
+      200,
+      2
+    ],
+    "post_blanks": [
+      220,
+      2
+    ],
+    "post_example_only": 173
+  },
+  "target_height_example": {
+    "H": 135,
+    "t_measured_assumption": 8,
+    "U": 178,
+    "post": 173,
+    "ball_diameter": 70,
+    "released_bottom": 20,
+    "cord_below_guide_if_q0": 88
+  },
+  "stickers": [
+    {
+      "page": 1,
+      "type": "wall_faces",
+      "items": [
+        {
+          "id": "LH1-正",
+          "size_mm": [
+            177,
+            52
+          ],
+          "xy_mm": [
+            16.5,
+            214
+          ]
+        },
+        {
+          "id": "LH1-背",
+          "size_mm": [
+            177,
+            52
+          ],
+          "xy_mm": [
+            16.5,
+            154
+          ]
+        },
+        {
+          "id": "RH1-正",
+          "size_mm": [
+            177,
+            52
+          ],
+          "xy_mm": [
+            16.5,
+            94
+          ]
+        },
+        {
+          "id": "RH1-背",
+          "size_mm": [
+            177,
+            52
+          ],
+          "xy_mm": [
+            16.5,
+            34
+          ]
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "type": "wall_faces",
+      "items": [
+        {
+          "id": "LH2-正",
+          "size_mm": [
+            177,
+            72
+          ],
+          "xy_mm": [
+            16.5,
+            194
+          ]
+        },
+        {
+          "id": "LH2-背",
+          "size_mm": [
+            177,
+            72
+          ],
+          "xy_mm": [
+            16.5,
+            114
+          ]
+        },
+        {
+          "id": "LH4-正",
+          "size_mm": [
+            177,
+            72
+          ],
+          "xy_mm": [
+            16.5,
+            34
+          ]
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "type": "wall_faces",
+      "items": [
+        {
+          "id": "LH4-背",
+          "size_mm": [
+            177,
+            72
+          ],
+          "xy_mm": [
+            16.5,
+            194
+          ]
+        },
+        {
+          "id": "RH2-正",
+          "size_mm": [
+            177,
+            72
+          ],
+          "xy_mm": [
+            16.5,
+            114
+          ]
+        },
+        {
+          "id": "RH2-背",
+          "size_mm": [
+            177,
+            72
+          ],
+          "xy_mm": [
+            16.5,
+            34
+          ]
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "type": "wall_faces",
+      "items": [
+        {
+          "id": "RH4-正",
+          "size_mm": [
+            177,
+            72
+          ],
+          "xy_mm": [
+            16.5,
+            194
+          ]
+        },
+        {
+          "id": "RH4-背",
+          "size_mm": [
+            177,
+            72
+          ],
+          "xy_mm": [
+            16.5,
+            114
+          ]
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "type": "wall_faces",
+      "items": [
+        {
+          "id": "LH3-正",
+          "size_mm": [
+            177,
+            92
+          ],
+          "xy_mm": [
+            16.5,
+            174
+          ]
+        },
+        {
+          "id": "LH3-背",
+          "size_mm": [
+            177,
+            92
+          ],
+          "xy_mm": [
+            16.5,
+            74
+          ]
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "type": "wall_faces",
+      "items": [
+        {
+          "id": "RH3-正",
+          "size_mm": [
+            177,
+            92
+          ],
+          "xy_mm": [
+            16.5,
+            174
+          ]
+        },
+        {
+          "id": "RH3-背",
+          "size_mm": [
+            177,
+            92
+          ],
+          "xy_mm": [
+            16.5,
+            74
+          ]
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "type": "wall_faces",
+      "items": [
+        {
+          "id": "LS-正",
+          "size_mm": [
+            117,
+            72
+          ],
+          "xy_mm": [
+            16.5,
+            194
+          ]
+        },
+        {
+          "id": "LS-背",
+          "size_mm": [
+            117,
+            72
+          ],
+          "xy_mm": [
+            16.5,
+            114
+          ]
+        },
+        {
+          "id": "RS-正",
+          "size_mm": [
+            117,
+            72
+          ],
+          "xy_mm": [
+            16.5,
+            34
+          ]
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "type": "wall_faces",
+      "items": [
+        {
+          "id": "RS-背",
+          "size_mm": [
+            117,
+            72
+          ],
+          "xy_mm": [
+            16.5,
+            194
+          ]
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "type": "spawn_template",
+      "team": "红",
+      "diameter_mm": 180,
+      "center_mm": [
+        105,
+        166
+      ]
+    },
+    {
+      "page": 10,
+      "type": "spawn_template",
+      "team": "蓝",
+      "diameter_mm": 180,
+      "center_mm": [
+        105,
+        166
+      ]
+    },
+    {
+      "page": 11,
+      "type": "target_signs_and_base_ids",
+      "sign_size_mm": [
+        150,
+        50
+      ],
+      "base_id_size_mm": [
+        46,
+        20
+      ]
+    }
+  ],
+  "A4_page_count": 11,
+  "A3_page_count": 6,
+  "physical_tested": false
+}

@@ -1,0 +1,13 @@
+﻿part_id,name_zh,dimensions_mm,qty_A,qty_B_installed,qty_in_full_print_set,test_optional_qty,stl,step,print_orientation,notes
+F01,地板,179.6 × 179.6 × 6,49,49,49,0,stl/F01_floor_179p6.stl,step/F01_floor_179p6.step,walking_face_on_bed_pockets_up,49片均使用同一STL；顶面朝打印床；不用支撑
+J01,底面桥片,44 × 18 × 2,84,84,84,0,stl/J01_bridge_44x18x2.stl,step/J01_bridge_44x18x2.step,bottom_on_bed,84片为在用数量；试接缝可先打印1片；连接片不承担独立托举整场载荷
+W01,横墙低段,180 × 40 × 60,2,0,2,0,stl/W01_wall_180x40x60.stl,step/W01_wall_180x40x60.step,bottom_on_bed,B布局拆下保留
+W02,横墙中段与末段,180 × 40 × 80,4,2,4,0,stl/W02_wall_180x40x80.stl,step/W02_wall_180x40x80.step,bottom_on_bed,4件中B保留2末段、拆下2中段
+W03,横墙高段,180 × 40 × 100,2,0,2,0,stl/W03_wall_180x40x100.stl,step/W03_wall_180x40x100.step,bottom_on_bed,B布局拆下保留
+W04,支墙,120 × 40 × 80,2,2,2,0,stl/W04_wall_120x40x80.stl,step/W04_wall_120x40x80.step,bottom_on_bed,墙体/护沿用可移胶固定；胶厚不计入模型
+E01,护沿长段,180 × 20 × 35,26,26,26,0,stl/E01_edge_180x20x35.stl,step/E01_edge_180x20x35.step,bottom_on_bed,墙体/护沿用可移胶固定；胶厚不计入模型
+E02,护沿短段,140 × 20 × 35,2,2,2,0,stl/E02_edge_140x20x35.stl,step/E02_edge_140x20x35.step,bottom_on_bed,墙体/护沿用可移胶固定；胶厚不计入模型
+T01,开口筒靶,90 × 90 × 160,2,2,2,0,stl/T01_target_open_cup_D90_H160.stl,step/T01_target_open_cup_D90_H160.step,bottom_on_bed,同款2枚，红蓝各1；0.8壁厚与1.2底厚需实测调重
+C01,接缝样片左,39.8 × 40 × 6,0,0,0,1,stl/C01_seam_coupon_left.stl,step/C01_seam_coupon_left.step,walking_face_on_bed_pockets_up,接口首印测试
+C02,接缝样片右,39.8 × 40 × 6,0,0,0,1,stl/C02_seam_coupon_right.stl,step/C02_seam_coupon_right.step,walking_face_on_bed_pockets_up,接口首印测试
+T02,半高筒靶试样,90 × 90 × 80,0,0,0,1,stl/T02_target_test_D90_H80.stl,step/T02_target_test_D90_H80.step,bottom_on_bed,只用于试切片/试壁厚；不能代替正式160高目标的击倒测试

@@ -1,0 +1,23 @@
+{
+  "title":"落地墙体竞技场",
+  "date":"2026-10-12",
+  "version":"0.4",
+  "arena":{"width_mm":900,"height_mm":540,"pitch_mm":180,"tile_mm":179.6,"tile_thickness_mm":6,"columns":5,"rows":3},
+  "constraint":"单层平地；所有墙和目标底面接地；无架空、悬挂、平台、坡道和机关。",
+  "coordinates":"左上角原点，X向右、Y向下；Z=0是地板顶面。墙、目标从Z=0起。",
+  "robots":[
+    {"id":"A","owner":"blue","x":255,"y":150,"heading_deg":0,"target":"TB"},
+    {"id":"B","owner":"red","x":645,"y":390,"heading_deg":180,"target":"TA"}
+  ],
+  "targets":[
+    {"id":"TB","owner":"red","attacker":"A","x":480,"y":150},
+    {"id":"TA","owner":"blue","attacker":"B","x":420,"y":390}
+  ],
+  "target":{"diameter_mm":80,"height_mm":160,"wall_mm":0.8,"bottom_mm":1.2,"floor_z_mm":0,"type":"开口薄壁落地竖靶，整枚侧倒；没有靶座或抬高的靶头"},
+  "wall":{"length_mm":160,"width_mm":40,"height_mm":60,"corner_radius_mm":4,"floor_z_mm":0},
+  "layouts":[
+    {"id":"divider","name":"中央短墙","description":"两片墙并排接成320mm中央短墙，阻挡直接横穿；上下正面攻靶路线保持畅通。","walls":[{"x":370,"y":270},{"x":530,"y":270}]},
+    {"id":"opening","name":"中央开口","description":"把同两片墙移到两端，留下560mm中央开口；开局路线不变，仅改变横向可通行区域。","walls":[{"x":90,"y":270},{"x":810,"y":270}]}
+  ],
+  "reference":{"robot_local_bounds_mm":[-83.935,123.273,-57,57],"robot_height_measured":false,"model_hit_height_mm":134.8,"centre_distance_mm":225,"approach_estimate_mm":61.727,"wall_to_robot_static_side_clearance_mm":43,"mandatory_turns":0,"physical_tested":false}
+}

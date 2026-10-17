@@ -1,0 +1,14 @@
+{
+  "version": "0.4",
+  "date": "2026-10-12",
+  "units": "mm",
+  "printer_nominal": [200, 200, 200],
+  "brim_each_side": 8,
+  "wall": {"length": 160, "width": 40, "height": 60, "vertical_edge_radius": 4},
+  "target": {"diameter": 80, "height": 160, "wall": 0.8, "bottom": 1.2, "model_hit_height_reference": 135},
+  "floor": {"pitch": 180, "side": 179.6, "thickness": 6, "pocket_depth": 2.4, "pocket_side_clearance": 0.3},
+  "connector": {"length": 44, "width": 18, "thickness": 2, "neck_length": 12, "neck_width": 8},
+  "bom": {"wall": 2, "target": 2, "floor": 15, "connector": 22},
+  "physical_tested": false,
+  "density_assumption_g_cm3": 1.24
+}
