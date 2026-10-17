@@ -124,13 +124,14 @@ def monitor(seconds=15):
 
 
 def run(seconds=30, mode='both', mapping=None, trace=False):
-    """Bounded live test. Ctrl-C/time limit/exception stop M1 and release legs.
+    """Remote control session. None keeps running until interrupted or reset.
 
     mode: walk / attack / both. All three axes must neutralize to arm.
-    Defaults are first-remote values; verify using monitor before running.
+    Ctrl-C, a finite time limit or an exception stops M1 and releases legs.
     """
-    if not 1 <= seconds <= 120 or mode not in ('walk', 'attack', 'both'):
-        raise ValueError('seconds 1..120; mode walk/attack/both')
+    if ((seconds is not None and not 1 <= seconds <= 120)
+            or mode not in ('walk', 'attack', 'both')):
+        raise ValueError('seconds None or 1..120; mode walk/attack/both')
     policy = RemotePolicy(mapping)
     from machine import Pin, PWM
     import rc_module
@@ -163,7 +164,7 @@ def run(seconds=30, mode='both', mapping=None, trace=False):
         last_speed = 0
         was_armed = False
         print('second punch:', mode, seconds, 's; neutral 0.5s to arm; K4 stops')
-        while diff(_clock(), start) < seconds * 1000:
+        while seconds is None or diff(_clock(), start) < seconds * 1000:
             now = _clock()
             if diff(now, next_frame) >= 0:
                 dt = diff(now, last)

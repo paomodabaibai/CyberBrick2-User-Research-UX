@@ -1,7 +1,7 @@
-"""Second robot manual timed entry; import is inert.
+"""Second robot entry and measured stick mapping; import is inert.
 
 Left ch3, right ch0, punch ch2 and K4 ch9 were verified one stick at a time.
-Receiver has no active boot.py/main.py; this does not auto-start on power-up.
+Pass seconds=None for continuous control from second_punch_main.py (board main.py).
 """
 import second_punch_remote
 

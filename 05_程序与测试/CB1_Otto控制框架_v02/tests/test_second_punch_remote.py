@@ -117,7 +117,8 @@ class PunchPolicyTests(unittest.TestCase):
 
 
 class PunchLoopTests(unittest.TestCase):
-    def exercise(self, mode='both', failure=False, loss=False, native_pwm=False):
+    def exercise(self, mode='both', failure=False, loss=False, native_pwm=False,
+                 unbounded=False):
         clock = [0]
         events = []
         pwms = []
@@ -167,14 +168,21 @@ class PunchLoopTests(unittest.TestCase):
         bbl = types.ModuleType('bbl')
         motors = types.ModuleType('bbl.motors')
         motors.MotorsController = Motors
+        def sleep(ms):
+            clock[0] += ms
+            if unbounded and clock[0] >= 2000:
+                raise KeyboardInterrupt()
         with patch.dict('sys.modules', {'machine': machine, 'rc_module': rc,
                                        'bbl': bbl, 'bbl.motors': motors}), \
              patch.object(punch, '_clock', lambda: clock[0]), \
-             patch.object(punch, '_sleep', lambda ms: clock.__setitem__(0, clock[0] + ms)), \
+             patch.object(punch, '_sleep', sleep), \
              patch('builtins.print'):
             if failure:
                 with self.assertRaises(RuntimeError):
                     punch.run(1, mode)
+            elif unbounded:
+                with self.assertRaises(KeyboardInterrupt):
+                    punch.run(None, mode)
             else:
                 punch.run(1, mode)
         self.assertTrue(all(p.off for p in pwms))
@@ -211,6 +219,13 @@ class PunchLoopTests(unittest.TestCase):
         self.assertEqual(len(pwms), 4)
         self.assertIn(('motor', 600), events)
         self.assertFalse(any(kind == 'service' for kind, _ in events))
+
+    def test_unbounded_session_keeps_walking_and_punching_until_interrupted(self):
+        events, pwms = self.exercise(unbounded=True)
+        self.assertEqual(len(pwms), 4)
+        self.assertTrue(any(kind == 'leg' and t >= 1500 for kind, t in events))
+        self.assertIn(('motor', 600), events)
+        self.assertEqual(events[-1][0], 'stop')
 
 
 if __name__ == '__main__':
