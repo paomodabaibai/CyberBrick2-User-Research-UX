@@ -1,0 +1,123 @@
+{
+  "version": "v11-map-only",
+  "source_units": "mm",
+  "export_units": "metres",
+  "export_axes": "X width; Y up; Z length",
+  "floor_width_mm": 800,
+  "floor_length_mm": 1200,
+  "floor_thickness_mm": 5,
+  "floor_top_y_mm": 0,
+  "floor_texture_repeat_mm": 200,
+  "perimeter_width_mm": 20,
+  "perimeter_height_mm": 30,
+  "wall_panel_thickness_mm": 5,
+  "wall_foot_width_mm": 40,
+  "wall_foot_thickness_mm": 5,
+  "brace_thickness_mm": 5,
+  "brace_depth_mm": 15,
+  "brace_height_mm": 30,
+  "walls": [
+    {
+      "id": "front_main_1",
+      "x_mm": 20,
+      "z_mm": 320,
+      "length_mm": 115,
+      "height_mm": 60,
+      "axis": "X"
+    },
+    {
+      "id": "front_main_2",
+      "x_mm": 135,
+      "z_mm": 320,
+      "length_mm": 115,
+      "height_mm": 80,
+      "axis": "X"
+    },
+    {
+      "id": "front_main_3",
+      "x_mm": 250,
+      "z_mm": 320,
+      "length_mm": 115,
+      "height_mm": 100,
+      "axis": "X"
+    },
+    {
+      "id": "front_main_4",
+      "x_mm": 365,
+      "z_mm": 320,
+      "length_mm": 115,
+      "height_mm": 80,
+      "axis": "X"
+    },
+    {
+      "id": "front_T_branch",
+      "x_mm": 320,
+      "z_mm": 360,
+      "length_mm": 120,
+      "height_mm": 80,
+      "axis": "Z"
+    },
+    {
+      "id": "back_main_1",
+      "x_mm": 665,
+      "z_mm": 840,
+      "length_mm": 115,
+      "height_mm": 60,
+      "axis": "X"
+    },
+    {
+      "id": "back_main_2",
+      "x_mm": 550,
+      "z_mm": 840,
+      "length_mm": 115,
+      "height_mm": 80,
+      "axis": "X"
+    },
+    {
+      "id": "back_main_3",
+      "x_mm": 435,
+      "z_mm": 840,
+      "length_mm": 115,
+      "height_mm": 100,
+      "axis": "X"
+    },
+    {
+      "id": "back_main_4",
+      "x_mm": 320,
+      "z_mm": 840,
+      "length_mm": 115,
+      "height_mm": 80,
+      "axis": "X"
+    },
+    {
+      "id": "back_T_branch",
+      "x_mm": 440,
+      "z_mm": 720,
+      "length_mm": 120,
+      "height_mm": 80,
+      "axis": "Z"
+    }
+  ],
+  "confirmed_by_user": [
+    "Floor footprint 800 x 1200 mm.",
+    "Two staggered T-shaped wall groups.",
+    "Main walls parallel to the 800 mm width.",
+    "Map only, without striking apparatus."
+  ],
+  "assumed_not_physically_measured": [
+    "Main wall length 460 mm per group, divided into four 115 mm sections.",
+    "Main wall foot Z intervals 320..360 mm and 840..880 mm.",
+    "T branches are 120 mm long, positioned at X320..360 and X440..480 mm.",
+    "Inherited v08 foot-to-foot T junction: foot bases meet, while the branch panel starts 17.5 mm beyond the main panel face. This is a presentation layout, not a physical partition replica.",
+    "60/80/100/80 mm wall heights, 5 mm panel thickness and 40 mm feet retain previous design values.",
+    "20 x 30 mm perimeter rails and a one-piece 5 mm base are visualization assumptions."
+  ],
+  "physical_measurements_verified": false,
+  "textures": {
+    "floor": "textures/floor_tile_200mm.png",
+    "wall_115_h55": "textures/wall_115_h55.png",
+    "wall_115_h75": "textures/wall_115_h75.png",
+    "wall_115_h95": "textures/wall_115_h95.png",
+    "wall_120_h75": "textures/wall_120_h75.png"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "result": "PASS",
+  "bounds_m": {
+    "min": [
+      0.0,
+      -0.005,
+      0.0
+    ],
+    "max": [
+      0.8,
+      0.1,
+      1.2
+    ]
+  },
+  "floor_mm": [
+    800,
+    1200,
+    5
+  ],
+  "main_wall_axis": "X (parallel to 800 mm width)",
+  "wall_groups": 2,
+  "semantic_object_counts": {
+    "floor": 1,
+    "perimeter": 4,
+    "wall_foot": 10,
+    "wall_panel": 10,
+    "wall_brace": 20
+  },
+  "mesh_material_parts": 56,
+  "triangles": 460,
+  "glb_nodes": 45,
+  "embedded_png_count": 5,
+  "embedded_textures_match_sources": true,
+  "texture_hashes": [
+    {
+      "name": "floor_tile_200mm",
+      "sha256": "387a0b56fec850750a9cf4bbb6bf857eb2609f80f09bda0326e8567c96339128"
+    },
+    {
+      "name": "wall_115_h55",
+      "sha256": "367769fa337eb72ee7fcf2a3306ea9715c90173e602b0f48d76c792ea26055cc"
+    },
+    {
+      "name": "wall_115_h75",
+      "sha256": "b5b7faaafaaa889393a188d4c706027fca70521ff7aaef5776c216184fe44457"
+    },
+    {
+      "name": "wall_115_h95",
+      "sha256": "a6202b10fa9999672a9a3a6136940870e04adf72fd1a415cc9dd33f754f34757"
+    },
+    {
+      "name": "wall_120_h75",
+      "sha256": "c3168b87e4911a45cd1d74305f494d8a9289c04cb30e694173a8831b80665a1f"
+    }
+  ],
+  "normals_match_triangle_winding": true,
+  "floor_texture_repetitions": [
+    4,
+    6
+  ],
+  "glb_bytes": 4533212,
+  "glb_sha256": "4a1d2c3565f49fba6a8d8f94e6146c19f0919bcbe3d5ff51211ba6f68bb97d1e",
+  "excluded_geometry": [
+    "striking apparatus",
+    "targets",
+    "robots",
+    "spawn rings"
+  ],
+  "physical_measurements_verified": false,
+  "inherited_T_panel_gap_mm": 17.5,
+  "validation_scope": "Geometry dimensions, UV repetition, indices, winding, GLB structure and embedded images. Layout positions are adapted assumptions, not physical measurements."
+}

@@ -1,0 +1,33 @@
+生成方式：内置 imagegen，基于用户风格参考与项目机器人地图参考重新构图。
+日期：2026-10-21
+成品：地图双机_电影感横屏_v02.png
+用户要求：有电影感的纯插图，结合我们的元素，横屏 16:9。
+参考图：
+E:\CodexData\Temp\codex-clipboard-b05af739-3b14-4837-8d77-95f0c718de3f.png
+E:\work\大三上\CyberBrick2.0\用户研究与体验设计\03_视觉素材\地图双机纯插图_2026-10-21\地图与双机_纯插图_v01.png
+
+最终提示词：
+Use case: stylized-concept.
+Primary request: Create a completely new CINEMATIC ILLUSTRATION / animated-game key art combining the user's own blue palm robot, red fist robot, and arena. Deliver ONE edge-to-edge HORIZONTAL 16:9 image. Use an exact 16:9 canvas, preferably 2560 x 1440 or 3840 x 2160. No letterboxing. PURE ILLUSTRATION: absolutely no words, title, typography, logo, numbers, UI or watermark.
+
+REFERENCE ROLES:
+Reference image 1 (the brightly colored vertical cartoon action poster): mood, vibrant saturated gradients, joyous energy, layered foreground/midground/background, dramatic converging stage light and polished rounded illustrative forms ONLY. Do not reproduce its creatures, lettering, logo, arrangement or vertical format. Translate its exhilarating visual energy into a widescreen cinematic scene featuring OUR robots.
+Reference image 2 (our arena with two little cream box robots): CHARACTER IDENTITY, mechanical silhouette, floor pattern and partition designs ONLY. Keep the blue palm and red fist robots recognizable. Completely recompose the scene from a low cinematic camera near floor height. This must NOT be another elevated isometric product overview, dollhouse board, CAD render or arena diagram.
+
+CINEMATIC SHOT:
+A dynamic wide-angle action moment inside the little arena, as if a camera has entered the robots' world. Dramatic low three-quarter viewpoint with a slight diagonal tilt, exaggerated near-to-far perspective. The blue palm robot dominates the left foreground and the red fist robot the right middle foreground, playfully lunging/stepping toward each other. Their faces and distinctive top mechanisms stay clearly readable; full short-legged bodies mostly visible, characters together dominate roughly 60% of the frame. Their short feet can have a small lively lift or tilt, no articulated knees. The blue palm is sweeping horizontally into the central space and the red fist is thrusting toward that space; they stop just apart in a friendly energized showdown. Suggest motion with a few clean curved cyan and warm yellow light streaks and tiny colorful particles, keeping the robot designs sharp and uncluttered. No injury or destruction.
+Compose the pair as a powerful opposing diagonal with a concentrated warm golden light behind the gap between them, clear expressive silhouettes, convincing contact shadows and reflected light. Background partitions become dramatically receding shapes, not the main subject. Crop the arena naturally at frame edges so the scene fills the entire canvas; no white product background and no need to show all four board edges.
+
+OUR ROBOTS — PRESERVE IDENTITY:
+Exactly two robots, cream-white rounded rectangular box bodies, two small expressive black oval eyes directly on the cream face, no screens. Each has exactly two independent very short straight legs and two wide flat block feet, with compact visible mechanical joints and a cheerful slightly clumsy toy personality. Blue feet and teal-blue head frame on the left; red feet and red head frame on the right. No wheels, no knees, no side arms, no humanoid bodies, no creature costumes.
+Blue: an open compact teal gantry above the body carries a small central vertical rotary axis. A short rigid horizontal swing link connects that axis to the wrist of ONE large soft blue open palm. The palm plane is VERTICAL, with its four fingers pointing SIDEWAYS HORIZONTALLY toward the central action, thumb above; not fingers-up waving, not palm lying flat. Keep every part attached.
+Red: top-mounted compact red/dark frame carrying a crank-and-linkage slider and two short parallel silver guide rods, with ONE rounded soft red fist thrusting forward at its end. A connected compact mechanism on the head, never a floating fist, long spring, telescopic human arm or glove worn on the body side. Simplify little screws tastefully for illustration but retain this identifying silhouette.
+
+OUR ARENA:
+The floor sweeps from a large foreshortened foreground into depth, blue-teal square sci-fi metal panels, fine cyan circuit/grid lines, clipped panel corners, and scattered bright sunshine-yellow graphic tabs. Include the TWO staggered T-shaped partition groups as readable midground/background set pieces: long transverse stepped dark-teal bars at separate depths, with perpendicular short stems pointing toward the center, cream-white feet and yellow-black base stripes. These main bars follow the arena's 80 cm short side, in an 80 x 120 proportion world. A subtle warm-wood boundary can be glimpsed at the distant edges. No extra freestanding targets or apparatus.
+
+STYLE AND LIGHT:
+High-end stylized animated-film illustration with glossy-soft rounded forms, bold painterly gradient shading, crisp selective edges and strong silhouette design; saturated electric cyan / cobalt / violet atmospheric background, cream robot faces, vivid coral-red fist, bright blue palm, sunshine-yellow accent bursts. Cool blue-violet shadows against strong warm yellow/orange backlight, luminous turquoise rim light, volumetric diagonal beams, mild bloom, gentle depth of field with faces and hands in focus. Joyful energetic science-fiction toy competition, bright and luminous rather than dark/gritty. Achieve real cinematic depth and action while preserving the exuberant colorful illustrative character of reference 1. A few abstract geometric confetti flecks in peripheral space are fine, no additional characters.
+
+HARD EXCLUSIONS:
+No text of any kind, no ROBO FIGHT logo or imitation letters, no copied monsters, no humans, no extra robots, no guns, no flames/explosion, no blood, no giant smoke clouds hiding the characters, no long legs, no free-floating or duplicated hands, no detached mechanisms, no model-preview screen, no overhead isometric map presentation, no white margins. One cohesive full-bleed 16:9 CINEMATIC illustrated scene.

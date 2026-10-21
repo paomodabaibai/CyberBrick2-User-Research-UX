@@ -1,0 +1,63 @@
+{
+  "map_mm": [
+    800,
+    1200
+  ],
+  "master_tile_mm": [
+    200,
+    200
+  ],
+  "panel_period_mm": 100,
+  "grid_pitch_mm": 25,
+  "image_native_px": [
+    1254,
+    1254
+  ],
+  "image_placed_mm": [
+    98,
+    98
+  ],
+  "image_effective_ppi": 325.02,
+  "A3": {
+    "page_mm": [
+      420,
+      297
+    ],
+    "trim_rect_mm": [
+      10,
+      48.5,
+      400,
+      200
+    ],
+    "bleed_mm": 3,
+    "copies": 12,
+    "layout": [
+      2,
+      6
+    ]
+  },
+  "A4": {
+    "page_mm": [
+      210,
+      297
+    ],
+    "trim_rect_mm": [
+      5,
+      53,
+      200,
+      200
+    ],
+    "bleed_mm": 0,
+    "copies": 24,
+    "layout": [
+      4,
+      6
+    ],
+    "minimum_printable_width_mm": 200
+  },
+  "print_scale_percent": 100,
+  "seam_method": "Generated texture contained within periodic vector panels; 1 mm constant boundary per panel edge; geometry repeats every 100 mm on both axes.",
+  "scope": "New 800 x 1200 mm floor only. Existing partitions already built; no placement or dimension changes.",
+  "color_reference": "v07 wall artwork: #284955, #3b5e68, #f0be50, #8bbdc5",
+  "generation": "Built-in imagegen for material texture, ReportLab for exact periodic layout, Poppler for PDF rendering."
+}

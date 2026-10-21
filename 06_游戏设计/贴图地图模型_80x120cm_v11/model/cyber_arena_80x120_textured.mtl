@@ -1,0 +1,69 @@
+# Texture paths are relative to this MTL file.
+newmtl floor_print
+Ka 0.05 0.05 0.05
+Kd 1.0000000 1.0000000 1.0000000
+Ks 0.015 0.015 0.015
+Ns 4
+d 1
+illum 2
+map_Kd ../textures/floor_tile_200mm.png
+
+newmtl pvc_base
+Ka 0.05 0.05 0.05
+Kd 0.8431373 0.8901961 0.8784314
+Ks 0.015 0.015 0.015
+Ns 4
+d 1
+illum 2
+
+newmtl wall_panel_edges
+Ka 0.05 0.05 0.05
+Kd 0.2745098 0.4196078 0.4549020
+Ks 0.015 0.015 0.015
+Ns 4
+d 1
+illum 2
+
+newmtl natural_wood_rails
+Ka 0.05 0.05 0.05
+Kd 0.7803922 0.6549020 0.4705882
+Ks 0.015 0.015 0.015
+Ns 4
+d 1
+illum 2
+
+newmtl wall_115_h55
+Ka 0.05 0.05 0.05
+Kd 1.0000000 1.0000000 1.0000000
+Ks 0.015 0.015 0.015
+Ns 4
+d 1
+illum 2
+map_Kd ../textures/wall_115_h55.png
+
+newmtl wall_115_h75
+Ka 0.05 0.05 0.05
+Kd 1.0000000 1.0000000 1.0000000
+Ks 0.015 0.015 0.015
+Ns 4
+d 1
+illum 2
+map_Kd ../textures/wall_115_h75.png
+
+newmtl wall_115_h95
+Ka 0.05 0.05 0.05
+Kd 1.0000000 1.0000000 1.0000000
+Ks 0.015 0.015 0.015
+Ns 4
+d 1
+illum 2
+map_Kd ../textures/wall_115_h95.png
+
+newmtl wall_120_h75
+Ka 0.05 0.05 0.05
+Kd 1.0000000 1.0000000 1.0000000
+Ks 0.015 0.015 0.015
+Ns 4
+d 1
+illum 2
+map_Kd ../textures/wall_120_h75.png

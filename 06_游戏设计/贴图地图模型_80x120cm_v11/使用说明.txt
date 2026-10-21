@@ -1,0 +1,47 @@
+CyberBrick 80 × 120 cm 贴图地图模型 | v11 | 2026-10-21
+
+一、直接查看
+双击“地图3D预览.html”，用支持WebGL2的浏览器打开即可离线查看，不需要联网。
+拖动旋转、滚轮缩放；可切换整体视角、俯视布局和墙面视角。
+“显示墙体”可以临时隐藏隔断；“尺寸标注”控制800/1200mm标注。
+点击“保存当前视图”，再点击出现的“下载视图 PNG”即可导出1800×1350效果图。
+
+二、导入三维软件
+推荐：model/cyber_arena_80x120_textured.glb
+GLB已包含5张PNG贴图，无需另行找图。可导入支持glTF 2.0的软件继续编辑。
+
+备用：model/cyber_arena_80x120_textured.obj 与同名.mtl
+请保留本包的文件夹关系，MTL使用 ../textures/ 下的图片。
+OBJ和GLB均按米导出：宽0.8、长1.2；若导入软件按毫米解释OBJ，导入时放大1000倍。
+坐标：X为80cm宽，Z为120cm长，Y向上；地板上表面Y=0，底面Y=-0.005。
+
+三、本版内容
+- 一块800×1200×5mm底板，贴v10明亮科技地板。
+- 20cm地板纹理沿宽重复4次、沿长重复6次，纹理没有拉伸成一整张。
+- 两组错位T形隔断，主墙平行800mm宽边，短支墙朝场地中部伸出。
+- 墙体两面使用原青蓝工程网格、CYBER / ARENA文字和黄黑警示带。
+- 保留墙底脚、三角加强片、20×30mm外围木护沿。
+- 不含打击装置、球靶、支柱、悬臂、绳、靶座、机器人及出生圈。
+
+四、已确认与暂定尺寸
+用户确认：80×120cm场地、两组错位T形布局、主墙与宽边平行、仅地图。
+适配示意：每组主墙46cm，四段各11.5cm；支墙12cm。
+墙高沿用旧方案6/8/10/8cm，支墙8cm；板厚5mm，墙脚宽40mm、厚5mm。
+旧墙脚相接的装配关系保留：支墙竖片与主墙侧面之间有17.5mm间隙。
+尚未获得已经制作好的隔断的新墙长和实际摆放距离，不能把本模型当成实物测量复刻或新的裁板依据。
+可编辑 source/layout_parameters.json，再运行source/build_model.py及source/build_viewer.py重新生成。
+若改变墙段的宽高，墙贴也应同步按尺寸重新生成。
+
+五、验证范围
+已检查模型800×1200mm外廓、墙体方向、地板UV重复4×6、三角面法线、GLB结构和5张嵌入贴图。
+已在浏览器检查整体/俯视渲染、墙面贴图方向、显示开关、缩放适配与PNG导出。
+本次是带贴图的展示模型，未进行机器人通行或实物尺寸验证。
+preview/ 中提供整体效果和俯视图。
+
+六、源文件
+source/build_model.py：模型几何、GLB与OBJ导出。
+source/build_wall_textures.py：以旧版矢量墙贴图案生成对应模型表面贴图。
+source/build_viewer.py + viewer_template.html：生成不依赖CDN的离线WebGL预览。
+source/layout_parameters.json：模型尺寸与明确假设。
+source/model_validation.json：模型数字校验。
+glTF 2.0格式参考：https://github.com/KhronosGroup/glTF/blob/main/specification/2.0/Specification.adoc
