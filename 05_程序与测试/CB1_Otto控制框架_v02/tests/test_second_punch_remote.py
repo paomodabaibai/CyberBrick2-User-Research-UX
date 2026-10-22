@@ -1,7 +1,7 @@
 import unittest
 import types
 from unittest.mock import patch
-import second_punch_remote as punch
+import robot_remote as punch
 
 
 def frame(left=1797, right=1959, attack=1825, stop=1):

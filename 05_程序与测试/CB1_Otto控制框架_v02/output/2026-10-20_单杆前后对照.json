@@ -1,0 +1,74 @@
+[
+  {
+    "command": "left_forward",
+    "drive": 0.0,
+    "turn": -1.0,
+    "old_direction": 1,
+    "new_direction": 1,
+    "stride_turn": -1.0,
+    "hip_amplitudes": [
+      20.0,
+      6.666666666666666
+    ]
+  },
+  {
+    "command": "left_backward",
+    "drive": 0.0,
+    "turn": 1.0,
+    "old_direction": 1,
+    "new_direction": -1,
+    "stride_turn": -1.0,
+    "hip_amplitudes": [
+      20.0,
+      6.666666666666666
+    ]
+  },
+  {
+    "command": "right_forward",
+    "drive": 0.0,
+    "turn": 1.0,
+    "old_direction": 1,
+    "new_direction": 1,
+    "stride_turn": 1.0,
+    "hip_amplitudes": [
+      6.666666666666666,
+      20.0
+    ]
+  },
+  {
+    "command": "right_backward",
+    "drive": 0.0,
+    "turn": -1.0,
+    "old_direction": 1,
+    "new_direction": -1,
+    "stride_turn": 1.0,
+    "hip_amplitudes": [
+      6.666666666666666,
+      20.0
+    ]
+  },
+  {
+    "command": "both_forward",
+    "drive": 1.0,
+    "turn": 0.0,
+    "old_direction": 1,
+    "new_direction": 1,
+    "stride_turn": 0.0,
+    "hip_amplitudes": [
+      20.0,
+      20.0
+    ]
+  },
+  {
+    "command": "both_backward",
+    "drive": -1.0,
+    "turn": 0.0,
+    "old_direction": -1,
+    "new_direction": -1,
+    "stride_turn": -0.0,
+    "hip_amplitudes": [
+      20.0,
+      20.0
+    ]
+  }
+]

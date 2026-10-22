@@ -1,0 +1,5 @@
+PC baseline: 174 tests PASS.
+New 8 regression tests on old code: 6 failing assertions, after fixing fake board setup.
+Final new regression tests: 11 PASS.
+Final complete suite: Ran 185 tests in 21.105s, OK.
+No serial connection, no board upload, no physical movement.
