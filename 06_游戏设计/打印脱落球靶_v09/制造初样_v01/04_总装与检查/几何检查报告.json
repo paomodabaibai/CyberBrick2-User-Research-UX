@@ -1,0 +1,474 @@
+{
+  "status": "CAD verified prototype; print fit and impact tests pending",
+  "units": "mm",
+  "ball_diameter": 60,
+  "ball_center_heights": [
+    125,
+    135,
+    145
+  ],
+  "magnet_spec": "CyberBrick B-CA001, diameter 4 x thickness 2 mm",
+  "magnet_source": "https://asia.store.bambulab.com/en/products/cyberbrick-hardware-kit",
+  "clearance_per_side": 0.3,
+  "magnet_hole_diameter": 4.3,
+  "nut_pocket_af": 5.8,
+  "skin_each_side": 0.4,
+  "nominal_magnetic_face_separation": 1.0,
+  "magnet_positions_xy": [
+    [
+      0,
+      0
+    ],
+    [
+      5.5,
+      0.0
+    ],
+    [
+      -2.7499999999999987,
+      4.763139720814413
+    ],
+    [
+      -2.7500000000000027,
+      -4.7631397208144115
+    ]
+  ],
+  "magnet_load_modes": "central 1 pair OR outer equilateral 3 pairs",
+  "parts": {
+    "01_场地固定底座": {
+      "solid_count": 1,
+      "watertight": true,
+      "volume_mm3": 38586.76894465923,
+      "print_extents_mm": [
+        100.0,
+        80.0,
+        22.0
+      ],
+      "assembly_bounds": [
+        [
+          45.0,
+          -40.0,
+          0.0
+        ],
+        [
+          145.0,
+          40.0,
+          22.0
+        ]
+      ],
+      "print_rotation": null,
+      "color": "#516b7f",
+      "file": "02_一套正式件_STL/01_场地固定底座.stl"
+    },
+    "02_三档立柱": {
+      "solid_count": 1,
+      "watertight": true,
+      "volume_mm3": 57119.22877849003,
+      "print_extents_mm": [
+        18.0,
+        160.7,
+        20.0
+      ],
+      "assembly_bounds": [
+        [
+          86.0,
+          -10.0,
+          4.3
+        ],
+        [
+          104.0,
+          10.0,
+          165.0
+        ]
+      ],
+      "print_rotation": [
+        90,
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "color": "#516b7f",
+      "file": "02_一套正式件_STL/02_三档立柱.stl"
+    },
+    "03_套筒悬臂": {
+      "solid_count": 1,
+      "watertight": true,
+      "volume_mm3": 41901.84515524343,
+      "print_extents_mm": [
+        129.8,
+        28.6,
+        40.0
+      ],
+      "assembly_bounds": [
+        [
+          -21.5,
+          -14.3,
+          87.0
+        ],
+        [
+          108.3,
+          14.3,
+          127.0
+        ]
+      ],
+      "print_rotation": null,
+      "color": "#38a3aa",
+      "file": "02_一套正式件_STL/03_套筒悬臂.stl"
+    },
+    "04_磁铁托座_D4x2": {
+      "solid_count": 1,
+      "watertight": true,
+      "volume_mm3": 2505.915103093519,
+      "print_extents_mm": [
+        40.0,
+        21.998,
+        8.0
+      ],
+      "assembly_bounds": [
+        [
+          -20.0,
+          -10.999,
+          99.0
+        ],
+        [
+          20.0,
+          10.999,
+          107.0
+        ]
+      ],
+      "print_rotation": [
+        180,
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "color": "#e9b454",
+      "file": "02_一套正式件_STL/04_磁铁托座_D4x2.stl"
+    },
+    "05_托座磁铁封盖": {
+      "solid_count": 1,
+      "watertight": true,
+      "volume_mm3": 1068.769820751248,
+      "print_extents_mm": [
+        17.996,
+        17.998,
+        4.2
+      ],
+      "assembly_bounds": [
+        [
+          -8.996,
+          -8.999,
+          100.0
+        ],
+        [
+          9.0,
+          8.999,
+          104.2
+        ]
+      ],
+      "print_rotation": null,
+      "color": "#e9b454",
+      "file": "02_一套正式件_STL/05_托座磁铁封盖.stl"
+    },
+    "06_球下半壳_带磁铁槽": {
+      "solid_count": 1,
+      "watertight": true,
+      "volume_mm3": 8902.123089066024,
+      "print_extents_mm": [
+        63.986,
+        59.993,
+        28.0
+      ],
+      "assembly_bounds": [
+        [
+          -29.987,
+          -29.997,
+          107.0
+        ],
+        [
+          34.0,
+          29.997,
+          135.0
+        ]
+      ],
+      "print_rotation": [
+        180,
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "color": "#e65c50",
+      "file": "02_一套正式件_STL/06_球下半壳_带磁铁槽.stl"
+    },
+    "07_球上半壳": {
+      "solid_count": 1,
+      "watertight": true,
+      "volume_mm3": 8573.816853086646,
+      "print_extents_mm": [
+        59.987,
+        59.993,
+        30.0
+      ],
+      "assembly_bounds": [
+        [
+          -29.987,
+          -29.997,
+          135.0
+        ],
+        [
+          30.0,
+          29.997,
+          165.0
+        ]
+      ],
+      "print_rotation": null,
+      "color": "#e65c50",
+      "file": "02_一套正式件_STL/07_球上半壳.stl"
+    },
+    "08_球壳定位环": {
+      "solid_count": 1,
+      "watertight": true,
+      "volume_mm3": 827.8724960739819,
+      "print_extents_mm": [
+        56.087,
+        56.094,
+        4.0
+      ],
+      "assembly_bounds": [
+        [
+          -28.037,
+          -28.047,
+          133.0
+        ],
+        [
+          28.05,
+          28.047,
+          137.0
+        ]
+      ],
+      "print_rotation": null,
+      "color": "#d8bd8b",
+      "file": "02_一套正式件_STL/08_球壳定位环.stl"
+    },
+    "09_球内磁铁封盖": {
+      "solid_count": 1,
+      "watertight": true,
+      "volume_mm3": 608.2123377349833,
+      "print_extents_mm": [
+        21.995,
+        21.998,
+        1.6
+      ],
+      "assembly_bounds": [
+        [
+          -10.995,
+          -10.999,
+          109.6
+        ],
+        [
+          11.0,
+          10.999,
+          111.2
+        ]
+      ],
+      "print_rotation": null,
+      "color": "#dd8c66",
+      "file": "02_一套正式件_STL/09_球内磁铁封盖.stl"
+    },
+    "小样_套筒_单边0.2mm": {
+      "solid_count": 1,
+      "watertight": true,
+      "volume_mm3": 2821.1200000000013,
+      "print_extents_mm": [
+        26.0,
+        28.0,
+        8.0
+      ],
+      "assembly_bounds": [
+        [
+          -13.0,
+          -14.0,
+          0.0
+        ],
+        [
+          13.0,
+          14.0,
+          8.0
+        ]
+      ],
+      "print_rotation": null,
+      "color": "#38a3aa",
+      "file": "01_先打小样/小样_套筒_单边0.2mm.stl"
+    },
+    "小样_套筒_单边0.3mm": {
+      "solid_count": 1,
+      "watertight": true,
+      "volume_mm3": 2758.7200000000003,
+      "print_extents_mm": [
+        26.0,
+        28.0,
+        8.0
+      ],
+      "assembly_bounds": [
+        [
+          -13.0,
+          -14.0,
+          0.0
+        ],
+        [
+          13.0,
+          14.0,
+          8.0
+        ]
+      ],
+      "print_rotation": null,
+      "color": "#38a3aa",
+      "file": "01_先打小样/小样_套筒_单边0.3mm.stl"
+    },
+    "小样_套筒_单边0.4mm": {
+      "solid_count": 1,
+      "watertight": true,
+      "volume_mm3": 2695.68,
+      "print_extents_mm": [
+        26.0,
+        28.0,
+        8.0
+      ],
+      "assembly_bounds": [
+        [
+          -13.0,
+          -14.0,
+          0.0
+        ],
+        [
+          13.0,
+          14.0,
+          8.0
+        ]
+      ],
+      "print_rotation": null,
+      "color": "#38a3aa",
+      "file": "01_先打小样/小样_套筒_单边0.4mm.stl"
+    },
+    "小样_方柱与M3通孔": {
+      "solid_count": 1,
+      "watertight": true,
+      "volume_mm3": 7018.4159446225085,
+      "print_extents_mm": [
+        18.0,
+        20.0,
+        20.0
+      ],
+      "assembly_bounds": [
+        [
+          -9.0,
+          -10.0,
+          0.0
+        ],
+        [
+          9.0,
+          10.0,
+          20.0
+        ]
+      ],
+      "print_rotation": null,
+      "color": "#516b7f",
+      "file": "01_先打小样/小样_方柱与M3通孔.stl"
+    },
+    "小样_磁铁孔4p2_4p3_4p4_螺母孔5p7_5p8_5p9": {
+      "solid_count": 1,
+      "watertight": true,
+      "volume_mm3": 2624.686440713552,
+      "print_extents_mm": [
+        34.0,
+        22.0,
+        4.0
+      ],
+      "assembly_bounds": [
+        [
+          -17.0,
+          -11.0,
+          0.0
+        ],
+        [
+          17.0,
+          11.0,
+          4.0
+        ]
+      ],
+      "print_rotation": null,
+      "color": "#e9b454",
+      "file": "01_先打小样/小样_磁铁孔4p2_4p3_4p4_螺母孔5p7_5p8_5p9.stl"
+    },
+    "可选_减磁垫片_0.4mm": {
+      "solid_count": 1,
+      "watertight": true,
+      "volume_mm3": 164.95054074217722,
+      "print_extents_mm": [
+        29.995,
+        21.998,
+        0.4
+      ],
+      "assembly_bounds": [
+        [
+          -10.995,
+          -10.999,
+          0.0
+        ],
+        [
+          19.0,
+          10.999,
+          0.4
+        ]
+      ],
+      "print_rotation": null,
+      "color": "#dadfe3",
+      "file": "01_先打小样/可选_减磁垫片_0.4mm.stl"
+    },
+    "可选_减磁垫片_0.8mm": {
+      "solid_count": 1,
+      "watertight": true,
+      "volume_mm3": 329.90108148435445,
+      "print_extents_mm": [
+        29.995,
+        21.998,
+        0.8
+      ],
+      "assembly_bounds": [
+        [
+          -10.995,
+          -10.999,
+          0.0
+        ],
+        [
+          19.0,
+          10.999,
+          0.8
+        ]
+      ],
+      "print_rotation": null,
+      "color": "#dadfe3",
+      "file": "01_先打小样/可选_减磁垫片_0.8mm.stl"
+    }
+  },
+  "checks": {
+    "height_125_overlap": [],
+    "height_135_overlap": [],
+    "height_145_overlap": [],
+    "M3_post_and_sleeve_bolt_nut_clear": true,
+    "M3x16_seat_screws_clear_ball": true,
+    "eight_D4x2_magnet_envelopes_clear": true,
+    "sleeve_slides_from_top_clear": true,
+    "seam_ring_min_radial_clearance": 0.2795,
+    "ball_shell_nominal_thickness": 1.6
+  },
+  "physical_tested": false,
+  "total_print_solid_volume_mm3": 160094.55257819907,
+  "ball_shell_and_glue_ring_volume_mm3": 18912.024775961632,
+  "ball_plastic_mass_estimate_g_at_1p24": 23.450910722192425
+}

@@ -27,3 +27,6 @@ Thumbs.db
 *.baiduyun.uploading.cfg
 *保密协议*.pdf
 
+
+# Local reversible synchronization backups
+00_项目管理/本次同步前备份*/

@@ -1,0 +1,12 @@
+{
+  "status": "SUPERSEDED by shared robot package; do not upload this old one-file package",
+  "version": "second-punch-walk-reverse-2026-10-20",
+  "new_sha256": "8ad1f341f3e333ae994708a126674e2c09ea767395be49322b1f0272bd38439b",
+  "previous_sha256": "c545a684e2740ebfa8b99e9897ad314eb021a1308d2db28ed8bfc2aa35a5c730",
+  "source": "E:\\课程作业\\milk-github-sync\\05_程序与测试\\CB1_Otto控制框架_v02\\second_punch_remote.py",
+  "board_target": "second CB1 receiver only, second_punch_remote.py",
+  "tests_passed": 185,
+  "new_regression_tests": 11,
+  "serial_connected": false,
+  "board_uploaded": false
+}

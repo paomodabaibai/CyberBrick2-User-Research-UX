@@ -1,0 +1,12 @@
+{
+  "angle_samples": 5,
+  "step_deg": 90,
+  "stroke_mm": 24,
+  "slider_min_x_mm": 28.0,
+  "slider_max_x_mm": 52.0,
+  "max_rod_angle_deg": 20.667316493512644,
+  "moving_collisions": [],
+  "fixed_collisions": [],
+  "max_observed_overlap_mm3": 0,
+  "scope": "Discrete exact-solid intersections; not continuous collision, load, friction, FEA or physical verification."
+}

@@ -1,0 +1,5 @@
+Final 30/20 shared gait: 199 tests in 21.174s, OK.
+14 shared-profile/D1 tests, 11 reverse-direction tests PASS.
+Hip output 60..120 degrees; ankle output 65..115; dance stays +/-25.
+All current package bytes match verified source and SHA256 manifest.
+No board connection or upload; punch expanded hip travel awaits physical validation.

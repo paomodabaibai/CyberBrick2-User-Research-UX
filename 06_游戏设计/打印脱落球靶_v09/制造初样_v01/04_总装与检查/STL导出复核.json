@@ -1,0 +1,114 @@
+[
+  {
+    "file": "01_先打小样/可选_减磁垫片_0.4mm.stl",
+    "sha256": "096789a70b8c4aa52257244f94aeac2b97361fb808cc4b6b6cc4756c651b2903",
+    "closed_single_body": true,
+    "on_bed": true,
+    "relative_volume_error": 0.0005168447657811579
+  },
+  {
+    "file": "01_先打小样/可选_减磁垫片_0.8mm.stl",
+    "sha256": "44b314a2c1a56ed5691068b18c33d60fb720e25f75d4a689d088229767a53fc3",
+    "closed_single_body": true,
+    "on_bed": true,
+    "relative_volume_error": 0.0005168447657811579
+  },
+  {
+    "file": "01_先打小样/小样_套筒_单边0.2mm.stl",
+    "sha256": "ccc2905da8044394b1d3a897da53231ece2499fad6a44cc848dcc81d46d3cd0f",
+    "closed_single_body": true,
+    "on_bed": true,
+    "relative_volume_error": 8.919061851245591e-08
+  },
+  {
+    "file": "01_先打小样/小样_套筒_单边0.3mm.stl",
+    "sha256": "1a084d238671b12f22e8caa3fbd897b8a3e33f1797a645ccc0b05a5743dbf1b6",
+    "closed_single_body": true,
+    "on_bed": true,
+    "relative_volume_error": 9.214832267300032e-08
+  },
+  {
+    "file": "01_先打小样/小样_套筒_单边0.4mm.stl",
+    "sha256": "09ba3871b06312bae30b610e4c8997b688cdce56d285c4e23bf6530753081fc0",
+    "closed_single_body": true,
+    "on_bed": true,
+    "relative_volume_error": 3.3623132599335055e-08
+  },
+  {
+    "file": "01_先打小样/小样_方柱与M3通孔.stl",
+    "sha256": "753e8b0baecd564544a51bd6c1833f60ee7568fe7bcba8692ca2e3e61b0dd801",
+    "closed_single_body": true,
+    "on_bed": true,
+    "relative_volume_error": 1.5436464241549082e-05
+  },
+  {
+    "file": "01_先打小样/小样_磁铁孔4p2_4p3_4p4_螺母孔5p7_5p8_5p9.stl",
+    "sha256": "4dc4230825935f0a72e75c2ac3e28fac7be2246e3a46023f6e6e707cabbef55b",
+    "closed_single_body": true,
+    "on_bed": true,
+    "relative_volume_error": 2.9838198176352964e-05
+  },
+  {
+    "file": "02_一套正式件_STL/01_场地固定底座.stl",
+    "sha256": "e468688bf5fd754b8072e610badde4fe90d0b0df932e34b398f4f5ed55c04a71",
+    "closed_single_body": true,
+    "on_bed": true,
+    "relative_volume_error": 5.6212316054403817e-08
+  },
+  {
+    "file": "02_一套正式件_STL/02_三档立柱.stl",
+    "sha256": "3a1e65d60e11be77feb195b67abc954d795c2d30c839aef0e57a67ecbf1574e7",
+    "closed_single_body": true,
+    "on_bed": true,
+    "relative_volume_error": 7.564716393043452e-06
+  },
+  {
+    "file": "02_一套正式件_STL/03_套筒悬臂.stl",
+    "sha256": "b90e2861388294a8a9634470b73d8ca135af13bf9d96bac2e5e0b6f1c8075467",
+    "closed_single_body": true,
+    "on_bed": true,
+    "relative_volume_error": 3.1361720286051325e-06
+  },
+  {
+    "file": "02_一套正式件_STL/04_磁铁托座_D4x2.stl",
+    "sha256": "781937b3bf9e46fee0924148f8506135ab08c8088c253cdfb424d8eb0d734e6e",
+    "closed_single_body": true,
+    "on_bed": true,
+    "relative_volume_error": 9.074440972703061e-05
+  },
+  {
+    "file": "02_一套正式件_STL/05_托座磁铁封盖.stl",
+    "sha256": "fec7afd148f271782ebb6941ba9f49db511a206856024fdea074426ec7c33159",
+    "closed_single_body": true,
+    "on_bed": true,
+    "relative_volume_error": 0.0005967427735278974
+  },
+  {
+    "file": "02_一套正式件_STL/06_球下半壳_带磁铁槽.stl",
+    "sha256": "94d7771d43a78f07743d5b5f3040f32212ca35146b8fb1d4fb8f6cadda32f8bd",
+    "closed_single_body": true,
+    "on_bed": true,
+    "relative_volume_error": 0.001520558350482481
+  },
+  {
+    "file": "02_一套正式件_STL/07_球上半壳.stl",
+    "sha256": "eb3ffff37129e97111ebc0555b406b4994e281d9a0f3de0b7c55cb385ea39c2a",
+    "closed_single_body": true,
+    "on_bed": true,
+    "relative_volume_error": 0.0025527842333255783
+  },
+  {
+    "file": "02_一套正式件_STL/08_球壳定位环.stl",
+    "sha256": "d2e2f9f0c8a22a3cb38d457d53eb2e02450be8f09b1a9554279b9a4a9e80d36a",
+    "closed_single_body": true,
+    "on_bed": true,
+    "relative_volume_error": 0.0005968151434747445
+  },
+  {
+    "file": "02_一套正式件_STL/09_球内磁铁封盖.stl",
+    "sha256": "fe0dbb1656285f029be4fb1e6cab9fb1a6d0b06d8b4c3f77e2ee41ae7cc02123",
+    "closed_single_body": true,
+    "on_bed": true,
+    "relative_volume_error": 0.0005966854556866508
+  }
+]

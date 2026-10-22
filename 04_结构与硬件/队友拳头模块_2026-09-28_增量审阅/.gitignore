@@ -1,0 +1,25 @@
+# Python environments and caches
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.mplconfig/
+04_结构与硬件/cad_runtime/
+05_程序与测试/serial_runtime/
+
+# JavaScript dependencies and generated build workspace
+**/node_modules/
+**/.vite/
+02_汇报/2026-09-17_项目提案/.build/
+
+# Read-only third-party application snapshot
+01_研究参考/CyberBrick2软件研究/app只读副本/
+
+# Duplicate punch-head delivery archives (source and outputs remain versioned)
+04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/
+04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包.zip
+
+# Editor and operating-system files
+**/~$*
+.DS_Store
+Thumbs.db
+

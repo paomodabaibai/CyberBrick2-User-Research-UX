@@ -1,0 +1,94 @@
+{
+  "version": "cb1-shared-palm-gait-30-20-2026-10-20",
+  "tests_passed": 199,
+  "physical_verified": false,
+  "uploaded": false,
+  "receivers": {
+    "巴掌接收板": {
+      "robot_remote.py": {
+        "source": "robot_remote.py",
+        "sha256": "5bf879e14b8813b7343ca26b7f63a58b23b3936a7d97fa22776b66f02bdfad85"
+      },
+      "otto_oscillator.py": {
+        "source": "otto_oscillator.py",
+        "sha256": "520028b4b0f8f3215941b3bf3290c9f4edb4514968da9ac6d7827639c406091a"
+      },
+      "main.py": {
+        "source": "palm_main.py",
+        "sha256": "1cab4886cc975b684b5caaa544c80912e1aecd54080b8a49976f7285d05e7c98"
+      },
+      "palm_remote_ready.py": {
+        "source": "palm_remote_ready.py",
+        "sha256": "e3e7557539deb753c26c972f67b7d25fe9458b294ff440a226e3b0125e4f04e1"
+      },
+      "attack_control.py": {
+        "source": "attack_control.py",
+        "sha256": "1d1a92c90832201f810c304d0dd7990fbdf62d6e3d363214c3a4d3245a4f1d5a"
+      },
+      "input_adapter.py": {
+        "source": "input_adapter.py",
+        "sha256": "1f0a514eb33d4845c6885673f307ce4373533886342334fe520f2ddff4a35c43"
+      },
+      "timeutil.py": {
+        "source": "timeutil.py",
+        "sha256": "db4c6eab50f8eabd1c20185a48814659fd2d2201e4a6969abb1f426f9e8135aa"
+      },
+      "drivers/__init__.py": {
+        "source": "drivers/__init__.py",
+        "sha256": "b0d0c7dfff020dc7e0c6bf3bd3bfe888616f38f36e77cc06fec38c6f0045cb1f"
+      },
+      "drivers/palm_pwm.py": {
+        "source": "drivers/palm_pwm.py",
+        "sha256": "11806d3e73d41e85b5edfbb207f25d0b5d1de12e99829eecf16901fdbc33c2e0"
+      }
+    },
+    "拳头接收板": {
+      "robot_remote.py": {
+        "source": "robot_remote.py",
+        "sha256": "5bf879e14b8813b7343ca26b7f63a58b23b3936a7d97fa22776b66f02bdfad85"
+      },
+      "otto_oscillator.py": {
+        "source": "otto_oscillator.py",
+        "sha256": "520028b4b0f8f3215941b3bf3290c9f4edb4514968da9ac6d7827639c406091a"
+      },
+      "main.py": {
+        "source": "second_punch_main.py",
+        "sha256": "fb6b8e1c1b870f002336cf8b6abc41f3261f160a78077a112acc682c840007f4"
+      },
+      "second_remote_ready.py": {
+        "source": "second_remote_ready.py",
+        "sha256": "6025318bf22aa20659f0a77d965de47bed75a7cfd0779cfda584b909667582ed"
+      },
+      "second_punch_remote.py": {
+        "source": "second_punch_remote.py",
+        "sha256": "649c18e312c3d42c2fc8fcc76bcbec95d8bcba54eff3a9d202884e0ca982cd3c"
+      }
+    }
+  },
+  "isolated_package_fake_runs": "previous 20/16 package was fake-run; current 30/20 source passed 199 tests; all current staged bytes verified",
+  "gait": {
+    "hip_amp": 30,
+    "ankle_amp": 20,
+    "bias": 4,
+    "turn_split": 20,
+    "hip_limits": [
+      60,
+      120
+    ],
+    "ankle_limits": [
+      65,
+      115
+    ],
+    "dance_limit": 25
+  },
+  "palm_speed_update_2026_10_21": {
+    "pulses_us": [
+      900,
+      1500,
+      2100
+    ],
+    "delta_us": 600,
+    "physical_verified": false,
+    "regression_tests_passed": 14
+  }
+}

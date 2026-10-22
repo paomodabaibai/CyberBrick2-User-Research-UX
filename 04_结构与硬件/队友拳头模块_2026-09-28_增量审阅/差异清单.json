@@ -1,0 +1,805 @@
+{
+  "counts": {
+    "same": 11485,
+    "new": 142,
+    "changed": 17,
+    "skipped": 15470
+  },
+  "files": [
+    {
+      "status": "changed",
+      "path": ".gitignore",
+      "bytes": 699
+    },
+    {
+      "status": "changed",
+      "path": "00_项目管理/继续任务_给其他Agent.md",
+      "bytes": 22748
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/BOM.csv",
+      "bytes": 2131
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/build_punch_head.py",
+      "bytes": 28649
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/BOM.csv",
+      "bytes": 2131
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/build_punch_head.py",
+      "bytes": 28649
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/output/assembly_000deg.glb",
+      "bytes": 4465940
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/output/assembly_000deg.step",
+      "bytes": 13259675
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/output/assembly_180deg.glb",
+      "bytes": 4474144
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/output/assembly_180deg.step",
+      "bytes": 13262397
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/output/assembly_preview.png",
+      "bytes": 102136
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/output/mechanism_motion.gif",
+      "bytes": 238091
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/output/motion.csv",
+      "bytes": 3588
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/output/parameters_used.json",
+      "bytes": 566
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/output/STEP_可编辑实体/01_mount_and_guides.step",
+      "bytes": 387500
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/output/STEP_可编辑实体/02_crank_keyed_hub.step",
+      "bytes": 75203
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/output/STEP_可编辑实体/03_connecting_rod.step",
+      "bytes": 25997
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/output/STEP_可编辑实体/04_carriage_and_wrist.step",
+      "bytes": 79091
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/output/STEP_可编辑实体/05_hollow_boxing_glove_TPU.step",
+      "bytes": 178345
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/output/STEP_可编辑实体/06_optional_sensor_bracket.step",
+      "bytes": 61068
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/output/STEP_可编辑实体/07_body_fit_gauge.step",
+      "bytes": 30238
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/output/STEP_可编辑实体/08_output_shaft_fit_gauge.step",
+      "bytes": 44430
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/output/STEP_可编辑实体/09_body_collar.step",
+      "bytes": 198005
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/output/STL_打印件/01_mount_and_guides.stl",
+      "bytes": 240884
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/output/STL_打印件/02_crank_keyed_hub.stl",
+      "bytes": 93684
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/output/STL_打印件/03_connecting_rod.stl",
+      "bytes": 51084
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/output/STL_打印件/04_carriage_and_wrist.stl",
+      "bytes": 71484
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/output/STL_打印件/05_hollow_boxing_glove_TPU.stl",
+      "bytes": 90484
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/output/STL_打印件/06_optional_sensor_bracket.stl",
+      "bytes": 37084
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/output/STL_打印件/07_body_fit_gauge.stl",
+      "bytes": 1684
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/output/STL_打印件/08_output_shaft_fit_gauge.stl",
+      "bytes": 34084
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/output/STL_打印件/09_body_collar.stl",
+      "bytes": 156484
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/output/validation.json",
+      "bytes": 3212
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/output/官方壳体_如已有则不重复打印/reference_lower_case.step",
+      "bytes": 649891
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/output/官方壳体_如已有则不重复打印/reference_lower_case.stl",
+      "bytes": 411984
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/output/官方壳体_如已有则不重复打印/reference_upper_case.step",
+      "bytes": 743876
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/output/官方壳体_如已有则不重复打印/reference_upper_case.stl",
+      "bytes": 319084
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/parameters.json",
+      "bytes": 549
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/parameter_check_24mm/motion.csv",
+      "bytes": 408
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/parameter_check_24mm/validation_24mm.json",
+      "bytes": 377
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/README_建模与装配.md",
+      "bytes": 12108
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/requirements.txt",
+      "bytes": 81
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/交付文件哈希.json",
+      "bytes": 5646
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/参考资料/030 Micro DC Motor with SH1.0 - Reducer-LA024.stl",
+      "bytes": 4922784
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/参考资料/030 Micro DC Motor with SH1.0 - Reducer-LA024.stp",
+      "bytes": 4155527
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/参考资料/030 Micro DC Motor with SH1.0-LA024 .stp",
+      "bytes": 228541
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/参考资料/030 Micro DC Motor with SH1.0-LA024.stl",
+      "bytes": 873184
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/参考资料/030_Micro_DC_Motor_-LA024.pdf",
+      "bytes": 368002
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/参考资料/motor_dimensions.png",
+      "bytes": 338339
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/参考资料/motor_spec.png",
+      "bytes": 207460
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/参考资料/reducer_inspection.png",
+      "bytes": 267452
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/资料核对与设计依据.md",
+      "bytes": 4056
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包/Otto_CB1出拳头部_v01/验证记录_2026-09-28.md",
+      "bytes": 2573
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/Otto_CB1出拳头部_v01_建模包.zip",
+      "bytes": 13181692
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/output/.mplconfig/fontlist-v3.11.0.json",
+      "bytes": 215192
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/output/assembly_000deg.glb",
+      "bytes": 4465940
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/output/assembly_000deg.step",
+      "bytes": 13259675
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/output/assembly_180deg.glb",
+      "bytes": 4474144
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/output/assembly_180deg.step",
+      "bytes": 13262397
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/output/assembly_preview.png",
+      "bytes": 102136
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/output/mechanism_motion.gif",
+      "bytes": 238091
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/output/motion.csv",
+      "bytes": 3588
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/output/parameters_used.json",
+      "bytes": 566
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/output/STEP_可编辑实体/01_mount_and_guides.step",
+      "bytes": 387500
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/output/STEP_可编辑实体/02_crank_keyed_hub.step",
+      "bytes": 75203
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/output/STEP_可编辑实体/03_connecting_rod.step",
+      "bytes": 25997
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/output/STEP_可编辑实体/04_carriage_and_wrist.step",
+      "bytes": 79091
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/output/STEP_可编辑实体/05_hollow_boxing_glove_TPU.step",
+      "bytes": 178345
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/output/STEP_可编辑实体/06_optional_sensor_bracket.step",
+      "bytes": 61068
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/output/STEP_可编辑实体/07_body_fit_gauge.step",
+      "bytes": 30238
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/output/STEP_可编辑实体/08_output_shaft_fit_gauge.step",
+      "bytes": 44430
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/output/STEP_可编辑实体/09_body_collar.step",
+      "bytes": 198005
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/output/STL_打印件/01_mount_and_guides.stl",
+      "bytes": 240884
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/output/STL_打印件/02_crank_keyed_hub.stl",
+      "bytes": 93684
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/output/STL_打印件/03_connecting_rod.stl",
+      "bytes": 51084
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/output/STL_打印件/04_carriage_and_wrist.stl",
+      "bytes": 71484
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/output/STL_打印件/05_hollow_boxing_glove_TPU.stl",
+      "bytes": 90484
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/output/STL_打印件/06_optional_sensor_bracket.stl",
+      "bytes": 37084
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/output/STL_打印件/07_body_fit_gauge.stl",
+      "bytes": 1684
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/output/STL_打印件/08_output_shaft_fit_gauge.stl",
+      "bytes": 34084
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/output/STL_打印件/09_body_collar.stl",
+      "bytes": 156484
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/output/validation.json",
+      "bytes": 3212
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/output/官方壳体_如已有则不重复打印/reference_lower_case.step",
+      "bytes": 649891
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/output/官方壳体_如已有则不重复打印/reference_lower_case.stl",
+      "bytes": 411984
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/output/官方壳体_如已有则不重复打印/reference_upper_case.step",
+      "bytes": 743876
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/output/官方壳体_如已有则不重复打印/reference_upper_case.stl",
+      "bytes": 319084
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/parameters.json",
+      "bytes": 549
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/parameter_check_24mm/motion.csv",
+      "bytes": 408
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/parameter_check_24mm/validation_24mm.json",
+      "bytes": 377
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/README_建模与装配.md",
+      "bytes": 12264
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/requirements.txt",
+      "bytes": 81
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/交付文件哈希.json",
+      "bytes": 5646
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/出拳机器人头部_建模详细说明_团队同步版.md",
+      "bytes": 22417
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/参考资料/030 Micro DC Motor with SH1.0 - Reducer-LA024.stl",
+      "bytes": 4922784
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/参考资料/030 Micro DC Motor with SH1.0 - Reducer-LA024.stp",
+      "bytes": 4155527
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/参考资料/030 Micro DC Motor with SH1.0-LA024 .stp",
+      "bytes": 228541
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/参考资料/030 Micro DC Motor with SH1.0-LA024.stl",
+      "bytes": 873184
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/参考资料/030_Micro_DC_Motor_-LA024.pdf",
+      "bytes": 368002
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/参考资料/motor_dimensions.png",
+      "bytes": 338339
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/参考资料/motor_spec.png",
+      "bytes": 207460
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/参考资料/reducer_inspection.png",
+      "bytes": 267452
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/资料核对与设计依据.md",
+      "bytes": 4056
+    },
+    {
+      "status": "new",
+      "path": "04_结构与硬件/Otto_CB1出拳头部_v01/验证记录_2026-09-28.md",
+      "bytes": 2573
+    },
+    {
+      "status": "changed",
+      "path": "05_程序与测试/CB1_Otto控制框架_v02/battery_walk.py",
+      "bytes": 2848
+    },
+    {
+      "status": "changed",
+      "path": "05_程序与测试/CB1_Otto控制框架_v02/config.py",
+      "bytes": 6238
+    },
+    {
+      "status": "changed",
+      "path": "05_程序与测试/CB1_Otto控制框架_v02/controller.py",
+      "bytes": 9173
+    },
+    {
+      "status": "changed",
+      "path": "05_程序与测试/CB1_Otto控制框架_v02/demo_scripted.py",
+      "bytes": 4521
+    },
+    {
+      "status": "changed",
+      "path": "05_程序与测试/CB1_Otto控制框架_v02/gait_planner.py",
+      "bytes": 5662
+    },
+    {
+      "status": "changed",
+      "path": "05_程序与测试/CB1_Otto控制框架_v02/main.py",
+      "bytes": 119
+    },
+    {
+      "status": "changed",
+      "path": "05_程序与测试/CB1_Otto控制框架_v02/tests/test_bench.py",
+      "bytes": 6017
+    },
+    {
+      "status": "changed",
+      "path": "05_程序与测试/CB1_Otto控制框架_v02/tests/test_board_loop.py",
+      "bytes": 13267
+    },
+    {
+      "status": "changed",
+      "path": "05_程序与测试/CB1_Otto控制框架_v02/tests/test_commands.py",
+      "bytes": 3326
+    },
+    {
+      "status": "changed",
+      "path": "05_程序与测试/CB1_Otto控制框架_v02/tests/test_demo_scripted.py",
+      "bytes": 2906
+    },
+    {
+      "status": "changed",
+      "path": "05_程序与测试/CB1_Otto控制框架_v02/tests/test_gait.py",
+      "bytes": 10313
+    },
+    {
+      "status": "changed",
+      "path": "05_程序与测试/CB1_Otto控制框架_v02/tests/test_walk_session.py",
+      "bytes": 3621
+    },
+    {
+      "status": "changed",
+      "path": "05_程序与测试/CB1_Otto控制框架_v02/walk_session.py",
+      "bytes": 2118
+    },
+    {
+      "status": "changed",
+      "path": "05_程序与测试/CB1_Otto控制框架_v02/_upload/config.py",
+      "bytes": 6242
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM7/.ignore",
+      "bytes": 17
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM7/app/control.mpy",
+      "bytes": 13368
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM7/app/devices.mpy",
+      "bytes": 470
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM7/app/parser.mpy",
+      "bytes": 4389
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM7/app/rc_main.py",
+      "bytes": 9824
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM7/bbl/buzzer.py",
+      "bytes": 13423
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM7/bbl/executor.py",
+      "bytes": 7715
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM7/bbl/leds.py",
+      "bytes": 9767
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM7/bbl/motors.py",
+      "bytes": 9968
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM7/bbl/servos.py",
+      "bytes": 11063
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM7/bbl/sleepModule.py",
+      "bytes": 3660
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM7/bbl/__init__.py",
+      "bytes": 475
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM7/boot.py",
+      "bytes": 511
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM7/log/logging.0.log",
+      "bytes": 10249
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM7/log/logging.1.log",
+      "bytes": 10265
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM7/log/logging.2.log",
+      "bytes": 10282
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM7/log/logging.3.log",
+      "bytes": 2928
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM7/log/logging.4.log",
+      "bytes": 10251
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM7/log/logging.5.log",
+      "bytes": 10271
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM7/log/logging.6.log",
+      "bytes": 10319
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM7/log/logging.7.log",
+      "bytes": 10285
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM7/log/logging.8.log",
+      "bytes": 10250
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM7/log/logging.9.log",
+      "bytes": 10265
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM7/log/log_index.txt",
+      "bytes": 1
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM7/rc_config",
+      "bytes": 1849
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM8/.ignore",
+      "bytes": 17
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM8/app/control.mpy",
+      "bytes": 13368
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM8/app/devices.mpy",
+      "bytes": 470
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM8/app/parser.mpy",
+      "bytes": 4389
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM8/app/rc_main.py",
+      "bytes": 9824
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM8/bbl/buzzer.py",
+      "bytes": 13423
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM8/bbl/executor.py",
+      "bytes": 7715
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM8/bbl/leds.py",
+      "bytes": 9767
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM8/bbl/motors.py",
+      "bytes": 9968
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM8/bbl/servos.py",
+      "bytes": 11063
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM8/bbl/sleepModule.py",
+      "bytes": 3660
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM8/bbl/__init__.py",
+      "bytes": 475
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM8/boot.py",
+      "bytes": 511
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM8/log/logging.0.log",
+      "bytes": 3386
+    },
+    {
+      "status": "new",
+      "path": "05_程序与测试/板载备份_2026-09-22/_COM8/rc_config",
+      "bytes": 1849
+    },
+    {
+      "status": "changed",
+      "path": "PROJECT_CONTEXT.md",
+      "bytes": 20018
+    },
+    {
+      "status": "new",
+      "path": "README.md",
+      "bytes": 2161
+    }
+  ]
+}
