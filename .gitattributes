@@ -1,0 +1,7 @@
+# Preserve printable documents and visual assets byte-for-byte.
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.glb binary
+*.zip binary

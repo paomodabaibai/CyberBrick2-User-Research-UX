@@ -1,0 +1,74 @@
+{
+  "result": "PASS",
+  "pdfs": [
+    {
+      "file": "01_A3双拼_打印12张_每张40x20cm.pdf",
+      "pages": 1,
+      "page_mm": [
+        419.9999361111111,
+        297.0000127777778
+      ]
+    },
+    {
+      "file": "02_A4单块_打印24张_每张20x20cm.pdf",
+      "pages": 1,
+      "page_mm": [
+        210.00000333333335,
+        297.0000127777778
+      ]
+    },
+    {
+      "file": "03_整幅80x120cm_实尺打印.pdf",
+      "pages": 1,
+      "page_mm": [
+        800.0001638888889,
+        1200.0000694444443
+      ]
+    }
+  ],
+  "tile_px": [
+    2400,
+    2400
+  ],
+  "png_dpi_metadata": [
+    304.8,
+    304.8
+  ],
+  "edge_max_difference": {
+    "left_right": 0,
+    "top_bottom": 0
+  },
+  "seam_guard_band_mm": 0.5,
+  "four_tile_render_comparison": [
+    {
+      "x": 0,
+      "y": 0,
+      "max_channel_difference": 4,
+      "mean_channel_difference": 0.0010242476851851851,
+      "fraction_above_4": 0.0
+    },
+    {
+      "x": 2400,
+      "y": 0,
+      "max_channel_difference": 4,
+      "mean_channel_difference": 0.0010265625,
+      "fraction_above_4": 0.0
+    },
+    {
+      "x": 0,
+      "y": 2400,
+      "max_channel_difference": 4,
+      "mean_channel_difference": 0.0010226851851851853,
+      "fraction_above_4": 0.0
+    },
+    {
+      "x": 2400,
+      "y": 2400,
+      "max_channel_difference": 4,
+      "mean_channel_difference": 0.0010250578703703704,
+      "fraction_above_4": 0.0
+    }
+  ],
+  "native_material_effective_ppi": 325.02,
+  "validation_scope": "Digital size, opposite-edge equality, periodic rendering comparison and visual PDF proofs; physical printing and paper color not tested."
+}

@@ -1,0 +1,27 @@
+生成方式：内置 imagegen，基于三张项目参考图生成单张纯插图。
+日期：2026-10-21
+文件：地图与双机_纯插图_v01.png
+内置工具固定输出到 C:\Users\白\.codex\generated_images；成品已复制到本 E 盘项目目录。
+参考图：
+E:\work\大三上\CyberBrick2.0\用户研究与体验设计\06_游戏设计\贴图地图模型_80x120cm_v11\preview\地图整体效果.png
+E:\work\大三上\CyberBrick2.0\用户研究与体验设计\04_结构与硬件\2026-09-21_整机首轮试打印包\整机总装_v02.png
+E:\work\大三上\CyberBrick2.0\用户研究与体验设计\04_结构与硬件\拳头_全套打印包_2026-09-29\成品装配图_零件标注.png
+
+最终提示词：
+Use case: illustration-story.
+Create ONE polished, high-resolution landscape illustration combining the user's tabletop arena and their two existing small biped toy robots. This is a pure finished illustration, with absolutely no writing, title, captions, dimension lines, callouts, labels, logos, watermark, UI or infographic layout.
+
+REFERENCE ROLES:
+Image 1 is the exact arena spatial layout and surface-color reference. Retain the rectangular 80 x 120 cm proportions, low natural light-wood perimeter rim, and EXACTLY TWO staggered T-shaped partition groups. Their long main bars run parallel to the 80 cm short edge, entering from opposite long sides at different positions along the arena; the short perpendicular stems face toward the open central area. Keep all this recognizable. Never copy any text or dimension graphics.
+Image 2 is the blue palm robot's structural silhouette reference: a compact box body, two independent very short straight legs and two broad flat feet, a small open gantry on top carrying a central vertical servo shaft and a short horizontal swing arm with an open palm at its tip. The PALM PLANE IS VERTICAL, all four fingers extend SIDEWAYS HORIZONTALLY, as in the reference; the thumb is above them. It is a horizontal swinging palm, not a raised fingers-up waving hand.
+Image 3 is the red fist robot's TOP MECHANISM reference only. It has a compact supported crank-and-linkage sliding carriage, two short parallel guide rods and a rounded red fist extending forward from the top of its box body. Render a simplified but connected and recognizable mechanism, not a long spring, tube or human arm. Give it the SAME short-legged biped body family as image 2. The colored CAD segmentation and annotations are not the illustration's style.
+
+SCENE AND COMPOSITION:
+A charming three-quarter isometric view of the complete miniature arena on an uncluttered warm ivory background, soft grounded shadow, generous but modest breathing room. The whole board is visible and fills most of the image. Arrange the blue palm robot and red fist robot in the open central aisle between the two partitions, facing diagonally toward one another with both friendly faces visible. A playful poised moment before a friendly toy match, no contact or injury. Each robot is approximately 15-20 cm tall relative to the 80 x 120 cm board; do not turn them into giant mascots. Ensure clear separate silhouettes and enough exposed floor and walls to read the map.
+
+VISUAL LANGUAGE:
+Deliberately illustrated, appealing contemporary 2.5D editorial/game-art aesthetic, softly painted shapes, controlled subtle paper grain, fine warm charcoal outlines and lovely soft ambient shadows. Friendly cream-white rounded box bodies with two simple black dot eyes, cobalt/sky-blue accents and feet for the palm robot, warm coral-red accents and feet for the fist robot. Both have exactly two short legs and two broad flat feet, no wheels, no knees, no side human arms. Use rounded matte plastic, soft rubber palm/fist, restrained visible mechanical connections. Avoid a raw CAD appearance or a photographic product catalog look.
+The arena floor is a bright muted blue-teal metallic-panel pattern with a fine square grid, pale cyan clipped-corner circuit details and small saturated sunshine-yellow tabs. Partition faces are deeper blue-teal, white support feet, a thin yellow and charcoal hazard stripe along their bases. Cheerful high-key daylight, warm cream highlights, clear yellow pops, bright airy technology-themed mood. Preserve the map design rather than adding futuristic scenery.
+
+AVOID:
+Any text or pseudo-text anywhere, measurements, chart elements, poster frame, humanoid arms, wheels, guns, antennas, extra robots, standing target balls, poles, ropes, target equipment, explosions, sparks, combat damage, surrounding buildings, clutter, glowing holograms. Only the arena, the two specified robots, their soft shadows and the plain background. Output a single cohesive finished illustration, not a multi-panel reference sheet.

@@ -1,0 +1,112 @@
+{
+  "views": {
+    "arena_A_ready.svg": {
+      "bounds_px": [
+        122.875,
+        211.945,
+        1477.125,
+        1015.541
+      ],
+      "viewport": [
+        0.0,
+        0.0,
+        1600.0,
+        1100.0
+      ],
+      "pure_vector": true
+    },
+    "arena_A_released.svg": {
+      "bounds_px": [
+        122.875,
+        211.945,
+        1477.125,
+        1015.541
+      ],
+      "viewport": [
+        0.0,
+        0.0,
+        1600.0,
+        1100.0
+      ],
+      "pure_vector": true
+    },
+    "arena_B_ready.svg": {
+      "bounds_px": [
+        122.875,
+        211.945,
+        1477.125,
+        1015.541
+      ],
+      "viewport": [
+        0.0,
+        0.0,
+        1600.0,
+        1100.0
+      ],
+      "pure_vector": true
+    },
+    "arena_B_released.svg": {
+      "bounds_px": [
+        122.875,
+        211.945,
+        1477.125,
+        1015.541
+      ],
+      "viewport": [
+        0.0,
+        0.0,
+        1600.0,
+        1100.0
+      ],
+      "pure_vector": true
+    },
+    "target_ready.svg": {
+      "bounds_px": [
+        178.145,
+        115.331,
+        897.233,
+        767.717
+      ],
+      "viewport": [
+        0.0,
+        0.0,
+        1000.0,
+        900.0
+      ],
+      "pure_vector": true
+    },
+    "target_released.svg": {
+      "bounds_px": [
+        213.513,
+        115.331,
+        897.233,
+        767.717
+      ],
+      "viewport": [
+        0.0,
+        0.0,
+        1000.0,
+        900.0
+      ],
+      "pure_vector": true
+    },
+    "wall_180_H80.svg": {
+      "bounds_px": [
+        198.859,
+        154.738,
+        801.141,
+        582.807
+      ],
+      "viewport": [
+        0.0,
+        0.0,
+        1000.0,
+        650.0
+      ],
+      "pure_vector": true
+    }
+  },
+  "geometry": "PASS: 6 coplanar floors, A10/B4 wall modules, exact arena volume",
+  "viewer": "PASS: local Edge tested A/B, ready/released, top, keyboard rotation, dimensions; no JS errors",
+  "physical_testing": false
+}

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650" viewBox="0 0 1000 650">
+<title>CyberBrick handcrafted arena, millimetre geometry</title>
+<polygon data-part="W80-foot" points="264.061,349.746 198.859,417.136 198.859,403.106 264.061,335.715" fill="#babfbe" stroke="#979b9a" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon data-part="W80-brace1" points="287.060,392.030 262.610,417.302 277.528,421.904 301.979,396.632" fill="#e8efed" stroke="#35515b" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon data-part="W80-brace1" points="287.060,392.030 262.610,417.302 287.060,307.846" fill="#c3c9c7" stroke="#35515b" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon data-part="W80-brace1" points="287.060,307.846 287.060,392.030 301.979,396.632 301.979,312.448" fill="#e8efed" stroke="#35515b" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon data-part="W80-foot" points="801.141,515.416 264.061,349.746 264.061,335.715 801.141,501.386" fill="#d3d9d8" stroke="#979b9a" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon data-part="W80-brace1" points="301.979,396.632 277.528,421.904 301.979,312.448" fill="#e8efed" stroke="#35515b" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon data-part="W80-panel" points="235.535,365.198 227.385,373.622 227.385,163.162 235.535,154.738" fill="#466369" stroke="#395155" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon data-part="W80-brace1" points="262.610,417.302 287.060,307.846 301.979,312.448 277.528,421.904" fill="#e8efed" stroke="#35515b" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon data-part="W80-foot" points="198.859,403.106 735.939,568.776 801.141,501.386 264.061,335.715" fill="#f6fdfb" stroke="#979b9a" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon data-part="W80-print-back" points="240.027,360.950 768.156,523.859 768.156,504.216 240.027,341.307" fill="#e4b84c"/>
+<polygon data-part="W80-print-front" points="231.844,369.407 759.973,532.317 759.973,512.674 231.844,349.764" fill="#e4b84c"/>
+<polygon data-part="W80-foot" points="198.859,417.136 735.939,582.807 735.939,568.776 198.859,403.106" fill="#b5bab9" stroke="#979b9a" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon data-part="W80-panel" points="772.615,530.869 235.535,365.198 235.535,154.738 772.615,320.409" fill="#4f7177" stroke="#395155" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon data-part="W80-brace2" points="698.021,507.859 722.472,482.588 737.390,487.190 712.940,512.461" fill="#e8efed" stroke="#35515b" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon data-part="W80-panel" points="227.385,373.622 764.465,539.293 764.465,328.832 227.385,163.162" fill="#446166" stroke="#395155" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon data-part="W80-brace2" points="698.021,507.859 722.472,482.588 698.021,423.675" fill="#c3c9c7" stroke="#35515b" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon data-part="W80-brace2" points="712.940,512.461 737.390,487.190 712.940,428.277" fill="#e8efed" stroke="#35515b" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon data-part="W80-brace2" points="722.472,482.588 698.021,423.675 712.940,428.277 737.390,487.190" fill="#e8efed" stroke="#35515b" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon data-part="W80-brace2" points="698.021,423.675 698.021,507.859 712.940,512.461 712.940,428.277" fill="#e8efed" stroke="#35515b" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon data-part="W80-foot" points="735.939,582.807 801.141,515.416 801.141,501.386 735.939,568.776" fill="#cad0ce" stroke="#979b9a" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon data-part="W80-panel" points="227.385,163.162 764.465,328.832 772.615,320.409 235.535,154.738" fill="#5c838b" stroke="#395155" stroke-width="0.65" stroke-linejoin="round"/>
+<polygon data-part="W80-panel" points="764.465,539.293 772.615,530.869 772.615,320.409 764.465,328.832" fill="#4c6c72" stroke="#395155" stroke-width="0.65" stroke-linejoin="round"/>
+</svg>
