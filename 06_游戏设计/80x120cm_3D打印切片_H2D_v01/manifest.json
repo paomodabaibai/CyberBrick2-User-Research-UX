@@ -1,0 +1,634 @@
+{
+  "version": "H2D-v01",
+  "units": "mm",
+  "map_size_mm": [
+    800,
+    1200
+  ],
+  "source_map": "../../贴图地图模型_80x120cm_v11/source/layout_parameters.json",
+  "excluded_geometry": [
+    "striking apparatus",
+    "targets",
+    "robots",
+    "spawn rings",
+    "attack hardware"
+  ],
+  "floor_grid": {
+    "columns": 3,
+    "rows": 5,
+    "seam_mm": 0.4,
+    "tongue_length_mm": 7.0,
+    "x_cells_mm": [
+      [
+        0.0,
+        266.4666666666667
+      ],
+      [
+        266.8666666666667,
+        533.1333333333333
+      ],
+      [
+        533.5333333333334,
+        800.0
+      ]
+    ],
+    "y_cells_mm": [
+      [
+        0.0,
+        239.8
+      ],
+      [
+        240.2,
+        479.8
+      ],
+      [
+        480.2,
+        719.8
+      ],
+      [
+        720.2,
+        959.8
+      ],
+      [
+        960.2,
+        1200.0
+      ]
+    ],
+    "floor_thickness_mm": 5.0
+  },
+  "printer": {
+    "family": "Bambu Lab H series",
+    "target": "H2D dual-nozzle intersection",
+    "build_volume_mm": [
+      300.0,
+      320.0,
+      325.0
+    ],
+    "purge_lane_mm": 25.0,
+    "safe_model_width_mm": 275.0,
+    "safe_model_depth_mm": 310.0
+  },
+  "physical_measurements_verified": false,
+  "note": "Digital geometry and 3MF package checks only; no physical fit, first-layer or robot collision test has been performed.",
+  "plates": [
+    {
+      "file": "plates/floor_R1C1.3mf",
+      "plate_name": "floor_R1C1",
+      "printer_family": "Bambu Lab H series / H2D dual-nozzle intersection",
+      "nominal_build_volume_mm": [
+        300.0,
+        320.0,
+        325.0
+      ],
+      "purge_tower_reserved_lane_mm": 25.0,
+      "model_envelope_mm": [
+        273.467,
+        246.8,
+        5.0
+      ],
+      "objects": [
+        "floor_R1C1"
+      ],
+      "recommended_layer_height_mm": 0.2,
+      "recommended_wall_count": 3,
+      "recommended_infill_percent": 15,
+      "supports": "off for floor/walls/rails; enable only if slicer reports a bridge issue",
+      "multi_color": "keep a 25 mm purge-tower lane at the right edge; monochrome may use the full 300 mm width"
+    },
+    {
+      "file": "plates/floor_R1C2.3mf",
+      "plate_name": "floor_R1C2",
+      "printer_family": "Bambu Lab H series / H2D dual-nozzle intersection",
+      "nominal_build_volume_mm": [
+        300.0,
+        320.0,
+        325.0
+      ],
+      "purge_tower_reserved_lane_mm": 25.0,
+      "model_envelope_mm": [
+        273.267,
+        246.8,
+        5.0
+      ],
+      "objects": [
+        "floor_R1C2"
+      ],
+      "recommended_layer_height_mm": 0.2,
+      "recommended_wall_count": 3,
+      "recommended_infill_percent": 15,
+      "supports": "off for floor/walls/rails; enable only if slicer reports a bridge issue",
+      "multi_color": "keep a 25 mm purge-tower lane at the right edge; monochrome may use the full 300 mm width"
+    },
+    {
+      "file": "plates/floor_R1C3.3mf",
+      "plate_name": "floor_R1C3",
+      "printer_family": "Bambu Lab H series / H2D dual-nozzle intersection",
+      "nominal_build_volume_mm": [
+        300.0,
+        320.0,
+        325.0
+      ],
+      "purge_tower_reserved_lane_mm": 25.0,
+      "model_envelope_mm": [
+        266.467,
+        246.8,
+        5.0
+      ],
+      "objects": [
+        "floor_R1C3"
+      ],
+      "recommended_layer_height_mm": 0.2,
+      "recommended_wall_count": 3,
+      "recommended_infill_percent": 15,
+      "supports": "off for floor/walls/rails; enable only if slicer reports a bridge issue",
+      "multi_color": "keep a 25 mm purge-tower lane at the right edge; monochrome may use the full 300 mm width"
+    },
+    {
+      "file": "plates/floor_R2C1.3mf",
+      "plate_name": "floor_R2C1",
+      "printer_family": "Bambu Lab H series / H2D dual-nozzle intersection",
+      "nominal_build_volume_mm": [
+        300.0,
+        320.0,
+        325.0
+      ],
+      "purge_tower_reserved_lane_mm": 25.0,
+      "model_envelope_mm": [
+        273.467,
+        246.6,
+        5.0
+      ],
+      "objects": [
+        "floor_R2C1"
+      ],
+      "recommended_layer_height_mm": 0.2,
+      "recommended_wall_count": 3,
+      "recommended_infill_percent": 15,
+      "supports": "off for floor/walls/rails; enable only if slicer reports a bridge issue",
+      "multi_color": "keep a 25 mm purge-tower lane at the right edge; monochrome may use the full 300 mm width"
+    },
+    {
+      "file": "plates/floor_R2C2.3mf",
+      "plate_name": "floor_R2C2",
+      "printer_family": "Bambu Lab H series / H2D dual-nozzle intersection",
+      "nominal_build_volume_mm": [
+        300.0,
+        320.0,
+        325.0
+      ],
+      "purge_tower_reserved_lane_mm": 25.0,
+      "model_envelope_mm": [
+        273.267,
+        246.6,
+        5.0
+      ],
+      "objects": [
+        "floor_R2C2"
+      ],
+      "recommended_layer_height_mm": 0.2,
+      "recommended_wall_count": 3,
+      "recommended_infill_percent": 15,
+      "supports": "off for floor/walls/rails; enable only if slicer reports a bridge issue",
+      "multi_color": "keep a 25 mm purge-tower lane at the right edge; monochrome may use the full 300 mm width"
+    },
+    {
+      "file": "plates/floor_R2C3.3mf",
+      "plate_name": "floor_R2C3",
+      "printer_family": "Bambu Lab H series / H2D dual-nozzle intersection",
+      "nominal_build_volume_mm": [
+        300.0,
+        320.0,
+        325.0
+      ],
+      "purge_tower_reserved_lane_mm": 25.0,
+      "model_envelope_mm": [
+        266.467,
+        246.6,
+        5.0
+      ],
+      "objects": [
+        "floor_R2C3"
+      ],
+      "recommended_layer_height_mm": 0.2,
+      "recommended_wall_count": 3,
+      "recommended_infill_percent": 15,
+      "supports": "off for floor/walls/rails; enable only if slicer reports a bridge issue",
+      "multi_color": "keep a 25 mm purge-tower lane at the right edge; monochrome may use the full 300 mm width"
+    },
+    {
+      "file": "plates/floor_R3C1.3mf",
+      "plate_name": "floor_R3C1",
+      "printer_family": "Bambu Lab H series / H2D dual-nozzle intersection",
+      "nominal_build_volume_mm": [
+        300.0,
+        320.0,
+        325.0
+      ],
+      "purge_tower_reserved_lane_mm": 25.0,
+      "model_envelope_mm": [
+        273.467,
+        246.6,
+        5.0
+      ],
+      "objects": [
+        "floor_R3C1"
+      ],
+      "recommended_layer_height_mm": 0.2,
+      "recommended_wall_count": 3,
+      "recommended_infill_percent": 15,
+      "supports": "off for floor/walls/rails; enable only if slicer reports a bridge issue",
+      "multi_color": "keep a 25 mm purge-tower lane at the right edge; monochrome may use the full 300 mm width"
+    },
+    {
+      "file": "plates/floor_R3C2.3mf",
+      "plate_name": "floor_R3C2",
+      "printer_family": "Bambu Lab H series / H2D dual-nozzle intersection",
+      "nominal_build_volume_mm": [
+        300.0,
+        320.0,
+        325.0
+      ],
+      "purge_tower_reserved_lane_mm": 25.0,
+      "model_envelope_mm": [
+        273.267,
+        246.6,
+        5.0
+      ],
+      "objects": [
+        "floor_R3C2"
+      ],
+      "recommended_layer_height_mm": 0.2,
+      "recommended_wall_count": 3,
+      "recommended_infill_percent": 15,
+      "supports": "off for floor/walls/rails; enable only if slicer reports a bridge issue",
+      "multi_color": "keep a 25 mm purge-tower lane at the right edge; monochrome may use the full 300 mm width"
+    },
+    {
+      "file": "plates/floor_R3C3.3mf",
+      "plate_name": "floor_R3C3",
+      "printer_family": "Bambu Lab H series / H2D dual-nozzle intersection",
+      "nominal_build_volume_mm": [
+        300.0,
+        320.0,
+        325.0
+      ],
+      "purge_tower_reserved_lane_mm": 25.0,
+      "model_envelope_mm": [
+        266.467,
+        246.6,
+        5.0
+      ],
+      "objects": [
+        "floor_R3C3"
+      ],
+      "recommended_layer_height_mm": 0.2,
+      "recommended_wall_count": 3,
+      "recommended_infill_percent": 15,
+      "supports": "off for floor/walls/rails; enable only if slicer reports a bridge issue",
+      "multi_color": "keep a 25 mm purge-tower lane at the right edge; monochrome may use the full 300 mm width"
+    },
+    {
+      "file": "plates/floor_R4C1.3mf",
+      "plate_name": "floor_R4C1",
+      "printer_family": "Bambu Lab H series / H2D dual-nozzle intersection",
+      "nominal_build_volume_mm": [
+        300.0,
+        320.0,
+        325.0
+      ],
+      "purge_tower_reserved_lane_mm": 25.0,
+      "model_envelope_mm": [
+        273.467,
+        246.6,
+        5.0
+      ],
+      "objects": [
+        "floor_R4C1"
+      ],
+      "recommended_layer_height_mm": 0.2,
+      "recommended_wall_count": 3,
+      "recommended_infill_percent": 15,
+      "supports": "off for floor/walls/rails; enable only if slicer reports a bridge issue",
+      "multi_color": "keep a 25 mm purge-tower lane at the right edge; monochrome may use the full 300 mm width"
+    },
+    {
+      "file": "plates/floor_R4C2.3mf",
+      "plate_name": "floor_R4C2",
+      "printer_family": "Bambu Lab H series / H2D dual-nozzle intersection",
+      "nominal_build_volume_mm": [
+        300.0,
+        320.0,
+        325.0
+      ],
+      "purge_tower_reserved_lane_mm": 25.0,
+      "model_envelope_mm": [
+        273.267,
+        246.6,
+        5.0
+      ],
+      "objects": [
+        "floor_R4C2"
+      ],
+      "recommended_layer_height_mm": 0.2,
+      "recommended_wall_count": 3,
+      "recommended_infill_percent": 15,
+      "supports": "off for floor/walls/rails; enable only if slicer reports a bridge issue",
+      "multi_color": "keep a 25 mm purge-tower lane at the right edge; monochrome may use the full 300 mm width"
+    },
+    {
+      "file": "plates/floor_R4C3.3mf",
+      "plate_name": "floor_R4C3",
+      "printer_family": "Bambu Lab H series / H2D dual-nozzle intersection",
+      "nominal_build_volume_mm": [
+        300.0,
+        320.0,
+        325.0
+      ],
+      "purge_tower_reserved_lane_mm": 25.0,
+      "model_envelope_mm": [
+        266.467,
+        246.6,
+        5.0
+      ],
+      "objects": [
+        "floor_R4C3"
+      ],
+      "recommended_layer_height_mm": 0.2,
+      "recommended_wall_count": 3,
+      "recommended_infill_percent": 15,
+      "supports": "off for floor/walls/rails; enable only if slicer reports a bridge issue",
+      "multi_color": "keep a 25 mm purge-tower lane at the right edge; monochrome may use the full 300 mm width"
+    },
+    {
+      "file": "plates/floor_R5C1.3mf",
+      "plate_name": "floor_R5C1",
+      "printer_family": "Bambu Lab H series / H2D dual-nozzle intersection",
+      "nominal_build_volume_mm": [
+        300.0,
+        320.0,
+        325.0
+      ],
+      "purge_tower_reserved_lane_mm": 25.0,
+      "model_envelope_mm": [
+        273.467,
+        239.8,
+        5.0
+      ],
+      "objects": [
+        "floor_R5C1"
+      ],
+      "recommended_layer_height_mm": 0.2,
+      "recommended_wall_count": 3,
+      "recommended_infill_percent": 15,
+      "supports": "off for floor/walls/rails; enable only if slicer reports a bridge issue",
+      "multi_color": "keep a 25 mm purge-tower lane at the right edge; monochrome may use the full 300 mm width"
+    },
+    {
+      "file": "plates/floor_R5C2.3mf",
+      "plate_name": "floor_R5C2",
+      "printer_family": "Bambu Lab H series / H2D dual-nozzle intersection",
+      "nominal_build_volume_mm": [
+        300.0,
+        320.0,
+        325.0
+      ],
+      "purge_tower_reserved_lane_mm": 25.0,
+      "model_envelope_mm": [
+        273.267,
+        239.8,
+        5.0
+      ],
+      "objects": [
+        "floor_R5C2"
+      ],
+      "recommended_layer_height_mm": 0.2,
+      "recommended_wall_count": 3,
+      "recommended_infill_percent": 15,
+      "supports": "off for floor/walls/rails; enable only if slicer reports a bridge issue",
+      "multi_color": "keep a 25 mm purge-tower lane at the right edge; monochrome may use the full 300 mm width"
+    },
+    {
+      "file": "plates/floor_R5C3.3mf",
+      "plate_name": "floor_R5C3",
+      "printer_family": "Bambu Lab H series / H2D dual-nozzle intersection",
+      "nominal_build_volume_mm": [
+        300.0,
+        320.0,
+        325.0
+      ],
+      "purge_tower_reserved_lane_mm": 25.0,
+      "model_envelope_mm": [
+        266.467,
+        239.8,
+        5.0
+      ],
+      "objects": [
+        "floor_R5C3"
+      ],
+      "recommended_layer_height_mm": 0.2,
+      "recommended_wall_count": 3,
+      "recommended_infill_percent": 15,
+      "supports": "off for floor/walls/rails; enable only if slicer reports a bridge issue",
+      "multi_color": "keep a 25 mm purge-tower lane at the right edge; monochrome may use the full 300 mm width"
+    },
+    {
+      "file": "plates/walls_front.3mf",
+      "plate_name": "walls_front",
+      "printer_family": "Bambu Lab H series / H2D dual-nozzle intersection",
+      "nominal_build_volume_mm": [
+        300.0,
+        320.0,
+        325.0
+      ],
+      "purge_tower_reserved_lane_mm": 25.0,
+      "model_envelope_mm": [
+        238.0,
+        216.0,
+        100.0
+      ],
+      "objects": [
+        "front_main_1",
+        "front_main_2",
+        "front_main_3",
+        "front_main_4",
+        "front_T_branch"
+      ],
+      "recommended_layer_height_mm": 0.2,
+      "recommended_wall_count": 3,
+      "recommended_infill_percent": 15,
+      "supports": "off for floor/walls/rails; enable only if slicer reports a bridge issue",
+      "multi_color": "keep a 25 mm purge-tower lane at the right edge; monochrome may use the full 300 mm width"
+    },
+    {
+      "file": "plates/walls_back.3mf",
+      "plate_name": "walls_back",
+      "printer_family": "Bambu Lab H series / H2D dual-nozzle intersection",
+      "nominal_build_volume_mm": [
+        300.0,
+        320.0,
+        325.0
+      ],
+      "purge_tower_reserved_lane_mm": 25.0,
+      "model_envelope_mm": [
+        238.0,
+        216.0,
+        100.0
+      ],
+      "objects": [
+        "back_main_1",
+        "back_main_2",
+        "back_main_3",
+        "back_main_4",
+        "back_T_branch"
+      ],
+      "recommended_layer_height_mm": 0.2,
+      "recommended_wall_count": 3,
+      "recommended_infill_percent": 15,
+      "supports": "off for floor/walls/rails; enable only if slicer reports a bridge issue",
+      "multi_color": "keep a 25 mm purge-tower lane at the right edge; monochrome may use the full 300 mm width"
+    },
+    {
+      "file": "plates/rails_NS_A.3mf",
+      "plate_name": "rails_NS_A",
+      "printer_family": "Bambu Lab H series / H2D dual-nozzle intersection",
+      "nominal_build_volume_mm": [
+        300.0,
+        320.0,
+        325.0
+      ],
+      "purge_tower_reserved_lane_mm": 25.0,
+      "model_envelope_mm": [
+        266.467,
+        76.0,
+        30.0
+      ],
+      "objects": [
+        "rail_front_1",
+        "rail_front_2",
+        "rail_front_3"
+      ],
+      "recommended_layer_height_mm": 0.2,
+      "recommended_wall_count": 3,
+      "recommended_infill_percent": 15,
+      "supports": "off for floor/walls/rails; enable only if slicer reports a bridge issue",
+      "multi_color": "keep a 25 mm purge-tower lane at the right edge; monochrome may use the full 300 mm width"
+    },
+    {
+      "file": "plates/rails_NS_B.3mf",
+      "plate_name": "rails_NS_B",
+      "printer_family": "Bambu Lab H series / H2D dual-nozzle intersection",
+      "nominal_build_volume_mm": [
+        300.0,
+        320.0,
+        325.0
+      ],
+      "purge_tower_reserved_lane_mm": 25.0,
+      "model_envelope_mm": [
+        266.467,
+        76.0,
+        30.0
+      ],
+      "objects": [
+        "rail_back_1",
+        "rail_back_2",
+        "rail_back_3"
+      ],
+      "recommended_layer_height_mm": 0.2,
+      "recommended_wall_count": 3,
+      "recommended_infill_percent": 15,
+      "supports": "off for floor/walls/rails; enable only if slicer reports a bridge issue",
+      "multi_color": "keep a 25 mm purge-tower lane at the right edge; monochrome may use the full 300 mm width"
+    },
+    {
+      "file": "plates/rails_EW_A.3mf",
+      "plate_name": "rails_EW_A",
+      "printer_family": "Bambu Lab H series / H2D dual-nozzle intersection",
+      "nominal_build_volume_mm": [
+        300.0,
+        320.0,
+        325.0
+      ],
+      "purge_tower_reserved_lane_mm": 25.0,
+      "model_envelope_mm": [
+        132.0,
+        239.6,
+        30.0
+      ],
+      "objects": [
+        "rail_left_1",
+        "rail_left_2",
+        "rail_left_3",
+        "rail_left_4",
+        "rail_left_5"
+      ],
+      "recommended_layer_height_mm": 0.2,
+      "recommended_wall_count": 3,
+      "recommended_infill_percent": 15,
+      "supports": "off for floor/walls/rails; enable only if slicer reports a bridge issue",
+      "multi_color": "keep a 25 mm purge-tower lane at the right edge; monochrome may use the full 300 mm width"
+    },
+    {
+      "file": "plates/rails_EW_B.3mf",
+      "plate_name": "rails_EW_B",
+      "printer_family": "Bambu Lab H series / H2D dual-nozzle intersection",
+      "nominal_build_volume_mm": [
+        300.0,
+        320.0,
+        325.0
+      ],
+      "purge_tower_reserved_lane_mm": 25.0,
+      "model_envelope_mm": [
+        132.0,
+        239.6,
+        30.0
+      ],
+      "objects": [
+        "rail_right_1",
+        "rail_right_2",
+        "rail_right_3",
+        "rail_right_4",
+        "rail_right_5"
+      ],
+      "recommended_layer_height_mm": 0.2,
+      "recommended_wall_count": 3,
+      "recommended_infill_percent": 15,
+      "supports": "off for floor/walls/rails; enable only if slicer reports a bridge issue",
+      "multi_color": "keep a 25 mm purge-tower lane at the right edge; monochrome may use the full 300 mm width"
+    },
+    {
+      "file": "plates/seam_key_pack.3mf",
+      "plate_name": "seam_key_pack",
+      "printer_family": "Bambu Lab H series / H2D dual-nozzle intersection",
+      "nominal_build_volume_mm": [
+        300.0,
+        320.0,
+        325.0
+      ],
+      "purge_tower_reserved_lane_mm": 25.0,
+      "model_envelope_mm": [
+        252.0,
+        70.0,
+        2.0
+      ],
+      "objects": [
+        "seam_key_clip",
+        "seam_key_clip",
+        "seam_key_clip",
+        "seam_key_clip",
+        "seam_key_clip",
+        "seam_key_clip",
+        "seam_key_clip",
+        "seam_key_clip",
+        "seam_key_clip",
+        "seam_key_clip",
+        "seam_key_clip",
+        "seam_key_clip"
+      ],
+      "recommended_layer_height_mm": 0.2,
+      "recommended_wall_count": 3,
+      "recommended_infill_percent": 15,
+      "supports": "off for floor/walls/rails; enable only if slicer reports a bridge issue",
+      "multi_color": "keep a 25 mm purge-tower lane at the right edge; monochrome may use the full 300 mm width"
+    }
+  ]
+}

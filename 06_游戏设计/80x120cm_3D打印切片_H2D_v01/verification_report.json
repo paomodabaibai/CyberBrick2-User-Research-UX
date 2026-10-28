@@ -1,0 +1,170 @@
+{
+  "result": "PASS",
+  "files": [
+    {
+      "file": "plates/floor_R1C1.3mf",
+      "objects": 1,
+      "build_items": 1,
+      "triangles": 48,
+      "metadata_plate": "floor_R1C1"
+    },
+    {
+      "file": "plates/floor_R1C2.3mf",
+      "objects": 1,
+      "build_items": 1,
+      "triangles": 48,
+      "metadata_plate": "floor_R1C2"
+    },
+    {
+      "file": "plates/floor_R1C3.3mf",
+      "objects": 1,
+      "build_items": 1,
+      "triangles": 36,
+      "metadata_plate": "floor_R1C3"
+    },
+    {
+      "file": "plates/floor_R2C1.3mf",
+      "objects": 1,
+      "build_items": 1,
+      "triangles": 48,
+      "metadata_plate": "floor_R2C1"
+    },
+    {
+      "file": "plates/floor_R2C2.3mf",
+      "objects": 1,
+      "build_items": 1,
+      "triangles": 48,
+      "metadata_plate": "floor_R2C2"
+    },
+    {
+      "file": "plates/floor_R2C3.3mf",
+      "objects": 1,
+      "build_items": 1,
+      "triangles": 36,
+      "metadata_plate": "floor_R2C3"
+    },
+    {
+      "file": "plates/floor_R3C1.3mf",
+      "objects": 1,
+      "build_items": 1,
+      "triangles": 48,
+      "metadata_plate": "floor_R3C1"
+    },
+    {
+      "file": "plates/floor_R3C2.3mf",
+      "objects": 1,
+      "build_items": 1,
+      "triangles": 48,
+      "metadata_plate": "floor_R3C2"
+    },
+    {
+      "file": "plates/floor_R3C3.3mf",
+      "objects": 1,
+      "build_items": 1,
+      "triangles": 36,
+      "metadata_plate": "floor_R3C3"
+    },
+    {
+      "file": "plates/floor_R4C1.3mf",
+      "objects": 1,
+      "build_items": 1,
+      "triangles": 48,
+      "metadata_plate": "floor_R4C1"
+    },
+    {
+      "file": "plates/floor_R4C2.3mf",
+      "objects": 1,
+      "build_items": 1,
+      "triangles": 48,
+      "metadata_plate": "floor_R4C2"
+    },
+    {
+      "file": "plates/floor_R4C3.3mf",
+      "objects": 1,
+      "build_items": 1,
+      "triangles": 36,
+      "metadata_plate": "floor_R4C3"
+    },
+    {
+      "file": "plates/floor_R5C1.3mf",
+      "objects": 1,
+      "build_items": 1,
+      "triangles": 36,
+      "metadata_plate": "floor_R5C1"
+    },
+    {
+      "file": "plates/floor_R5C2.3mf",
+      "objects": 1,
+      "build_items": 1,
+      "triangles": 36,
+      "metadata_plate": "floor_R5C2"
+    },
+    {
+      "file": "plates/floor_R5C3.3mf",
+      "objects": 1,
+      "build_items": 1,
+      "triangles": 24,
+      "metadata_plate": "floor_R5C3"
+    },
+    {
+      "file": "plates/walls_front.3mf",
+      "objects": 5,
+      "build_items": 5,
+      "triangles": 200,
+      "metadata_plate": "walls_front"
+    },
+    {
+      "file": "plates/walls_back.3mf",
+      "objects": 5,
+      "build_items": 5,
+      "triangles": 200,
+      "metadata_plate": "walls_back"
+    },
+    {
+      "file": "plates/rails_NS_A.3mf",
+      "objects": 3,
+      "build_items": 3,
+      "triangles": 36,
+      "metadata_plate": "rails_NS_A"
+    },
+    {
+      "file": "plates/rails_NS_B.3mf",
+      "objects": 3,
+      "build_items": 3,
+      "triangles": 36,
+      "metadata_plate": "rails_NS_B"
+    },
+    {
+      "file": "plates/rails_EW_A.3mf",
+      "objects": 5,
+      "build_items": 5,
+      "triangles": 60,
+      "metadata_plate": "rails_EW_A"
+    },
+    {
+      "file": "plates/rails_EW_B.3mf",
+      "objects": 5,
+      "build_items": 5,
+      "triangles": 60,
+      "metadata_plate": "rails_EW_B"
+    },
+    {
+      "file": "plates/seam_key_pack.3mf",
+      "objects": 12,
+      "build_items": 12,
+      "triangles": 432,
+      "metadata_plate": "seam_key_pack"
+    },
+    {
+      "file": "assembly_reference_map_only.3mf",
+      "objects": 41,
+      "build_items": 41,
+      "triangles": 1216,
+      "metadata_plate": "assembly_reference_only"
+    }
+  ],
+  "plate_count": 22,
+  "assembly_reference_checked": true,
+  "forbidden_geometry_absent": true,
+  "zip_and_xml_valid": true
+}
