@@ -1,0 +1,7 @@
+{
+  "source": "E:\\课程作业\\大三上\\张茫 用户研究与体验设计\\宣传视频10.27\\fa00df7e0d734e4d3d1b9bcb4d0d6749_raw.mp4",
+  "id": "V24",
+  "model": "faster-whisper-small CPU int8",
+  "status": "机器转写 未逐字听校",
+  "segments": []
+}

@@ -1,0 +1,46 @@
+{
+  "parts": [
+    {
+      "name": "11_巴掌新舵机桥",
+      "closed_positive_single_component": true,
+      "volume_mm3": 3306.0426002854315
+    },
+    {
+      "name": "12_承重转盘配套可拆罩",
+      "closed_positive_single_component": true,
+      "volume_mm3": 26953.165883270227
+    },
+    {
+      "name": "13_独立承重座_打印滑动试验版",
+      "closed_positive_single_component": true,
+      "volume_mm3": 7059.448564463306
+    },
+    {
+      "name": "14A_半片限位压环",
+      "closed_positive_single_component": true,
+      "volume_mm3": 1243.1437189597236
+    },
+    {
+      "name": "14B_半片限位压环",
+      "closed_positive_single_component": true,
+      "volume_mm3": 1243.1437183512853
+    },
+    {
+      "name": "15_承重转盘与加强接杆一体",
+      "closed_positive_single_component": true,
+      "volume_mm3": 9042.974062839245
+    },
+    {
+      "name": "20_拳头底座_清理废弃孔耳",
+      "closed_positive_single_component": true,
+      "volume_mm3": 42030.57370644055
+    },
+    {
+      "name": "21_拳头护罩_共用螺丝敞口",
+      "closed_positive_single_component": true,
+      "volume_mm3": 11269.868712722237
+    }
+  ],
+  "static_checks_pass_with_tolerance_mm3": 0.001,
+  "not_physical_test": true
+}

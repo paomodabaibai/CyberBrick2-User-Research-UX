@@ -1,0 +1,274 @@
+{
+  "source": "E:\\课程作业\\大三上\\张茫 用户研究与体验设计\\宣传视频10.27\\b5e4a2a7bbef0b6803d8a96282b8b237_raw.mp4",
+  "id": "V22",
+  "model": "faster-whisper-small CPU int8",
+  "status": "机器转写 未逐字听校",
+  "segments": [
+    {
+      "start": 0.34,
+      "end": 3.69,
+      "text": "我来给大家讲一下规则",
+      "avg_logprob": -0.11,
+      "no_speech_prob": 0.206
+    },
+    {
+      "start": 3.69,
+      "end": 6.69,
+      "text": "就是红方和蓝方同时从这个点出发",
+      "avg_logprob": -0.11,
+      "no_speech_prob": 0.206
+    },
+    {
+      "start": 6.69,
+      "end": 9.69,
+      "text": "他们需要穿过这个中间地带",
+      "avg_logprob": -0.11,
+      "no_speech_prob": 0.206
+    },
+    {
+      "start": 9.69,
+      "end": 12.69,
+      "text": "然后到达这个区域各自的这个位置",
+      "avg_logprob": -0.11,
+      "no_speech_prob": 0.206
+    },
+    {
+      "start": 12.69,
+      "end": 15.69,
+      "text": "然后寄到各自对应颜色的球就获胜",
+      "avg_logprob": -0.11,
+      "no_speech_prob": 0.206
+    },
+    {
+      "start": 15.69,
+      "end": 17.69,
+      "text": "然后他们在中间相遇的时候",
+      "avg_logprob": -0.11,
+      "no_speech_prob": 0.206
+    },
+    {
+      "start": 17.69,
+      "end": 19.69,
+      "text": "可以阻拦对方寄到对方",
+      "avg_logprob": -0.11,
+      "no_speech_prob": 0.206
+    },
+    {
+      "start": 19.69,
+      "end": 20.69,
+      "text": "就是这样",
+      "avg_logprob": -0.11,
+      "no_speech_prob": 0.206
+    },
+    {
+      "start": 20.69,
+      "end": 22.69,
+      "text": "谁寄到的球最多谁就获胜",
+      "avg_logprob": -0.11,
+      "no_speech_prob": 0.206
+    },
+    {
+      "start": 22.69,
+      "end": 26.68,
+      "text": "谁先寄到球谁就获胜",
+      "avg_logprob": -0.11,
+      "no_speech_prob": 0.206
+    },
+    {
+      "start": 26.68,
+      "end": 28.35,
+      "text": "来吧",
+      "avg_logprob": -0.11,
+      "no_speech_prob": 0.206
+    },
+    {
+      "start": 28.35,
+      "end": 30.35,
+      "text": "来吧",
+      "avg_logprob": -0.11,
+      "no_speech_prob": 0.206
+    },
+    {
+      "start": 30.35,
+      "end": 38.38,
+      "text": "我现在是红方",
+      "avg_logprob": -0.368,
+      "no_speech_prob": 0.316
+    },
+    {
+      "start": 38.38,
+      "end": 42.38,
+      "text": "3 2 1 开始",
+      "avg_logprob": -0.368,
+      "no_speech_prob": 0.316
+    },
+    {
+      "start": 42.38,
+      "end": 63.7,
+      "text": "红方选手被卡脚了",
+      "avg_logprob": -0.368,
+      "no_speech_prob": 0.316
+    },
+    {
+      "start": 63.7,
+      "end": 66.7,
+      "text": "我和他第一皮被掀起来了",
+      "avg_logprob": -0.368,
+      "no_speech_prob": 0.316
+    },
+    {
+      "start": 66.7,
+      "end": 79.94,
+      "text": "他不过来后",
+      "avg_logprob": -0.368,
+      "no_speech_prob": 0.316
+    },
+    {
+      "start": 79.94,
+      "end": 81.94,
+      "text": "我倒着走了",
+      "avg_logprob": -0.368,
+      "no_speech_prob": 0.316
+    },
+    {
+      "start": 81.94,
+      "end": 97.7,
+      "text": "倒着走了",
+      "avg_logprob": -0.368,
+      "no_speech_prob": 0.316
+    },
+    {
+      "start": 97.7,
+      "end": 107.89,
+      "text": "我来了",
+      "avg_logprob": -0.368,
+      "no_speech_prob": 0.316
+    },
+    {
+      "start": 107.89,
+      "end": 110.89,
+      "text": "我倒了我倒了我倒了",
+      "avg_logprob": -0.368,
+      "no_speech_prob": 0.316
+    },
+    {
+      "start": 110.89,
+      "end": 117.4,
+      "text": "我让他走了",
+      "avg_logprob": -0.368,
+      "no_speech_prob": 0.316
+    },
+    {
+      "start": 117.4,
+      "end": 120.33,
+      "text": "打",
+      "avg_logprob": -0.368,
+      "no_speech_prob": 0.316
+    },
+    {
+      "start": 120.33,
+      "end": 130.23,
+      "text": "算了我延续机球了",
+      "avg_logprob": -0.368,
+      "no_speech_prob": 0.316
+    },
+    {
+      "start": 130.23,
+      "end": 139.07,
+      "text": "撐起鸡酒",
+      "avg_logprob": -0.398,
+      "no_speech_prob": 0.255
+    },
+    {
+      "start": 139.07,
+      "end": 144.46,
+      "text": "喝草",
+      "avg_logprob": -0.398,
+      "no_speech_prob": 0.255
+    },
+    {
+      "start": 144.46,
+      "end": 145.26,
+      "text": "装",
+      "avg_logprob": -0.398,
+      "no_speech_prob": 0.255
+    },
+    {
+      "start": 145.26,
+      "end": 146.46,
+      "text": "装一装",
+      "avg_logprob": -0.398,
+      "no_speech_prob": 0.255
+    },
+    {
+      "start": 146.46,
+      "end": 147.46,
+      "text": "装一装",
+      "avg_logprob": -0.398,
+      "no_speech_prob": 0.255
+    },
+    {
+      "start": 147.46,
+      "end": 160.78,
+      "text": "失败了",
+      "avg_logprob": -0.398,
+      "no_speech_prob": 0.255
+    },
+    {
+      "start": 160.78,
+      "end": 161.78,
+      "text": "剪辑一下",
+      "avg_logprob": -0.398,
+      "no_speech_prob": 0.255
+    },
+    {
+      "start": 161.78,
+      "end": 162.78,
+      "text": "剪辑一下",
+      "avg_logprob": -0.398,
+      "no_speech_prob": 0.255
+    },
+    {
+      "start": 162.78,
+      "end": 163.78,
+      "text": "剪辑一下",
+      "avg_logprob": -0.398,
+      "no_speech_prob": 0.255
+    },
+    {
+      "start": 163.78,
+      "end": 165.42,
+      "text": "它不动了",
+      "avg_logprob": -0.398,
+      "no_speech_prob": 0.255
+    },
+    {
+      "start": 165.42,
+      "end": 166.42,
+      "text": "没电了",
+      "avg_logprob": -0.398,
+      "no_speech_prob": 0.255
+    },
+    {
+      "start": 166.42,
+      "end": 167.49,
+      "text": "还要继续问问",
+      "avg_logprob": -0.398,
+      "no_speech_prob": 0.255
+    },
+    {
+      "start": 167.49,
+      "end": 169.49,
+      "text": "我可以暂停一下比赛",
+      "avg_logprob": -0.398,
+      "no_speech_prob": 0.255
+    },
+    {
+      "start": 169.49,
+      "end": 171.49,
+      "text": "换一下电池",
+      "avg_logprob": -0.398,
+      "no_speech_prob": 0.255
+    }
+  ]
+}

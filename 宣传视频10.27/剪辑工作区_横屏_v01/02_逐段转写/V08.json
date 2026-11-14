@@ -1,0 +1,15 @@
+{
+  "source": "E:\\课程作业\\大三上\\张茫 用户研究与体验设计\\宣传视频10.27\\9866abe0b9aff57cc9768cfccc0bc10f_raw.mp4",
+  "id": "V08",
+  "model": "faster-whisper-small CPU int8",
+  "status": "机器转写 未逐字听校",
+  "segments": [
+    {
+      "start": 0.56,
+      "end": 3.56,
+      "text": "咱們有請男方選手登場",
+      "avg_logprob": -0.55,
+      "no_speech_prob": 0.488
+    }
+  ]
+}

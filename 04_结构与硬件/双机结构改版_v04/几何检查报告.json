@@ -1,0 +1,238 @@
+{
+  "status": "CAD review only, not print released",
+  "parameters": {
+    "body_outer_mm": 75,
+    "body_wall_mm": 2.6,
+    "deck_z_mm": 26,
+    "preserved_otto_below_z_mm": -24,
+    "board_center_mm": [
+      -17,
+      0,
+      -6
+    ],
+    "battery_bottom_mm": -35.6,
+    "top_mount_xy_mm": [
+      [
+        -30,
+        -30
+      ],
+      [
+        -30,
+        30
+      ],
+      [
+        30,
+        -30
+      ],
+      [
+        30,
+        30
+      ]
+    ],
+    "servo_plug_allowance_mm": 10,
+    "servo_wire_bend_allowance_mm": 8,
+    "fist_offset_x_mm": -22,
+    "body_clearance_note": "26mm上部增高是本次装配审阅方案，插头/弯线占位未实测；不得直接批量打印",
+    "battery_reference": "PC003官方CAD，最终供货型号未确认",
+    "leg_reference": "原Otto V9几何；最终SG90实物仍需试装"
+  },
+  "parts": {
+    "01_共用身体_下部原Otto基准": {
+      "watertight": true,
+      "positive_volume": true,
+      "preserved_below_z": -25,
+      "note": "Body STL incorporates original lower mesh; STEP contains only newly authored upper BRep."
+    },
+    "02_开底主板托架_M2.5板孔": {
+      "solid_count": 1,
+      "valid": true,
+      "watertight": true,
+      "bounds_mm": [
+        [
+          -33.0,
+          -31.0,
+          -12.0
+        ],
+        [
+          3.0,
+          31.0,
+          -6.2
+        ]
+      ],
+      "volume_mm3": 1549.7353581854222
+    },
+    "03_开关可换安装面板": {
+      "solid_count": 1,
+      "valid": true,
+      "watertight": true,
+      "bounds_mm": [
+        [
+          -15.0,
+          24.0,
+          -13.0
+        ],
+        [
+          29.0,
+          39.900000000000006,
+          21.0
+        ]
+      ],
+      "volume_mm3": 2429.1785964281075
+    },
+    "04_充电维护口盲板_待模块确认": {
+      "solid_count": 1,
+      "valid": true,
+      "watertight": true,
+      "bounds_mm": [
+        [
+          -39.900000000000006,
+          -35.0,
+          -3.0
+        ],
+        [
+          -37.5,
+          -11.0,
+          17.0
+        ]
+      ],
+      "volume_mm3": 1108.4378860692304
+    },
+    "10_巴掌定位底座": {
+      "solid_count": 1,
+      "valid": true,
+      "watertight": true,
+      "bounds_mm": [
+        [
+          -37.5,
+          -37.5,
+          23.0
+        ],
+        [
+          37.5,
+          37.5,
+          48.0
+        ]
+      ],
+      "volume_mm3": 11857.109663147921
+    },
+    "11_巴掌原基准舵机桥": {
+      "solid_count": 1,
+      "valid": true,
+      "watertight": true,
+      "bounds_mm": [
+        [
+          -33.0,
+          -11.0,
+          45.0
+        ],
+        [
+          33.0,
+          11.0,
+          51.0
+        ]
+      ],
+      "volume_mm3": 3472.671770740388
+    },
+    "12_巴掌可拆圆角头罩": {
+      "solid_count": 1,
+      "valid": true,
+      "watertight": true,
+      "bounds_mm": [
+        [
+          -37.5,
+          -37.5,
+          29.0
+        ],
+        [
+          37.5,
+          37.5,
+          63.0
+        ]
+      ],
+      "volume_mm3": 32441.932257645723
+    },
+    "20_拳头固定底座_含隐藏过线槽": {
+      "solid_count": 1,
+      "valid": true,
+      "watertight": true,
+      "bounds_mm": [
+        [
+          -62.175,
+          -37.5,
+          18.0
+        ],
+        [
+          56.0,
+          37.5,
+          76.8
+        ]
+      ],
+      "volume_mm3": 42063.47121777219
+    },
+    "21_拳头轻量侧护罩": {
+      "solid_count": 1,
+      "valid": true,
+      "watertight": true,
+      "bounds_mm": [
+        [
+          -68.2,
+          -33.0,
+          29.0
+        ],
+        [
+          14.908449519058156,
+          33.0,
+          51.0
+        ]
+      ],
+      "volume_mm3": 12058.633933606745
+    }
+  },
+  "checks": {
+    "board_vs_carrier_mm3": 0,
+    "battery_vs_board_mm3": 0,
+    "palm_servo_vs_bridge_mm3": 0,
+    "palm_servo_vs_cover_mm3": 0,
+    "palm_deck_vs_upper_body_mm3": 0,
+    "fist_base_vs_upper_body_mm3": 0,
+    "switch_bezel_vs_upper_body_mm3": 0,
+    "charge_plate_vs_upper_body_mm3": 0,
+    "fist_guard_vs_base_mm3": 0,
+    "palm_cover_vs_frame_mm3": 0,
+    "palm_cover_vs_bridge_mm3": 0,
+    "R01_原厂接收组合_vs_body_mm3": 0,
+    "R02_PC003电池本体_vs_body_mm3": 0.0,
+    "02_开底主板托架_M2.5板孔_vs_body_mm3": 0.0,
+    "E_hip_-25_vs_body_mm3": 66.32199392070561,
+    "E_hip_-25_vs_original_body_baseline_mm3": 66.32199392070561,
+    "E_hip_25_vs_body_mm3": 66.32199392070561,
+    "E_hip_25_vs_original_body_baseline_mm3": 66.32199392070561,
+    "servo_plug_envelope_top_mm": 22.78,
+    "deck_clearance_above_plug_envelope_mm": 3.219999999999999,
+    "attack_module_height_increase_mm": 26,
+    "new_guard_sweep_max_overlap_mm3": 0,
+    "new_guard_sweep_worst": null,
+    "sweep_scope": "5-degree sampled original mechanism and modeled pin envelopes vs NEW guard only; actual fist, wires and every screw not included."
+  },
+  "unverified": [
+    "actual SG90 fit",
+    "physical USB plug envelope",
+    "switch version",
+    "wiring bending radius",
+    "mass/CG and dynamic stability",
+    "actual charging hardware"
+  ],
+  "switch_orientation": {
+    "outward_axis": "+Y",
+    "pcb_y_mm": [
+      21.98,
+      23.62
+    ],
+    "xh_bodies_y_mm": [
+      23.4,
+      29.6
+    ],
+    "toggle_tip_y_mm": 37.1627,
+    "note": "Original +Y preserved; recessed toggle is reachable through side window. Cable-end plugs still require physical check."
+  }
+}

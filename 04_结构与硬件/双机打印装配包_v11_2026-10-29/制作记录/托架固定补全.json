@@ -1,0 +1,25 @@
+{
+  "old_hole_mm": 2.7,
+  "new_pilot_mm": 2.1,
+  "screw": "外径2.5mm塑料自攻螺钉，建议长度8mm；非M2.5机牙螺钉",
+  "outline_bounds_unchanged": true,
+  "axes_XZ": [
+    [
+      -29.0,
+      -29.5
+    ],
+    [
+      -5.0,
+      -29.5
+    ],
+    [
+      -29.0,
+      -6.5
+    ],
+    [
+      -5.0,
+      -6.5
+    ]
+  ],
+  "physical_thread_grip": "未实物验证"
+}

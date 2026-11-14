@@ -30,3 +30,7 @@ Thumbs.db
 
 # Local reversible synchronization backups
 00_项目管理/本次同步前备份*/
+# Device pairing snapshots and local serial readbacks stay on the machine.
+05_程序与测试/**/现场备份*/
+05_程序与测试/**/板端备份*/
+05_程序与测试/**/rc_config

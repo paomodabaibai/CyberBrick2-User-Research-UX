@@ -20,7 +20,7 @@ DEFAULT = dict(left=3, right=0, attack=2, dance=9,
                left_center=1797, right_center=1959, attack_center=1825,
                span=1800, threshold=0.4, neutral=0.15,
                arm_ms=500, slow_speed=1024, fast_speed=1800,
-               attack_up_is_high=True)
+               attack_up_is_high=True, dance_enabled=True)
 
 
 def motor_service(motor):
@@ -46,7 +46,8 @@ class RemotePolicy:
                 or c['span'] <= 0 or not 0 < c['neutral'] < c['threshold'] <= 1
                 or not 1 <= c['arm_ms'] <= 2000
                 or not 0 < c['slow_speed'] < c['fast_speed'] <= 2048
-                or not isinstance(c['attack_up_is_high'], bool)):
+                or not isinstance(c['attack_up_is_high'], bool)
+                or not isinstance(c['dance_enabled'], bool)):
             raise ValueError('invalid mapping/test limits')
         self.reset()
 
@@ -85,7 +86,7 @@ class RemotePolicy:
                 self.armed = True
                 self.attack_ready = True
             return 0.0, 0.0, 0
-        self.dance_active = button == 0
+        self.dance_active = c['dance_enabled'] and button == 0
         if self.dance_active:
             self.attack_active = False
             self.attack_ready = False
@@ -173,7 +174,13 @@ class DanceMotion:
     MOVE_MS = 300
     LIMITS = (25, 25, 25, 25)  # hips then ankles, in degrees
 
-    def __init__(self, start_ms, start_pose=(0, 0, 0, 0)):
+    def __init__(self, start_ms, start_pose=(0, 0, 0, 0), limits=None):
+        if limits is not None:
+            if (not isinstance(limits, (tuple, list)) or len(limits) != 4
+                    or any(not isinstance(v, (int, float)) or not 0 < v <= 25
+                           for v in limits)):
+                raise ValueError('dance limits: four amplitudes in (0,25]')
+            self.LIMITS = tuple(limits)
         self.start_ms = start_ms
         self.start_pose = tuple(start_pose)
         self.seed = (start_ms ^ 0x5A17C3D9) & 0xffffffff
@@ -230,7 +237,7 @@ def _palm_config(cfg, policy):
     cfg = dict(cfg)
     try:
         valid = (cfg['enabled'] is True and cfg['actuator'] == 'continuous'
-                 and cfg['gpio'] == 21 and cfg['freq_hz'] == 50
+                 and cfg['gpio'] in (20, 21) and cfg['freq_hz'] == 50
                  and cfg['channel'] == policy.cfg['attack']
                  and cfg['center'] == policy.cfg['attack_center']
                  and cfg['span'] == policy.cfg['span']
@@ -243,12 +250,12 @@ def _palm_config(cfg, policy):
     except (KeyError, TypeError):
         valid = False
     if not valid:
-        raise ValueError('invalid D1 palm configuration')
+        raise ValueError('invalid D1/D2 palm configuration')
     return cfg
 
 
 def run(seconds=30, mode='both', mapping=None, trace=False,
-        attack_kind='punch', palm_cfg=None):
+        attack_kind='punch', palm_cfg=None, dance_limits=None):
     """Remote control session. None keeps running until interrupted or reset.
 
     mode: walk / attack / both. All three axes must neutralize to arm.
@@ -258,6 +265,7 @@ def run(seconds=30, mode='both', mapping=None, trace=False,
             or mode not in ('walk', 'attack', 'both')
             or attack_kind not in ('punch', 'palm')):
         raise ValueError('seconds None or 1..120; mode walk/attack/both; attack punch/palm')
+    dance_limits = DanceMotion(0, limits=dance_limits).LIMITS
     policy = RemotePolicy(mapping)
     if attack_kind == 'palm':
         palm_cfg = _palm_config(palm_cfg, policy)
@@ -301,7 +309,8 @@ def run(seconds=30, mode='both', mapping=None, trace=False,
         last_pose = (0, 0, 0, 0)
         print(CONTROL_VERSION)
         print('CB1', attack_kind, mode, seconds,
-              's; neutral 0.5s to arm; hold K4 to dance')
+              's; neutral 0.5s to arm; dance channel', policy.cfg['dance'],
+              'enabled', policy.cfg['dance_enabled'])
         while seconds is None or diff(_clock(), start) < seconds * 1000:
             now = _clock()
             if diff(now, next_frame) >= 0:
@@ -322,7 +331,7 @@ def run(seconds=30, mode='both', mapping=None, trace=False,
                     drive, turn, speed = 0.0, 0.0, 0
                 if policy.dance_active and mode != 'attack':
                     if dance_motion is None:
-                        dance_motion = DanceMotion(now, last_pose)
+                        dance_motion = DanceMotion(now, last_pose, limits=dance_limits)
                         walk_motion.reset()
                     if trace:
                         trace_dance_ticks += 1

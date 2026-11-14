@@ -1,0 +1,226 @@
+[
+  {
+    "robot": "palm",
+    "id": "C01",
+    "name": "身体",
+    "source_name": "01_原高身体_v08",
+    "color": "#f2f1eb"
+  },
+  {
+    "robot": "palm",
+    "id": "C02",
+    "name": "主板托架_自攻底孔",
+    "source_name": "02_竖置主板托架_布局草案",
+    "color": "#f2f1eb"
+  },
+  {
+    "robot": "palm",
+    "id": "C03",
+    "name": "电池开关后面板",
+    "source_name": "03_开关模块面板_v10_敞口拨动槽",
+    "color": "#f2f1eb"
+  },
+  {
+    "robot": "palm",
+    "id": "C04",
+    "name": "短腿A",
+    "source_name": "R_Leg_1",
+    "color": "#f2f1eb"
+  },
+  {
+    "robot": "palm",
+    "id": "C05",
+    "name": "短腿B",
+    "source_name": "R_Leg_-1",
+    "color": "#f2f1eb"
+  },
+  {
+    "robot": "palm",
+    "id": "C06",
+    "name": "脚板A",
+    "source_name": "R_foot_1",
+    "color": "#399ade"
+  },
+  {
+    "robot": "palm",
+    "id": "C07",
+    "name": "脚板B",
+    "source_name": "R_foot_-1",
+    "color": "#399ade"
+  },
+  {
+    "robot": "palm",
+    "id": "C08",
+    "name": "左眼_平背胶粘",
+    "source_name": "04_左椭圆眼睛_平背粘贴",
+    "color": "#28313b"
+  },
+  {
+    "robot": "palm",
+    "id": "C09",
+    "name": "右眼_平背胶粘",
+    "source_name": "04_右椭圆眼睛_平背粘贴",
+    "color": "#28313b"
+  },
+  {
+    "robot": "palm",
+    "id": "B01",
+    "name": "巴掌底座",
+    "source_name": "10_巴掌定位底座_v07电池限位",
+    "color": "#399ade"
+  },
+  {
+    "robot": "palm",
+    "id": "B02",
+    "name": "舵机桥",
+    "source_name": "11_巴掌新舵机桥",
+    "color": "#399ade"
+  },
+  {
+    "robot": "palm",
+    "id": "B03",
+    "name": "承重座_新盖耳",
+    "source_name": "13_承重座_v11内收盖耳",
+    "color": "#399ade"
+  },
+  {
+    "robot": "palm",
+    "id": "B04",
+    "name": "压环A",
+    "source_name": "14A_半片限位压环",
+    "color": "#399ade"
+  },
+  {
+    "robot": "palm",
+    "id": "B05",
+    "name": "压环B",
+    "source_name": "14B_半片限位压环",
+    "color": "#399ade"
+  },
+  {
+    "robot": "palm",
+    "id": "B06",
+    "name": "圆肩盖",
+    "source_name": "12_圆肩避孔罩_v11",
+    "color": "#399ade"
+  },
+  {
+    "robot": "palm",
+    "id": "B07",
+    "name": "转盘接杆插芯一体",
+    "source_name": "15_转盘圆润实心杆与胶粘插芯_v11",
+    "color": "#399ade"
+  },
+  {
+    "robot": "palm",
+    "id": "B08",
+    "name": "手掌_胶粘版",
+    "source_name": "P_04_手掌75mm胶粘接口_无横销孔_v11",
+    "color": "#399ade"
+  },
+  {
+    "robot": "fist",
+    "id": "C01",
+    "name": "身体",
+    "source_name": "01_原高身体_v08",
+    "color": "#f2f1eb"
+  },
+  {
+    "robot": "fist",
+    "id": "C02",
+    "name": "主板托架_自攻底孔",
+    "source_name": "02_竖置主板托架_布局草案",
+    "color": "#f2f1eb"
+  },
+  {
+    "robot": "fist",
+    "id": "C03",
+    "name": "电池开关后面板",
+    "source_name": "03_开关模块面板_v10_敞口拨动槽",
+    "color": "#f2f1eb"
+  },
+  {
+    "robot": "fist",
+    "id": "C04",
+    "name": "短腿A",
+    "source_name": "R_Leg_1",
+    "color": "#f2f1eb"
+  },
+  {
+    "robot": "fist",
+    "id": "C05",
+    "name": "短腿B",
+    "source_name": "R_Leg_-1",
+    "color": "#f2f1eb"
+  },
+  {
+    "robot": "fist",
+    "id": "C06",
+    "name": "脚板A",
+    "source_name": "R_foot_1",
+    "color": "#df5357"
+  },
+  {
+    "robot": "fist",
+    "id": "C07",
+    "name": "脚板B",
+    "source_name": "R_foot_-1",
+    "color": "#df5357"
+  },
+  {
+    "robot": "fist",
+    "id": "C08",
+    "name": "左眼_平背胶粘",
+    "source_name": "04_左椭圆眼睛_平背粘贴",
+    "color": "#28313b"
+  },
+  {
+    "robot": "fist",
+    "id": "C09",
+    "name": "右眼_平背胶粘",
+    "source_name": "04_右椭圆眼睛_平背粘贴",
+    "color": "#28313b"
+  },
+  {
+    "robot": "fist",
+    "id": "R01",
+    "name": "拳头底座_隐藏走线",
+    "source_name": "20_拳头底座_v07尾部入线",
+    "color": "#df5357"
+  },
+  {
+    "robot": "fist",
+    "id": "R02",
+    "name": "拳头护罩",
+    "source_name": "21_拳头护罩_共用螺丝敞口",
+    "color": "#df5357"
+  },
+  {
+    "robot": "fist",
+    "id": "R03",
+    "name": "曲柄",
+    "source_name": "F_crank",
+    "color": "#df5357"
+  },
+  {
+    "robot": "fist",
+    "id": "R04",
+    "name": "连杆",
+    "source_name": "F_link",
+    "color": "#df5357"
+  },
+  {
+    "robot": "fist",
+    "id": "R05",
+    "name": "滑架",
+    "source_name": "F_carriage",
+    "color": "#df5357"
+  },
+  {
+    "robot": "fist",
+    "id": "R06",
+    "name": "拳头腕杆一体",
+    "source_name": "F_实际拳头腕杆",
+    "color": "#df5357"
+  }
+]

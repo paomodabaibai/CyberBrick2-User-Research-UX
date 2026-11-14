@@ -1,0 +1,115 @@
+{
+  "checked_pairs": [
+    "board_vs_carrier_mm3",
+    "battery_vs_board_mm3",
+    "palm_servo_vs_bridge_mm3",
+    "palm_servo_vs_cover_mm3",
+    "palm_deck_vs_upper_body_mm3",
+    "fist_base_vs_upper_body_mm3",
+    "switch_bezel_vs_upper_body_mm3",
+    "charge_plate_vs_upper_body_mm3",
+    "fist_guard_vs_base_mm3",
+    "palm_cover_vs_frame_mm3",
+    "palm_cover_vs_bridge_mm3",
+    "R01_原厂接收组合_vs_body_mm3",
+    "R02_PC003电池本体_vs_body_mm3",
+    "02_开底主板托架_M2.5板孔_vs_body_mm3",
+    "new_guard_sweep_max_overlap_mm3",
+    "hip_-25_no_added_intrusion_to_placeholder",
+    "hip_25_no_added_intrusion_to_placeholder"
+  ],
+  "mesh_parts": [
+    {
+      "file": "01_共用身体_下部原Otto基准.stl",
+      "closed_positive": true,
+      "connected_components": 1,
+      "dimensions_mm": [
+        77.1,
+        75.0,
+        65.0
+      ]
+    },
+    {
+      "file": "02_开底主板托架_M2.5板孔.stl",
+      "closed_positive": true,
+      "connected_components": 1,
+      "dimensions_mm": [
+        36.0,
+        62.0,
+        5.8
+      ]
+    },
+    {
+      "file": "03_开关可换安装面板.stl",
+      "closed_positive": true,
+      "connected_components": 1,
+      "dimensions_mm": [
+        44.0,
+        15.9,
+        34.0
+      ]
+    },
+    {
+      "file": "04_充电维护口盲板_待模块确认.stl",
+      "closed_positive": true,
+      "connected_components": 1,
+      "dimensions_mm": [
+        2.4,
+        24.0,
+        20.0
+      ]
+    },
+    {
+      "file": "10_巴掌定位底座.stl",
+      "closed_positive": true,
+      "connected_components": 1,
+      "dimensions_mm": [
+        75.0,
+        75.0,
+        25.0
+      ]
+    },
+    {
+      "file": "11_巴掌原基准舵机桥.stl",
+      "closed_positive": true,
+      "connected_components": 1,
+      "dimensions_mm": [
+        66.0,
+        22.0,
+        6.0
+      ]
+    },
+    {
+      "file": "12_巴掌可拆圆角头罩.stl",
+      "closed_positive": true,
+      "connected_components": 1,
+      "dimensions_mm": [
+        75.0,
+        75.0,
+        34.0
+      ]
+    },
+    {
+      "file": "20_拳头固定底座_含隐藏过线槽.stl",
+      "closed_positive": true,
+      "connected_components": 1,
+      "dimensions_mm": [
+        118.175,
+        75.0,
+        58.8
+      ]
+    },
+    {
+      "file": "21_拳头轻量侧护罩.stl",
+      "closed_positive": true,
+      "connected_components": 1,
+      "dimensions_mm": [
+        83.108,
+        66.0,
+        22.0
+      ]
+    }
+  ],
+  "pass": true,
+  "meaning": "Nominal CAD geometry only, no real assembly/servo fit/strength/CG verification"
+}

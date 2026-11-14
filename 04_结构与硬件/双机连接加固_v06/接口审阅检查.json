@@ -1,0 +1,33 @@
+{
+  "checks_mm3": {
+    "seat_bridge": 0,
+    "seat_cap": 0,
+    "rotor_seat": 0,
+    "rotor_cap": 0,
+    "rotor_horn": 0,
+    "cover_seat": 0,
+    "cover_cap": 0,
+    "fist_guard_base": 0,
+    "driver_-30_-30_guard": 0,
+    "driver_-30_-30_base": 0,
+    "driver_-30_30_guard": 0,
+    "driver_-30_30_base": 0,
+    "driver_30_-30_guard": 0,
+    "driver_30_-30_base": 0,
+    "driver_30_30_guard": 0,
+    "driver_30_30_base": 0,
+    "rotor_sweep_max_mm3": 0,
+    "13_独立承重座_打印滑动试验版_servo": 1.566003413973203e-05,
+    "14A_半片限位压环_servo": 0,
+    "14B_半片限位压环_servo": 0,
+    "15_承重转盘与加强接杆一体_servo": 0,
+    "12_承重转盘配套可拆罩_servo": 0
+  },
+  "rotor_sweep_worst": null,
+  "axial_float_mm": 0.4,
+  "radial_running_clearance_mm": 0.3,
+  "horn_side_clearance_mm": 0.3,
+  "horn_axial_roof_clearance_mm": 0.4,
+  "palm_height_and_reach": "unchanged; palm75,reach51,rodZ39.97",
+  "status": "Printed sliding bearing prototype; NOT friction/wear/strength validated. Do not batch print."
+}

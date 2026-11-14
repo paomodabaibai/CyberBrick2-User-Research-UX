@@ -1,0 +1,15 @@
+{
+  "source": "E:\\课程作业\\大三上\\张茫 用户研究与体验设计\\10.22最终汇报素材\\ef44524e3f5085adfb3e9a64a766d939_raw.mp4",
+  "id": "V32",
+  "model": "faster-whisper-small CPU int8",
+  "status": "机器转写 未逐字听校",
+  "segments": [
+    {
+      "start": 0.05,
+      "end": 4.41,
+      "text": "你再试一下",
+      "avg_logprob": -0.969,
+      "no_speech_prob": 0.58
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "source": "E:\\课程作业\\大三上\\张茫 用户研究与体验设计\\宣传视频10.27\\DJI_20260914084944_0344_D.MP4",
+  "id": "V13",
+  "model": "faster-whisper-small CPU int8",
+  "status": "机器转写 未逐字听校",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 0.72,
+      "text": "兴趣",
+      "avg_logprob": -0.759,
+      "no_speech_prob": 0.768
+    },
+    {
+      "start": 0.72,
+      "end": 2.0,
+      "text": "然后就说实战",
+      "avg_logprob": -0.759,
+      "no_speech_prob": 0.768
+    },
+    {
+      "start": 2.0,
+      "end": 2.8,
+      "text": "一去",
+      "avg_logprob": -0.759,
+      "no_speech_prob": 0.768
+    },
+    {
+      "start": 2.8,
+      "end": 5.68,
+      "text": "Cyberbrake能够提供我们硬件的",
+      "avg_logprob": -0.759,
+      "no_speech_prob": 0.768
+    },
+    {
+      "start": 5.68,
+      "end": 6.32,
+      "text": "扩展的",
+      "avg_logprob": -0.759,
+      "no_speech_prob": 0.768
+    },
+    {
+      "start": 6.32,
+      "end": 7.28,
+      "text": "运气",
+      "avg_logprob": -0.759,
+      "no_speech_prob": 0.768
+    },
+    {
+      "start": 7.28,
+      "end": 8.4,
+      "text": "来做完",
+      "avg_logprob": -0.759,
+      "no_speech_prob": 0.768
+    },
+    {
+      "start": 8.4,
+      "end": 9.36,
+      "text": "其实我也只是想说",
+      "avg_logprob": -0.759,
+      "no_speech_prob": 0.768
+    },
+    {
+      "start": 9.36,
+      "end": 10.8,
+      "text": "受挫电阻安全率还算",
+      "avg_logprob": -0.759,
+      "no_speech_prob": 0.768
+    },
+    {
+      "start": 10.8,
+      "end": 11.68,
+      "text": "受挫之后发现",
+      "avg_logprob": -0.759,
+      "no_speech_prob": 0.768
+    },
+    {
+      "start": 11.68,
+      "end": 12.64,
+      "text": "其实这会儿有写述",
+      "avg_logprob": -0.759,
+      "no_speech_prob": 0.768
+    },
+    {
+      "start": 12.64,
+      "end": 13.28,
+      "text": "就好了",
+      "avg_logprob": -0.759,
+      "no_speech_prob": 0.768
+    },
+    {
+      "start": 13.28,
+      "end": 15.5,
+      "text": "今天我们就会更加开心",
+      "avg_logprob": -0.759,
+      "no_speech_prob": 0.768
+    },
+    {
+      "start": 15.5,
+      "end": 16.78,
+      "text": "首先硬件这块",
+      "avg_logprob": -0.759,
+      "no_speech_prob": 0.768
+    },
+    {
+      "start": 16.78,
+      "end": 20.37,
+      "text": "我觉得对我们新加坡的",
+      "avg_logprob": -0.759,
+      "no_speech_prob": 0.768
+    },
+    {
+      "start": 20.37,
+      "end": 21.81,
+      "text": "运气电路都值得问题",
+      "avg_logprob": -0.759,
+      "no_speech_prob": 0.768
+    },
+    {
+      "start": 21.81,
+      "end": 22.41,
+      "text": "特别说",
+      "avg_logprob": -0.759,
+      "no_speech_prob": 0.768
+    },
+    {
+      "start": 22.41,
+      "end": 23.49,
+      "text": "当运气运气",
+      "avg_logprob": -0.759,
+      "no_speech_prob": 0.768
+    }
+  ]
+}

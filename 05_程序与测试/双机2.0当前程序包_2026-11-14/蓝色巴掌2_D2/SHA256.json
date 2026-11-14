@@ -1,0 +1,15 @@
+{
+  "attack_control.py": "1d1a92c90832201f810c304d0dd7990fbdf62d6e3d363214c3a4d3245a4f1d5a",
+  "boot.py": "fdfaf79808cedb9b390cb7c3e55696202c3367a72597258a2ddbe15070fc59f1",
+  "commissioning_hold": "6f516876e09a5c5c128bf70d35188a6f6323d13078c1abab7822d52e8a6356ca",
+  "input_adapter.py": "1f0a514eb33d4845c6885673f307ce4373533886342334fe520f2ddff4a35c43",
+  "main.py": "64044dfd0669ad116e4dae678ef6270ae3449038555b2151d440d0c9a33afba4",
+  "otto_oscillator.py": "520028b4b0f8f3215941b3bf3290c9f4edb4514968da9ac6d7827639c406091a",
+  "palm2_main.py": "1b3ea22cbb02e8b628b64426d84a774864fabcad740b05be218a09d7e3602abe",
+  "palm2_remote_ready.py": "e6813136abfa1cc0b3ebcd828773b5996c90415a12c72bc11009e61dcdf33c97",
+  "palm_remote_ready.py": "114aa3756cb326bccd3ccd41ad76337d9e14e36493b09c7213d022a4c8de22e2",
+  "robot_remote.py": "ad629b162fff03c4dbcff41aadbd3bc6497f307f205bfd36275a96f7ae5d23d6",
+  "timeutil.py": "db4c6eab50f8eabd1c20185a48814659fd2d2201e4a6969abb1f426f9e8135aa",
+  "drivers/palm_pwm.py": "11806d3e73d41e85b5edfbb207f25d0b5d1de12e99829eecf16901fdbc33c2e0",
+  "drivers/__init__.py": "b0d0c7dfff020dc7e0c6bf3bd3bfe888616f38f36e77cc06fec38c6f0045cb1f"
+}

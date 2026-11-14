@@ -1,0 +1,33 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><style>html,body{margin:0;background:#20242c}</style>
+<script type="importmap">{"imports":{"three":"../vendor/three.module.js"}}</script></head>
+<body><script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from '../vendor/GLTFLoader.js';
+import { RoomEnvironment } from '../vendor/RoomEnvironment.js';
+const W = 900, H = 900;
+const r = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true }); r.setSize(W, H); document.body.appendChild(r.domElement);
+r.outputColorSpace = THREE.SRGBColorSpace; r.toneMapping = THREE.ACESFilmicToneMapping;
+const pm = new THREE.PMREMGenerator(r);
+async function loadAny(url) {
+  if (url.endsWith('.glb')) return (await new GLTFLoader().loadAsync(url)).scene;
+  const b = await (await fetch(url)).arrayBuffer(), d = new DataView(b), n = d.getUint32(80, true), pos = new Float32Array(n * 9); let o = 84;
+  for (let i = 0; i < n; i++) { o += 12; for (let j = 0; j < 9; j++) { pos[i * 9 + j] = d.getFloat32(o, true); o += 4; } o += 2; }
+  const g = new THREE.BufferGeometry(); g.setAttribute('position', new THREE.BufferAttribute(pos, 3)); g.computeVertexNormals();
+  return new THREE.Mesh(g, new THREE.MeshStandardMaterial({ color: 0xd8d8d8, roughness: 0.55 }));
+}
+const PAL = [0xe8e4da, 0x3d7bff, 0xff4a3d, 0xffc400, 0x35c98f, 0xb06cff, 0x28c8e8, 0xff8a3d, 0x8a8f99, 0xff6fb5, 0x9fd14a, 0x5a6cff];
+window.shot = async (url, tint, yaw, pitch, upZ) => {
+  const scene = new THREE.Scene(); scene.background = new THREE.Color(0x20242c); scene.environment = pm.fromScene(new RoomEnvironment(), 0.04).texture;
+  const m = await loadAny(url); const names = [];
+  let i = 0; m.traverse(o => { if (o.isMesh) { names.push(o.name); if (tint && !o.material.map) o.material = new THREE.MeshStandardMaterial({ color: PAL[i++ % PAL.length], roughness: 0.5, metalness: 0.05, side: THREE.DoubleSide }); } });
+  const hold = new THREE.Group(); hold.add(m); if (upZ) hold.rotation.x = -Math.PI / 2; scene.add(hold);
+  const bb = new THREE.Box3().setFromObject(hold), c = bb.getCenter(new THREE.Vector3()), R = bb.getSize(new THREE.Vector3()).length() / 2;
+  const cam = new THREE.PerspectiveCamera(26, W / H, R / 50, R * 50), y = yaw * Math.PI / 180, p = pitch * Math.PI / 180, D = R / Math.sin(13 * Math.PI / 180);
+  cam.position.set(c.x + Math.sin(y) * Math.cos(p) * D, c.y + Math.sin(p) * D, c.z + Math.cos(y) * Math.cos(p) * D); cam.lookAt(c);
+  const d = new THREE.DirectionalLight(0xffffff, 2.2); d.position.set(R, R * 2, R); scene.add(d);
+  r.render(scene, cam);
+  return { png: r.domElement.toDataURL('image/png'), names, size: bb.getSize(new THREE.Vector3()).toArray().map(v => Math.round(v * 10) / 10) };
+};
+document.body.dataset.ready = '1';
+</script></body></html>

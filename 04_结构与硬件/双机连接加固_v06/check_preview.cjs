@@ -1,0 +1,13 @@
+const fs=require('fs'),path=require('path');
+const {chromium}=require('C:/Users/Administrator/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+(async()=>{const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe'});
+const page=await browser.newPage({viewport:{width:1280,height:900}});const errors=[];page.on('pageerror',e=>errors.push(e.message));
+await page.goto(require('url').pathToFileURL(path.join(__dirname,'双机接口v06_交互预览.html')).href);await page.waitForTimeout(800);
+await page.screenshot({path:path.join(__dirname,'预览/交互页面检查.png')});
+await page.selectOption('#type','fist');await page.locator('#inside').click();await page.locator('#env').check();
+if(await page.locator('#body').isChecked())throw Error('cutaway control failed');
+await page.locator('[data-view="rear"]').click();await page.waitForTimeout(300);
+await page.screenshot({path:path.join(__dirname,'预览/交互内部检查.png')});
+if(errors.length)throw Error(errors.join('\n'));
+fs.writeFileSync(path.join(__dirname,'预览/交互检查.json'),JSON.stringify({page_errors:errors,variant_switch:true,inside_mode:true,envelope_toggle:true,rear_view:true}));
+console.log('PASS browser preview and controls');await browser.close()})().catch(e=>{console.error(e);process.exit(1)});

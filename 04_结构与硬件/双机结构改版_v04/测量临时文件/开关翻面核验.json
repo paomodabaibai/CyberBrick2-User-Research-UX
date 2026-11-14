@@ -1,0 +1,66 @@
+{
+  "checks": [
+    {
+      "shell": 0,
+      "target": "01_共用身体_下部原Otto基准",
+      "overlap_mm3": 0.0
+    },
+    {
+      "shell": 0,
+      "target": "03_开关可换安装面板",
+      "overlap_mm3": 0.0
+    },
+    {
+      "shell": 0,
+      "target": "02_开底主板托架_M2.5板孔",
+      "overlap_mm3": 0.0
+    },
+    {
+      "shell": 15,
+      "target": "01_共用身体_下部原Otto基准",
+      "overlap_mm3": 0.0
+    },
+    {
+      "shell": 15,
+      "target": "03_开关可换安装面板",
+      "overlap_mm3": 0.0
+    },
+    {
+      "shell": 15,
+      "target": "02_开底主板托架_M2.5板孔",
+      "overlap_mm3": 0.0
+    },
+    {
+      "shell": 17,
+      "target": "01_共用身体_下部原Otto基准",
+      "overlap_mm3": 0.0
+    },
+    {
+      "shell": 17,
+      "target": "03_开关可换安装面板",
+      "overlap_mm3": 0.0
+    },
+    {
+      "shell": 17,
+      "target": "02_开底主板托架_M2.5板孔",
+      "overlap_mm3": 0.0
+    },
+    {
+      "shell": 19,
+      "target": "01_共用身体_下部原Otto基准",
+      "overlap_mm3": 0.0
+    },
+    {
+      "shell": 19,
+      "target": "03_开关可换安装面板",
+      "overlap_mm3": 0.0
+    },
+    {
+      "shell": 19,
+      "target": "02_开底主板托架_M2.5板孔",
+      "overlap_mm3": 0.0
+    }
+  ],
+  "scope": "PCB, switch main housing and two XH sockets; excludes open shells, actual plugs and finger access",
+  "pass": true
+}

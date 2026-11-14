@@ -14,3 +14,8 @@
 *.stl binary
 *.pptx binary
 *.docx binary
+# Assembly archives, editable projects and release hash manifests preserve bytes.
+*.3mf binary
+*.drp binary
+*.xlsx binary
+"05_程序与测试/双机2.0当前程序包_2026-11-14/**" -text

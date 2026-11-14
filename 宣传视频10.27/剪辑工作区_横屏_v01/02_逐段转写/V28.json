@@ -1,0 +1,309 @@
+{
+  "source": "E:\\课程作业\\大三上\\张茫 用户研究与体验设计\\10.22最终汇报素材\\182bac36bd14ad6fbcf73ba80a9f147a_raw.mp4",
+  "id": "V28",
+  "model": "faster-whisper-small CPU int8",
+  "status": "机器转写 未逐字听校",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.9,
+      "text": "这个得刷一下",
+      "avg_logprob": -0.397,
+      "no_speech_prob": 0.642
+    },
+    {
+      "start": 6.9,
+      "end": 8.99,
+      "text": "蓝色小朋友怎么不走了",
+      "avg_logprob": -0.397,
+      "no_speech_prob": 0.642
+    },
+    {
+      "start": 8.99,
+      "end": 11.02,
+      "text": "蓝色小朋友",
+      "avg_logprob": -0.397,
+      "no_speech_prob": 0.642
+    },
+    {
+      "start": 13.58,
+      "end": 16.67,
+      "text": "他故事",
+      "avg_logprob": -0.397,
+      "no_speech_prob": 0.642
+    },
+    {
+      "start": 16.67,
+      "end": 18.99,
+      "text": "这边有些异形状态",
+      "avg_logprob": -0.397,
+      "no_speech_prob": 0.642
+    },
+    {
+      "start": 18.99,
+      "end": 22.18,
+      "text": "够了够了",
+      "avg_logprob": -0.397,
+      "no_speech_prob": 0.642
+    },
+    {
+      "start": 22.18,
+      "end": 28.21,
+      "text": "插脚",
+      "avg_logprob": -0.397,
+      "no_speech_prob": 0.642
+    },
+    {
+      "start": 28.21,
+      "end": 30.21,
+      "text": "往右转",
+      "avg_logprob": -0.397,
+      "no_speech_prob": 0.642
+    },
+    {
+      "start": 30.21,
+      "end": 36.02,
+      "text": "左边走多一点",
+      "avg_logprob": -0.397,
+      "no_speech_prob": 0.642
+    },
+    {
+      "start": 36.02,
+      "end": 38.02,
+      "text": "两个都支持",
+      "avg_logprob": -0.397,
+      "no_speech_prob": 0.642
+    },
+    {
+      "start": 38.02,
+      "end": 40.02,
+      "text": "我来就是等着吹你",
+      "avg_logprob": -0.397,
+      "no_speech_prob": 0.642
+    },
+    {
+      "start": 40.02,
+      "end": 45.25,
+      "text": "这些后腿",
+      "avg_logprob": -0.397,
+      "no_speech_prob": 0.642
+    },
+    {
+      "start": 45.25,
+      "end": 47.25,
+      "text": "倒车倒车",
+      "avg_logprob": -0.397,
+      "no_speech_prob": 0.642
+    },
+    {
+      "start": 47.25,
+      "end": 49.25,
+      "text": "啊",
+      "avg_logprob": -0.397,
+      "no_speech_prob": 0.642
+    },
+    {
+      "start": 49.25,
+      "end": 52.25,
+      "text": "能站起来吗 自己",
+      "avg_logprob": -0.447,
+      "no_speech_prob": 0.565
+    },
+    {
+      "start": 52.25,
+      "end": 54.25,
+      "text": "我试一下",
+      "avg_logprob": -0.447,
+      "no_speech_prob": 0.565
+    },
+    {
+      "start": 54.25,
+      "end": 57.25,
+      "text": "那应该是不行",
+      "avg_logprob": -0.447,
+      "no_speech_prob": 0.565
+    },
+    {
+      "start": 57.25,
+      "end": 59.25,
+      "text": "我们再固有吧",
+      "avg_logprob": -0.447,
+      "no_speech_prob": 0.565
+    },
+    {
+      "start": 59.25,
+      "end": 63.25,
+      "text": "那可能推一点距离",
+      "avg_logprob": -0.447,
+      "no_speech_prob": 0.565
+    },
+    {
+      "start": 63.25,
+      "end": 65.25,
+      "text": "这样公平一点吧",
+      "avg_logprob": -0.447,
+      "no_speech_prob": 0.565
+    },
+    {
+      "start": 65.25,
+      "end": 75.64,
+      "text": "让我删你吧 怎么删来着",
+      "avg_logprob": -0.447,
+      "no_speech_prob": 0.565
+    },
+    {
+      "start": 75.64,
+      "end": 77.64,
+      "text": "上面那个",
+      "avg_logprob": -0.447,
+      "no_speech_prob": 0.565
+    },
+    {
+      "start": 77.64,
+      "end": 79.64,
+      "text": "你走低一点就删了",
+      "avg_logprob": -0.447,
+      "no_speech_prob": 0.565
+    },
+    {
+      "start": 79.64,
+      "end": 81.64,
+      "text": "好可怜",
+      "avg_logprob": -0.447,
+      "no_speech_prob": 0.565
+    },
+    {
+      "start": 81.64,
+      "end": 85.47,
+      "text": "好可怜",
+      "avg_logprob": -0.447,
+      "no_speech_prob": 0.565
+    },
+    {
+      "start": 85.47,
+      "end": 91.41,
+      "text": "可惡",
+      "avg_logprob": -0.39,
+      "no_speech_prob": 0.668
+    },
+    {
+      "start": 97.42,
+      "end": 99.42,
+      "text": "我躲",
+      "avg_logprob": -0.39,
+      "no_speech_prob": 0.668
+    },
+    {
+      "start": 109.68,
+      "end": 111.78,
+      "text": "我不行我要先去打球",
+      "avg_logprob": -0.39,
+      "no_speech_prob": 0.668
+    },
+    {
+      "start": 111.78,
+      "end": 116.56,
+      "text": "你來打球",
+      "avg_logprob": -0.39,
+      "no_speech_prob": 0.668
+    },
+    {
+      "start": 120.56,
+      "end": 127.52,
+      "text": "我等不及了",
+      "avg_logprob": -0.39,
+      "no_speech_prob": 0.668
+    },
+    {
+      "start": 127.52,
+      "end": 131.52,
+      "text": "那正就算我先得分了",
+      "avg_logprob": -0.39,
+      "no_speech_prob": 0.668
+    },
+    {
+      "start": 131.52,
+      "end": 133.52,
+      "text": "你打吧",
+      "avg_logprob": -0.39,
+      "no_speech_prob": 0.668
+    },
+    {
+      "start": 133.52,
+      "end": 135.52,
+      "text": "可以用倒車",
+      "avg_logprob": -0.39,
+      "no_speech_prob": 0.668
+    },
+    {
+      "start": 135.52,
+      "end": 141.74,
+      "text": "他分动法吗",
+      "avg_logprob": -0.479,
+      "no_speech_prob": 0.655
+    },
+    {
+      "start": 141.74,
+      "end": 143.74,
+      "text": "分的",
+      "avg_logprob": -0.479,
+      "no_speech_prob": 0.655
+    },
+    {
+      "start": 143.74,
+      "end": 145.74,
+      "text": "分挣子",
+      "avg_logprob": -0.479,
+      "no_speech_prob": 0.655
+    },
+    {
+      "start": 145.74,
+      "end": 147.74,
+      "text": "有点好玩",
+      "avg_logprob": -0.479,
+      "no_speech_prob": 0.655
+    },
+    {
+      "start": 147.74,
+      "end": 149.74,
+      "text": "因为我们因为挣法安脱了",
+      "avg_logprob": -0.479,
+      "no_speech_prob": 0.655
+    },
+    {
+      "start": 149.74,
+      "end": 161.86,
+      "text": "然后重新调",
+      "avg_logprob": -0.479,
+      "no_speech_prob": 0.655
+    },
+    {
+      "start": 161.86,
+      "end": 163.86,
+      "text": "老师我们会去",
+      "avg_logprob": -0.479,
+      "no_speech_prob": 0.655
+    },
+    {
+      "start": 163.86,
+      "end": 165.86,
+      "text": "查一下这个球是谁啊",
+      "avg_logprob": -0.479,
+      "no_speech_prob": 0.655
+    },
+    {
+      "start": 165.86,
+      "end": 167.86,
+      "text": "或者比如说",
+      "avg_logprob": -0.479,
+      "no_speech_prob": 0.655
+    },
+    {
+      "start": 167.86,
+      "end": 169.86,
+      "text": "这个就过去了",
+      "avg_logprob": -0.479,
+      "no_speech_prob": 0.655
+    }
+  ]
+}

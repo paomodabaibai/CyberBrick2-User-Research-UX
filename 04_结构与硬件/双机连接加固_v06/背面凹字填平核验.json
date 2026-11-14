@@ -1,0 +1,9 @@
+{
+  "watertight": true,
+  "positive_volume": true,
+  "components": 1,
+  "bounds_unchanged": true,
+  "removed_material_mm3": 0.0,
+  "added_material_mm3": 33.13940954195277,
+  "switch_opening_overlap_mm3": 0.0
+}

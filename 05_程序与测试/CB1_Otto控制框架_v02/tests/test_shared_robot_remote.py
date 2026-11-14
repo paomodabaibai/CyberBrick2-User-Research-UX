@@ -50,10 +50,12 @@ def exercise(kind='palm', script=sample, fail_d1=False, mode='both', profile=Non
     def read():
         raw=script(clock[0])
         if raw is None or profile is None:return raw
+        source=list(raw)
         raw=list(raw)
         for key,old_center in (('left',1800),('right',2000),('attack',1850)):
             channel=profile.MAPPING.get(key,core.DEFAULT[key])
-            raw[channel]+=profile.MAPPING[key+'_center']-old_center
+            raw[channel]=source[core.DEFAULT[key]]+profile.MAPPING[key+'_center']-old_center
+        raw[profile.MAPPING.get('dance',core.DEFAULT['dance'])]=source[9]
         return raw
     rc.rc_slave_data=read
     motors=types.ModuleType('bbl.motors');motors.MotorsController=Motor
@@ -75,6 +77,51 @@ def exercise(kind='palm', script=sample, fail_d1=False, mode='both', profile=Non
     return events,channels
 
 class SharedRobotTests(unittest.TestCase):
+    def test_disabled_dance_button_does_not_override_walking(self):
+        p=core.RemotePolicy(dict(MAPPING,dance_enabled=False))
+        p.update(frame(),0);p.update(frame(),500)
+        drive,turn,speed=p.update(frame(1,1,k4=0),520)
+        self.assertGreater(drive,0)
+        self.assertFalse(p.dance_active)
+
+    def test_punch2_walk_entry_never_uses_motor_or_dance(self):
+        import punch2_walk_ready as profile
+        a,channels=exercise('punch',profile=profile)
+        b,_=exercise('punch',profile=profile,
+                     script=lambda t: None if sample(t) is None else sample(t)[:6]+[1]*4)
+        self.assertTrue(channels)
+        self.assertTrue(all(c.gpio in core.PORTS for c in channels))
+        self.assertFalse(any(e[0]=='motor' for e in a))
+        self.assertEqual(a,b)
+        self.assertTrue(all(c.off for c in channels))
+
+    def test_D2_profile_runs_real_entry_and_never_creates_D1(self):
+        import palm2_remote_ready
+        events,channels=exercise(profile=palm2_remote_ready)
+        self.assertTrue(any(e[0]=='pulse' and e[2]==20 and e[3]>1500000 for e in events))
+        self.assertTrue(any(e[0]=='pulse' and e[2]==20 and e[3]<1500000 for e in events))
+        self.assertFalse(any(e[2]==21 for e in events))
+        self.assertTrue(all(c.off for c in channels))
+        dance=[e for e in events if e[0]=='pulse' and e[2] in core.PORTS and 1500<=e[1]<1800]
+        self.assertTrue(dance)
+        self.assertEqual(palm2_remote_ready.DANCE_LIMITS,(25,25,25,25))
+        self.assertTrue(all(1222000<=e[3]<=1778000 for e in dance))
+        self.assertTrue(any(abs(e[3]-1500000)>100000 for e in dance))
+
+    def test_small_dance_is_per_instance_and_default_stays_25(self):
+        small=core.DanceMotion(0,limits=(8,8,8,8))
+        normal=core.DanceMotion(0)
+        self.assertEqual(normal.LIMITS,(25,25,25,25))
+        for t in range(0,5000,20):
+            self.assertTrue(all(abs(v)<=8.000001 for v in small.pose(t)))
+        self.assertTrue(any(abs(v)>8 for v in normal.pose(450)))
+
+    def test_bad_dance_limits_fail_before_hardware_import(self):
+        for limits in ((8,8),(-1,8,8,8),(26,8,8,8),(float('nan'),8,8,8)):
+            with self.subTest(limits=limits),patch.dict('sys.modules',{'machine':None,'rc_module':None}):
+                with self.assertRaises(ValueError):
+                    core.run(1,dance_limits=limits)
+
     def test_common_gait_uses_the_original_palm_amplitudes(self):
         import config
         self.assertEqual(core.HIP_AMP,30.0)

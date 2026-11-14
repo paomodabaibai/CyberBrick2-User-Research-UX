@@ -1,0 +1,183 @@
+{
+  "source": "E:\\课程作业\\大三上\\张茫 用户研究与体验设计\\宣传视频10.27\\18cb12e390515703e310778023c6aa34_raw.mp4",
+  "id": "V02",
+  "model": "faster-whisper-small CPU int8",
+  "status": "机器转写 未逐字听校",
+  "segments": [
+    {
+      "start": 0.46,
+      "end": 3.02,
+      "text": "哎我好像可以从这里打球啊",
+      "avg_logprob": -0.42,
+      "no_speech_prob": 0.296
+    },
+    {
+      "start": 3.02,
+      "end": 4.46,
+      "text": "我当时也是这样想的",
+      "avg_logprob": -0.42,
+      "no_speech_prob": 0.296
+    },
+    {
+      "start": 4.46,
+      "end": 5.46,
+      "text": "不行啊不行",
+      "avg_logprob": -0.42,
+      "no_speech_prob": 0.296
+    },
+    {
+      "start": 5.46,
+      "end": 6.46,
+      "text": "手太短了",
+      "avg_logprob": -0.42,
+      "no_speech_prob": 0.296
+    },
+    {
+      "start": 7.46,
+      "end": 22.17,
+      "text": "现在现在亮了是黄的",
+      "avg_logprob": -0.42,
+      "no_speech_prob": 0.296
+    },
+    {
+      "start": 22.17,
+      "end": 23.17,
+      "text": "如果你这样就",
+      "avg_logprob": -0.42,
+      "no_speech_prob": 0.296
+    },
+    {
+      "start": 23.17,
+      "end": 25.2,
+      "text": "就是高一点",
+      "avg_logprob": -0.42,
+      "no_speech_prob": 0.296
+    },
+    {
+      "start": 25.2,
+      "end": 35.26,
+      "text": "远推不动了",
+      "avg_logprob": -0.42,
+      "no_speech_prob": 0.296
+    },
+    {
+      "start": 40.71,
+      "end": 41.71,
+      "text": "不动了",
+      "avg_logprob": -0.42,
+      "no_speech_prob": 0.296
+    },
+    {
+      "start": 41.71,
+      "end": 42.71,
+      "text": "蓝方选手",
+      "avg_logprob": -0.42,
+      "no_speech_prob": 0.296
+    },
+    {
+      "start": 42.71,
+      "end": 51.02,
+      "text": "似乎遇到一些技术问题",
+      "avg_logprob": -0.42,
+      "no_speech_prob": 0.296
+    },
+    {
+      "start": 51.02,
+      "end": 53.02,
+      "text": "他为什么在倒退啊",
+      "avg_logprob": -0.42,
+      "no_speech_prob": 0.296
+    },
+    {
+      "start": 53.02,
+      "end": 55.02,
+      "text": "用屁股去救你",
+      "avg_logprob": -0.42,
+      "no_speech_prob": 0.296
+    },
+    {
+      "start": 55.02,
+      "end": 66.54,
+      "text": "我们方圈就要顺利了",
+      "avg_logprob": -0.42,
+      "no_speech_prob": 0.296
+    },
+    {
+      "start": 66.54,
+      "end": 80.1,
+      "text": "打不通 哪有高",
+      "avg_logprob": -0.419,
+      "no_speech_prob": 0.179
+    },
+    {
+      "start": 80.1,
+      "end": 84.1,
+      "text": "瞄準",
+      "avg_logprob": -0.419,
+      "no_speech_prob": 0.179
+    },
+    {
+      "start": 95.58,
+      "end": 102.98,
+      "text": "完了",
+      "avg_logprob": -0.419,
+      "no_speech_prob": 0.179
+    },
+    {
+      "start": 102.98,
+      "end": 103.98,
+      "text": "打不通",
+      "avg_logprob": -0.419,
+      "no_speech_prob": 0.179
+    },
+    {
+      "start": 103.98,
+      "end": 106.3,
+      "text": "高",
+      "avg_logprob": -0.419,
+      "no_speech_prob": 0.179
+    },
+    {
+      "start": 106.3,
+      "end": 112.51,
+      "text": "你去撞他",
+      "avg_logprob": -0.419,
+      "no_speech_prob": 0.179
+    },
+    {
+      "start": 112.51,
+      "end": 113.51,
+      "text": "不撞他",
+      "avg_logprob": -0.419,
+      "no_speech_prob": 0.179
+    },
+    {
+      "start": 114.51,
+      "end": 117.98,
+      "text": "下次搞个牌子",
+      "avg_logprob": -0.419,
+      "no_speech_prob": 0.179
+    },
+    {
+      "start": 119.98,
+      "end": 125.7,
+      "text": "胜利了",
+      "avg_logprob": -0.419,
+      "no_speech_prob": 0.179
+    },
+    {
+      "start": 125.7,
+      "end": 126.7,
+      "text": "可以吗",
+      "avg_logprob": -0.419,
+      "no_speech_prob": 0.179
+    },
+    {
+      "start": 126.7,
+      "end": 128.7,
+      "text": "小蓝已经惨败",
+      "avg_logprob": -0.419,
+      "no_speech_prob": 0.179
+    }
+  ]
+}

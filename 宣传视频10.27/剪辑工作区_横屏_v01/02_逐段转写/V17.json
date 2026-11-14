@@ -1,0 +1,7120 @@
+{
+  "source": "E:\\课程作业\\大三上\\张茫 用户研究与体验设计\\宣传视频10.27\\DJI_20260916223855_0393_D.MP4",
+  "id": "V17",
+  "model": "faster-whisper-small CPU int8",
+  "status": "机器转写 未逐字听校",
+  "segments": [
+    {
+      "start": 4.91,
+      "end": 7.91,
+      "text": "我觉得你要发明一个自动剪视频的Azence",
+      "avg_logprob": -0.369,
+      "no_speech_prob": 0.68
+    },
+    {
+      "start": 7.91,
+      "end": 9.41,
+      "text": "然后剪一个视频",
+      "avg_logprob": -0.369,
+      "no_speech_prob": 0.68
+    },
+    {
+      "start": 9.41,
+      "end": 11.41,
+      "text": "我靠 我就很像自动剪视频",
+      "avg_logprob": -0.369,
+      "no_speech_prob": 0.68
+    },
+    {
+      "start": 11.41,
+      "end": 13.41,
+      "text": "但是感觉很贵的样子",
+      "avg_logprob": -0.369,
+      "no_speech_prob": 0.68
+    },
+    {
+      "start": 13.41,
+      "end": 17.41,
+      "text": "现在用GVT我额度根本不敢让它剪视频",
+      "avg_logprob": -0.369,
+      "no_speech_prob": 0.68
+    },
+    {
+      "start": 18.41,
+      "end": 20.41,
+      "text": "那我们就做一套卡牌呗",
+      "avg_logprob": -0.369,
+      "no_speech_prob": 0.68
+    },
+    {
+      "start": 20.41,
+      "end": 21.41,
+      "text": "对呀 就是",
+      "avg_logprob": -0.369,
+      "no_speech_prob": 0.68
+    },
+    {
+      "start": 21.41,
+      "end": 22.41,
+      "text": "我们可以用桌游吗",
+      "avg_logprob": -0.369,
+      "no_speech_prob": 0.68
+    },
+    {
+      "start": 22.41,
+      "end": 23.41,
+      "text": "就被送来",
+      "avg_logprob": -0.369,
+      "no_speech_prob": 0.68
+    },
+    {
+      "start": 23.41,
+      "end": 24.91,
+      "text": "对 用一套桌游",
+      "avg_logprob": -0.369,
+      "no_speech_prob": 0.68
+    },
+    {
+      "start": 24.91,
+      "end": 27.41,
+      "text": "就是我们可以把那个公司做成一个棋子的样子",
+      "avg_logprob": -0.369,
+      "no_speech_prob": 0.68
+    },
+    {
+      "start": 27.41,
+      "end": 29.41,
+      "text": "我们那天做桌游就好",
+      "avg_logprob": -0.369,
+      "no_speech_prob": 0.68
+    },
+    {
+      "start": 32.44,
+      "end": 32.94,
+      "text": "我靠 等一下",
+      "avg_logprob": -0.369,
+      "no_speech_prob": 0.68
+    },
+    {
+      "start": 32.94,
+      "end": 35.44,
+      "text": "那这个战斗系统跟桌游怎么结合",
+      "avg_logprob": -0.369,
+      "no_speech_prob": 0.68
+    },
+    {
+      "start": 35.44,
+      "end": 37.68,
+      "text": "有的这个也是这个 这个可以叠叠",
+      "avg_logprob": -0.626,
+      "no_speech_prob": 0.668
+    },
+    {
+      "start": 37.68,
+      "end": 40.2,
+      "text": "我最近玩了一套特别好玩的叫零中小五",
+      "avg_logprob": -0.626,
+      "no_speech_prob": 0.668
+    },
+    {
+      "start": 40.2,
+      "end": 41.92,
+      "text": "是一个怎么做的 做了这套",
+      "avg_logprob": -0.626,
+      "no_speech_prob": 0.668
+    },
+    {
+      "start": 41.92,
+      "end": 43.92,
+      "text": "我可好这样做成好好玩",
+      "avg_logprob": -0.626,
+      "no_speech_prob": 0.668
+    },
+    {
+      "start": 43.92,
+      "end": 45.92,
+      "text": "我比较一套一套像我零中小五",
+      "avg_logprob": -0.626,
+      "no_speech_prob": 0.668
+    },
+    {
+      "start": 45.92,
+      "end": 47.08,
+      "text": "零中小五",
+      "avg_logprob": -0.626,
+      "no_speech_prob": 0.668
+    },
+    {
+      "start": 47.08,
+      "end": 48.08,
+      "text": "是 零中小五",
+      "avg_logprob": -0.626,
+      "no_speech_prob": 0.668
+    },
+    {
+      "start": 48.08,
+      "end": 49.92,
+      "text": "是一个给我做的 做得特别好",
+      "avg_logprob": -0.626,
+      "no_speech_prob": 0.668
+    },
+    {
+      "start": 49.92,
+      "end": 50.92,
+      "text": "可以啊",
+      "avg_logprob": -0.626,
+      "no_speech_prob": 0.668
+    },
+    {
+      "start": 50.92,
+      "end": 52.4,
+      "text": "你看长啥样啊",
+      "avg_logprob": -0.626,
+      "no_speech_prob": 0.668
+    },
+    {
+      "start": 52.4,
+      "end": 54.12,
+      "text": "你明天上课带来给我",
+      "avg_logprob": -0.626,
+      "no_speech_prob": 0.668
+    },
+    {
+      "start": 54.12,
+      "end": 54.96,
+      "text": "到",
+      "avg_logprob": -0.626,
+      "no_speech_prob": 0.668
+    },
+    {
+      "start": 54.96,
+      "end": 56.36,
+      "text": "哦 那是实体的",
+      "avg_logprob": -0.626,
+      "no_speech_prob": 0.668
+    },
+    {
+      "start": 56.36,
+      "end": 57.36,
+      "text": "实体的",
+      "avg_logprob": -0.626,
+      "no_speech_prob": 0.668
+    },
+    {
+      "start": 57.36,
+      "end": 58.88,
+      "text": "很搭啊 那是",
+      "avg_logprob": -0.626,
+      "no_speech_prob": 0.668
+    },
+    {
+      "start": 58.88,
+      "end": 61.36,
+      "text": "嗯 但是就是它是一块的地图",
+      "avg_logprob": -0.626,
+      "no_speech_prob": 0.668
+    },
+    {
+      "start": 61.36,
+      "end": 63.6,
+      "text": "需要一块一块铺铺",
+      "avg_logprob": -0.626,
+      "no_speech_prob": 0.668
+    },
+    {
+      "start": 63.6,
+      "end": 64.56,
+      "text": "啊 那很好玩",
+      "avg_logprob": -0.626,
+      "no_speech_prob": 0.668
+    },
+    {
+      "start": 64.56,
+      "end": 65.92,
+      "text": "一桩小木",
+      "avg_logprob": -0.591,
+      "no_speech_prob": 0.563
+    },
+    {
+      "start": 65.92,
+      "end": 67.92,
+      "text": "我就都发现这种",
+      "avg_logprob": -0.591,
+      "no_speech_prob": 0.563
+    },
+    {
+      "start": 67.92,
+      "end": 70.52,
+      "text": "感觉这种小时候的动画品也",
+      "avg_logprob": -0.591,
+      "no_speech_prob": 0.563
+    },
+    {
+      "start": 70.52,
+      "end": 72.36,
+      "text": "出出来的卡牌",
+      "avg_logprob": -0.591,
+      "no_speech_prob": 0.563
+    },
+    {
+      "start": 72.36,
+      "end": 73.44,
+      "text": "然后施展技能",
+      "avg_logprob": -0.591,
+      "no_speech_prob": 0.563
+    },
+    {
+      "start": 73.44,
+      "end": 75.24,
+      "text": "然后还让对方有个镜子",
+      "avg_logprob": -0.591,
+      "no_speech_prob": 0.563
+    },
+    {
+      "start": 75.24,
+      "end": 77.12,
+      "text": "其实好有一段",
+      "avg_logprob": -0.591,
+      "no_speech_prob": 0.563
+    },
+    {
+      "start": 77.12,
+      "end": 79.68,
+      "text": "对 然后还可以限制功率",
+      "avg_logprob": -0.591,
+      "no_speech_prob": 0.563
+    },
+    {
+      "start": 79.68,
+      "end": 81.48,
+      "text": "就是限制它的速度",
+      "avg_logprob": -0.591,
+      "no_speech_prob": 0.563
+    },
+    {
+      "start": 81.48,
+      "end": 83.72,
+      "text": "然后你刷大招",
+      "avg_logprob": -0.591,
+      "no_speech_prob": 0.563
+    },
+    {
+      "start": 83.72,
+      "end": 85.88,
+      "text": "你才能跑得特别宽",
+      "avg_logprob": -0.591,
+      "no_speech_prob": 0.563
+    },
+    {
+      "start": 85.88,
+      "end": 89.88,
+      "text": "信号结束",
+      "avg_logprob": -0.591,
+      "no_speech_prob": 0.563
+    },
+    {
+      "start": 89.88,
+      "end": 91.6,
+      "text": "它延迟应该不高吧",
+      "avg_logprob": -0.591,
+      "no_speech_prob": 0.563
+    },
+    {
+      "start": 91.6,
+      "end": 93.97,
+      "text": "你要看什么传染器吧",
+      "avg_logprob": -0.591,
+      "no_speech_prob": 0.563
+    },
+    {
+      "start": 93.97,
+      "end": 96.85,
+      "text": "我觉得他这个都用来做那种遥控车了",
+      "avg_logprob": -0.487,
+      "no_speech_prob": 0.228
+    },
+    {
+      "start": 96.85,
+      "end": 98.29,
+      "text": "他的信号结束应该不够稳定",
+      "avg_logprob": -0.487,
+      "no_speech_prob": 0.228
+    },
+    {
+      "start": 98.29,
+      "end": 99.69,
+      "text": "你是那个",
+      "avg_logprob": -0.487,
+      "no_speech_prob": 0.228
+    },
+    {
+      "start": 99.89,
+      "end": 103.29,
+      "text": "我听着是不是意思就是你要做一个类似遥控器",
+      "avg_logprob": -0.487,
+      "no_speech_prob": 0.228
+    },
+    {
+      "start": 103.29,
+      "end": 105.61,
+      "text": "要让他检测那个牌还是什么",
+      "avg_logprob": -0.487,
+      "no_speech_prob": 0.228
+    },
+    {
+      "start": 106.09,
+      "end": 107.41,
+      "text": "检测那个卡牌",
+      "avg_logprob": -0.487,
+      "no_speech_prob": 0.228
+    },
+    {
+      "start": 107.41,
+      "end": 109.29,
+      "text": "就是可能他这里有一个聪明器",
+      "avg_logprob": -0.487,
+      "no_speech_prob": 0.228
+    },
+    {
+      "start": 109.29,
+      "end": 110.53,
+      "text": "然后他套一样卡牌",
+      "avg_logprob": -0.487,
+      "no_speech_prob": 0.228
+    },
+    {
+      "start": 110.53,
+      "end": 112.45,
+      "text": "然后我们手笔",
+      "avg_logprob": -0.487,
+      "no_speech_prob": 0.228
+    },
+    {
+      "start": 112.45,
+      "end": 113.65,
+      "text": "就像奥特曼的那种",
+      "avg_logprob": -0.487,
+      "no_speech_prob": 0.228
+    },
+    {
+      "start": 113.65,
+      "end": 114.45,
+      "text": "杀",
+      "avg_logprob": -0.487,
+      "no_speech_prob": 0.228
+    },
+    {
+      "start": 114.45,
+      "end": 115.57,
+      "text": "不去",
+      "avg_logprob": -0.487,
+      "no_speech_prob": 0.228
+    },
+    {
+      "start": 115.57,
+      "end": 117.09,
+      "text": "哪一卡牌刷一样",
+      "avg_logprob": -0.487,
+      "no_speech_prob": 0.228
+    },
+    {
+      "start": 117.09,
+      "end": 117.73,
+      "text": "颜色",
+      "avg_logprob": -0.487,
+      "no_speech_prob": 0.228
+    },
+    {
+      "start": 117.73,
+      "end": 120.95,
+      "text": "还是场上那个机器他们两个中间是",
+      "avg_logprob": -0.487,
+      "no_speech_prob": 0.228
+    },
+    {
+      "start": 121.59,
+      "end": 122.15,
+      "text": "颜色",
+      "avg_logprob": -0.487,
+      "no_speech_prob": 0.228
+    },
+    {
+      "start": 122.91,
+      "end": 123.75,
+      "text": "用颜色来",
+      "avg_logprob": -0.487,
+      "no_speech_prob": 0.228
+    },
+    {
+      "start": 124.23,
+      "end": 130.04,
+      "text": "但是这个东西不知道他底层的那个板子接不接受",
+      "avg_logprob": -0.495,
+      "no_speech_prob": 0.608
+    },
+    {
+      "start": 130.04,
+      "end": 133.8,
+      "text": "主要他那个他不是一般的他说micro-pipers",
+      "avg_logprob": -0.495,
+      "no_speech_prob": 0.608
+    },
+    {
+      "start": 133.8,
+      "end": 136.48,
+      "text": "micro-pipers有什么特殊的吗",
+      "avg_logprob": -0.495,
+      "no_speech_prob": 0.608
+    },
+    {
+      "start": 136.48,
+      "end": 140.11,
+      "text": "感觉就是有点东西吧 至少没用过",
+      "avg_logprob": -0.495,
+      "no_speech_prob": 0.608
+    },
+    {
+      "start": 140.11,
+      "end": 142.27,
+      "text": "没用过他这个视觉的",
+      "avg_logprob": -0.495,
+      "no_speech_prob": 0.608
+    },
+    {
+      "start": 142.27,
+      "end": 145.03,
+      "text": "他的无线传输日指能传输特意会出现的数据",
+      "avg_logprob": -0.495,
+      "no_speech_prob": 0.608
+    },
+    {
+      "start": 145.03,
+      "end": 147.03,
+      "text": "比如说特别要控他的那个走位",
+      "avg_logprob": -0.495,
+      "no_speech_prob": 0.608
+    },
+    {
+      "start": 147.03,
+      "end": 151.23,
+      "text": "还是说他所说的数据是可以自定义",
+      "avg_logprob": -0.495,
+      "no_speech_prob": 0.608
+    },
+    {
+      "start": 151.23,
+      "end": 152.35,
+      "text": "可以自定义啊",
+      "avg_logprob": -0.495,
+      "no_speech_prob": 0.608
+    },
+    {
+      "start": 152.35,
+      "end": 153.55,
+      "text": "牧草树都有道理",
+      "avg_logprob": -0.38,
+      "no_speech_prob": 0.325
+    },
+    {
+      "start": 153.55,
+      "end": 154.91,
+      "text": "就我们主控",
+      "avg_logprob": -0.38,
+      "no_speech_prob": 0.325
+    },
+    {
+      "start": 154.91,
+      "end": 156.71,
+      "text": "就是主要的那个",
+      "avg_logprob": -0.38,
+      "no_speech_prob": 0.325
+    },
+    {
+      "start": 156.71,
+      "end": 159.39,
+      "text": "当大脑的板子是在发射器上",
+      "avg_logprob": -0.38,
+      "no_speech_prob": 0.325
+    },
+    {
+      "start": 159.39,
+      "end": 161.23,
+      "text": "是在手柄上还是在机器人的",
+      "avg_logprob": -0.38,
+      "no_speech_prob": 0.325
+    },
+    {
+      "start": 161.23,
+      "end": 165.6,
+      "text": "那肯定在这个机器人上",
+      "avg_logprob": -0.38,
+      "no_speech_prob": 0.325
+    },
+    {
+      "start": 165.6,
+      "end": 167.64,
+      "text": "因为你要动嘛",
+      "avg_logprob": -0.38,
+      "no_speech_prob": 0.325
+    },
+    {
+      "start": 167.64,
+      "end": 168.4,
+      "text": "对不对",
+      "avg_logprob": -0.38,
+      "no_speech_prob": 0.325
+    },
+    {
+      "start": 168.4,
+      "end": 169.68,
+      "text": "你要动的话",
+      "avg_logprob": -0.38,
+      "no_speech_prob": 0.325
+    },
+    {
+      "start": 169.68,
+      "end": 171.12,
+      "text": "那肯定是",
+      "avg_logprob": -0.38,
+      "no_speech_prob": 0.325
+    },
+    {
+      "start": 171.12,
+      "end": 172.64,
+      "text": "肯定是在那个机器人上",
+      "avg_logprob": -0.38,
+      "no_speech_prob": 0.325
+    },
+    {
+      "start": 172.64,
+      "end": 174.44,
+      "text": "那我们用这个二的板子",
+      "avg_logprob": -0.38,
+      "no_speech_prob": 0.325
+    },
+    {
+      "start": 174.44,
+      "end": 175.24,
+      "text": "它是这样的",
+      "avg_logprob": -0.38,
+      "no_speech_prob": 0.325
+    },
+    {
+      "start": 175.24,
+      "end": 177.08,
+      "text": "就是如果是",
+      "avg_logprob": -0.38,
+      "no_speech_prob": 0.325
+    },
+    {
+      "start": 177.08,
+      "end": 180.03,
+      "text": "我怎么说呢",
+      "avg_logprob": -0.38,
+      "no_speech_prob": 0.325
+    },
+    {
+      "start": 180.03,
+      "end": 181.47,
+      "text": "就是这个玩意",
+      "avg_logprob": -0.38,
+      "no_speech_prob": 0.325
+    },
+    {
+      "start": 181.47,
+      "end": 184.07,
+      "text": "它只能连一个板子",
+      "avg_logprob": -0.38,
+      "no_speech_prob": 0.325
+    },
+    {
+      "start": 184.07,
+      "end": 187.07,
+      "text": "它只能跟另外的一个主控板通信",
+      "avg_logprob": -0.21,
+      "no_speech_prob": 0.464
+    },
+    {
+      "start": 187.07,
+      "end": 188.07,
+      "text": "它不能连第三个",
+      "avg_logprob": -0.21,
+      "no_speech_prob": 0.464
+    },
+    {
+      "start": 188.07,
+      "end": 190.1,
+      "text": "就如果这样的话",
+      "avg_logprob": -0.21,
+      "no_speech_prob": 0.464
+    },
+    {
+      "start": 190.1,
+      "end": 191.7,
+      "text": "比如说这是机器人的大脑",
+      "avg_logprob": -0.21,
+      "no_speech_prob": 0.464
+    },
+    {
+      "start": 191.7,
+      "end": 195.1,
+      "text": "这个是对然后我就只能跟一个遥控器通信",
+      "avg_logprob": -0.21,
+      "no_speech_prob": 0.464
+    },
+    {
+      "start": 195.1,
+      "end": 198.1,
+      "text": "不不不你遥控器它就是个遥控器啊",
+      "avg_logprob": -0.21,
+      "no_speech_prob": 0.464
+    },
+    {
+      "start": 198.1,
+      "end": 200.2,
+      "text": "你遥控器",
+      "avg_logprob": -0.21,
+      "no_speech_prob": 0.464
+    },
+    {
+      "start": 200.2,
+      "end": 203.2,
+      "text": "因为我这玩意我没试过在手机控制啊",
+      "avg_logprob": -0.21,
+      "no_speech_prob": 0.464
+    },
+    {
+      "start": 203.2,
+      "end": 204.2,
+      "text": "就1.0我试过",
+      "avg_logprob": -0.21,
+      "no_speech_prob": 0.464
+    },
+    {
+      "start": 204.2,
+      "end": 206.2,
+      "text": "1.0我试过2.0",
+      "avg_logprob": -0.21,
+      "no_speech_prob": 0.464
+    },
+    {
+      "start": 206.2,
+      "end": 208.2,
+      "text": "我不知道他能不能直接跟手机连",
+      "avg_logprob": -0.21,
+      "no_speech_prob": 0.464
+    },
+    {
+      "start": 208.2,
+      "end": 213.78,
+      "text": "你懂我意思吗",
+      "avg_logprob": -0.21,
+      "no_speech_prob": 0.464
+    },
+    {
+      "start": 213.78,
+      "end": 216.78,
+      "text": "就是就是如果从硬件的讲出出发",
+      "avg_logprob": -0.21,
+      "no_speech_prob": 0.464
+    },
+    {
+      "start": 216.78,
+      "end": 219.42,
+      "text": "那肯定就是我希望我遙控器有个这个",
+      "avg_logprob": -0.325,
+      "no_speech_prob": 0.42
+    },
+    {
+      "start": 219.42,
+      "end": 220.22,
+      "text": "对吧",
+      "avg_logprob": -0.325,
+      "no_speech_prob": 0.42
+    },
+    {
+      "start": 220.22,
+      "end": 221.66,
+      "text": "然后机器也有个这个",
+      "avg_logprob": -0.325,
+      "no_speech_prob": 0.42
+    },
+    {
+      "start": 221.66,
+      "end": 223.1,
+      "text": "然后他们两个就能通信了",
+      "avg_logprob": -0.325,
+      "no_speech_prob": 0.42
+    },
+    {
+      "start": 223.1,
+      "end": 223.5,
+      "text": "对",
+      "avg_logprob": -0.325,
+      "no_speech_prob": 0.42
+    },
+    {
+      "start": 223.5,
+      "end": 224.82,
+      "text": "就是硬件就能解决",
+      "avg_logprob": -0.325,
+      "no_speech_prob": 0.42
+    },
+    {
+      "start": 224.82,
+      "end": 225.14,
+      "text": "对",
+      "avg_logprob": -0.325,
+      "no_speech_prob": 0.42
+    },
+    {
+      "start": 225.14,
+      "end": 227.54,
+      "text": "但是如果你说用蓝牙",
+      "avg_logprob": -0.325,
+      "no_speech_prob": 0.42
+    },
+    {
+      "start": 227.54,
+      "end": 228.86,
+      "text": "或是Wi-Fi能不能做",
+      "avg_logprob": -0.325,
+      "no_speech_prob": 0.42
+    },
+    {
+      "start": 228.86,
+      "end": 230.22,
+      "text": "我这个还没试过",
+      "avg_logprob": -0.325,
+      "no_speech_prob": 0.42
+    },
+    {
+      "start": 230.22,
+      "end": 232.02,
+      "text": "但是我可以这么跟你说",
+      "avg_logprob": -0.325,
+      "no_speech_prob": 0.42
+    },
+    {
+      "start": 232.02,
+      "end": 235.22,
+      "text": "我这个已经试过了它能开Wi-Fi",
+      "avg_logprob": -0.325,
+      "no_speech_prob": 0.42
+    },
+    {
+      "start": 235.22,
+      "end": 237.02,
+      "text": "就它能做Wi-Fi",
+      "avg_logprob": -0.325,
+      "no_speech_prob": 0.42
+    },
+    {
+      "start": 237.02,
+      "end": 238.5,
+      "text": "然后手机连上它",
+      "avg_logprob": -0.325,
+      "no_speech_prob": 0.42
+    },
+    {
+      "start": 238.5,
+      "end": 240.18,
+      "text": "然后能登入它的网页",
+      "avg_logprob": -0.325,
+      "no_speech_prob": 0.42
+    },
+    {
+      "start": 240.18,
+      "end": 241.34,
+      "text": "一动一动",
+      "avg_logprob": -0.325,
+      "no_speech_prob": 0.42
+    },
+    {
+      "start": 241.34,
+      "end": 242.62,
+      "text": "就是但是我没试过",
+      "avg_logprob": -0.325,
+      "no_speech_prob": 0.42
+    },
+    {
+      "start": 242.62,
+      "end": 246.62,
+      "text": "我把那个代码的UI放到我手机里",
+      "avg_logprob": -0.413,
+      "no_speech_prob": 0.275
+    },
+    {
+      "start": 246.62,
+      "end": 249.87,
+      "text": "就不让我说明你们的",
+      "avg_logprob": -0.413,
+      "no_speech_prob": 0.275
+    },
+    {
+      "start": 249.87,
+      "end": 251.07,
+      "text": "哦 大家这种",
+      "avg_logprob": -0.413,
+      "no_speech_prob": 0.275
+    },
+    {
+      "start": 251.07,
+      "end": 253.15,
+      "text": "但是其实我们也不需要用什么",
+      "avg_logprob": -0.413,
+      "no_speech_prob": 0.275
+    },
+    {
+      "start": 253.15,
+      "end": 256.91,
+      "text": "假如说真的他板子提供不了这么多给我们",
+      "avg_logprob": -0.413,
+      "no_speech_prob": 0.275
+    },
+    {
+      "start": 256.91,
+      "end": 259.79,
+      "text": "那我们就得考虑可能用另外一种传输的方式",
+      "avg_logprob": -0.413,
+      "no_speech_prob": 0.275
+    },
+    {
+      "start": 259.79,
+      "end": 260.99,
+      "text": "因为你先你想一想",
+      "avg_logprob": -0.413,
+      "no_speech_prob": 0.275
+    },
+    {
+      "start": 260.99,
+      "end": 262.91,
+      "text": "如果你得有两个达这个机械",
+      "avg_logprob": -0.413,
+      "no_speech_prob": 0.275
+    },
+    {
+      "start": 262.91,
+      "end": 265.31,
+      "text": "那就两套 两套东西",
+      "avg_logprob": -0.413,
+      "no_speech_prob": 0.275
+    },
+    {
+      "start": 265.31,
+      "end": 266.35,
+      "text": "两套东西",
+      "avg_logprob": -0.413,
+      "no_speech_prob": 0.275
+    },
+    {
+      "start": 266.35,
+      "end": 267.55,
+      "text": "你处理完这一边一套",
+      "avg_logprob": -0.413,
+      "no_speech_prob": 0.275
+    },
+    {
+      "start": 267.55,
+      "end": 269.07,
+      "text": "你还得处理到另外一边那一套",
+      "avg_logprob": -0.413,
+      "no_speech_prob": 0.275
+    },
+    {
+      "start": 269.07,
+      "end": 271.15,
+      "text": "嗯 弄一弄",
+      "avg_logprob": -0.413,
+      "no_speech_prob": 0.275
+    },
+    {
+      "start": 271.15,
+      "end": 273.79,
+      "text": "如果他一次性的给我们四个板子",
+      "avg_logprob": -0.488,
+      "no_speech_prob": 0.479
+    },
+    {
+      "start": 273.79,
+      "end": 274.35,
+      "text": "那最好",
+      "avg_logprob": -0.488,
+      "no_speech_prob": 0.479
+    },
+    {
+      "start": 275.26,
+      "end": 276.18,
+      "text": "肯定的东西",
+      "avg_logprob": -0.488,
+      "no_speech_prob": 0.479
+    },
+    {
+      "start": 276.46,
+      "end": 277.9,
+      "text": "像我这个A这边的",
+      "avg_logprob": -0.488,
+      "no_speech_prob": 0.479
+    },
+    {
+      "start": 277.9,
+      "end": 280.22,
+      "text": "A这边就肯定就A之间这两个板子",
+      "avg_logprob": -0.488,
+      "no_speech_prob": 0.479
+    },
+    {
+      "start": 280.78,
+      "end": 282.22,
+      "text": "B这边的可能就B这边这两个板子",
+      "avg_logprob": -0.488,
+      "no_speech_prob": 0.479
+    },
+    {
+      "start": 282.22,
+      "end": 283.34,
+      "text": "那就问他要四个板子",
+      "avg_logprob": -0.488,
+      "no_speech_prob": 0.479
+    },
+    {
+      "start": 283.34,
+      "end": 283.74,
+      "text": "对",
+      "avg_logprob": -0.488,
+      "no_speech_prob": 0.479
+    },
+    {
+      "start": 283.74,
+      "end": 284.74,
+      "text": "所以就担心他",
+      "avg_logprob": -0.488,
+      "no_speech_prob": 0.479
+    },
+    {
+      "start": 284.74,
+      "end": 285.14,
+      "text": "四个板子",
+      "avg_logprob": -0.488,
+      "no_speech_prob": 0.479
+    },
+    {
+      "start": 285.14,
+      "end": 285.78,
+      "text": "对 四个板子",
+      "avg_logprob": -0.488,
+      "no_speech_prob": 0.479
+    },
+    {
+      "start": 285.78,
+      "end": 287.62,
+      "text": "这边他要能够要到四个板子",
+      "avg_logprob": -0.488,
+      "no_speech_prob": 0.479
+    },
+    {
+      "start": 287.62,
+      "end": 289.1,
+      "text": "五个板要五个",
+      "avg_logprob": -0.488,
+      "no_speech_prob": 0.479
+    },
+    {
+      "start": 289.1,
+      "end": 289.9,
+      "text": "你最好保险",
+      "avg_logprob": -0.488,
+      "no_speech_prob": 0.479
+    },
+    {
+      "start": 289.9,
+      "end": 290.7,
+      "text": "你肯定要",
+      "avg_logprob": -0.488,
+      "no_speech_prob": 0.479
+    },
+    {
+      "start": 290.7,
+      "end": 291.26,
+      "text": "要多一点",
+      "avg_logprob": -0.488,
+      "no_speech_prob": 0.479
+    },
+    {
+      "start": 291.26,
+      "end": 292.18,
+      "text": "要六个 要六个",
+      "avg_logprob": -0.488,
+      "no_speech_prob": 0.479
+    },
+    {
+      "start": 292.18,
+      "end": 293.02,
+      "text": "说多一点",
+      "avg_logprob": -0.488,
+      "no_speech_prob": 0.479
+    },
+    {
+      "start": 293.02,
+      "end": 294.82,
+      "text": "我们要六个的话",
+      "avg_logprob": -0.488,
+      "no_speech_prob": 0.479
+    },
+    {
+      "start": 294.82,
+      "end": 296.34,
+      "text": "我们后续还可以把那个板子",
+      "avg_logprob": -0.488,
+      "no_speech_prob": 0.479
+    },
+    {
+      "start": 296.34,
+      "end": 297.18,
+      "text": "弄到那个",
+      "avg_logprob": -0.488,
+      "no_speech_prob": 0.479
+    },
+    {
+      "start": 297.18,
+      "end": 298.5,
+      "text": "就是那个旗盘上面",
+      "avg_logprob": -0.488,
+      "no_speech_prob": 0.479
+    },
+    {
+      "start": 298.5,
+      "end": 299.62,
+      "text": "然后做一个长期的",
+      "avg_logprob": -0.488,
+      "no_speech_prob": 0.479
+    },
+    {
+      "start": 299.62,
+      "end": 300.22,
+      "text": "对",
+      "avg_logprob": -0.488,
+      "no_speech_prob": 0.479
+    },
+    {
+      "start": 300.22,
+      "end": 301.06,
+      "text": "好玩",
+      "avg_logprob": -0.488,
+      "no_speech_prob": 0.479
+    },
+    {
+      "start": 301.06,
+      "end": 303.62,
+      "text": "就是我还在想就是如果我们要做交互的话",
+      "avg_logprob": -0.388,
+      "no_speech_prob": 0.241
+    },
+    {
+      "start": 303.62,
+      "end": 306.66,
+      "text": "那那他们就是两个机器人之间",
+      "avg_logprob": -0.388,
+      "no_speech_prob": 0.241
+    },
+    {
+      "start": 306.66,
+      "end": 308.1,
+      "text": "应该也要有空隽吧",
+      "avg_logprob": -0.388,
+      "no_speech_prob": 0.241
+    },
+    {
+      "start": 308.1,
+      "end": 310.02,
+      "text": "因为我这边比如说刷了个",
+      "avg_logprob": -0.388,
+      "no_speech_prob": 0.241
+    },
+    {
+      "start": 310.98,
+      "end": 313.02,
+      "text": "对刷了个静态技能的卡",
+      "avg_logprob": -0.388,
+      "no_speech_prob": 0.241
+    },
+    {
+      "start": 313.02,
+      "end": 315.54,
+      "text": "应该要传到他他那个机器人那明儿",
+      "avg_logprob": -0.388,
+      "no_speech_prob": 0.241
+    },
+    {
+      "start": 315.54,
+      "end": 316.5,
+      "text": "不是传到我",
+      "avg_logprob": -0.388,
+      "no_speech_prob": 0.241
+    },
+    {
+      "start": 316.5,
+      "end": 318.54,
+      "text": "就好像得都互联起来",
+      "avg_logprob": -0.388,
+      "no_speech_prob": 0.241
+    },
+    {
+      "start": 318.54,
+      "end": 319.74,
+      "text": "是是是",
+      "avg_logprob": -0.388,
+      "no_speech_prob": 0.241
+    },
+    {
+      "start": 319.74,
+      "end": 321.66,
+      "text": "反正这本子就是一个脑子",
+      "avg_logprob": -0.388,
+      "no_speech_prob": 0.241
+    },
+    {
+      "start": 321.66,
+      "end": 322.9,
+      "text": "他就可以到他手",
+      "avg_logprob": -0.388,
+      "no_speech_prob": 0.241
+    },
+    {
+      "start": 324.27,
+      "end": 326.71,
+      "text": "哎那怎么怎么获得卡牌呢",
+      "avg_logprob": -0.388,
+      "no_speech_prob": 0.241
+    },
+    {
+      "start": 326.71,
+      "end": 327.91,
+      "text": "怎么获得卡牌",
+      "avg_logprob": -0.388,
+      "no_speech_prob": 0.241
+    },
+    {
+      "start": 327.91,
+      "end": 328.79,
+      "text": "怎么获得卡牌",
+      "avg_logprob": -0.388,
+      "no_speech_prob": 0.241
+    },
+    {
+      "start": 329.67,
+      "end": 330.71,
+      "text": "摔摔子吗",
+      "avg_logprob": -0.388,
+      "no_speech_prob": 0.241
+    },
+    {
+      "start": 330.71,
+      "end": 332.11,
+      "text": "对啊 游戏性啊",
+      "avg_logprob": -0.35,
+      "no_speech_prob": 0.49
+    },
+    {
+      "start": 332.11,
+      "end": 333.71,
+      "text": "有错吧 我们我再想",
+      "avg_logprob": -0.35,
+      "no_speech_prob": 0.49
+    },
+    {
+      "start": 333.71,
+      "end": 334.51,
+      "text": "今天我想就算了",
+      "avg_logprob": -0.35,
+      "no_speech_prob": 0.49
+    },
+    {
+      "start": 334.51,
+      "end": 335.51,
+      "text": "我觉得这个机制",
+      "avg_logprob": -0.35,
+      "no_speech_prob": 0.49
+    },
+    {
+      "start": 335.51,
+      "end": 336.51,
+      "text": "你没答应我",
+      "avg_logprob": -0.35,
+      "no_speech_prob": 0.49
+    },
+    {
+      "start": 336.51,
+      "end": 338.11,
+      "text": "我们可以把这个",
+      "avg_logprob": -0.35,
+      "no_speech_prob": 0.49
+    },
+    {
+      "start": 338.11,
+      "end": 340.11,
+      "text": "这个互联的这个视野",
+      "avg_logprob": -0.35,
+      "no_speech_prob": 0.49
+    },
+    {
+      "start": 340.11,
+      "end": 341.11,
+      "text": "跟那边说一下",
+      "avg_logprob": -0.35,
+      "no_speech_prob": 0.49
+    },
+    {
+      "start": 341.11,
+      "end": 342.51,
+      "text": "看看行不行 程不程的通",
+      "avg_logprob": -0.35,
+      "no_speech_prob": 0.49
+    },
+    {
+      "start": 342.51,
+      "end": 343.51,
+      "text": "我觉得明天",
+      "avg_logprob": -0.35,
+      "no_speech_prob": 0.49
+    },
+    {
+      "start": 343.51,
+      "end": 345.11,
+      "text": "除了我们自己汇报之外呢",
+      "avg_logprob": -0.35,
+      "no_speech_prob": 0.49
+    },
+    {
+      "start": 345.11,
+      "end": 346.31,
+      "text": "重要的是看看对面",
+      "avg_logprob": -0.35,
+      "no_speech_prob": 0.49
+    },
+    {
+      "start": 346.31,
+      "end": 348.11,
+      "text": "他觉得这个东西可不可行",
+      "avg_logprob": -0.35,
+      "no_speech_prob": 0.49
+    },
+    {
+      "start": 348.11,
+      "end": 348.71,
+      "text": "他也觉得不可行",
+      "avg_logprob": -0.35,
+      "no_speech_prob": 0.49
+    },
+    {
+      "start": 348.71,
+      "end": 349.71,
+      "text": "我们也得改",
+      "avg_logprob": -0.35,
+      "no_speech_prob": 0.49
+    },
+    {
+      "start": 349.71,
+      "end": 350.71,
+      "text": "说实话",
+      "avg_logprob": -0.35,
+      "no_speech_prob": 0.49
+    },
+    {
+      "start": 350.71,
+      "end": 351.51,
+      "text": "要不然他觉得",
+      "avg_logprob": -0.35,
+      "no_speech_prob": 0.49
+    },
+    {
+      "start": 351.51,
+      "end": 352.51,
+      "text": "你这个东西不能实现",
+      "avg_logprob": -0.35,
+      "no_speech_prob": 0.49
+    },
+    {
+      "start": 352.51,
+      "end": 354.51,
+      "text": "话大主要是一个大型的",
+      "avg_logprob": -0.35,
+      "no_speech_prob": 0.49
+    },
+    {
+      "start": 354.51,
+      "end": 355.21,
+      "text": "大型的",
+      "avg_logprob": -0.35,
+      "no_speech_prob": 0.49
+    },
+    {
+      "start": 355.21,
+      "end": 356.71,
+      "text": "今天最重要我觉得吧",
+      "avg_logprob": -0.35,
+      "no_speech_prob": 0.49
+    },
+    {
+      "start": 356.71,
+      "end": 357.71,
+      "text": "可真那么大型",
+      "avg_logprob": -0.35,
+      "no_speech_prob": 0.49
+    },
+    {
+      "start": 357.71,
+      "end": 360.41,
+      "text": "主要是讨论一个结构的问题",
+      "avg_logprob": -0.35,
+      "no_speech_prob": 0.49
+    },
+    {
+      "start": 360.41,
+      "end": 361.73,
+      "text": "明天讨论一下结构",
+      "avg_logprob": -0.369,
+      "no_speech_prob": 0.507
+    },
+    {
+      "start": 361.73,
+      "end": 362.53,
+      "text": "要什么样子",
+      "avg_logprob": -0.369,
+      "no_speech_prob": 0.507
+    },
+    {
+      "start": 362.53,
+      "end": 364.13,
+      "text": "对 基本上可能两个样",
+      "avg_logprob": -0.369,
+      "no_speech_prob": 0.507
+    },
+    {
+      "start": 364.13,
+      "end": 366.01,
+      "text": "或者是大概的需要什么东西",
+      "avg_logprob": -0.369,
+      "no_speech_prob": 0.507
+    },
+    {
+      "start": 366.01,
+      "end": 368.81,
+      "text": "你不可能一晚上你就能把明天的东西想完了",
+      "avg_logprob": -0.369,
+      "no_speech_prob": 0.507
+    },
+    {
+      "start": 368.81,
+      "end": 369.85,
+      "text": "明天不是要汇报吗",
+      "avg_logprob": -0.369,
+      "no_speech_prob": 0.507
+    },
+    {
+      "start": 369.85,
+      "end": 370.65,
+      "text": "对 明天是要汇报",
+      "avg_logprob": -0.369,
+      "no_speech_prob": 0.507
+    },
+    {
+      "start": 370.65,
+      "end": 376.05,
+      "text": "但是就假如说咱们今天晚上真的把结构什么都想完了",
+      "avg_logprob": -0.369,
+      "no_speech_prob": 0.507
+    },
+    {
+      "start": 376.05,
+      "end": 377.45,
+      "text": "然后内部的这个小朋友",
+      "avg_logprob": -0.369,
+      "no_speech_prob": 0.507
+    },
+    {
+      "start": 377.45,
+      "end": 378.17,
+      "text": "想跑完了",
+      "avg_logprob": -0.369,
+      "no_speech_prob": 0.507
+    },
+    {
+      "start": 378.17,
+      "end": 378.69,
+      "text": "我爹想完了",
+      "avg_logprob": -0.369,
+      "no_speech_prob": 0.507
+    },
+    {
+      "start": 378.69,
+      "end": 380.49,
+      "text": "那相对其实你已经做完了",
+      "avg_logprob": -0.369,
+      "no_speech_prob": 0.507
+    },
+    {
+      "start": 380.49,
+      "end": 381.33,
+      "text": "这可以连报",
+      "avg_logprob": -0.369,
+      "no_speech_prob": 0.507
+    },
+    {
+      "start": 381.33,
+      "end": 382.13,
+      "text": "对",
+      "avg_logprob": -0.369,
+      "no_speech_prob": 0.507
+    },
+    {
+      "start": 382.13,
+      "end": 384.85,
+      "text": "就上后面的你答应出来要不要那啥",
+      "avg_logprob": -0.369,
+      "no_speech_prob": 0.507
+    },
+    {
+      "start": 384.85,
+      "end": 386.73,
+      "text": "我觉得明天汇报不用担心",
+      "avg_logprob": -0.369,
+      "no_speech_prob": 0.507
+    },
+    {
+      "start": 386.73,
+      "end": 388.33,
+      "text": "我那边有图",
+      "avg_logprob": -0.369,
+      "no_speech_prob": 0.507
+    },
+    {
+      "start": 388.33,
+      "end": 390.33,
+      "text": "我的明天 我明天那个爽啊",
+      "avg_logprob": -0.27,
+      "no_speech_prob": 0.564
+    },
+    {
+      "start": 390.33,
+      "end": 392.33,
+      "text": "我可以再跑一趟有的桌有的",
+      "avg_logprob": -0.27,
+      "no_speech_prob": 0.564
+    },
+    {
+      "start": 392.33,
+      "end": 394.33,
+      "text": "对 咱们就不用说这么",
+      "avg_logprob": -0.27,
+      "no_speech_prob": 0.564
+    },
+    {
+      "start": 394.33,
+      "end": 396.33,
+      "text": "不用担心 不用担心",
+      "avg_logprob": -0.27,
+      "no_speech_prob": 0.564
+    },
+    {
+      "start": 396.33,
+      "end": 398.33,
+      "text": "因为很多时候你把这个方案说过去了",
+      "avg_logprob": -0.27,
+      "no_speech_prob": 0.564
+    },
+    {
+      "start": 398.33,
+      "end": 400.33,
+      "text": "对面也不知道可不可行",
+      "avg_logprob": -0.27,
+      "no_speech_prob": 0.564
+    },
+    {
+      "start": 400.33,
+      "end": 402.33,
+      "text": "它就让觉得这个东西太难了 不可行",
+      "avg_logprob": -0.27,
+      "no_speech_prob": 0.564
+    },
+    {
+      "start": 402.33,
+      "end": 405.33,
+      "text": "或者说 本身它这边 其实它这个东西还没开发完",
+      "avg_logprob": -0.27,
+      "no_speech_prob": 0.564
+    },
+    {
+      "start": 405.33,
+      "end": 407.42,
+      "text": "是吧 它这个东西还没开发完",
+      "avg_logprob": -0.27,
+      "no_speech_prob": 0.564
+    },
+    {
+      "start": 407.42,
+      "end": 408.42,
+      "text": "它明天跟你说 你这东西实现不了",
+      "avg_logprob": -0.27,
+      "no_speech_prob": 0.564
+    },
+    {
+      "start": 408.42,
+      "end": 409.42,
+      "text": "不行 我们做一页",
+      "avg_logprob": -0.27,
+      "no_speech_prob": 0.564
+    },
+    {
+      "start": 411.03,
+      "end": 414.03,
+      "text": "但是如果只是做一套的 那肯定百分百能做",
+      "avg_logprob": -0.27,
+      "no_speech_prob": 0.564
+    },
+    {
+      "start": 414.03,
+      "end": 416.03,
+      "text": "但你要说两套的 就像你刚刚说的",
+      "avg_logprob": -0.27,
+      "no_speech_prob": 0.564
+    },
+    {
+      "start": 416.03,
+      "end": 418.03,
+      "text": "那两个极限之间就得连接吧",
+      "avg_logprob": -0.27,
+      "no_speech_prob": 0.564
+    },
+    {
+      "start": 418.03,
+      "end": 421.19,
+      "text": "我不能说我从这里我发射一个东西",
+      "avg_logprob": -0.531,
+      "no_speech_prob": 0.411
+    },
+    {
+      "start": 421.19,
+      "end": 422.75,
+      "text": "然后你这个这边接收到了",
+      "avg_logprob": -0.531,
+      "no_speech_prob": 0.411
+    },
+    {
+      "start": 422.75,
+      "end": 424.19,
+      "text": "你这个也只要是它",
+      "avg_logprob": -0.531,
+      "no_speech_prob": 0.411
+    },
+    {
+      "start": 424.19,
+      "end": 426.19,
+      "text": "我的硬件也是新做的",
+      "avg_logprob": -0.531,
+      "no_speech_prob": 0.411
+    },
+    {
+      "start": 426.19,
+      "end": 426.91,
+      "text": "就是硬啊",
+      "avg_logprob": -0.531,
+      "no_speech_prob": 0.411
+    },
+    {
+      "start": 426.91,
+      "end": 428.58,
+      "text": "这一块就是",
+      "avg_logprob": -0.531,
+      "no_speech_prob": 0.411
+    },
+    {
+      "start": 428.58,
+      "end": 430.58,
+      "text": "那时候其实如果不行的话",
+      "avg_logprob": -0.531,
+      "no_speech_prob": 0.411
+    },
+    {
+      "start": 430.58,
+      "end": 432.82,
+      "text": "我们就把成绩级写好了",
+      "avg_logprob": -0.531,
+      "no_speech_prob": 0.411
+    },
+    {
+      "start": 432.82,
+      "end": 434.54,
+      "text": "就是装作是在",
+      "avg_logprob": -0.531,
+      "no_speech_prob": 0.411
+    },
+    {
+      "start": 436.99,
+      "end": 440.11,
+      "text": "诶 你们能用一台电脑做中控",
+      "avg_logprob": -0.531,
+      "no_speech_prob": 0.411
+    },
+    {
+      "start": 440.11,
+      "end": 442.35,
+      "text": "你说的是什么意思",
+      "avg_logprob": -0.531,
+      "no_speech_prob": 0.411
+    },
+    {
+      "start": 442.35,
+      "end": 443.23,
+      "text": "装控就是",
+      "avg_logprob": -0.531,
+      "no_speech_prob": 0.411
+    },
+    {
+      "start": 443.23,
+      "end": 445.95,
+      "text": "就是所有的计算全部放到大楼",
+      "avg_logprob": -0.531,
+      "no_speech_prob": 0.411
+    },
+    {
+      "start": 445.95,
+      "end": 447.75,
+      "text": "就是同学在这里刷一样卡",
+      "avg_logprob": -0.531,
+      "no_speech_prob": 0.411
+    },
+    {
+      "start": 447.75,
+      "end": 450.23,
+      "text": "但其实那个信号不是从卡里发进去的",
+      "avg_logprob": -0.521,
+      "no_speech_prob": 0.645
+    },
+    {
+      "start": 450.23,
+      "end": 451.95,
+      "text": "是从电脑里刷过",
+      "avg_logprob": -0.521,
+      "no_speech_prob": 0.645
+    },
+    {
+      "start": 451.95,
+      "end": 454.37,
+      "text": "我们在旁边输进去",
+      "avg_logprob": -0.521,
+      "no_speech_prob": 0.645
+    },
+    {
+      "start": 454.37,
+      "end": 455.17,
+      "text": "可以试一下",
+      "avg_logprob": -0.521,
+      "no_speech_prob": 0.645
+    },
+    {
+      "start": 455.17,
+      "end": 457.65,
+      "text": "不 我是说所有的东西都跟电脑连接",
+      "avg_logprob": -0.521,
+      "no_speech_prob": 0.645
+    },
+    {
+      "start": 457.65,
+      "end": 458.97,
+      "text": "比如说我这边刷一张卡",
+      "avg_logprob": -0.521,
+      "no_speech_prob": 0.645
+    },
+    {
+      "start": 458.97,
+      "end": 461.17,
+      "text": "这个NFC独卡去传信号给电脑",
+      "avg_logprob": -0.521,
+      "no_speech_prob": 0.645
+    },
+    {
+      "start": 461.17,
+      "end": 462.69,
+      "text": "我电脑发支援给技术",
+      "avg_logprob": -0.521,
+      "no_speech_prob": 0.645
+    },
+    {
+      "start": 462.69,
+      "end": 464.45,
+      "text": "那我还要选择与Bug一个游戏",
+      "avg_logprob": -0.521,
+      "no_speech_prob": 0.645
+    },
+    {
+      "start": 464.85,
+      "end": 465.45,
+      "text": "键链",
+      "avg_logprob": -0.521,
+      "no_speech_prob": 0.645
+    },
+    {
+      "start": 465.89,
+      "end": 466.77,
+      "text": "控制键链",
+      "avg_logprob": -0.521,
+      "no_speech_prob": 0.645
+    },
+    {
+      "start": 466.77,
+      "end": 469.17,
+      "text": "然后大概这个才够",
+      "avg_logprob": -0.521,
+      "no_speech_prob": 0.645
+    },
+    {
+      "start": 469.49,
+      "end": 471.01,
+      "text": "嗯嘛 程序化机动",
+      "avg_logprob": -0.521,
+      "no_speech_prob": 0.645
+    },
+    {
+      "start": 471.01,
+      "end": 473.13,
+      "text": "那我们后台的那一套是不是可以",
+      "avg_logprob": -0.521,
+      "no_speech_prob": 0.645
+    },
+    {
+      "start": 473.13,
+      "end": 474.93,
+      "text": "那我觉得应该是可以的",
+      "avg_logprob": -0.521,
+      "no_speech_prob": 0.645
+    },
+    {
+      "start": 474.93,
+      "end": 475.57,
+      "text": "它也是一套",
+      "avg_logprob": -0.521,
+      "no_speech_prob": 0.645
+    },
+    {
+      "start": 475.57,
+      "end": 476.61,
+      "text": "但是电脑有",
+      "avg_logprob": -0.521,
+      "no_speech_prob": 0.645
+    },
+    {
+      "start": 476.61,
+      "end": 478.61,
+      "text": "我记得那个作业里面不是有",
+      "avg_logprob": -0.492,
+      "no_speech_prob": 0.702
+    },
+    {
+      "start": 478.61,
+      "end": 479.61,
+      "text": "那我说对了",
+      "avg_logprob": -0.492,
+      "no_speech_prob": 0.702
+    },
+    {
+      "start": 479.61,
+      "end": 480.61,
+      "text": "我只看到一个银三",
+      "avg_logprob": -0.492,
+      "no_speech_prob": 0.702
+    },
+    {
+      "start": 480.61,
+      "end": 482.61,
+      "text": "还有其他那种手艺",
+      "avg_logprob": -0.492,
+      "no_speech_prob": 0.702
+    },
+    {
+      "start": 482.61,
+      "end": 483.61,
+      "text": "就是他发一个银三",
+      "avg_logprob": -0.492,
+      "no_speech_prob": 0.702
+    },
+    {
+      "start": 483.61,
+      "end": 486.61,
+      "text": "还有这个桌面的那个小机器人",
+      "avg_logprob": -0.492,
+      "no_speech_prob": 0.702
+    },
+    {
+      "start": 486.61,
+      "end": 487.61,
+      "text": "就是一个花是吗",
+      "avg_logprob": -0.492,
+      "no_speech_prob": 0.702
+    },
+    {
+      "start": 487.61,
+      "end": 488.61,
+      "text": "是一个花",
+      "avg_logprob": -0.492,
+      "no_speech_prob": 0.702
+    },
+    {
+      "start": 488.61,
+      "end": 489.61,
+      "text": "开发的那个花",
+      "avg_logprob": -0.492,
+      "no_speech_prob": 0.702
+    },
+    {
+      "start": 489.61,
+      "end": 490.61,
+      "text": "不是",
+      "avg_logprob": -0.492,
+      "no_speech_prob": 0.702
+    },
+    {
+      "start": 490.61,
+      "end": 492.61,
+      "text": "就是他开发的那个",
+      "avg_logprob": -0.492,
+      "no_speech_prob": 0.702
+    },
+    {
+      "start": 492.61,
+      "end": 493.61,
+      "text": "不是一个机械的艺人",
+      "avg_logprob": -0.492,
+      "no_speech_prob": 0.702
+    },
+    {
+      "start": 493.61,
+      "end": 494.61,
+      "text": "我说有一个艺人",
+      "avg_logprob": -0.492,
+      "no_speech_prob": 0.702
+    },
+    {
+      "start": 494.61,
+      "end": 495.61,
+      "text": "所以他们作业",
+      "avg_logprob": -0.492,
+      "no_speech_prob": 0.702
+    },
+    {
+      "start": 495.61,
+      "end": 496.61,
+      "text": "还有游戏的项目",
+      "avg_logprob": -0.492,
+      "no_speech_prob": 0.702
+    },
+    {
+      "start": 496.61,
+      "end": 497.61,
+      "text": "那个不是游戏",
+      "avg_logprob": -0.492,
+      "no_speech_prob": 0.702
+    },
+    {
+      "start": 497.61,
+      "end": 498.61,
+      "text": "那个不是",
+      "avg_logprob": -0.492,
+      "no_speech_prob": 0.702
+    },
+    {
+      "start": 498.61,
+      "end": 499.61,
+      "text": "他发的一个艺人",
+      "avg_logprob": -0.492,
+      "no_speech_prob": 0.702
+    },
+    {
+      "start": 499.61,
+      "end": 500.61,
+      "text": "我是看了那个花",
+      "avg_logprob": -0.492,
+      "no_speech_prob": 0.702
+    },
+    {
+      "start": 500.61,
+      "end": 502.61,
+      "text": "我也是看了那个花",
+      "avg_logprob": -0.492,
+      "no_speech_prob": 0.702
+    },
+    {
+      "start": 502.61,
+      "end": 503.61,
+      "text": "然后还可以",
+      "avg_logprob": -0.492,
+      "no_speech_prob": 0.702
+    },
+    {
+      "start": 503.61,
+      "end": 504.61,
+      "text": "他这个的",
+      "avg_logprob": -0.492,
+      "no_speech_prob": 0.702
+    },
+    {
+      "start": 504.61,
+      "end": 505.61,
+      "text": "他这个的",
+      "avg_logprob": -0.492,
+      "no_speech_prob": 0.702
+    },
+    {
+      "start": 505.61,
+      "end": 510.61,
+      "text": "如果我要用遙控手臂控制它",
+      "avg_logprob": -0.347,
+      "no_speech_prob": 0.509
+    },
+    {
+      "start": 510.61,
+      "end": 512.61,
+      "text": "那遙控手臂怎么做呢",
+      "avg_logprob": -0.347,
+      "no_speech_prob": 0.509
+    },
+    {
+      "start": 513.61,
+      "end": 515.61,
+      "text": "遙控手臂就这个插了遙控就行了",
+      "avg_logprob": -0.347,
+      "no_speech_prob": 0.509
+    },
+    {
+      "start": 520.61,
+      "end": 521.61,
+      "text": "什么叫插了遙控",
+      "avg_logprob": -0.347,
+      "no_speech_prob": 0.509
+    },
+    {
+      "start": 521.61,
+      "end": 524.61,
+      "text": "就你这玩意你遙控那边插了遙控",
+      "avg_logprob": -0.347,
+      "no_speech_prob": 0.509
+    },
+    {
+      "start": 524.61,
+      "end": 526.61,
+      "text": "它的那个摇杆",
+      "avg_logprob": -0.347,
+      "no_speech_prob": 0.509
+    },
+    {
+      "start": 526.61,
+      "end": 528.61,
+      "text": "然后呢",
+      "avg_logprob": -0.347,
+      "no_speech_prob": 0.509
+    },
+    {
+      "start": 528.61,
+      "end": 529.61,
+      "text": "它的那个摇杆",
+      "avg_logprob": -0.347,
+      "no_speech_prob": 0.509
+    },
+    {
+      "start": 529.61,
+      "end": 530.61,
+      "text": "去传信号",
+      "avg_logprob": -0.347,
+      "no_speech_prob": 0.509
+    },
+    {
+      "start": 530.61,
+      "end": 531.61,
+      "text": "然后它再跟那个",
+      "avg_logprob": -0.347,
+      "no_speech_prob": 0.509
+    },
+    {
+      "start": 531.61,
+      "end": 533.61,
+      "text": "进行的这个",
+      "avg_logprob": -0.347,
+      "no_speech_prob": 0.509
+    },
+    {
+      "start": 533.61,
+      "end": 534.61,
+      "text": "去连接",
+      "avg_logprob": -0.347,
+      "no_speech_prob": 0.509
+    },
+    {
+      "start": 534.61,
+      "end": 536.73,
+      "text": "然后就这上面插摇杆",
+      "avg_logprob": -0.641,
+      "no_speech_prob": 0.753
+    },
+    {
+      "start": 536.73,
+      "end": 538.65,
+      "text": "如果再有一个这个放机器",
+      "avg_logprob": -0.641,
+      "no_speech_prob": 0.753
+    },
+    {
+      "start": 538.65,
+      "end": 539.45,
+      "text": "对",
+      "avg_logprob": -0.641,
+      "no_speech_prob": 0.753
+    },
+    {
+      "start": 539.45,
+      "end": 540.33,
+      "text": "它们两个",
+      "avg_logprob": -0.641,
+      "no_speech_prob": 0.753
+    },
+    {
+      "start": 540.33,
+      "end": 540.81,
+      "text": "对",
+      "avg_logprob": -0.641,
+      "no_speech_prob": 0.753
+    },
+    {
+      "start": 540.81,
+      "end": 542.09,
+      "text": "一点都拦牙嘛",
+      "avg_logprob": -0.641,
+      "no_speech_prob": 0.753
+    },
+    {
+      "start": 542.09,
+      "end": 542.69,
+      "text": "对",
+      "avg_logprob": -0.641,
+      "no_speech_prob": 0.753
+    },
+    {
+      "start": 542.69,
+      "end": 543.85,
+      "text": "也许可能会硬生硬生",
+      "avg_logprob": -0.641,
+      "no_speech_prob": 0.753
+    },
+    {
+      "start": 543.85,
+      "end": 544.89,
+      "text": "它也不是外汉",
+      "avg_logprob": -0.641,
+      "no_speech_prob": 0.753
+    },
+    {
+      "start": 544.89,
+      "end": 547.29,
+      "text": "它是它们板间自己的工具",
+      "avg_logprob": -0.641,
+      "no_speech_prob": 0.753
+    },
+    {
+      "start": 547.29,
+      "end": 548.69,
+      "text": "也不是外汉",
+      "avg_logprob": -0.641,
+      "no_speech_prob": 0.753
+    },
+    {
+      "start": 548.69,
+      "end": 549.53,
+      "text": "对",
+      "avg_logprob": -0.641,
+      "no_speech_prob": 0.753
+    },
+    {
+      "start": 549.53,
+      "end": 550.21,
+      "text": "也不是外汉",
+      "avg_logprob": -0.641,
+      "no_speech_prob": 0.753
+    },
+    {
+      "start": 550.21,
+      "end": 551.09,
+      "text": "它那个",
+      "avg_logprob": -0.641,
+      "no_speech_prob": 0.753
+    },
+    {
+      "start": 551.09,
+      "end": 553.41,
+      "text": "它那个软件能处理",
+      "avg_logprob": -0.641,
+      "no_speech_prob": 0.753
+    },
+    {
+      "start": 553.41,
+      "end": 554.69,
+      "text": "它就自己全都能处理",
+      "avg_logprob": -0.641,
+      "no_speech_prob": 0.753
+    },
+    {
+      "start": 554.69,
+      "end": 556.41,
+      "text": "它是固件上的联系",
+      "avg_logprob": -0.641,
+      "no_speech_prob": 0.753
+    },
+    {
+      "start": 556.41,
+      "end": 556.97,
+      "text": "它就自己拖拨",
+      "avg_logprob": -0.641,
+      "no_speech_prob": 0.753
+    },
+    {
+      "start": 556.97,
+      "end": 557.81,
+      "text": "自己转动",
+      "avg_logprob": -0.641,
+      "no_speech_prob": 0.753
+    },
+    {
+      "start": 557.81,
+      "end": 559.13,
+      "text": "然后自己这样子",
+      "avg_logprob": -0.641,
+      "no_speech_prob": 0.753
+    },
+    {
+      "start": 559.13,
+      "end": 561.13,
+      "text": "对 就是它们自己拨拨",
+      "avg_logprob": -0.641,
+      "no_speech_prob": 0.753
+    },
+    {
+      "start": 561.13,
+      "end": 562.21,
+      "text": "生活的那种",
+      "avg_logprob": -0.641,
+      "no_speech_prob": 0.753
+    },
+    {
+      "start": 562.21,
+      "end": 562.97,
+      "text": "像我问问",
+      "avg_logprob": -0.641,
+      "no_speech_prob": 0.753
+    },
+    {
+      "start": 562.97,
+      "end": 566.77,
+      "text": "就是到时候这种模型它里面比如说这个剁鸡",
+      "avg_logprob": -0.472,
+      "no_speech_prob": 0.336
+    },
+    {
+      "start": 567.37,
+      "end": 568.33,
+      "text": "我们要用这个",
+      "avg_logprob": -0.472,
+      "no_speech_prob": 0.336
+    },
+    {
+      "start": 568.33,
+      "end": 569.37,
+      "text": "我知道这有多少个剁鸡",
+      "avg_logprob": -0.472,
+      "no_speech_prob": 0.336
+    },
+    {
+      "start": 569.37,
+      "end": 569.97,
+      "text": "四个",
+      "avg_logprob": -0.472,
+      "no_speech_prob": 0.336
+    },
+    {
+      "start": 569.97,
+      "end": 570.97,
+      "text": "总共四个",
+      "avg_logprob": -0.472,
+      "no_speech_prob": 0.336
+    },
+    {
+      "start": 570.97,
+      "end": 572.13,
+      "text": "四个",
+      "avg_logprob": -0.472,
+      "no_speech_prob": 0.336
+    },
+    {
+      "start": 572.13,
+      "end": 572.97,
+      "text": "对",
+      "avg_logprob": -0.472,
+      "no_speech_prob": 0.336
+    },
+    {
+      "start": 572.97,
+      "end": 573.97,
+      "text": "还有两个",
+      "avg_logprob": -0.472,
+      "no_speech_prob": 0.336
+    },
+    {
+      "start": 575.17,
+      "end": 575.97,
+      "text": "还有两",
+      "avg_logprob": -0.472,
+      "no_speech_prob": 0.336
+    },
+    {
+      "start": 575.97,
+      "end": 577.97,
+      "text": "在这里面它控制这个旋转",
+      "avg_logprob": -0.472,
+      "no_speech_prob": 0.336
+    },
+    {
+      "start": 577.97,
+      "end": 579.17,
+      "text": "对 这个脚嘛",
+      "avg_logprob": -0.472,
+      "no_speech_prob": 0.336
+    },
+    {
+      "start": 579.17,
+      "end": 579.97,
+      "text": "还有两个",
+      "avg_logprob": -0.472,
+      "no_speech_prob": 0.336
+    },
+    {
+      "start": 583.54,
+      "end": 584.54,
+      "text": "这是控制啥呀",
+      "avg_logprob": -0.472,
+      "no_speech_prob": 0.336
+    },
+    {
+      "start": 585.14,
+      "end": 586.94,
+      "text": "它控制这个脚这样转",
+      "avg_logprob": -0.472,
+      "no_speech_prob": 0.336
+    },
+    {
+      "start": 587.54,
+      "end": 590.54,
+      "text": "然后这个控制这个肘板",
+      "avg_logprob": -0.472,
+      "no_speech_prob": 0.336
+    },
+    {
+      "start": 590.54,
+      "end": 592.94,
+      "text": "所以说实际上是里面这个或者这个",
+      "avg_logprob": -0.472,
+      "no_speech_prob": 0.336
+    },
+    {
+      "start": 592.94,
+      "end": 593.44,
+      "text": "对",
+      "avg_logprob": -0.542,
+      "no_speech_prob": 0.26
+    },
+    {
+      "start": 595.92,
+      "end": 597.26,
+      "text": "那这个感觉还挺好做的",
+      "avg_logprob": -0.542,
+      "no_speech_prob": 0.26
+    },
+    {
+      "start": 597.26,
+      "end": 597.94,
+      "text": "小致小致",
+      "avg_logprob": -0.542,
+      "no_speech_prob": 0.26
+    },
+    {
+      "start": 597.94,
+      "end": 599.46,
+      "text": "这个改得了吗",
+      "avg_logprob": -0.542,
+      "no_speech_prob": 0.26
+    },
+    {
+      "start": 599.46,
+      "end": 600.5,
+      "text": "好像没开呢",
+      "avg_logprob": -0.542,
+      "no_speech_prob": 0.26
+    },
+    {
+      "start": 600.5,
+      "end": 601.3,
+      "text": "嗯",
+      "avg_logprob": -0.542,
+      "no_speech_prob": 0.26
+    },
+    {
+      "start": 601.3,
+      "end": 601.9,
+      "text": "开了也没",
+      "avg_logprob": -0.542,
+      "no_speech_prob": 0.26
+    },
+    {
+      "start": 601.9,
+      "end": 602.94,
+      "text": "其实说实话",
+      "avg_logprob": -0.542,
+      "no_speech_prob": 0.26
+    },
+    {
+      "start": 602.94,
+      "end": 604.14,
+      "text": "哎 它说不了了 为什么",
+      "avg_logprob": -0.542,
+      "no_speech_prob": 0.26
+    },
+    {
+      "start": 604.14,
+      "end": 605.34,
+      "text": "应该说实话",
+      "avg_logprob": -0.542,
+      "no_speech_prob": 0.26
+    },
+    {
+      "start": 605.34,
+      "end": 606.94,
+      "text": "如果单纯就做这个",
+      "avg_logprob": -0.542,
+      "no_speech_prob": 0.26
+    },
+    {
+      "start": 606.94,
+      "end": 608.34,
+      "text": "能改 能改",
+      "avg_logprob": -0.542,
+      "no_speech_prob": 0.26
+    },
+    {
+      "start": 608.34,
+      "end": 609.54,
+      "text": "直接就能做",
+      "avg_logprob": -0.542,
+      "no_speech_prob": 0.26
+    },
+    {
+      "start": 609.54,
+      "end": 611.74,
+      "text": "你要软件里面很方便是吗",
+      "avg_logprob": -0.542,
+      "no_speech_prob": 0.26
+    },
+    {
+      "start": 612.86,
+      "end": 614.62,
+      "text": "对 改一改或者是问一问",
+      "avg_logprob": -0.542,
+      "no_speech_prob": 0.26
+    },
+    {
+      "start": 614.62,
+      "end": 615.66,
+      "text": "DI就可以了",
+      "avg_logprob": -0.542,
+      "no_speech_prob": 0.26
+    },
+    {
+      "start": 615.66,
+      "end": 617.3,
+      "text": "不是啥意思硬件拿这个",
+      "avg_logprob": -0.542,
+      "no_speech_prob": 0.26
+    },
+    {
+      "start": 617.3,
+      "end": 619.06,
+      "text": "就是完全做这个",
+      "avg_logprob": -0.542,
+      "no_speech_prob": 0.26
+    },
+    {
+      "start": 619.06,
+      "end": 619.86,
+      "text": "完全做这个",
+      "avg_logprob": -0.542,
+      "no_speech_prob": 0.26
+    },
+    {
+      "start": 619.86,
+      "end": 622.1,
+      "text": "三二块2.0复刻板",
+      "avg_logprob": -0.542,
+      "no_speech_prob": 0.26
+    },
+    {
+      "start": 622.1,
+      "end": 623.3,
+      "text": "我还记得过",
+      "avg_logprob": -0.465,
+      "no_speech_prob": 0.433
+    },
+    {
+      "start": 623.3,
+      "end": 625.5,
+      "text": "不然那不就直接用这个吗",
+      "avg_logprob": -0.465,
+      "no_speech_prob": 0.433
+    },
+    {
+      "start": 625.5,
+      "end": 627.42,
+      "text": "直接拿着它呗",
+      "avg_logprob": -0.465,
+      "no_speech_prob": 0.433
+    },
+    {
+      "start": 628.42,
+      "end": 629.62,
+      "text": "你得拿着它",
+      "avg_logprob": -0.465,
+      "no_speech_prob": 0.433
+    },
+    {
+      "start": 629.62,
+      "end": 631.02,
+      "text": "你得适配它的应该",
+      "avg_logprob": -0.465,
+      "no_speech_prob": 0.433
+    },
+    {
+      "start": 631.02,
+      "end": 632.02,
+      "text": "不然它不来它了",
+      "avg_logprob": -0.465,
+      "no_speech_prob": 0.433
+    },
+    {
+      "start": 632.02,
+      "end": 632.62,
+      "text": "我就谁要干啥",
+      "avg_logprob": -0.465,
+      "no_speech_prob": 0.433
+    },
+    {
+      "start": 632.62,
+      "end": 634.82,
+      "text": "而且它的剁鸡这个尺寸也不一样",
+      "avg_logprob": -0.465,
+      "no_speech_prob": 0.433
+    },
+    {
+      "start": 634.82,
+      "end": 636.42,
+      "text": "剁鸡也得改",
+      "avg_logprob": -0.465,
+      "no_speech_prob": 0.433
+    },
+    {
+      "start": 636.42,
+      "end": 638.82,
+      "text": "它剁鸡长这个辽子",
+      "avg_logprob": -0.465,
+      "no_speech_prob": 0.433
+    },
+    {
+      "start": 638.82,
+      "end": 641.42,
+      "text": "这个模型能差别有大吗",
+      "avg_logprob": -0.465,
+      "no_speech_prob": 0.433
+    },
+    {
+      "start": 641.42,
+      "end": 643.22,
+      "text": "差别非常大",
+      "avg_logprob": -0.465,
+      "no_speech_prob": 0.433
+    },
+    {
+      "start": 643.22,
+      "end": 644.82,
+      "text": "你看它多出来多少头",
+      "avg_logprob": -0.465,
+      "no_speech_prob": 0.433
+    },
+    {
+      "start": 644.82,
+      "end": 646.02,
+      "text": "你说是这个模型",
+      "avg_logprob": -0.465,
+      "no_speech_prob": 0.433
+    },
+    {
+      "start": 646.02,
+      "end": 646.42,
+      "text": "对",
+      "avg_logprob": -0.465,
+      "no_speech_prob": 0.433
+    },
+    {
+      "start": 646.42,
+      "end": 648.02,
+      "text": "这个模型不是你的吗",
+      "avg_logprob": -0.465,
+      "no_speech_prob": 0.433
+    },
+    {
+      "start": 648.82,
+      "end": 650.82,
+      "text": "这是我国界爱心特老师",
+      "avg_logprob": -0.465,
+      "no_speech_prob": 0.433
+    },
+    {
+      "start": 650.82,
+      "end": 651.42,
+      "text": "对",
+      "avg_logprob": -0.465,
+      "no_speech_prob": 0.433
+    },
+    {
+      "start": 651.42,
+      "end": 654.42,
+      "text": "这个是开源的",
+      "avg_logprob": -0.351,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 654.42,
+      "end": 657.42,
+      "text": "我电脑上现在都有它那模型",
+      "avg_logprob": -0.351,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 657.42,
+      "end": 660.42,
+      "text": "那这样的话我们还得自己建吗",
+      "avg_logprob": -0.351,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 660.42,
+      "end": 662.42,
+      "text": "对 自己改",
+      "avg_logprob": -0.351,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 662.42,
+      "end": 664.42,
+      "text": "你只能做个复刻",
+      "avg_logprob": -0.351,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 666.42,
+      "end": 668.55,
+      "text": "我弄不了这个",
+      "avg_logprob": -0.351,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 668.55,
+      "end": 670.55,
+      "text": "我之前用Blender试过",
+      "avg_logprob": -0.351,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 670.55,
+      "end": 671.55,
+      "text": "特别麻烦",
+      "avg_logprob": -0.351,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 671.55,
+      "end": 672.55,
+      "text": "我老的都改了",
+      "avg_logprob": -0.351,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 672.55,
+      "end": 673.55,
+      "text": "Blender",
+      "avg_logprob": -0.351,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 673.55,
+      "end": 675.55,
+      "text": "改完之后你要放到图书里面",
+      "avg_logprob": -0.351,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 675.55,
+      "end": 676.55,
+      "text": "它的尺寸会发生变化",
+      "avg_logprob": -0.351,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 676.55,
+      "end": 677.55,
+      "text": "不肯定啊",
+      "avg_logprob": -0.351,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 677.55,
+      "end": 679.55,
+      "text": "Blender不适合改这些",
+      "avg_logprob": -0.351,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 679.55,
+      "end": 680.95,
+      "text": "这鞋我肯定啊",
+      "avg_logprob": -0.461,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 680.95,
+      "end": 682.95,
+      "text": "就是你插一点点它就塞进去",
+      "avg_logprob": -0.461,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 682.95,
+      "end": 683.75,
+      "text": "然后你不行",
+      "avg_logprob": -0.461,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 683.75,
+      "end": 684.55,
+      "text": "你还再打",
+      "avg_logprob": -0.461,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 684.55,
+      "end": 685.35,
+      "text": "自己再来一遍",
+      "avg_logprob": -0.461,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 685.35,
+      "end": 686.15,
+      "text": "我",
+      "avg_logprob": -0.461,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 686.15,
+      "end": 687.75,
+      "text": "但是群里发的一个酸酸的",
+      "avg_logprob": -0.461,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 688.75,
+      "end": 689.15,
+      "text": "哦",
+      "avg_logprob": -0.461,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 689.15,
+      "end": 689.75,
+      "text": "我是这个群",
+      "avg_logprob": -0.461,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 689.75,
+      "end": 691.15,
+      "text": "是我另外一门可能去的",
+      "avg_logprob": -0.461,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 691.15,
+      "end": 691.75,
+      "text": "就",
+      "avg_logprob": -0.461,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 691.75,
+      "end": 692.95,
+      "text": "这在公司里面",
+      "avg_logprob": -0.461,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 692.95,
+      "end": 693.75,
+      "text": "这感觉",
+      "avg_logprob": -0.461,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 693.75,
+      "end": 695.55,
+      "text": "拿到它这个完整的模型",
+      "avg_logprob": -0.461,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 695.55,
+      "end": 697.15,
+      "text": "布尔一下应该就可能",
+      "avg_logprob": -0.461,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 697.15,
+      "end": 698.35,
+      "text": "这多鞋一定要用它",
+      "avg_logprob": -0.461,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 699.82,
+      "end": 700.82,
+      "text": "你看它",
+      "avg_logprob": -0.461,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 700.82,
+      "end": 702.62,
+      "text": "你看这种线是这样的",
+      "avg_logprob": -0.461,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 703.22,
+      "end": 704.62,
+      "text": "它的线是这样的",
+      "avg_logprob": -0.461,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 705.62,
+      "end": 706.22,
+      "text": "你懂了吗",
+      "avg_logprob": -0.461,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 706.22,
+      "end": 707.22,
+      "text": "它想搞封闭",
+      "avg_logprob": -0.461,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 707.22,
+      "end": 708.82,
+      "text": "它就是不想跟别人玩",
+      "avg_logprob": -0.461,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 708.82,
+      "end": 710.42,
+      "text": "他就完全自己做的套件",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.459
+    },
+    {
+      "start": 710.42,
+      "end": 711.92,
+      "text": "就是你单分买了他东西",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.459
+    },
+    {
+      "start": 711.92,
+      "end": 713.22,
+      "text": "你就得用全套他的",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.459
+    },
+    {
+      "start": 713.22,
+      "end": 713.82,
+      "text": "对",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.459
+    },
+    {
+      "start": 714.42,
+      "end": 715.62,
+      "text": "哎 太神经了",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.459
+    },
+    {
+      "start": 715.92,
+      "end": 717.92,
+      "text": "这他把肚子弄得不错",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.459
+    },
+    {
+      "start": 717.92,
+      "end": 719.32,
+      "text": "但是我们不想陪他玩",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.459
+    },
+    {
+      "start": 719.32,
+      "end": 720.42,
+      "text": "不然他自己玩去",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.459
+    },
+    {
+      "start": 720.42,
+      "end": 721.72,
+      "text": "跟苹果学的玩",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.459
+    },
+    {
+      "start": 722.12,
+      "end": 723.02,
+      "text": "干什么呀",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.459
+    },
+    {
+      "start": 723.22,
+      "end": 724.02,
+      "text": "哎 这玩意",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.459
+    },
+    {
+      "start": 724.32,
+      "end": 726.92,
+      "text": "而且这个结果他自己跟你一点理解切割",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.459
+    },
+    {
+      "start": 726.92,
+      "end": 728.62,
+      "text": "就是你拿着板子跟一点点玩意玩不了",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.459
+    },
+    {
+      "start": 729.42,
+      "end": 730.62,
+      "text": "一点零他也完全不要",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.459
+    },
+    {
+      "start": 730.62,
+      "end": 732.02,
+      "text": "一点像他他也完全丢了",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.459
+    },
+    {
+      "start": 732.02,
+      "end": 733.02,
+      "text": "一点零",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.459
+    },
+    {
+      "start": 733.22,
+      "end": 734.72,
+      "text": "你知道我们刚才在想什么吗",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.459
+    },
+    {
+      "start": 734.72,
+      "end": 736.82,
+      "text": "我们在想一个主板把这个飞线",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.459
+    },
+    {
+      "start": 736.82,
+      "end": 738.38,
+      "text": "把这个线剪了",
+      "avg_logprob": -0.458,
+      "no_speech_prob": 0.554
+    },
+    {
+      "start": 738.38,
+      "end": 740.5,
+      "text": "把里面铁丝就要飞线进去",
+      "avg_logprob": -0.458,
+      "no_speech_prob": 0.554
+    },
+    {
+      "start": 740.5,
+      "end": 742.14,
+      "text": "就是焊上去",
+      "avg_logprob": -0.458,
+      "no_speech_prob": 0.554
+    },
+    {
+      "start": 742.14,
+      "end": 744.53,
+      "text": "就是想这种办法",
+      "avg_logprob": -0.458,
+      "no_speech_prob": 0.554
+    },
+    {
+      "start": 744.53,
+      "end": 745.53,
+      "text": "没招了",
+      "avg_logprob": -0.458,
+      "no_speech_prob": 0.554
+    },
+    {
+      "start": 745.53,
+      "end": 746.65,
+      "text": "也不是不行",
+      "avg_logprob": -0.458,
+      "no_speech_prob": 0.554
+    },
+    {
+      "start": 746.65,
+      "end": 747.93,
+      "text": "但它这个有点",
+      "avg_logprob": -0.458,
+      "no_speech_prob": 0.554
+    },
+    {
+      "start": 747.93,
+      "end": 748.89,
+      "text": "我技术",
+      "avg_logprob": -0.458,
+      "no_speech_prob": 0.554
+    },
+    {
+      "start": 748.89,
+      "end": 752.73,
+      "text": "我的焊工技术应该焊不了这么精气的东西",
+      "avg_logprob": -0.458,
+      "no_speech_prob": 0.554
+    },
+    {
+      "start": 752.73,
+      "end": 754.21,
+      "text": "还经历搞不好它还",
+      "avg_logprob": -0.458,
+      "no_speech_prob": 0.554
+    },
+    {
+      "start": 754.21,
+      "end": 755.49,
+      "text": "可能就不去",
+      "avg_logprob": -0.458,
+      "no_speech_prob": 0.554
+    },
+    {
+      "start": 755.49,
+      "end": 757.09,
+      "text": "说话",
+      "avg_logprob": -0.458,
+      "no_speech_prob": 0.554
+    },
+    {
+      "start": 757.09,
+      "end": 763.51,
+      "text": "哎 真是个问题",
+      "avg_logprob": -0.458,
+      "no_speech_prob": 0.554
+    },
+    {
+      "start": 763.51,
+      "end": 764.15,
+      "text": "问题不大",
+      "avg_logprob": -0.458,
+      "no_speech_prob": 0.554
+    },
+    {
+      "start": 764.15,
+      "end": 765.93,
+      "text": "问题不大",
+      "avg_logprob": -0.458,
+      "no_speech_prob": 0.554
+    },
+    {
+      "start": 765.93,
+      "end": 767.57,
+      "text": "问题不大",
+      "avg_logprob": -0.458,
+      "no_speech_prob": 0.554
+    },
+    {
+      "start": 767.57,
+      "end": 769.57,
+      "text": "明天我来汇报都可以",
+      "avg_logprob": -0.458,
+      "no_speech_prob": 0.554
+    },
+    {
+      "start": 769.57,
+      "end": 774.57,
+      "text": "今天晚上的游戏性能力有大大小",
+      "avg_logprob": -0.482,
+      "no_speech_prob": 0.528
+    },
+    {
+      "start": 776.57,
+      "end": 778.57,
+      "text": "你把那个拼命器改成",
+      "avg_logprob": -0.482,
+      "no_speech_prob": 0.528
+    },
+    {
+      "start": 778.57,
+      "end": 780.57,
+      "text": "我来帮我看",
+      "avg_logprob": -0.482,
+      "no_speech_prob": 0.528
+    },
+    {
+      "start": 780.57,
+      "end": 781.57,
+      "text": "拼命器",
+      "avg_logprob": -0.482,
+      "no_speech_prob": 0.528
+    },
+    {
+      "start": 781.57,
+      "end": 782.57,
+      "text": "拼命器",
+      "avg_logprob": -0.482,
+      "no_speech_prob": 0.528
+    },
+    {
+      "start": 782.57,
+      "end": 783.57,
+      "text": "拼命器",
+      "avg_logprob": -0.482,
+      "no_speech_prob": 0.528
+    },
+    {
+      "start": 783.57,
+      "end": 784.57,
+      "text": "不知道拼命器",
+      "avg_logprob": -0.482,
+      "no_speech_prob": 0.528
+    },
+    {
+      "start": 784.57,
+      "end": 786.57,
+      "text": "不曹在群里",
+      "avg_logprob": -0.482,
+      "no_speech_prob": 0.528
+    },
+    {
+      "start": 786.57,
+      "end": 788.57,
+      "text": "我们群可以设拉个啥吗",
+      "avg_logprob": -0.482,
+      "no_speech_prob": 0.528
+    },
+    {
+      "start": 788.57,
+      "end": 790.57,
+      "text": "设拉个群公告什么的",
+      "avg_logprob": -0.482,
+      "no_speech_prob": 0.528
+    },
+    {
+      "start": 790.57,
+      "end": 791.57,
+      "text": "可以",
+      "avg_logprob": -0.482,
+      "no_speech_prob": 0.528
+    },
+    {
+      "start": 791.57,
+      "end": 793.57,
+      "text": "反正这些重要文件都贴",
+      "avg_logprob": -0.482,
+      "no_speech_prob": 0.528
+    },
+    {
+      "start": 793.57,
+      "end": 794.57,
+      "text": "哪",
+      "avg_logprob": -0.482,
+      "no_speech_prob": 0.528
+    },
+    {
+      "start": 794.57,
+      "end": 795.57,
+      "text": "哪是什么奶农",
+      "avg_logprob": -0.482,
+      "no_speech_prob": 0.528
+    },
+    {
+      "start": 795.57,
+      "end": 797.57,
+      "text": "那过滤一下",
+      "avg_logprob": -0.482,
+      "no_speech_prob": 0.528
+    },
+    {
+      "start": 797.57,
+      "end": 798.97,
+      "text": "看到了 看到了",
+      "avg_logprob": -0.537,
+      "no_speech_prob": 0.724
+    },
+    {
+      "start": 802.17,
+      "end": 804.17,
+      "text": "以后来 变成了妙可",
+      "avg_logprob": -0.537,
+      "no_speech_prob": 0.724
+    },
+    {
+      "start": 807.37,
+      "end": 807.97,
+      "text": "思想",
+      "avg_logprob": -0.537,
+      "no_speech_prob": 0.724
+    },
+    {
+      "start": 807.97,
+      "end": 808.97,
+      "text": "他可能我觉得",
+      "avg_logprob": -0.537,
+      "no_speech_prob": 0.724
+    },
+    {
+      "start": 808.97,
+      "end": 810.17,
+      "text": "这个图不对",
+      "avg_logprob": -0.537,
+      "no_speech_prob": 0.724
+    },
+    {
+      "start": 810.17,
+      "end": 810.97,
+      "text": "我觉得明明他",
+      "avg_logprob": -0.537,
+      "no_speech_prob": 0.724
+    },
+    {
+      "start": 810.97,
+      "end": 811.97,
+      "text": "以后他真的",
+      "avg_logprob": -0.537,
+      "no_speech_prob": 0.724
+    },
+    {
+      "start": 811.97,
+      "end": 813.37,
+      "text": "你我老师提问的话",
+      "avg_logprob": -0.537,
+      "no_speech_prob": 0.724
+    },
+    {
+      "start": 813.37,
+      "end": 814.17,
+      "text": "我觉得他必有问题",
+      "avg_logprob": -0.537,
+      "no_speech_prob": 0.724
+    },
+    {
+      "start": 814.17,
+      "end": 814.97,
+      "text": "就问我",
+      "avg_logprob": -0.537,
+      "no_speech_prob": 0.724
+    },
+    {
+      "start": 814.97,
+      "end": 816.37,
+      "text": "为什么骑这个女孩",
+      "avg_logprob": -0.537,
+      "no_speech_prob": 0.724
+    },
+    {
+      "start": 816.97,
+      "end": 818.17,
+      "text": "他肯定会问的",
+      "avg_logprob": -0.537,
+      "no_speech_prob": 0.724
+    },
+    {
+      "start": 818.77,
+      "end": 819.97,
+      "text": "然后我就多讲一点",
+      "avg_logprob": -0.537,
+      "no_speech_prob": 0.724
+    },
+    {
+      "start": 819.97,
+      "end": 820.77,
+      "text": "但是他就",
+      "avg_logprob": -0.537,
+      "no_speech_prob": 0.724
+    },
+    {
+      "start": 820.77,
+      "end": 821.77,
+      "text": "他说你",
+      "avg_logprob": -0.537,
+      "no_speech_prob": 0.724
+    },
+    {
+      "start": 821.77,
+      "end": 823.57,
+      "text": "他说你这个",
+      "avg_logprob": -0.537,
+      "no_speech_prob": 0.724
+    },
+    {
+      "start": 823.57,
+      "end": 824.57,
+      "text": "跟你这个",
+      "avg_logprob": -0.537,
+      "no_speech_prob": 0.724
+    },
+    {
+      "start": 824.57,
+      "end": 826.17,
+      "text": "做的东西有什么联系吗",
+      "avg_logprob": -0.537,
+      "no_speech_prob": 0.724
+    },
+    {
+      "start": 826.17,
+      "end": 829.21,
+      "text": "我们可以快口香了",
+      "avg_logprob": -0.493,
+      "no_speech_prob": 0.48
+    },
+    {
+      "start": 829.21,
+      "end": 830.33,
+      "text": "就是牛奶就是啥",
+      "avg_logprob": -0.493,
+      "no_speech_prob": 0.48
+    },
+    {
+      "start": 830.33,
+      "end": 832.73,
+      "text": "就在那个PVP里面包能够",
+      "avg_logprob": -0.493,
+      "no_speech_prob": 0.48
+    },
+    {
+      "start": 832.73,
+      "end": 836.25,
+      "text": "我先找个奶了",
+      "avg_logprob": -0.493,
+      "no_speech_prob": 0.48
+    },
+    {
+      "start": 836.25,
+      "end": 837.05,
+      "text": "我们天上去",
+      "avg_logprob": -0.493,
+      "no_speech_prob": 0.48
+    },
+    {
+      "start": 837.05,
+      "end": 838.25,
+      "text": "我不当牛奶了",
+      "avg_logprob": -0.493,
+      "no_speech_prob": 0.48
+    },
+    {
+      "start": 838.25,
+      "end": 841.05,
+      "text": "那你只剩这个吧",
+      "avg_logprob": -0.493,
+      "no_speech_prob": 0.48
+    },
+    {
+      "start": 841.05,
+      "end": 841.85,
+      "text": "你只能剩牛奶",
+      "avg_logprob": -0.493,
+      "no_speech_prob": 0.48
+    },
+    {
+      "start": 841.85,
+      "end": 843.05,
+      "text": "你是什么",
+      "avg_logprob": -0.493,
+      "no_speech_prob": 0.48
+    },
+    {
+      "start": 843.05,
+      "end": 844.25,
+      "text": "我是",
+      "avg_logprob": -0.493,
+      "no_speech_prob": 0.48
+    },
+    {
+      "start": 844.25,
+      "end": 845.25,
+      "text": "他是美团的",
+      "avg_logprob": -0.493,
+      "no_speech_prob": 0.48
+    },
+    {
+      "start": 845.25,
+      "end": 846.25,
+      "text": "我是肥杜杜",
+      "avg_logprob": -0.493,
+      "no_speech_prob": 0.48
+    },
+    {
+      "start": 846.25,
+      "end": 847.25,
+      "text": "你是肥杜杜",
+      "avg_logprob": -0.493,
+      "no_speech_prob": 0.48
+    },
+    {
+      "start": 847.25,
+      "end": 848.25,
+      "text": "我要肥杜杜",
+      "avg_logprob": -0.493,
+      "no_speech_prob": 0.48
+    },
+    {
+      "start": 848.25,
+      "end": 849.25,
+      "text": "我好",
+      "avg_logprob": -0.493,
+      "no_speech_prob": 0.48
+    },
+    {
+      "start": 850.47,
+      "end": 851.47,
+      "text": "我是瘦杜杜",
+      "avg_logprob": -0.493,
+      "no_speech_prob": 0.48
+    },
+    {
+      "start": 852.47,
+      "end": 853.47,
+      "text": "瘦杜杜",
+      "avg_logprob": -0.493,
+      "no_speech_prob": 0.48
+    },
+    {
+      "start": 855.11,
+      "end": 856.11,
+      "text": "但是我们四个人",
+      "avg_logprob": -0.493,
+      "no_speech_prob": 0.48
+    },
+    {
+      "start": 856.11,
+      "end": 857.11,
+      "text": "三个角色哪部分",
+      "avg_logprob": -0.493,
+      "no_speech_prob": 0.48
+    },
+    {
+      "start": 857.11,
+      "end": 862.32,
+      "text": "哦 还有螺螺",
+      "avg_logprob": -0.493,
+      "no_speech_prob": 0.426
+    },
+    {
+      "start": 862.32,
+      "end": 867.58,
+      "text": "为什么它能进入",
+      "avg_logprob": -0.493,
+      "no_speech_prob": 0.426
+    },
+    {
+      "start": 867.58,
+      "end": 870.18,
+      "text": "对了 我们的交互主要放在",
+      "avg_logprob": -0.493,
+      "no_speech_prob": 0.426
+    },
+    {
+      "start": 870.18,
+      "end": 874.18,
+      "text": "重心是放在那个游戏设计上",
+      "avg_logprob": -0.493,
+      "no_speech_prob": 0.426
+    },
+    {
+      "start": 874.18,
+      "end": 875.78,
+      "text": "游戏设计上面",
+      "avg_logprob": -0.493,
+      "no_speech_prob": 0.426
+    },
+    {
+      "start": 875.78,
+      "end": 880.56,
+      "text": "就是我们要把时间更多的",
+      "avg_logprob": -0.493,
+      "no_speech_prob": 0.426
+    },
+    {
+      "start": 880.56,
+      "end": 882.96,
+      "text": "花在怎么把这个游戏设得漂亮",
+      "avg_logprob": -0.493,
+      "no_speech_prob": 0.426
+    },
+    {
+      "start": 882.96,
+      "end": 886.76,
+      "text": "还有整个游戏系统",
+      "avg_logprob": -0.493,
+      "no_speech_prob": 0.426
+    },
+    {
+      "start": 886.76,
+      "end": 888.76,
+      "text": "对",
+      "avg_logprob": -0.428,
+      "no_speech_prob": 0.792
+    },
+    {
+      "start": 888.76,
+      "end": 889.76,
+      "text": "应该我有车达",
+      "avg_logprob": -0.428,
+      "no_speech_prob": 0.792
+    },
+    {
+      "start": 889.76,
+      "end": 890.76,
+      "text": "没错",
+      "avg_logprob": -0.428,
+      "no_speech_prob": 0.792
+    },
+    {
+      "start": 892.76,
+      "end": 894.76,
+      "text": "你不用非常复杂",
+      "avg_logprob": -0.428,
+      "no_speech_prob": 0.792
+    },
+    {
+      "start": 894.76,
+      "end": 896.76,
+      "text": "桌有达的还有达成去了",
+      "avg_logprob": -0.428,
+      "no_speech_prob": 0.792
+    },
+    {
+      "start": 896.76,
+      "end": 898.76,
+      "text": "我就说桌有达",
+      "avg_logprob": -0.428,
+      "no_speech_prob": 0.792
+    },
+    {
+      "start": 898.76,
+      "end": 900.76,
+      "text": "我反正在我的例子外",
+      "avg_logprob": -0.428,
+      "no_speech_prob": 0.792
+    },
+    {
+      "start": 900.76,
+      "end": 902.76,
+      "text": "放计呢我可以",
+      "avg_logprob": -0.428,
+      "no_speech_prob": 0.792
+    },
+    {
+      "start": 902.76,
+      "end": 903.76,
+      "text": "我可以设计出来",
+      "avg_logprob": -0.428,
+      "no_speech_prob": 0.792
+    },
+    {
+      "start": 903.76,
+      "end": 904.76,
+      "text": "桌有达的不一样",
+      "avg_logprob": -0.428,
+      "no_speech_prob": 0.792
+    },
+    {
+      "start": 904.76,
+      "end": 905.76,
+      "text": "太复杂了",
+      "avg_logprob": -0.428,
+      "no_speech_prob": 0.792
+    },
+    {
+      "start": 905.76,
+      "end": 906.76,
+      "text": "我再给我设计出来",
+      "avg_logprob": -0.428,
+      "no_speech_prob": 0.792
+    },
+    {
+      "start": 906.76,
+      "end": 908.76,
+      "text": "你能说就来接",
+      "avg_logprob": -0.428,
+      "no_speech_prob": 0.792
+    },
+    {
+      "start": 910.76,
+      "end": 912.76,
+      "text": "就游戏性的",
+      "avg_logprob": -0.428,
+      "no_speech_prob": 0.792
+    },
+    {
+      "start": 912.76,
+      "end": 914.76,
+      "text": "给它搞好玩一点什么",
+      "avg_logprob": -0.428,
+      "no_speech_prob": 0.792
+    },
+    {
+      "start": 914.76,
+      "end": 916.76,
+      "text": "可以嘟嘟大便牛奶",
+      "avg_logprob": -0.471,
+      "no_speech_prob": 0.619
+    },
+    {
+      "start": 916.76,
+      "end": 918.76,
+      "text": "可以奶龙也挺多的",
+      "avg_logprob": -0.471,
+      "no_speech_prob": 0.619
+    },
+    {
+      "start": 918.76,
+      "end": 920.76,
+      "text": "什么奶龙",
+      "avg_logprob": -0.471,
+      "no_speech_prob": 0.619
+    },
+    {
+      "start": 920.76,
+      "end": 922.76,
+      "text": "对大便肥肚多",
+      "avg_logprob": -0.471,
+      "no_speech_prob": 0.619
+    },
+    {
+      "start": 922.76,
+      "end": 924.76,
+      "text": "我觉得",
+      "avg_logprob": -0.471,
+      "no_speech_prob": 0.619
+    },
+    {
+      "start": 924.76,
+      "end": 926.76,
+      "text": "牛奶长得有点",
+      "avg_logprob": -0.471,
+      "no_speech_prob": 0.619
+    },
+    {
+      "start": 926.76,
+      "end": 929.5,
+      "text": "柯尘",
+      "avg_logprob": -0.471,
+      "no_speech_prob": 0.619
+    },
+    {
+      "start": 929.5,
+      "end": 931.5,
+      "text": "所以我不用牛奶",
+      "avg_logprob": -0.471,
+      "no_speech_prob": 0.619
+    },
+    {
+      "start": 931.5,
+      "end": 933.5,
+      "text": "那你牛奶的牛",
+      "avg_logprob": -0.471,
+      "no_speech_prob": 0.619
+    },
+    {
+      "start": 933.5,
+      "end": 935.5,
+      "text": "去哪儿了",
+      "avg_logprob": -0.471,
+      "no_speech_prob": 0.619
+    },
+    {
+      "start": 935.5,
+      "end": 937.5,
+      "text": "我们就在那里",
+      "avg_logprob": -0.471,
+      "no_speech_prob": 0.619
+    },
+    {
+      "start": 937.5,
+      "end": 939.5,
+      "text": "他长得有点",
+      "avg_logprob": -0.471,
+      "no_speech_prob": 0.619
+    },
+    {
+      "start": 939.5,
+      "end": 941.5,
+      "text": "恐怖",
+      "avg_logprob": -0.471,
+      "no_speech_prob": 0.619
+    },
+    {
+      "start": 941.5,
+      "end": 943.5,
+      "text": "那个嘟嘟长得最差",
+      "avg_logprob": -0.471,
+      "no_speech_prob": 0.619
+    },
+    {
+      "start": 943.5,
+      "end": 945.5,
+      "text": "我可以搭奶奶吗",
+      "avg_logprob": -0.29,
+      "no_speech_prob": 0.48
+    },
+    {
+      "start": 948.5,
+      "end": 950.5,
+      "text": "我要搭载太队了",
+      "avg_logprob": -0.29,
+      "no_speech_prob": 0.48
+    },
+    {
+      "start": 952.53,
+      "end": 954.53,
+      "text": "这个瓶器里面没有放造型",
+      "avg_logprob": -0.29,
+      "no_speech_prob": 0.48
+    },
+    {
+      "start": 954.53,
+      "end": 955.53,
+      "text": "什么造型",
+      "avg_logprob": -0.29,
+      "no_speech_prob": 0.48
+    },
+    {
+      "start": 955.53,
+      "end": 957.53,
+      "text": "你说机器人都造型吗",
+      "avg_logprob": -0.29,
+      "no_speech_prob": 0.48
+    },
+    {
+      "start": 957.53,
+      "end": 959.53,
+      "text": "机器人造型肯定不长这样",
+      "avg_logprob": -0.29,
+      "no_speech_prob": 0.48
+    },
+    {
+      "start": 959.53,
+      "end": 960.53,
+      "text": "刚才也太恐怖了",
+      "avg_logprob": -0.29,
+      "no_speech_prob": 0.48
+    },
+    {
+      "start": 960.53,
+      "end": 962.53,
+      "text": "它应该不长这样吧",
+      "avg_logprob": -0.29,
+      "no_speech_prob": 0.48
+    },
+    {
+      "start": 962.53,
+      "end": 964.97,
+      "text": "还是长这样",
+      "avg_logprob": -0.29,
+      "no_speech_prob": 0.48
+    },
+    {
+      "start": 964.97,
+      "end": 965.97,
+      "text": "你有更好的设计吗",
+      "avg_logprob": -0.29,
+      "no_speech_prob": 0.48
+    },
+    {
+      "start": 971.01,
+      "end": 974.01,
+      "text": "现在是讨论机器人的外型",
+      "avg_logprob": -0.29,
+      "no_speech_prob": 0.48
+    },
+    {
+      "start": 974.01,
+      "end": 976.23,
+      "text": "是这个意思吗",
+      "avg_logprob": -0.483,
+      "no_speech_prob": 0.825
+    },
+    {
+      "start": 976.23,
+      "end": 978.23,
+      "text": "这跟我们的桌游是什么",
+      "avg_logprob": -0.483,
+      "no_speech_prob": 0.825
+    },
+    {
+      "start": 978.23,
+      "end": 980.23,
+      "text": "这是跟我们的那个游戏谈判",
+      "avg_logprob": -0.483,
+      "no_speech_prob": 0.825
+    },
+    {
+      "start": 980.23,
+      "end": 981.23,
+      "text": "就比如说我们要做什么的",
+      "avg_logprob": -0.483,
+      "no_speech_prob": 0.825
+    },
+    {
+      "start": 981.23,
+      "end": 982.23,
+      "text": "对呀",
+      "avg_logprob": -0.483,
+      "no_speech_prob": 0.825
+    },
+    {
+      "start": 982.23,
+      "end": 983.23,
+      "text": "不错",
+      "avg_logprob": -0.483,
+      "no_speech_prob": 0.825
+    },
+    {
+      "start": 984.23,
+      "end": 987.23,
+      "text": "喂 肥嘟嘟 你怎么把他的脚设计是这样",
+      "avg_logprob": -0.483,
+      "no_speech_prob": 0.825
+    },
+    {
+      "start": 987.23,
+      "end": 989.23,
+      "text": "我也完全不一样",
+      "avg_logprob": -0.483,
+      "no_speech_prob": 0.825
+    },
+    {
+      "start": 989.23,
+      "end": 991.23,
+      "text": "我就把脸换了 然后脚就转了",
+      "avg_logprob": -0.483,
+      "no_speech_prob": 0.825
+    },
+    {
+      "start": 991.23,
+      "end": 992.23,
+      "text": "别别别",
+      "avg_logprob": -0.483,
+      "no_speech_prob": 0.825
+    },
+    {
+      "start": 993.39,
+      "end": 995.39,
+      "text": "你说你就给他加个屏幕",
+      "avg_logprob": -0.483,
+      "no_speech_prob": 0.825
+    },
+    {
+      "start": 995.39,
+      "end": 996.39,
+      "text": "你",
+      "avg_logprob": -0.483,
+      "no_speech_prob": 0.825
+    },
+    {
+      "start": 997.39,
+      "end": 1000.39,
+      "text": "而且他耐农这个设计要延续到我们的这个机身上",
+      "avg_logprob": -0.483,
+      "no_speech_prob": 0.825
+    },
+    {
+      "start": 1000.39,
+      "end": 1001.39,
+      "text": "走",
+      "avg_logprob": -0.483,
+      "no_speech_prob": 0.825
+    },
+    {
+      "start": 1001.39,
+      "end": 1003.39,
+      "text": "对 还有那个 还有一件事",
+      "avg_logprob": -0.33,
+      "no_speech_prob": 0.645
+    },
+    {
+      "start": 1003.39,
+      "end": 1004.59,
+      "text": "我以为你聊天好玩",
+      "avg_logprob": -0.33,
+      "no_speech_prob": 0.645
+    },
+    {
+      "start": 1004.59,
+      "end": 1006.39,
+      "text": "还有一件事就是它那个屏幕也不行",
+      "avg_logprob": -0.33,
+      "no_speech_prob": 0.645
+    },
+    {
+      "start": 1006.39,
+      "end": 1007.68,
+      "text": "它屏幕一不聊",
+      "avg_logprob": -0.33,
+      "no_speech_prob": 0.645
+    },
+    {
+      "start": 1007.68,
+      "end": 1009.18,
+      "text": "我感觉做帅不需要嘛",
+      "avg_logprob": -0.33,
+      "no_speech_prob": 0.645
+    },
+    {
+      "start": 1009.18,
+      "end": 1010.18,
+      "text": "我这个屏幕用不了",
+      "avg_logprob": -0.33,
+      "no_speech_prob": 0.645
+    },
+    {
+      "start": 1010.18,
+      "end": 1011.18,
+      "text": "对 它已经说过了",
+      "avg_logprob": -0.33,
+      "no_speech_prob": 0.645
+    },
+    {
+      "start": 1011.18,
+      "end": 1012.68,
+      "text": "就它那个IPS屏幕用不了",
+      "avg_logprob": -0.33,
+      "no_speech_prob": 0.645
+    },
+    {
+      "start": 1012.68,
+      "end": 1013.68,
+      "text": "你们好看也不用屏幕",
+      "avg_logprob": -0.33,
+      "no_speech_prob": 0.645
+    },
+    {
+      "start": 1013.68,
+      "end": 1014.68,
+      "text": "不要屏幕",
+      "avg_logprob": -0.33,
+      "no_speech_prob": 0.645
+    },
+    {
+      "start": 1014.68,
+      "end": 1015.68,
+      "text": "如果要有需要屏幕的话",
+      "avg_logprob": -0.33,
+      "no_speech_prob": 0.645
+    },
+    {
+      "start": 1015.68,
+      "end": 1016.68,
+      "text": "不用屏幕",
+      "avg_logprob": -0.33,
+      "no_speech_prob": 0.645
+    },
+    {
+      "start": 1016.68,
+      "end": 1017.68,
+      "text": "我们",
+      "avg_logprob": -0.33,
+      "no_speech_prob": 0.645
+    },
+    {
+      "start": 1017.68,
+      "end": 1019.68,
+      "text": "用屏幕表现会更强的是",
+      "avg_logprob": -0.33,
+      "no_speech_prob": 0.645
+    },
+    {
+      "start": 1019.68,
+      "end": 1021.68,
+      "text": "我感觉我们把握不住",
+      "avg_logprob": -0.33,
+      "no_speech_prob": 0.645
+    },
+    {
+      "start": 1021.68,
+      "end": 1023.68,
+      "text": "屏幕还要设计表情啥的",
+      "avg_logprob": -0.33,
+      "no_speech_prob": 0.645
+    },
+    {
+      "start": 1023.68,
+      "end": 1025.68,
+      "text": "把持不住 把持不住",
+      "avg_logprob": -0.33,
+      "no_speech_prob": 0.645
+    },
+    {
+      "start": 1025.68,
+      "end": 1027.68,
+      "text": "那个有点复杂",
+      "avg_logprob": -0.33,
+      "no_speech_prob": 0.645
+    },
+    {
+      "start": 1027.68,
+      "end": 1030.83,
+      "text": "我们就整体外观是一种",
+      "avg_logprob": -0.33,
+      "no_speech_prob": 0.645
+    },
+    {
+      "start": 1030.83,
+      "end": 1033.47,
+      "text": "我们想买其他硬件也买不了",
+      "avg_logprob": -0.548,
+      "no_speech_prob": 0.652
+    },
+    {
+      "start": 1033.47,
+      "end": 1035.07,
+      "text": "对 它这个接口的嘛",
+      "avg_logprob": -0.548,
+      "no_speech_prob": 0.652
+    },
+    {
+      "start": 1035.07,
+      "end": 1036.75,
+      "text": "只能是它提供给你",
+      "avg_logprob": -0.548,
+      "no_speech_prob": 0.652
+    },
+    {
+      "start": 1037.7,
+      "end": 1040.54,
+      "text": "我们想买其他的单独买的硬件买不了",
+      "avg_logprob": -0.548,
+      "no_speech_prob": 0.652
+    },
+    {
+      "start": 1040.54,
+      "end": 1041.74,
+      "text": "能不能配对啊 我想配对",
+      "avg_logprob": -0.548,
+      "no_speech_prob": 0.652
+    },
+    {
+      "start": 1041.74,
+      "end": 1043.58,
+      "text": "这不是哪个必修课吗 黑暗",
+      "avg_logprob": -0.548,
+      "no_speech_prob": 0.652
+    },
+    {
+      "start": 1044.14,
+      "end": 1045.66,
+      "text": "对 逃不了 必修课",
+      "avg_logprob": -0.548,
+      "no_speech_prob": 0.652
+    },
+    {
+      "start": 1045.66,
+      "end": 1046.66,
+      "text": "是 必修课",
+      "avg_logprob": -0.548,
+      "no_speech_prob": 0.652
+    },
+    {
+      "start": 1047.32,
+      "end": 1048.48,
+      "text": "我已击枯",
+      "avg_logprob": -0.548,
+      "no_speech_prob": 0.652
+    },
+    {
+      "start": 1049.94,
+      "end": 1051.58,
+      "text": "而且听说你们上一届",
+      "avg_logprob": -0.548,
+      "no_speech_prob": 0.652
+    },
+    {
+      "start": 1051.58,
+      "end": 1053.78,
+      "text": "包括之前都没有现在上的这一课了",
+      "avg_logprob": -0.548,
+      "no_speech_prob": 0.652
+    },
+    {
+      "start": 1054.34,
+      "end": 1055.82,
+      "text": "这只有六个接口",
+      "avg_logprob": -0.548,
+      "no_speech_prob": 0.652
+    },
+    {
+      "start": 1058.3,
+      "end": 1059.94,
+      "text": "之前它是上什么呢",
+      "avg_logprob": -0.548,
+      "no_speech_prob": 0.652
+    },
+    {
+      "start": 1059.94,
+      "end": 1061.74,
+      "text": "他真的就是调研",
+      "avg_logprob": -0.46,
+      "no_speech_prob": 0.437
+    },
+    {
+      "start": 1062.5,
+      "end": 1064.54,
+      "text": "我怎么感觉之前还要有意思些啊",
+      "avg_logprob": -0.46,
+      "no_speech_prob": 0.437
+    },
+    {
+      "start": 1064.8,
+      "end": 1066.08,
+      "text": "之前之前",
+      "avg_logprob": -0.46,
+      "no_speech_prob": 0.437
+    },
+    {
+      "start": 1066.34,
+      "end": 1067.62,
+      "text": "时间性不行",
+      "avg_logprob": -0.46,
+      "no_speech_prob": 0.437
+    },
+    {
+      "start": 1068.38,
+      "end": 1071.98,
+      "text": "但之前那个好搞就今年就是拓足就来了",
+      "avg_logprob": -0.46,
+      "no_speech_prob": 0.437
+    },
+    {
+      "start": 1072.52,
+      "end": 1073.8,
+      "text": "就今年拓足就加一点",
+      "avg_logprob": -0.46,
+      "no_speech_prob": 0.437
+    },
+    {
+      "start": 1074.06,
+      "end": 1076.62,
+      "text": "我感觉毛毛老师在我们这些就经常搞的",
+      "avg_logprob": -0.46,
+      "no_speech_prob": 0.437
+    },
+    {
+      "start": 1076.88,
+      "end": 1078.92,
+      "text": "搞拉丝企业合作",
+      "avg_logprob": -0.46,
+      "no_speech_prob": 0.437
+    },
+    {
+      "start": 1079.7,
+      "end": 1081.74,
+      "text": "我们之前还跟瑞幸那个啥",
+      "avg_logprob": -0.46,
+      "no_speech_prob": 0.437
+    },
+    {
+      "start": 1082.0,
+      "end": 1082.26,
+      "text": "啊",
+      "avg_logprob": -0.46,
+      "no_speech_prob": 0.437
+    },
+    {
+      "start": 1082.5,
+      "end": 1082.76,
+      "text": "知道",
+      "avg_logprob": -0.46,
+      "no_speech_prob": 0.437
+    },
+    {
+      "start": 1083.78,
+      "end": 1085.32,
+      "text": "那个更是无语",
+      "avg_logprob": -0.46,
+      "no_speech_prob": 0.437
+    },
+    {
+      "start": 1090.2,
+      "end": 1093.8,
+      "text": "我们脚肯定得是这样事儿了",
+      "avg_logprob": -0.588,
+      "no_speech_prob": 0.515
+    },
+    {
+      "start": 1093.8,
+      "end": 1097.16,
+      "text": "脚保留什么样子",
+      "avg_logprob": -0.588,
+      "no_speech_prob": 0.515
+    },
+    {
+      "start": 1097.16,
+      "end": 1099.0,
+      "text": "脚然后上面圆的",
+      "avg_logprob": -0.588,
+      "no_speech_prob": 0.515
+    },
+    {
+      "start": 1099.0,
+      "end": 1102.28,
+      "text": "你把脚保留在这边上的圆的很恐怖",
+      "avg_logprob": -0.588,
+      "no_speech_prob": 0.515
+    },
+    {
+      "start": 1102.28,
+      "end": 1104.2,
+      "text": "我觉得很恐怖",
+      "avg_logprob": -0.588,
+      "no_speech_prob": 0.515
+    },
+    {
+      "start": 1104.2,
+      "end": 1107.16,
+      "text": "它这个脚其实挺长的",
+      "avg_logprob": -0.588,
+      "no_speech_prob": 0.515
+    },
+    {
+      "start": 1107.16,
+      "end": 1109.53,
+      "text": "上面是个圆的",
+      "avg_logprob": -0.588,
+      "no_speech_prob": 0.515
+    },
+    {
+      "start": 1109.53,
+      "end": 1113.9,
+      "text": "我是觉得那个手",
+      "avg_logprob": -0.588,
+      "no_speech_prob": 0.515
+    },
+    {
+      "start": 1113.9,
+      "end": 1117.75,
+      "text": "这个挺好看的",
+      "avg_logprob": -0.588,
+      "no_speech_prob": 0.515
+    },
+    {
+      "start": 1117.75,
+      "end": 1120.07,
+      "text": "其实也可以我这样一想",
+      "avg_logprob": -0.588,
+      "no_speech_prob": 0.515
+    },
+    {
+      "start": 1120.07,
+      "end": 1121.99,
+      "text": "但是它板子不好放我感觉",
+      "avg_logprob": -0.588,
+      "no_speech_prob": 0.515
+    },
+    {
+      "start": 1121.99,
+      "end": 1123.99,
+      "text": "明板的要放吗",
+      "avg_logprob": -0.381,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 1123.99,
+      "end": 1125.99,
+      "text": "还得设计那板子放吧",
+      "avg_logprob": -0.381,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 1125.99,
+      "end": 1126.99,
+      "text": "对",
+      "avg_logprob": -0.381,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 1126.99,
+      "end": 1128.99,
+      "text": "你要不像他这样贴着",
+      "avg_logprob": -0.381,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 1128.99,
+      "end": 1131.99,
+      "text": "我感觉这个全都是小的",
+      "avg_logprob": -0.381,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 1131.99,
+      "end": 1134.99,
+      "text": "这AIS的那肯定得大点",
+      "avg_logprob": -0.381,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 1134.99,
+      "end": 1135.99,
+      "text": "我觉得",
+      "avg_logprob": -0.381,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 1135.99,
+      "end": 1137.99,
+      "text": "这八帐也小了",
+      "avg_logprob": -0.381,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 1137.99,
+      "end": 1140.99,
+      "text": "这八帐应该不至于把一级的机器",
+      "avg_logprob": -0.381,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 1140.99,
+      "end": 1142.99,
+      "text": "应该笔记性大吗",
+      "avg_logprob": -0.381,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 1142.99,
+      "end": 1143.99,
+      "text": "就是轻",
+      "avg_logprob": -0.381,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 1143.99,
+      "end": 1144.99,
+      "text": "就这个",
+      "avg_logprob": -0.381,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 1144.99,
+      "end": 1145.99,
+      "text": "这个是AIS的",
+      "avg_logprob": -0.381,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 1145.99,
+      "end": 1146.99,
+      "text": "就没办法控制",
+      "avg_logprob": -0.381,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 1146.99,
+      "end": 1148.99,
+      "text": "这个假如从我们做的这个体内",
+      "avg_logprob": -0.381,
+      "no_speech_prob": 0.749
+    },
+    {
+      "start": 1148.99,
+      "end": 1152.43,
+      "text": "这些响子就是大一点要好玩而已行",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.544
+    },
+    {
+      "start": 1152.43,
+      "end": 1153.15,
+      "text": "就是大一点",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.544
+    },
+    {
+      "start": 1153.15,
+      "end": 1155.11,
+      "text": "就是跟手差不多大小",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.544
+    },
+    {
+      "start": 1155.11,
+      "end": 1155.71,
+      "text": "对",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.544
+    },
+    {
+      "start": 1155.71,
+      "end": 1157.23,
+      "text": "但是他能",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.544
+    },
+    {
+      "start": 1157.23,
+      "end": 1159.79,
+      "text": "我现在真的觉得八丈有点太强了",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.544
+    },
+    {
+      "start": 1159.79,
+      "end": 1160.55,
+      "text": "不是",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.544
+    },
+    {
+      "start": 1161.35,
+      "end": 1163.15,
+      "text": "八丈有点太强了",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.544
+    },
+    {
+      "start": 1163.15,
+      "end": 1164.47,
+      "text": "他只要一杀",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.544
+    },
+    {
+      "start": 1164.47,
+      "end": 1167.23,
+      "text": "那拳头他都形成就这么长",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.544
+    },
+    {
+      "start": 1167.23,
+      "end": 1170.45,
+      "text": "根本打不到他拳头",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.544
+    },
+    {
+      "start": 1170.45,
+      "end": 1171.17,
+      "text": "哎 不管了",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.544
+    },
+    {
+      "start": 1171.17,
+      "end": 1171.93,
+      "text": "不管了",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.544
+    },
+    {
+      "start": 1171.93,
+      "end": 1172.69,
+      "text": "拳头的",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.544
+    },
+    {
+      "start": 1172.69,
+      "end": 1173.97,
+      "text": "拳头的形状",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.544
+    },
+    {
+      "start": 1173.97,
+      "end": 1176.37,
+      "text": "那这无情就把八丈给小一点",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.544
+    },
+    {
+      "start": 1176.37,
+      "end": 1177.21,
+      "text": "拳头改大一点",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.544
+    },
+    {
+      "start": 1177.21,
+      "end": 1178.05,
+      "text": "那特别西方可以是什么",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.544
+    },
+    {
+      "start": 1178.05,
+      "end": 1178.89,
+      "text": "就比如说",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.544
+    },
+    {
+      "start": 1178.89,
+      "end": 1181.89,
+      "text": "但是脸领就是他们是在工会手领",
+      "avg_logprob": -0.645,
+      "no_speech_prob": 0.296
+    },
+    {
+      "start": 1181.89,
+      "end": 1184.49,
+      "text": "或者说进工会放的一些位置",
+      "avg_logprob": -0.645,
+      "no_speech_prob": 0.296
+    },
+    {
+      "start": 1184.49,
+      "end": 1186.49,
+      "text": "这样就不会走过的进步",
+      "avg_logprob": -0.645,
+      "no_speech_prob": 0.296
+    },
+    {
+      "start": 1186.49,
+      "end": 1187.89,
+      "text": "还有工坊",
+      "avg_logprob": -0.645,
+      "no_speech_prob": 0.296
+    },
+    {
+      "start": 1187.89,
+      "end": 1189.69,
+      "text": "还有工坊",
+      "avg_logprob": -0.645,
+      "no_speech_prob": 0.296
+    },
+    {
+      "start": 1189.69,
+      "end": 1192.37,
+      "text": "可能我们就先为他加工",
+      "avg_logprob": -0.645,
+      "no_speech_prob": 0.296
+    },
+    {
+      "start": 1192.37,
+      "end": 1193.89,
+      "text": "不但可能是给他造个景",
+      "avg_logprob": -0.645,
+      "no_speech_prob": 0.296
+    },
+    {
+      "start": 1193.89,
+      "end": 1196.17,
+      "text": "他们就是目的就是说打倒对方",
+      "avg_logprob": -0.645,
+      "no_speech_prob": 0.296
+    },
+    {
+      "start": 1196.17,
+      "end": 1197.49,
+      "text": "然后跨一段时间",
+      "avg_logprob": -0.645,
+      "no_speech_prob": 0.296
+    },
+    {
+      "start": 1197.49,
+      "end": 1199.33,
+      "text": "还有我们要和马铁老的那种下诉的",
+      "avg_logprob": -0.645,
+      "no_speech_prob": 0.296
+    },
+    {
+      "start": 1199.33,
+      "end": 1200.09,
+      "text": "那些",
+      "avg_logprob": -0.645,
+      "no_speech_prob": 0.296
+    },
+    {
+      "start": 1200.09,
+      "end": 1201.37,
+      "text": "也可以",
+      "avg_logprob": -0.645,
+      "no_speech_prob": 0.296
+    },
+    {
+      "start": 1201.37,
+      "end": 1202.89,
+      "text": "这感觉都是双方胖胖的",
+      "avg_logprob": -0.645,
+      "no_speech_prob": 0.296
+    },
+    {
+      "start": 1202.89,
+      "end": 1203.89,
+      "text": "可以",
+      "avg_logprob": -0.645,
+      "no_speech_prob": 0.296
+    },
+    {
+      "start": 1203.89,
+      "end": 1204.89,
+      "text": "microphone",
+      "avg_logprob": -0.645,
+      "no_speech_prob": 0.296
+    },
+    {
+      "start": 1204.89,
+      "end": 1207.02,
+      "text": "那个就是太老了",
+      "avg_logprob": -0.645,
+      "no_speech_prob": 0.296
+    },
+    {
+      "start": 1207.02,
+      "end": 1208.1,
+      "text": "耐龙盒",
+      "avg_logprob": -0.645,
+      "no_speech_prob": 0.296
+    },
+    {
+      "start": 1208.1,
+      "end": 1210.1,
+      "text": "那是什么呢",
+      "avg_logprob": -0.406,
+      "no_speech_prob": 0.596
+    },
+    {
+      "start": 1210.1,
+      "end": 1212.1,
+      "text": "只能跑不了奶农",
+      "avg_logprob": -0.406,
+      "no_speech_prob": 0.596
+    },
+    {
+      "start": 1212.1,
+      "end": 1214.1,
+      "text": "为什么还有奶农",
+      "avg_logprob": -0.406,
+      "no_speech_prob": 0.596
+    },
+    {
+      "start": 1214.1,
+      "end": 1216.1,
+      "text": "东西上不是奶农吗",
+      "avg_logprob": -0.406,
+      "no_speech_prob": 0.596
+    },
+    {
+      "start": 1216.1,
+      "end": 1217.1,
+      "text": "何代鼠",
+      "avg_logprob": -0.406,
+      "no_speech_prob": 0.596
+    },
+    {
+      "start": 1217.1,
+      "end": 1218.1,
+      "text": "怎么还有奶农",
+      "avg_logprob": -0.406,
+      "no_speech_prob": 0.596
+    },
+    {
+      "start": 1218.1,
+      "end": 1219.1,
+      "text": "这个",
+      "avg_logprob": -0.406,
+      "no_speech_prob": 0.596
+    },
+    {
+      "start": 1219.1,
+      "end": 1220.1,
+      "text": "就还是这样的",
+      "avg_logprob": -0.406,
+      "no_speech_prob": 0.596
+    },
+    {
+      "start": 1220.1,
+      "end": 1221.1,
+      "text": "奶农",
+      "avg_logprob": -0.406,
+      "no_speech_prob": 0.596
+    },
+    {
+      "start": 1221.1,
+      "end": 1223.1,
+      "text": "你把奶农按到这个脚上",
+      "avg_logprob": -0.406,
+      "no_speech_prob": 0.596
+    },
+    {
+      "start": 1223.1,
+      "end": 1225.1,
+      "text": "你们觉得很恐怖吗",
+      "avg_logprob": -0.406,
+      "no_speech_prob": 0.596
+    },
+    {
+      "start": 1225.1,
+      "end": 1226.1,
+      "text": "只要门上",
+      "avg_logprob": -0.406,
+      "no_speech_prob": 0.596
+    },
+    {
+      "start": 1226.1,
+      "end": 1227.1,
+      "text": "当他们抢夺了那个东西",
+      "avg_logprob": -0.406,
+      "no_speech_prob": 0.596
+    },
+    {
+      "start": 1227.1,
+      "end": 1228.1,
+      "text": "就认得了",
+      "avg_logprob": -0.406,
+      "no_speech_prob": 0.596
+    },
+    {
+      "start": 1228.1,
+      "end": 1229.1,
+      "text": "好一块",
+      "avg_logprob": -0.406,
+      "no_speech_prob": 0.596
+    },
+    {
+      "start": 1229.1,
+      "end": 1231.1,
+      "text": "抢夺了东西",
+      "avg_logprob": -0.406,
+      "no_speech_prob": 0.596
+    },
+    {
+      "start": 1231.1,
+      "end": 1232.1,
+      "text": "非得加点奶农",
+      "avg_logprob": -0.406,
+      "no_speech_prob": 0.596
+    },
+    {
+      "start": 1232.1,
+      "end": 1233.1,
+      "text": "那他们几日",
+      "avg_logprob": -0.406,
+      "no_speech_prob": 0.596
+    },
+    {
+      "start": 1233.1,
+      "end": 1234.1,
+      "text": "那个外面",
+      "avg_logprob": -0.406,
+      "no_speech_prob": 0.596
+    },
+    {
+      "start": 1234.1,
+      "end": 1236.1,
+      "text": "你打印那个小道具啊",
+      "avg_logprob": -0.406,
+      "no_speech_prob": 0.596
+    },
+    {
+      "start": 1236.1,
+      "end": 1238.1,
+      "text": "一个奶农的呢",
+      "avg_logprob": -0.453,
+      "no_speech_prob": 0.507
+    },
+    {
+      "start": 1238.1,
+      "end": 1240.1,
+      "text": "不行 一定要有奶农在里面",
+      "avg_logprob": -0.453,
+      "no_speech_prob": 0.507
+    },
+    {
+      "start": 1240.1,
+      "end": 1242.1,
+      "text": "什么都可以 但是",
+      "avg_logprob": -0.453,
+      "no_speech_prob": 0.507
+    },
+    {
+      "start": 1242.1,
+      "end": 1244.1,
+      "text": "那从那个拳后",
+      "avg_logprob": -0.453,
+      "no_speech_prob": 0.507
+    },
+    {
+      "start": 1244.1,
+      "end": 1246.1,
+      "text": "就是我们是这个奖杯",
+      "avg_logprob": -0.453,
+      "no_speech_prob": 0.507
+    },
+    {
+      "start": 1246.1,
+      "end": 1248.1,
+      "text": "就是那个子萱服奶农",
+      "avg_logprob": -0.453,
+      "no_speech_prob": 0.507
+    },
+    {
+      "start": 1250.1,
+      "end": 1252.1,
+      "text": "我挂了就得这个奖杯",
+      "avg_logprob": -0.453,
+      "no_speech_prob": 0.507
+    },
+    {
+      "start": 1252.1,
+      "end": 1254.1,
+      "text": "我挺问的",
+      "avg_logprob": -0.453,
+      "no_speech_prob": 0.507
+    },
+    {
+      "start": 1254.1,
+      "end": 1255.1,
+      "text": "真的不要",
+      "avg_logprob": -0.453,
+      "no_speech_prob": 0.507
+    },
+    {
+      "start": 1255.1,
+      "end": 1257.1,
+      "text": "那他们的那个游戏",
+      "avg_logprob": -0.453,
+      "no_speech_prob": 0.507
+    },
+    {
+      "start": 1257.1,
+      "end": 1259.1,
+      "text": "就是很简单嘛",
+      "avg_logprob": -0.453,
+      "no_speech_prob": 0.507
+    },
+    {
+      "start": 1259.1,
+      "end": 1261.1,
+      "text": "就是攻吧",
+      "avg_logprob": -0.453,
+      "no_speech_prob": 0.507
+    },
+    {
+      "start": 1261.1,
+      "end": 1263.1,
+      "text": "这是耳震",
+      "avg_logprob": -0.453,
+      "no_speech_prob": 0.507
+    },
+    {
+      "start": 1263.1,
+      "end": 1265.1,
+      "text": "核心就是考上男生的",
+      "avg_logprob": -0.453,
+      "no_speech_prob": 0.507
+    },
+    {
+      "start": 1265.1,
+      "end": 1269.26,
+      "text": "动作的那个即时的出招拆招已经他的技能大配合",
+      "avg_logprob": -0.679,
+      "no_speech_prob": 0.533
+    },
+    {
+      "start": 1270.57,
+      "end": 1272.37,
+      "text": "这个技能大功夫招",
+      "avg_logprob": -0.679,
+      "no_speech_prob": 0.533
+    },
+    {
+      "start": 1273.01,
+      "end": 1277.57,
+      "text": "哎他这个他这个腿其实感觉我真的流过了",
+      "avg_logprob": -0.679,
+      "no_speech_prob": 0.533
+    },
+    {
+      "start": 1277.93,
+      "end": 1279.61,
+      "text": "是他能转向吗",
+      "avg_logprob": -0.679,
+      "no_speech_prob": 0.533
+    },
+    {
+      "start": 1280.73,
+      "end": 1281.57,
+      "text": "脑子慢一点",
+      "avg_logprob": -0.679,
+      "no_speech_prob": 0.533
+    },
+    {
+      "start": 1281.57,
+      "end": 1282.73,
+      "text": "一直都一直腿的那个",
+      "avg_logprob": -0.679,
+      "no_speech_prob": 0.533
+    },
+    {
+      "start": 1282.73,
+      "end": 1283.57,
+      "text": "他有点慢",
+      "avg_logprob": -0.679,
+      "no_speech_prob": 0.533
+    },
+    {
+      "start": 1283.57,
+      "end": 1284.25,
+      "text": "你知道吗",
+      "avg_logprob": -0.679,
+      "no_speech_prob": 0.533
+    },
+    {
+      "start": 1284.25,
+      "end": 1286.17,
+      "text": "就是要这种慢的这个操作感",
+      "avg_logprob": -0.679,
+      "no_speech_prob": 0.533
+    },
+    {
+      "start": 1286.17,
+      "end": 1286.57,
+      "text": "哦",
+      "avg_logprob": -0.679,
+      "no_speech_prob": 0.533
+    },
+    {
+      "start": 1286.57,
+      "end": 1287.37,
+      "text": "看着这个腿",
+      "avg_logprob": -0.679,
+      "no_speech_prob": 0.533
+    },
+    {
+      "start": 1288.13,
+      "end": 1289.97,
+      "text": "太快了我就换上蚊子了",
+      "avg_logprob": -0.679,
+      "no_speech_prob": 0.533
+    },
+    {
+      "start": 1289.97,
+      "end": 1290.57,
+      "text": "所以说有一个",
+      "avg_logprob": -0.679,
+      "no_speech_prob": 0.533
+    },
+    {
+      "start": 1290.57,
+      "end": 1291.81,
+      "text": "有一个玩家他太技能",
+      "avg_logprob": -0.679,
+      "no_speech_prob": 0.533
+    },
+    {
+      "start": 1291.81,
+      "end": 1293.89,
+      "text": "他的搭档选顺度增加",
+      "avg_logprob": -0.679,
+      "no_speech_prob": 0.533
+    },
+    {
+      "start": 1293.89,
+      "end": 1295.53,
+      "text": "然后另外一个玩意很烤",
+      "avg_logprob": -0.434,
+      "no_speech_prob": 0.461
+    },
+    {
+      "start": 1295.53,
+      "end": 1297.13,
+      "text": "然后一个追着另外一个",
+      "avg_logprob": -0.434,
+      "no_speech_prob": 0.461
+    },
+    {
+      "start": 1297.13,
+      "end": 1299.93,
+      "text": "然后在这个场上一直来来很烫",
+      "avg_logprob": -0.434,
+      "no_speech_prob": 0.461
+    },
+    {
+      "start": 1299.93,
+      "end": 1301.97,
+      "text": "其实我还是想这个",
+      "avg_logprob": -0.434,
+      "no_speech_prob": 0.461
+    },
+    {
+      "start": 1301.97,
+      "end": 1305.21,
+      "text": "其实是你有机能是可以让对方过在",
+      "avg_logprob": -0.434,
+      "no_speech_prob": 0.461
+    },
+    {
+      "start": 1305.21,
+      "end": 1308.97,
+      "text": "就是那个拳头和巴掌还是挺大的",
+      "avg_logprob": -0.434,
+      "no_speech_prob": 0.461
+    },
+    {
+      "start": 1308.97,
+      "end": 1310.61,
+      "text": "很容易把地给摔倒",
+      "avg_logprob": -0.434,
+      "no_speech_prob": 0.461
+    },
+    {
+      "start": 1310.61,
+      "end": 1312.77,
+      "text": "就那个人删太快了",
+      "avg_logprob": -0.434,
+      "no_speech_prob": 0.461
+    },
+    {
+      "start": 1312.77,
+      "end": 1315.17,
+      "text": "很容易把自己给删过",
+      "avg_logprob": -0.434,
+      "no_speech_prob": 0.461
+    },
+    {
+      "start": 1315.17,
+      "end": 1318.65,
+      "text": "我觉得剁鸡可能就不会删太快",
+      "avg_logprob": -0.434,
+      "no_speech_prob": 0.461
+    },
+    {
+      "start": 1318.65,
+      "end": 1322.82,
+      "text": "所以我想这个可以设置速度",
+      "avg_logprob": -0.434,
+      "no_speech_prob": 0.461
+    },
+    {
+      "start": 1322.82,
+      "end": 1324.66,
+      "text": "剁鸡可以设置速度",
+      "avg_logprob": -0.434,
+      "no_speech_prob": 0.461
+    },
+    {
+      "start": 1324.66,
+      "end": 1327.66,
+      "text": "我当时想找马达不要剁鸡",
+      "avg_logprob": -0.26,
+      "no_speech_prob": 0.319
+    },
+    {
+      "start": 1327.66,
+      "end": 1329.66,
+      "text": "我没必要控制他的脚步",
+      "avg_logprob": -0.26,
+      "no_speech_prob": 0.319
+    },
+    {
+      "start": 1329.66,
+      "end": 1331.66,
+      "text": "直接用马达",
+      "avg_logprob": -0.26,
+      "no_speech_prob": 0.319
+    },
+    {
+      "start": 1331.66,
+      "end": 1333.66,
+      "text": "高速马达",
+      "avg_logprob": -0.26,
+      "no_speech_prob": 0.319
+    },
+    {
+      "start": 1333.66,
+      "end": 1336.3,
+      "text": "不要速度",
+      "avg_logprob": -0.26,
+      "no_speech_prob": 0.319
+    },
+    {
+      "start": 1336.3,
+      "end": 1339.3,
+      "text": "直接不要脚不要控制",
+      "avg_logprob": -0.26,
+      "no_speech_prob": 0.319
+    },
+    {
+      "start": 1339.3,
+      "end": 1340.3,
+      "text": "什么东西",
+      "avg_logprob": -0.26,
+      "no_speech_prob": 0.319
+    },
+    {
+      "start": 1340.3,
+      "end": 1341.3,
+      "text": "直接用马达",
+      "avg_logprob": -0.26,
+      "no_speech_prob": 0.319
+    },
+    {
+      "start": 1341.3,
+      "end": 1343.3,
+      "text": "啥用马达",
+      "avg_logprob": -0.26,
+      "no_speech_prob": 0.319
+    },
+    {
+      "start": 1343.3,
+      "end": 1345.3,
+      "text": "就是他上面的攻击魔法",
+      "avg_logprob": -0.26,
+      "no_speech_prob": 0.319
+    },
+    {
+      "start": 1345.3,
+      "end": 1347.3,
+      "text": "不要剁鸡",
+      "avg_logprob": -0.26,
+      "no_speech_prob": 0.319
+    },
+    {
+      "start": 1347.3,
+      "end": 1348.94,
+      "text": "哦对啊",
+      "avg_logprob": -0.26,
+      "no_speech_prob": 0.319
+    },
+    {
+      "start": 1348.94,
+      "end": 1349.94,
+      "text": "就是让他转着",
+      "avg_logprob": -0.26,
+      "no_speech_prob": 0.319
+    },
+    {
+      "start": 1349.94,
+      "end": 1350.94,
+      "text": "嗯",
+      "avg_logprob": -0.26,
+      "no_speech_prob": 0.319
+    },
+    {
+      "start": 1350.94,
+      "end": 1351.94,
+      "text": "我只要控制他开关",
+      "avg_logprob": -0.26,
+      "no_speech_prob": 0.319
+    },
+    {
+      "start": 1351.94,
+      "end": 1352.94,
+      "text": "就行了",
+      "avg_logprob": -0.26,
+      "no_speech_prob": 0.319
+    },
+    {
+      "start": 1352.94,
+      "end": 1354.94,
+      "text": "我没有精确脚步要求",
+      "avg_logprob": -0.26,
+      "no_speech_prob": 0.319
+    },
+    {
+      "start": 1354.94,
+      "end": 1357.94,
+      "text": "我看着差不多了我从开按键",
+      "avg_logprob": -0.391,
+      "no_speech_prob": 0.552
+    },
+    {
+      "start": 1359.22,
+      "end": 1362.22,
+      "text": "这只用户就玩家只需要移动它墙",
+      "avg_logprob": -0.391,
+      "no_speech_prob": 0.552
+    },
+    {
+      "start": 1362.22,
+      "end": 1364.22,
+      "text": "它这个是马达是吗",
+      "avg_logprob": -0.391,
+      "no_speech_prob": 0.552
+    },
+    {
+      "start": 1364.22,
+      "end": 1366.22,
+      "text": "电机啊",
+      "avg_logprob": -0.391,
+      "no_speech_prob": 0.552
+    },
+    {
+      "start": 1366.22,
+      "end": 1368.22,
+      "text": "电机和马达什么去",
+      "avg_logprob": -0.391,
+      "no_speech_prob": 0.552
+    },
+    {
+      "start": 1368.22,
+      "end": 1369.22,
+      "text": "没有去别的",
+      "avg_logprob": -0.391,
+      "no_speech_prob": 0.552
+    },
+    {
+      "start": 1369.22,
+      "end": 1371.22,
+      "text": "就用它动的",
+      "avg_logprob": -0.391,
+      "no_speech_prob": 0.552
+    },
+    {
+      "start": 1371.22,
+      "end": 1374.57,
+      "text": "就用它这个呗",
+      "avg_logprob": -0.391,
+      "no_speech_prob": 0.552
+    },
+    {
+      "start": 1374.57,
+      "end": 1376.79,
+      "text": "但是这这么大吗",
+      "avg_logprob": -0.391,
+      "no_speech_prob": 0.552
+    },
+    {
+      "start": 1376.79,
+      "end": 1377.79,
+      "text": "它这这么大",
+      "avg_logprob": -0.391,
+      "no_speech_prob": 0.552
+    },
+    {
+      "start": 1377.79,
+      "end": 1379.79,
+      "text": "对它一点点这么小",
+      "avg_logprob": -0.391,
+      "no_speech_prob": 0.552
+    },
+    {
+      "start": 1379.79,
+      "end": 1380.79,
+      "text": "现在二零点这么大",
+      "avg_logprob": -0.391,
+      "no_speech_prob": 0.552
+    },
+    {
+      "start": 1380.79,
+      "end": 1381.79,
+      "text": "那岂不是我们这",
+      "avg_logprob": -0.391,
+      "no_speech_prob": 0.552
+    },
+    {
+      "start": 1381.79,
+      "end": 1384.79,
+      "text": "我们这肯定不能做这么小吗",
+      "avg_logprob": -0.391,
+      "no_speech_prob": 0.552
+    },
+    {
+      "start": 1384.79,
+      "end": 1387.67,
+      "text": "其实不用管它 那个大小的问题",
+      "avg_logprob": -0.403,
+      "no_speech_prob": 0.246
+    },
+    {
+      "start": 1387.67,
+      "end": 1389.11,
+      "text": "我们肯定得做它会大一点",
+      "avg_logprob": -0.403,
+      "no_speech_prob": 0.246
+    },
+    {
+      "start": 1389.11,
+      "end": 1391.11,
+      "text": "自己做了开心玩而已",
+      "avg_logprob": -0.403,
+      "no_speech_prob": 0.246
+    },
+    {
+      "start": 1391.11,
+      "end": 1393.11,
+      "text": "就这么大 差不多了",
+      "avg_logprob": -0.403,
+      "no_speech_prob": 0.246
+    },
+    {
+      "start": 1393.11,
+      "end": 1395.11,
+      "text": "就这么大 差不多了",
+      "avg_logprob": -0.403,
+      "no_speech_prob": 0.246
+    },
+    {
+      "start": 1395.11,
+      "end": 1397.11,
+      "text": "可以让它一大瘦",
+      "avg_logprob": -0.403,
+      "no_speech_prob": 0.246
+    },
+    {
+      "start": 1397.11,
+      "end": 1400.11,
+      "text": "太大了 我们那个场景得做多大了",
+      "avg_logprob": -0.403,
+      "no_speech_prob": 0.246
+    },
+    {
+      "start": 1400.11,
+      "end": 1402.11,
+      "text": "它这个能打得着吗",
+      "avg_logprob": -0.403,
+      "no_speech_prob": 0.246
+    },
+    {
+      "start": 1402.11,
+      "end": 1406.72,
+      "text": "这么大的那个巴掌至少得它这么宽大",
+      "avg_logprob": -0.403,
+      "no_speech_prob": 0.246
+    },
+    {
+      "start": 1406.72,
+      "end": 1407.72,
+      "text": "像我们的",
+      "avg_logprob": -0.403,
+      "no_speech_prob": 0.246
+    },
+    {
+      "start": 1407.72,
+      "end": 1410.17,
+      "text": "三分之二不瘦",
+      "avg_logprob": -0.403,
+      "no_speech_prob": 0.246
+    },
+    {
+      "start": 1410.17,
+      "end": 1412.42,
+      "text": "你这还是巴掌啊",
+      "avg_logprob": -0.403,
+      "no_speech_prob": 0.246
+    },
+    {
+      "start": 1412.42,
+      "end": 1413.42,
+      "text": "你用马达来",
+      "avg_logprob": -0.403,
+      "no_speech_prob": 0.246
+    },
+    {
+      "start": 1413.42,
+      "end": 1415.42,
+      "text": "也是用马达来转它",
+      "avg_logprob": -0.403,
+      "no_speech_prob": 0.246
+    },
+    {
+      "start": 1415.42,
+      "end": 1417.54,
+      "text": "对 那他不就一直转了吗",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.243
+    },
+    {
+      "start": 1417.54,
+      "end": 1418.86,
+      "text": "对 就一直转了",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.243
+    },
+    {
+      "start": 1418.86,
+      "end": 1419.74,
+      "text": "对 就一直转",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.243
+    },
+    {
+      "start": 1419.74,
+      "end": 1421.54,
+      "text": "从他开机那一刻就一直转了",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.243
+    },
+    {
+      "start": 1421.54,
+      "end": 1422.54,
+      "text": "不是 还有一个问题啊",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.243
+    },
+    {
+      "start": 1422.54,
+      "end": 1423.7,
+      "text": "这下不开关啊",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.243
+    },
+    {
+      "start": 1423.7,
+      "end": 1424.62,
+      "text": "这时候一直转的话",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.243
+    },
+    {
+      "start": 1424.62,
+      "end": 1426.94,
+      "text": "他不会打到毁灭的障碍物吗",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.243
+    },
+    {
+      "start": 1426.94,
+      "end": 1428.94,
+      "text": "那有控制啊",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.243
+    },
+    {
+      "start": 1428.94,
+      "end": 1430.14,
+      "text": "哦",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.243
+    },
+    {
+      "start": 1430.14,
+      "end": 1432.98,
+      "text": "主观的东西",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.243
+    },
+    {
+      "start": 1432.98,
+      "end": 1434.5,
+      "text": "那一巴掌拍",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.243
+    },
+    {
+      "start": 1434.5,
+      "end": 1435.46,
+      "text": "对方肯定倒了呀",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.243
+    },
+    {
+      "start": 1435.46,
+      "end": 1436.9,
+      "text": "他这个",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.243
+    },
+    {
+      "start": 1436.9,
+      "end": 1437.62,
+      "text": "对呀",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.243
+    },
+    {
+      "start": 1437.62,
+      "end": 1438.3,
+      "text": "对方肯定倒",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.243
+    },
+    {
+      "start": 1438.3,
+      "end": 1439.86,
+      "text": "打一下就必输啊",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.243
+    },
+    {
+      "start": 1439.86,
+      "end": 1440.54,
+      "text": "对呀",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.243
+    },
+    {
+      "start": 1440.54,
+      "end": 1442.27,
+      "text": "打一下",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.243
+    },
+    {
+      "start": 1442.27,
+      "end": 1444.27,
+      "text": "对呀 就看谁先打到谁",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.243
+    },
+    {
+      "start": 1444.27,
+      "end": 1445.67,
+      "text": "拳头就要拉个傻一点",
+      "avg_logprob": -0.372,
+      "no_speech_prob": 0.243
+    },
+    {
+      "start": 1445.67,
+      "end": 1446.79,
+      "text": "所以我没有技能",
+      "avg_logprob": -0.351,
+      "no_speech_prob": 0.213
+    },
+    {
+      "start": 1447.31,
+      "end": 1449.35,
+      "text": "而且或者是如果对面也是这么一样打的话",
+      "avg_logprob": -0.351,
+      "no_speech_prob": 0.213
+    },
+    {
+      "start": 1449.35,
+      "end": 1450.59,
+      "text": "很容易两边都飞出来",
+      "avg_logprob": -0.351,
+      "no_speech_prob": 0.213
+    },
+    {
+      "start": 1450.59,
+      "end": 1451.11,
+      "text": "飞出去",
+      "avg_logprob": -0.351,
+      "no_speech_prob": 0.213
+    },
+    {
+      "start": 1451.51,
+      "end": 1452.35,
+      "text": "对不行",
+      "avg_logprob": -0.351,
+      "no_speech_prob": 0.213
+    },
+    {
+      "start": 1452.35,
+      "end": 1453.91,
+      "text": "那你这个设计不太行",
+      "avg_logprob": -0.351,
+      "no_speech_prob": 0.213
+    },
+    {
+      "start": 1453.91,
+      "end": 1455.47,
+      "text": "他这个怎么设计不太行",
+      "avg_logprob": -0.351,
+      "no_speech_prob": 0.213
+    },
+    {
+      "start": 1455.47,
+      "end": 1458.31,
+      "text": "本来他这个手就一打他就飞了",
+      "avg_logprob": -0.351,
+      "no_speech_prob": 0.213
+    },
+    {
+      "start": 1458.31,
+      "end": 1459.23,
+      "text": "所以你还",
+      "avg_logprob": -0.351,
+      "no_speech_prob": 0.213
+    },
+    {
+      "start": 1459.23,
+      "end": 1460.31,
+      "text": "因为对面也有这种",
+      "avg_logprob": -0.351,
+      "no_speech_prob": 0.213
+    },
+    {
+      "start": 1462.66,
+      "end": 1463.46,
+      "text": "两个手吗",
+      "avg_logprob": -0.351,
+      "no_speech_prob": 0.213
+    },
+    {
+      "start": 1464.3,
+      "end": 1465.06,
+      "text": "两个八杖吗",
+      "avg_logprob": -0.351,
+      "no_speech_prob": 0.213
+    },
+    {
+      "start": 1465.06,
+      "end": 1466.26,
+      "text": "就两边都是八杖怎么样",
+      "avg_logprob": -0.351,
+      "no_speech_prob": 0.213
+    },
+    {
+      "start": 1466.74,
+      "end": 1467.58,
+      "text": "两边都是八杖",
+      "avg_logprob": -0.351,
+      "no_speech_prob": 0.213
+    },
+    {
+      "start": 1467.58,
+      "end": 1468.82,
+      "text": "起码是要把它做两边",
+      "avg_logprob": -0.351,
+      "no_speech_prob": 0.213
+    },
+    {
+      "start": 1470.06,
+      "end": 1470.82,
+      "text": "我想过来",
+      "avg_logprob": -0.351,
+      "no_speech_prob": 0.213
+    },
+    {
+      "start": 1470.82,
+      "end": 1472.94,
+      "text": "我当时想的两边都是八杖也可以",
+      "avg_logprob": -0.351,
+      "no_speech_prob": 0.213
+    },
+    {
+      "start": 1473.53,
+      "end": 1474.77,
+      "text": "两边都是八杖很平",
+      "avg_logprob": -0.351,
+      "no_speech_prob": 0.213
+    },
+    {
+      "start": 1475.17,
+      "end": 1477.01,
+      "text": "然后当时为啥要做这个拳头",
+      "avg_logprob": -0.351,
+      "no_speech_prob": 0.213
+    },
+    {
+      "start": 1477.01,
+      "end": 1480.01,
+      "text": "我就是觉得两边不一样 可能会有意思一点",
+      "avg_logprob": -0.352,
+      "no_speech_prob": 0.2
+    },
+    {
+      "start": 1480.01,
+      "end": 1485.38,
+      "text": "我其实最不想的是做两个巴掌一个拳",
+      "avg_logprob": -0.352,
+      "no_speech_prob": 0.2
+    },
+    {
+      "start": 1485.38,
+      "end": 1487.5,
+      "text": "要剪刀吗",
+      "avg_logprob": -0.352,
+      "no_speech_prob": 0.2
+    },
+    {
+      "start": 1487.5,
+      "end": 1489.5,
+      "text": "所以要申请六个",
+      "avg_logprob": -0.352,
+      "no_speech_prob": 0.2
+    },
+    {
+      "start": 1489.5,
+      "end": 1491.5,
+      "text": "剪刀吗",
+      "avg_logprob": -0.352,
+      "no_speech_prob": 0.2
+    },
+    {
+      "start": 1491.5,
+      "end": 1493.5,
+      "text": "两个巴掌也是拳头",
+      "avg_logprob": -0.352,
+      "no_speech_prob": 0.2
+    },
+    {
+      "start": 1493.5,
+      "end": 1495.5,
+      "text": "你剪刀多大",
+      "avg_logprob": -0.352,
+      "no_speech_prob": 0.2
+    },
+    {
+      "start": 1495.5,
+      "end": 1497.5,
+      "text": "这样因为夹夹夹",
+      "avg_logprob": -0.352,
+      "no_speech_prob": 0.2
+    },
+    {
+      "start": 1497.5,
+      "end": 1499.5,
+      "text": "可以啊 那我就三个",
+      "avg_logprob": -0.352,
+      "no_speech_prob": 0.2
+    },
+    {
+      "start": 1501.23,
+      "end": 1503.23,
+      "text": "这功夫真的很大的",
+      "avg_logprob": -0.352,
+      "no_speech_prob": 0.2
+    },
+    {
+      "start": 1503.23,
+      "end": 1509.23,
+      "text": "夹夹有什么杀伤力呢",
+      "avg_logprob": -0.352,
+      "no_speech_prob": 0.2
+    },
+    {
+      "start": 1509.23,
+      "end": 1511.47,
+      "text": "要对方倒啊 你夹了他也不会倒了",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.693
+    },
+    {
+      "start": 1511.47,
+      "end": 1513.07,
+      "text": "你可以在上面夹一些啊",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.693
+    },
+    {
+      "start": 1513.07,
+      "end": 1514.67,
+      "text": "但是你那个拳太快了",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.693
+    },
+    {
+      "start": 1514.67,
+      "end": 1517.75,
+      "text": "他除非是打到那个巴掌",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.693
+    },
+    {
+      "start": 1517.75,
+      "end": 1519.15,
+      "text": "他能把它伸",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.693
+    },
+    {
+      "start": 1519.15,
+      "end": 1520.35,
+      "text": "那个巴掌还是太强了",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.693
+    },
+    {
+      "start": 1520.35,
+      "end": 1521.03,
+      "text": "说实话",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.693
+    },
+    {
+      "start": 1521.03,
+      "end": 1522.51,
+      "text": "那就给巴掌是定拳",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.693
+    },
+    {
+      "start": 1522.51,
+      "end": 1524.67,
+      "text": "他只能很慢的速度伸出去",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.693
+    },
+    {
+      "start": 1524.67,
+      "end": 1526.11,
+      "text": "哦 然后一个拳得快一点",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.693
+    },
+    {
+      "start": 1526.11,
+      "end": 1526.87,
+      "text": "能不能",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.693
+    },
+    {
+      "start": 1526.87,
+      "end": 1527.27,
+      "text": "对啊",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.693
+    },
+    {
+      "start": 1527.27,
+      "end": 1528.95,
+      "text": "那个电机可以控制速度",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.693
+    },
+    {
+      "start": 1528.95,
+      "end": 1530.15,
+      "text": "电机没试过",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.693
+    },
+    {
+      "start": 1530.15,
+      "end": 1531.59,
+      "text": "我今天研究的是剁鸡",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.693
+    },
+    {
+      "start": 1531.59,
+      "end": 1533.27,
+      "text": "剁鸡肯定能控制速度",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.693
+    },
+    {
+      "start": 1533.27,
+      "end": 1533.83,
+      "text": "可以了",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.693
+    },
+    {
+      "start": 1533.83,
+      "end": 1534.07,
+      "text": "对啊",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.693
+    },
+    {
+      "start": 1534.07,
+      "end": 1535.55,
+      "text": "那巴掌就绑住就上面",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.693
+    },
+    {
+      "start": 1535.55,
+      "end": 1535.95,
+      "text": "可以",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.693
+    },
+    {
+      "start": 1535.95,
+      "end": 1536.55,
+      "text": "就这样",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.693
+    },
+    {
+      "start": 1536.55,
+      "end": 1537.91,
+      "text": "但是最坏的我没试过",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.693
+    },
+    {
+      "start": 1537.91,
+      "end": 1538.87,
+      "text": "我只试了30",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.693
+    },
+    {
+      "start": 1538.87,
+      "end": 1568.87,
+      "text": "对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对",
+      "avg_logprob": -0.042,
+      "no_speech_prob": 0.693
+    },
+    {
+      "start": 1568.87,
+      "end": 1570.27,
+      "text": "八掌上面是电机是吧",
+      "avg_logprob": -0.469,
+      "no_speech_prob": 0.713
+    },
+    {
+      "start": 1572.66,
+      "end": 1573.86,
+      "text": "他说让它一直控制",
+      "avg_logprob": -0.469,
+      "no_speech_prob": 0.713
+    },
+    {
+      "start": 1573.86,
+      "end": 1575.46,
+      "text": "一直让它转就算了",
+      "avg_logprob": -0.469,
+      "no_speech_prob": 0.713
+    },
+    {
+      "start": 1575.46,
+      "end": 1576.06,
+      "text": "只控制它",
+      "avg_logprob": -0.469,
+      "no_speech_prob": 0.713
+    },
+    {
+      "start": 1576.06,
+      "end": 1577.86,
+      "text": "我不知道这电机有多可爱",
+      "avg_logprob": -0.469,
+      "no_speech_prob": 0.713
+    },
+    {
+      "start": 1577.86,
+      "end": 1578.66,
+      "text": "对 我也没事",
+      "avg_logprob": -0.469,
+      "no_speech_prob": 0.713
+    },
+    {
+      "start": 1578.66,
+      "end": 1579.46,
+      "text": "今天没事",
+      "avg_logprob": -0.469,
+      "no_speech_prob": 0.713
+    },
+    {
+      "start": 1579.46,
+      "end": 1580.46,
+      "text": "我没事",
+      "avg_logprob": -0.469,
+      "no_speech_prob": 0.713
+    },
+    {
+      "start": 1584.46,
+      "end": 1585.86,
+      "text": "就换成剁机就行了",
+      "avg_logprob": -0.469,
+      "no_speech_prob": 0.713
+    },
+    {
+      "start": 1585.86,
+      "end": 1586.86,
+      "text": "削平的剁机",
+      "avg_logprob": -0.469,
+      "no_speech_prob": 0.713
+    },
+    {
+      "start": 1586.86,
+      "end": 1587.86,
+      "text": "换成剁机",
+      "avg_logprob": -0.469,
+      "no_speech_prob": 0.713
+    },
+    {
+      "start": 1587.86,
+      "end": 1589.06,
+      "text": "我们把八掌改的时候",
+      "avg_logprob": -0.469,
+      "no_speech_prob": 0.713
+    },
+    {
+      "start": 1589.06,
+      "end": 1590.66,
+      "text": "你这个小",
+      "avg_logprob": -0.469,
+      "no_speech_prob": 0.713
+    },
+    {
+      "start": 1590.66,
+      "end": 1592.06,
+      "text": "然后就让它俩在最初的",
+      "avg_logprob": -0.469,
+      "no_speech_prob": 0.713
+    },
+    {
+      "start": 1592.06,
+      "end": 1593.26,
+      "text": "一个关在平衡一些",
+      "avg_logprob": -0.469,
+      "no_speech_prob": 0.713
+    },
+    {
+      "start": 1593.26,
+      "end": 1593.86,
+      "text": "对",
+      "avg_logprob": -0.469,
+      "no_speech_prob": 0.713
+    },
+    {
+      "start": 1593.86,
+      "end": 1595.46,
+      "text": "我发现你们都是设备管理员",
+      "avg_logprob": -0.469,
+      "no_speech_prob": 0.713
+    },
+    {
+      "start": 1595.46,
+      "end": 1597.06,
+      "text": "然后看到一些",
+      "avg_logprob": -0.469,
+      "no_speech_prob": 0.713
+    },
+    {
+      "start": 1597.06,
+      "end": 1598.26,
+      "text": "就是你觉得重要的消费",
+      "avg_logprob": -0.469,
+      "no_speech_prob": 0.713
+    },
+    {
+      "start": 1598.26,
+      "end": 1600.66,
+      "text": "腰神筋滑就可以致力",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.603
+    },
+    {
+      "start": 1600.66,
+      "end": 1601.66,
+      "text": "OK",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.603
+    },
+    {
+      "start": 1601.66,
+      "end": 1607.13,
+      "text": "来做一个场地",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.603
+    },
+    {
+      "start": 1607.13,
+      "end": 1608.53,
+      "text": "那那个场地得多大",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.603
+    },
+    {
+      "start": 1608.53,
+      "end": 1609.53,
+      "text": "是平的吗",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.603
+    },
+    {
+      "start": 1609.53,
+      "end": 1611.33,
+      "text": "那个场地我给你最后再走",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.603
+    },
+    {
+      "start": 1611.33,
+      "end": 1613.13,
+      "text": "就是把机器做完之后",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.603
+    },
+    {
+      "start": 1613.13,
+      "end": 1614.13,
+      "text": "给你看那个平的",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.603
+    },
+    {
+      "start": 1614.13,
+      "end": 1615.93,
+      "text": "那个场地它是紧上天花",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.603
+    },
+    {
+      "start": 1615.93,
+      "end": 1617.13,
+      "text": "也不是必须",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.603
+    },
+    {
+      "start": 1618.19,
+      "end": 1619.19,
+      "text": "确实",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.603
+    },
+    {
+      "start": 1619.19,
+      "end": 1620.19,
+      "text": "实在不行",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.603
+    },
+    {
+      "start": 1620.19,
+      "end": 1621.19,
+      "text": "你做画一招好看",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.603
+    },
+    {
+      "start": 1621.19,
+      "end": 1622.19,
+      "text": "你别提了",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.603
+    },
+    {
+      "start": 1622.19,
+      "end": 1623.19,
+      "text": "对 这一招是一个经济场地",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.603
+    },
+    {
+      "start": 1623.19,
+      "end": 1624.19,
+      "text": "我觉得可以",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.603
+    },
+    {
+      "start": 1624.19,
+      "end": 1625.19,
+      "text": "真太行",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.603
+    },
+    {
+      "start": 1625.19,
+      "end": 1626.19,
+      "text": "很有诚意",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.603
+    },
+    {
+      "start": 1628.19,
+      "end": 1631.92,
+      "text": "我们这个帮他想了这个",
+      "avg_logprob": -0.555,
+      "no_speech_prob": 0.603
+    },
+    {
+      "start": 1631.92,
+      "end": 1633.92,
+      "text": "直接卖自己的桌油",
+      "avg_logprob": -0.429,
+      "no_speech_prob": 0.784
+    },
+    {
+      "start": 1633.92,
+      "end": 1636.92,
+      "text": "我觉得拓出得给我们告废",
+      "avg_logprob": -0.429,
+      "no_speech_prob": 0.784
+    },
+    {
+      "start": 1636.92,
+      "end": 1638.92,
+      "text": "这个肯定很多真话",
+      "avg_logprob": -0.429,
+      "no_speech_prob": 0.784
+    },
+    {
+      "start": 1640.18,
+      "end": 1642.18,
+      "text": "哎呀那都是张盲",
+      "avg_logprob": -0.429,
+      "no_speech_prob": 0.784
+    },
+    {
+      "start": 1642.18,
+      "end": 1643.18,
+      "text": "张盲忘了",
+      "avg_logprob": -0.429,
+      "no_speech_prob": 0.784
+    },
+    {
+      "start": 1643.18,
+      "end": 1646.46,
+      "text": "拉到的他们的资源",
+      "avg_logprob": -0.429,
+      "no_speech_prob": 0.784
+    },
+    {
+      "start": 1646.46,
+      "end": 1648.46,
+      "text": "他们是合作咱可能也在前",
+      "avg_logprob": -0.429,
+      "no_speech_prob": 0.784
+    },
+    {
+      "start": 1648.46,
+      "end": 1649.46,
+      "text": "别想了",
+      "avg_logprob": -0.429,
+      "no_speech_prob": 0.784
+    },
+    {
+      "start": 1649.46,
+      "end": 1652.46,
+      "text": "他那个打印机又全撤走了",
+      "avg_logprob": -0.429,
+      "no_speech_prob": 0.784
+    },
+    {
+      "start": 1652.46,
+      "end": 1653.46,
+      "text": "对啊对啊",
+      "avg_logprob": -0.429,
+      "no_speech_prob": 0.784
+    },
+    {
+      "start": 1653.46,
+      "end": 1654.46,
+      "text": "全撤走了",
+      "avg_logprob": -0.429,
+      "no_speech_prob": 0.784
+    },
+    {
+      "start": 1654.46,
+      "end": 1656.46,
+      "text": "你以为咱们这么好心啊",
+      "avg_logprob": -0.429,
+      "no_speech_prob": 0.784
+    },
+    {
+      "start": 1657.46,
+      "end": 1659.49,
+      "text": "所以就很无语啊",
+      "avg_logprob": -0.429,
+      "no_speech_prob": 0.784
+    },
+    {
+      "start": 1659.49,
+      "end": 1661.49,
+      "text": "特别特有无语",
+      "avg_logprob": -0.429,
+      "no_speech_prob": 0.784
+    },
+    {
+      "start": 1661.49,
+      "end": 1666.49,
+      "text": "你只能说你之前两年上的城市多了",
+      "avg_logprob": -0.376,
+      "no_speech_prob": 0.578
+    },
+    {
+      "start": 1666.49,
+      "end": 1675.34,
+      "text": "大概四月多了",
+      "avg_logprob": -0.376,
+      "no_speech_prob": 0.578
+    },
+    {
+      "start": 1675.34,
+      "end": 1677.34,
+      "text": "不不不 没啥事",
+      "avg_logprob": -0.376,
+      "no_speech_prob": 0.578
+    },
+    {
+      "start": 1677.34,
+      "end": 1680.07,
+      "text": "明天咋讲的",
+      "avg_logprob": -0.376,
+      "no_speech_prob": 0.578
+    },
+    {
+      "start": 1680.07,
+      "end": 1682.07,
+      "text": "明天是现在先把结构弄过",
+      "avg_logprob": -0.376,
+      "no_speech_prob": 0.578
+    },
+    {
+      "start": 1682.07,
+      "end": 1684.14,
+      "text": "然后大概的可能说那钱",
+      "avg_logprob": -0.376,
+      "no_speech_prob": 0.578
+    },
+    {
+      "start": 1684.14,
+      "end": 1686.33,
+      "text": "明天很好讲啊",
+      "avg_logprob": -0.376,
+      "no_speech_prob": 0.578
+    },
+    {
+      "start": 1686.33,
+      "end": 1689.33,
+      "text": "其实我听着好像就是低于这了",
+      "avg_logprob": -0.376,
+      "no_speech_prob": 0.578
+    },
+    {
+      "start": 1689.33,
+      "end": 1690.33,
+      "text": "要加个攻击波坏",
+      "avg_logprob": -0.376,
+      "no_speech_prob": 0.578
+    },
+    {
+      "start": 1690.33,
+      "end": 1691.33,
+      "text": "对啊",
+      "avg_logprob": -0.376,
+      "no_speech_prob": 0.578
+    },
+    {
+      "start": 1691.33,
+      "end": 1693.97,
+      "text": "那你就不要把这个讲出来",
+      "avg_logprob": -0.376,
+      "no_speech_prob": 0.578
+    },
+    {
+      "start": 1693.97,
+      "end": 1695.97,
+      "text": "我就担心他",
+      "avg_logprob": -0.376,
+      "no_speech_prob": 0.578
+    },
+    {
+      "start": 1695.97,
+      "end": 1697.97,
+      "text": "我们不要把他讲",
+      "avg_logprob": -0.376,
+      "no_speech_prob": 0.578
+    },
+    {
+      "start": 1697.97,
+      "end": 1698.97,
+      "text": "转给他们",
+      "avg_logprob": -0.305,
+      "no_speech_prob": 0.71
+    },
+    {
+      "start": 1698.97,
+      "end": 1700.97,
+      "text": "就是不要告诉大家",
+      "avg_logprob": -0.305,
+      "no_speech_prob": 0.71
+    },
+    {
+      "start": 1700.97,
+      "end": 1701.97,
+      "text": "不要告诉大家",
+      "avg_logprob": -0.305,
+      "no_speech_prob": 0.71
+    },
+    {
+      "start": 1701.97,
+      "end": 1702.97,
+      "text": "就是太远了",
+      "avg_logprob": -0.305,
+      "no_speech_prob": 0.71
+    },
+    {
+      "start": 1702.97,
+      "end": 1704.97,
+      "text": "我们也不给他们看这个图",
+      "avg_logprob": -0.305,
+      "no_speech_prob": 0.71
+    },
+    {
+      "start": 1704.97,
+      "end": 1706.97,
+      "text": "我们不给他们看我们有这个东西",
+      "avg_logprob": -0.305,
+      "no_speech_prob": 0.71
+    },
+    {
+      "start": 1706.97,
+      "end": 1708.97,
+      "text": "我们就直接给他看我们的",
+      "avg_logprob": -0.305,
+      "no_speech_prob": 0.71
+    },
+    {
+      "start": 1708.97,
+      "end": 1710.97,
+      "text": "生成的那个图",
+      "avg_logprob": -0.305,
+      "no_speech_prob": 0.71
+    },
+    {
+      "start": 1710.97,
+      "end": 1711.97,
+      "text": "然后就说我们希望",
+      "avg_logprob": -0.305,
+      "no_speech_prob": 0.71
+    },
+    {
+      "start": 1711.97,
+      "end": 1712.97,
+      "text": "最后掌柜",
+      "avg_logprob": -0.305,
+      "no_speech_prob": 0.71
+    },
+    {
+      "start": 1712.97,
+      "end": 1713.97,
+      "text": "小心机",
+      "avg_logprob": -0.305,
+      "no_speech_prob": 0.71
+    },
+    {
+      "start": 1713.97,
+      "end": 1714.97,
+      "text": "就是你当老师",
+      "avg_logprob": -0.305,
+      "no_speech_prob": 0.71
+    },
+    {
+      "start": 1714.97,
+      "end": 1715.97,
+      "text": "他知道我所谓",
+      "avg_logprob": -0.305,
+      "no_speech_prob": 0.71
+    },
+    {
+      "start": 1715.97,
+      "end": 1717.97,
+      "text": "主要是他想要体验那边",
+      "avg_logprob": -0.305,
+      "no_speech_prob": 0.71
+    },
+    {
+      "start": 1717.97,
+      "end": 1718.97,
+      "text": "有点面子",
+      "avg_logprob": -0.305,
+      "no_speech_prob": 0.71
+    },
+    {
+      "start": 1718.97,
+      "end": 1719.97,
+      "text": "或者里面",
+      "avg_logprob": -0.305,
+      "no_speech_prob": 0.71
+    },
+    {
+      "start": 1719.97,
+      "end": 1724.87,
+      "text": "什么什么",
+      "avg_logprob": -0.305,
+      "no_speech_prob": 0.71
+    },
+    {
+      "start": 1724.87,
+      "end": 1726.87,
+      "text": "就是他其实是什么意思呢",
+      "avg_logprob": -0.305,
+      "no_speech_prob": 0.71
+    },
+    {
+      "start": 1726.87,
+      "end": 1729.87,
+      "text": "他就是他想介入这个课",
+      "avg_logprob": -0.305,
+      "no_speech_prob": 0.71
+    },
+    {
+      "start": 1729.87,
+      "end": 1734.11,
+      "text": "增進一下你破除之間的這個緊密程度",
+      "avg_logprob": -0.463,
+      "no_speech_prob": 0.712
+    },
+    {
+      "start": 1734.11,
+      "end": 1739.47,
+      "text": "然後也希望我們那個慶華學生展示一些學生能力的方法",
+      "avg_logprob": -0.463,
+      "no_speech_prob": 0.712
+    },
+    {
+      "start": 1739.47,
+      "end": 1740.27,
+      "text": "但是我",
+      "avg_logprob": -0.463,
+      "no_speech_prob": 0.712
+    },
+    {
+      "start": 1740.27,
+      "end": 1741.87,
+      "text": "其實他本意就這樣",
+      "avg_logprob": -0.463,
+      "no_speech_prob": 0.712
+    },
+    {
+      "start": 1741.87,
+      "end": 1745.87,
+      "text": "但我不明白他跟破竹合作到底為了啥",
+      "avg_logprob": -0.463,
+      "no_speech_prob": 0.712
+    },
+    {
+      "start": 1745.87,
+      "end": 1747.47,
+      "text": "破竹裡有什麼可不可以做的",
+      "avg_logprob": -0.463,
+      "no_speech_prob": 0.712
+    },
+    {
+      "start": 1747.47,
+      "end": 1749.47,
+      "text": "沒有 他一直都跟破竹有合理",
+      "avg_logprob": -0.463,
+      "no_speech_prob": 0.712
+    },
+    {
+      "start": 1749.47,
+      "end": 1754.7,
+      "text": "他只是想要",
+      "avg_logprob": -0.463,
+      "no_speech_prob": 0.712
+    },
+    {
+      "start": 1754.7,
+      "end": 1758.3,
+      "text": "所以他就推我們有進度",
+      "avg_logprob": -0.463,
+      "no_speech_prob": 0.712
+    },
+    {
+      "start": 1758.3,
+      "end": 1759.5,
+      "text": "你沒發現嗎",
+      "avg_logprob": -0.463,
+      "no_speech_prob": 0.712
+    },
+    {
+      "start": 1759.5,
+      "end": 1760.7,
+      "text": "他們有進度",
+      "avg_logprob": -0.463,
+      "no_speech_prob": 0.712
+    },
+    {
+      "start": 1760.7,
+      "end": 1761.98,
+      "text": "各人各样的",
+      "avg_logprob": -0.646,
+      "no_speech_prob": 0.434
+    },
+    {
+      "start": 1761.98,
+      "end": 1763.98,
+      "text": "所以就做的样子",
+      "avg_logprob": -0.646,
+      "no_speech_prob": 0.434
+    },
+    {
+      "start": 1763.98,
+      "end": 1766.62,
+      "text": "但是每天要在群里发100条休息",
+      "avg_logprob": -0.646,
+      "no_speech_prob": 0.434
+    },
+    {
+      "start": 1767.98,
+      "end": 1769.78,
+      "text": "当忙他就这样子说",
+      "avg_logprob": -0.646,
+      "no_speech_prob": 0.434
+    },
+    {
+      "start": 1769.78,
+      "end": 1770.46,
+      "text": "是吗",
+      "avg_logprob": -0.646,
+      "no_speech_prob": 0.434
+    },
+    {
+      "start": 1770.46,
+      "end": 1771.98,
+      "text": "他给你们上过多少次",
+      "avg_logprob": -0.646,
+      "no_speech_prob": 0.434
+    },
+    {
+      "start": 1771.98,
+      "end": 1773.98,
+      "text": "早上起床的时候",
+      "avg_logprob": -0.646,
+      "no_speech_prob": 0.434
+    },
+    {
+      "start": 1773.98,
+      "end": 1775.38,
+      "text": "他特别就是",
+      "avg_logprob": -0.646,
+      "no_speech_prob": 0.434
+    },
+    {
+      "start": 1775.38,
+      "end": 1776.9,
+      "text": "他会提前很多周课",
+      "avg_logprob": -0.646,
+      "no_speech_prob": 0.434
+    },
+    {
+      "start": 1776.9,
+      "end": 1778.5,
+      "text": "去热饮课",
+      "avg_logprob": -0.646,
+      "no_speech_prob": 0.434
+    },
+    {
+      "start": 1778.5,
+      "end": 1779.38,
+      "text": "所以",
+      "avg_logprob": -0.646,
+      "no_speech_prob": 0.434
+    },
+    {
+      "start": 1779.38,
+      "end": 1781.34,
+      "text": "然后为了同学们动起来",
+      "avg_logprob": -0.646,
+      "no_speech_prob": 0.434
+    },
+    {
+      "start": 1781.34,
+      "end": 1783.14,
+      "text": "学习来提前预热词",
+      "avg_logprob": -0.646,
+      "no_speech_prob": 0.434
+    },
+    {
+      "start": 1783.14,
+      "end": 1785.14,
+      "text": "我们期待大家做作品",
+      "avg_logprob": -0.646,
+      "no_speech_prob": 0.434
+    },
+    {
+      "start": 1785.14,
+      "end": 1786.78,
+      "text": "但是实际上",
+      "avg_logprob": -0.646,
+      "no_speech_prob": 0.434
+    },
+    {
+      "start": 1786.78,
+      "end": 1788.22,
+      "text": "就是上出门口说",
+      "avg_logprob": -0.646,
+      "no_speech_prob": 0.434
+    },
+    {
+      "start": 1788.22,
+      "end": 1790.38,
+      "text": "反正就全是理解",
+      "avg_logprob": -0.646,
+      "no_speech_prob": 0.434
+    },
+    {
+      "start": 1790.38,
+      "end": 1794.38,
+      "text": "所以我的意思就是说不要把这个东西讲出去",
+      "avg_logprob": -0.294,
+      "no_speech_prob": 0.422
+    },
+    {
+      "start": 1794.38,
+      "end": 1795.38,
+      "text": "因为他就",
+      "avg_logprob": -0.294,
+      "no_speech_prob": 0.422
+    },
+    {
+      "start": 1795.38,
+      "end": 1797.38,
+      "text": "我觉得张老师是无所谓的",
+      "avg_logprob": -0.294,
+      "no_speech_prob": 0.422
+    },
+    {
+      "start": 1797.38,
+      "end": 1799.38,
+      "text": "但是你一说到给拓出看",
+      "avg_logprob": -0.294,
+      "no_speech_prob": 0.422
+    },
+    {
+      "start": 1799.38,
+      "end": 1801.38,
+      "text": "他可能就觉得面子下不来了",
+      "avg_logprob": -0.294,
+      "no_speech_prob": 0.422
+    },
+    {
+      "start": 1801.38,
+      "end": 1804.38,
+      "text": "就学生拿那个开源的那么硬朴呢",
+      "avg_logprob": -0.294,
+      "no_speech_prob": 0.422
+    },
+    {
+      "start": 1804.38,
+      "end": 1807.73,
+      "text": "哎就很不错的",
+      "avg_logprob": -0.294,
+      "no_speech_prob": 0.422
+    },
+    {
+      "start": 1807.73,
+      "end": 1809.73,
+      "text": "那那个同期的那些屁股也是开源的",
+      "avg_logprob": -0.294,
+      "no_speech_prob": 0.422
+    },
+    {
+      "start": 1809.73,
+      "end": 1811.73,
+      "text": "是这么说的",
+      "avg_logprob": -0.294,
+      "no_speech_prob": 0.422
+    },
+    {
+      "start": 1811.73,
+      "end": 1812.73,
+      "text": "是这么说的",
+      "avg_logprob": -0.294,
+      "no_speech_prob": 0.422
+    },
+    {
+      "start": 1812.73,
+      "end": 1813.73,
+      "text": "而且我说实话",
+      "avg_logprob": -0.294,
+      "no_speech_prob": 0.422
+    },
+    {
+      "start": 1813.73,
+      "end": 1815.73,
+      "text": "就是我说实话",
+      "avg_logprob": -0.294,
+      "no_speech_prob": 0.422
+    },
+    {
+      "start": 1815.73,
+      "end": 1816.73,
+      "text": "这才刚递一中",
+      "avg_logprob": -0.294,
+      "no_speech_prob": 0.422
+    },
+    {
+      "start": 1816.73,
+      "end": 1819.73,
+      "text": "其实我们能把一个东西先做出来",
+      "avg_logprob": -0.294,
+      "no_speech_prob": 0.422
+    },
+    {
+      "start": 1819.73,
+      "end": 1820.73,
+      "text": "参考参考",
+      "avg_logprob": -0.294,
+      "no_speech_prob": 0.422
+    },
+    {
+      "start": 1820.73,
+      "end": 1822.13,
+      "text": "在基于这个做的创新",
+      "avg_logprob": -0.471,
+      "no_speech_prob": 0.637
+    },
+    {
+      "start": 1822.13,
+      "end": 1823.53,
+      "text": "这个塑料花针的工艺",
+      "avg_logprob": -0.471,
+      "no_speech_prob": 0.637
+    },
+    {
+      "start": 1823.53,
+      "end": 1825.53,
+      "text": "哪是一桌 这才刚第二次",
+      "avg_logprob": -0.471,
+      "no_speech_prob": 0.637
+    },
+    {
+      "start": 1825.53,
+      "end": 1827.13,
+      "text": "第二次",
+      "avg_logprob": -0.471,
+      "no_speech_prob": 0.637
+    },
+    {
+      "start": 1827.13,
+      "end": 1829.53,
+      "text": "我只是没想到一个六桌",
+      "avg_logprob": -0.471,
+      "no_speech_prob": 0.637
+    },
+    {
+      "start": 1829.53,
+      "end": 1830.93,
+      "text": "他第三天的时候",
+      "avg_logprob": -0.471,
+      "no_speech_prob": 0.637
+    },
+    {
+      "start": 1830.93,
+      "end": 1832.93,
+      "text": "突然来的一堆中细球",
+      "avg_logprob": -0.471,
+      "no_speech_prob": 0.637
+    },
+    {
+      "start": 1832.93,
+      "end": 1834.53,
+      "text": "感觉就像中细的一桌",
+      "avg_logprob": -0.471,
+      "no_speech_prob": 0.637
+    },
+    {
+      "start": 1834.53,
+      "end": 1835.33,
+      "text": "所以我就说",
+      "avg_logprob": -0.471,
+      "no_speech_prob": 0.637
+    },
+    {
+      "start": 1835.33,
+      "end": 1836.73,
+      "text": "大家也别给自己它的压力",
+      "avg_logprob": -0.471,
+      "no_speech_prob": 0.637
+    },
+    {
+      "start": 1836.73,
+      "end": 1838.73,
+      "text": "就基本上你把这个结构想一想",
+      "avg_logprob": -0.471,
+      "no_speech_prob": 0.637
+    },
+    {
+      "start": 1838.73,
+      "end": 1840.13,
+      "text": "我直接进了地方",
+      "avg_logprob": -0.471,
+      "no_speech_prob": 0.637
+    },
+    {
+      "start": 1840.13,
+      "end": 1841.33,
+      "text": "我说我吓哭了",
+      "avg_logprob": -0.471,
+      "no_speech_prob": 0.637
+    },
+    {
+      "start": 1841.33,
+      "end": 1842.53,
+      "text": "我们没有压力",
+      "avg_logprob": -0.471,
+      "no_speech_prob": 0.637
+    },
+    {
+      "start": 1842.53,
+      "end": 1845.13,
+      "text": "但是他老铺是我们最拔的",
+      "avg_logprob": -0.471,
+      "no_speech_prob": 0.637
+    },
+    {
+      "start": 1847.53,
+      "end": 1848.93,
+      "text": "要不然球的他的手机",
+      "avg_logprob": -0.471,
+      "no_speech_prob": 0.637
+    },
+    {
+      "start": 1848.93,
+      "end": 1853.05,
+      "text": "那个时候你们认识你们那个师兄吗",
+      "avg_logprob": -0.425,
+      "no_speech_prob": 0.594
+    },
+    {
+      "start": 1853.05,
+      "end": 1854.01,
+      "text": "周佩颜",
+      "avg_logprob": -0.425,
+      "no_speech_prob": 0.594
+    },
+    {
+      "start": 1854.01,
+      "end": 1855.33,
+      "text": "有没有认识过",
+      "avg_logprob": -0.425,
+      "no_speech_prob": 0.594
+    },
+    {
+      "start": 1855.33,
+      "end": 1856.01,
+      "text": "周佩颜",
+      "avg_logprob": -0.425,
+      "no_speech_prob": 0.594
+    },
+    {
+      "start": 1856.01,
+      "end": 1856.69,
+      "text": "周佩颜",
+      "avg_logprob": -0.425,
+      "no_speech_prob": 0.594
+    },
+    {
+      "start": 1856.69,
+      "end": 1857.13,
+      "text": "我",
+      "avg_logprob": -0.425,
+      "no_speech_prob": 0.594
+    },
+    {
+      "start": 1857.13,
+      "end": 1858.01,
+      "text": "我那一件",
+      "avg_logprob": -0.425,
+      "no_speech_prob": 0.594
+    },
+    {
+      "start": 1858.01,
+      "end": 1858.77,
+      "text": "他也是一颗的",
+      "avg_logprob": -0.425,
+      "no_speech_prob": 0.594
+    },
+    {
+      "start": 1858.77,
+      "end": 1862.21,
+      "text": "然后你基本上每一周都要有好几天是在美院",
+      "avg_logprob": -0.425,
+      "no_speech_prob": 0.594
+    },
+    {
+      "start": 1862.21,
+      "end": 1863.37,
+      "text": "我也不回来睡觉",
+      "avg_logprob": -0.425,
+      "no_speech_prob": 0.594
+    },
+    {
+      "start": 1863.37,
+      "end": 1866.17,
+      "text": "我就觉得你们一颗太累了",
+      "avg_logprob": -0.425,
+      "no_speech_prob": 0.594
+    },
+    {
+      "start": 1866.17,
+      "end": 1866.81,
+      "text": "怎么那么差",
+      "avg_logprob": -0.425,
+      "no_speech_prob": 0.594
+    },
+    {
+      "start": 1866.81,
+      "end": 1867.45,
+      "text": "那你还来",
+      "avg_logprob": -0.425,
+      "no_speech_prob": 0.594
+    },
+    {
+      "start": 1867.45,
+      "end": 1868.45,
+      "text": "其实还好吧",
+      "avg_logprob": -0.425,
+      "no_speech_prob": 0.594
+    },
+    {
+      "start": 1868.45,
+      "end": 1868.93,
+      "text": "我",
+      "avg_logprob": -0.425,
+      "no_speech_prob": 0.594
+    },
+    {
+      "start": 1870.93,
+      "end": 1873.25,
+      "text": "你们那个师兄就经常说我为什么过来一颗",
+      "avg_logprob": -0.425,
+      "no_speech_prob": 0.594
+    },
+    {
+      "start": 1873.25,
+      "end": 1875.13,
+      "text": "说我说我不适合动画",
+      "avg_logprob": -0.425,
+      "no_speech_prob": 0.594
+    },
+    {
+      "start": 1875.13,
+      "end": 1875.77,
+      "text": "适合一颗",
+      "avg_logprob": -0.425,
+      "no_speech_prob": 0.594
+    },
+    {
+      "start": 1875.77,
+      "end": 1879.05,
+      "text": "但是之前做那个网页设计",
+      "avg_logprob": -0.475,
+      "no_speech_prob": 0.083
+    },
+    {
+      "start": 1879.05,
+      "end": 1880.29,
+      "text": "还会做那个",
+      "avg_logprob": -0.475,
+      "no_speech_prob": 0.083
+    },
+    {
+      "start": 1880.29,
+      "end": 1882.21,
+      "text": "还是偶尔会通一两次",
+      "avg_logprob": -0.475,
+      "no_speech_prob": 0.083
+    },
+    {
+      "start": 1882.21,
+      "end": 1882.73,
+      "text": "对",
+      "avg_logprob": -0.475,
+      "no_speech_prob": 0.083
+    },
+    {
+      "start": 1882.73,
+      "end": 1885.01,
+      "text": "其他时候都还好了",
+      "avg_logprob": -0.475,
+      "no_speech_prob": 0.083
+    },
+    {
+      "start": 1885.01,
+      "end": 1888.65,
+      "text": "所以我意思就是咱们就把那个结构弄明白",
+      "avg_logprob": -0.475,
+      "no_speech_prob": 0.083
+    },
+    {
+      "start": 1888.65,
+      "end": 1889.85,
+      "text": "也不太轻松",
+      "avg_logprob": -0.475,
+      "no_speech_prob": 0.083
+    },
+    {
+      "start": 1889.85,
+      "end": 1890.29,
+      "text": "那个",
+      "avg_logprob": -0.475,
+      "no_speech_prob": 0.083
+    },
+    {
+      "start": 1890.29,
+      "end": 1891.49,
+      "text": "我觉得张孟孟的课很轻松",
+      "avg_logprob": -0.475,
+      "no_speech_prob": 0.083
+    },
+    {
+      "start": 1891.49,
+      "end": 1892.45,
+      "text": "个人作业",
+      "avg_logprob": -0.475,
+      "no_speech_prob": 0.083
+    },
+    {
+      "start": 1892.45,
+      "end": 1893.01,
+      "text": "诶",
+      "avg_logprob": -0.475,
+      "no_speech_prob": 0.083
+    },
+    {
+      "start": 1893.01,
+      "end": 1894.45,
+      "text": "诶 诶 诶 诶",
+      "avg_logprob": -0.475,
+      "no_speech_prob": 0.083
+    },
+    {
+      "start": 1894.45,
+      "end": 1896.09,
+      "text": "哦 最后来个人作业",
+      "avg_logprob": -0.475,
+      "no_speech_prob": 0.083
+    },
+    {
+      "start": 1896.09,
+      "end": 1897.25,
+      "text": "好 那个",
+      "avg_logprob": -0.475,
+      "no_speech_prob": 0.083
+    }
+  ]
+}

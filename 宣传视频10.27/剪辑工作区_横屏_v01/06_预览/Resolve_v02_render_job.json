@@ -1,0 +1,31 @@
+{
+  "job": "39045ddd-935c-4a57-9572-8145a0b70ddf",
+  "readback": {
+    "AudioBitDepth": 16,
+    "AudioCodec": "aac",
+    "AudioSampleRate": 48000,
+    "ClipStartFrame": 1,
+    "EncodingProfile": "Auto",
+    "ExportAlpha": false,
+    "FormatHeight": 1080,
+    "FormatWidth": 1920,
+    "FrameRate": "30",
+    "IsExportAudio": true,
+    "IsExportVideo": true,
+    "JobId": "39045ddd-935c-4a57-9572-8145a0b70ddf",
+    "MarkIn": 0,
+    "MarkOut": 1798,
+    "MultiPassEncode": false,
+    "NetworkOptimization": false,
+    "OutputFilename": "棋甲对决_横屏粗剪_v02_达芬奇原生导出.mp4",
+    "PixelAspectRatio": 1.0,
+    "PresetName": "Custom",
+    "RenderJobName": "Job 2",
+    "RenderMode": "Single clip",
+    "TargetDir": "E:\\课程作业\\大三上\\张茫 用户研究与体验设计\\宣传视频10.27\\剪辑工作区_横屏_v01\\06_预览",
+    "TimelineName": "棋甲对决 横屏 v02 标题修复",
+    "TimelineStartTimecode": "00:00:00:00",
+    "VideoCodec": "H.264",
+    "VideoFormat": "MP4"
+  }
+}

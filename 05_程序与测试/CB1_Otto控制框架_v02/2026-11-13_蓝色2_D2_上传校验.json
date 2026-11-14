@@ -1,0 +1,37 @@
+{
+  "board_serial": "80:F1:B2:1E:B3:6C",
+  "port": "COM17",
+  "uploaded_sha256": {
+    "attack_control.py": "1d1a92c90832201f810c304d0dd7990fbdf62d6e3d363214c3a4d3245a4f1d5a",
+    "boot.py": "c8d9cb65ae1cec08669005de11e4670010f478c55b6017b40acd861ff3027472",
+    "commissioning_hold": "2f212915025f3496bffa377e4a537f54f87642b2ddf3e471719e6913753b62b1",
+    "input_adapter.py": "1f0a514eb33d4845c6885673f307ce4373533886342334fe520f2ddff4a35c43",
+    "main.py": "95c651b739fc533b18a5acc0c74c487355cc4be72a7ce5a89129e933affdb59a",
+    "otto_oscillator.py": "520028b4b0f8f3215941b3bf3290c9f4edb4514968da9ac6d7827639c406091a",
+    "palm2_main.py": "1b3ea22cbb02e8b628b64426d84a774864fabcad740b05be218a09d7e3602abe",
+    "palm2_remote_ready.py": "c014a6f335ea3deab6f4b005390a46e92d11d53800b07318bc42e948be543c5b",
+    "palm_remote_ready.py": "114aa3756cb326bccd3ccd41ad76337d9e14e36493b09c7213d022a4c8de22e2",
+    "robot_remote.py": "5bf879e14b8813b7343ca26b7f63a58b23b3936a7d97fa22776b66f02bdfad85",
+    "timeutil.py": "db4c6eab50f8eabd1c20185a48814659fd2d2201e4a6969abb1f426f9e8135aa",
+    "drivers/palm_pwm.py": "11806d3e73d41e85b5edfbb207f25d0b5d1de12e99829eecf16901fdbc33c2e0",
+    "drivers/__init__.py": "b0d0c7dfff020dc7e0c6bf3bd3bfe888616f38f36e77cc06fec38c6f0045cb1f"
+  },
+  "preserved_sha256": {
+    ".ignore": "6aefe87063e3aa5ec145f678245adcf7dd63d712d1bd063a1ad84a188bc891a6",
+    "rc_config": "60b41d503596618371567c22ab67fa7954fc11acc4988fe7596d35c713f53892",
+    "app/control.mpy": "5256f0df698fe00bc4a97c00e0807a76151322f37b4a73a1aedc065b5b057eb2",
+    "app/devices.mpy": "945cfc9aa0a2466cfd23d4c9bfa1d4fc700e274cef156d745e99ea28183bdb66",
+    "app/parser.mpy": "016d3b1b42fa3bea1624a9c82dde51f675327404270e375a23e77d417522d83a",
+    "app/rc_main.py": "7a0f0a11e13ec9dbd7ba667778deb122e50e17b4fcb421eadd85c8e04801d785",
+    "bbl/buzzer.py": "13663395cd99cfae5dea26a7aa685c3f4628a55f36b98a82c84a77586c85e7a9",
+    "bbl/executor.py": "a8328b4500fd7174c41c80aa3fc6cb070fae882a6aa6a7108d08f122d7be4cdd",
+    "bbl/leds.py": "1dd8d6ec13b0458ef3ac46868d359cecd4e20fa890e0880646aefcd70aa441d5",
+    "bbl/motors.py": "f089d80b3f36f8160330cf8f9d335d89f1546b912fc253a599342ad48d118057",
+    "bbl/servos.py": "43eed401dcd74d874f8ef8892a270338c7083a94f3d14da542d9d59a61eda6bc",
+    "bbl/sleepModule.py": "6b6e384cb93d24fc9319093a04b68f33af4129a881a11eba51544e2b26b603a8",
+    "bbl/__init__.py": "702a6c90c6e49cb1402be3161c98e38b1349434f4380822aaa437549156590cc",
+    "log/logging.0.log": "917fa103e20724661817b695838709340bb4be92569b4801e07537e6721a3ae3"
+  },
+  "state": "commissioning_hold; no motion test; wireless pairing not retested",
+  "board_import_check": "PASS after reboot: GPIO20, PWM_ACTIVE False; commissioning hold active"
+}

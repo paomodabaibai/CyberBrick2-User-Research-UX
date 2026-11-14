@@ -1,0 +1,15 @@
+{
+  "body_outer_mm": 75,
+  "body_wall_mm": 2.6,
+  "deck_z_mm": 26,
+  "preserved_otto_below_z_mm": -24,
+  "board_center_mm": [-17, 0, -6],
+  "battery_bottom_mm": -35.6,
+  "top_mount_xy_mm": [[-30,-30],[-30,30],[30,-30],[30,30]],
+  "servo_plug_allowance_mm": 10,
+  "servo_wire_bend_allowance_mm": 8,
+  "fist_offset_x_mm": -22,
+  "body_clearance_note": "26mm上部增高是本次装配审阅方案，插头/弯线占位未实测；不得直接批量打印",
+  "battery_reference": "PC003官方CAD，最终供货型号未确认",
+  "leg_reference": "原Otto V9几何；最终SG90实物仍需试装"
+}

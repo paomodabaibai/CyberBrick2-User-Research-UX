@@ -1,0 +1,345 @@
+[
+  {
+    "name": "01_原高身体_前电池仓布局草案",
+    "file": "01_原高身体_前电池仓布局草案.stl",
+    "color": "#cbd9e2",
+    "group": "common",
+    "kind": "body"
+  },
+  {
+    "name": "R01_竖置原厂接收组合",
+    "file": "R01_竖置原厂接收组合.stl",
+    "color": "#35886f",
+    "group": "common",
+    "kind": "reference"
+  },
+  {
+    "name": "R02_前置立放电池",
+    "file": "R02_前置立放电池.stl",
+    "color": "#547ee8",
+    "group": "common",
+    "kind": "reference"
+  },
+  {
+    "name": "02_竖置主板托架_布局草案",
+    "file": "02_竖置主板托架_布局草案.stl",
+    "color": "#f2ae45",
+    "group": "common",
+    "kind": "part"
+  },
+  {
+    "name": "R03_后置开关拨杆朝外",
+    "file": "R03_后置开关拨杆朝外.stl",
+    "color": "#444f61",
+    "group": "common",
+    "kind": "reference"
+  },
+  {
+    "name": "03_后置开关面板_布局草案",
+    "file": "03_后置开关面板_布局草案.stl",
+    "color": "#4d677a",
+    "group": "common",
+    "kind": "part"
+  },
+  {
+    "name": "E01_侧插头与弯线预留",
+    "file": "E01_侧插头与弯线预留.stl",
+    "color": "#e9b3e3",
+    "group": "common",
+    "kind": "envelope"
+  },
+  {
+    "name": "E02_USB数据线插拔预留",
+    "file": "E02_USB数据线插拔预留.stl",
+    "color": "#6dd3da",
+    "group": "common",
+    "kind": "envelope"
+  },
+  {
+    "name": "10_巴掌定位底座",
+    "file": "10_巴掌定位底座.stl",
+    "color": "#358fb8",
+    "group": "palm",
+    "kind": "part"
+  },
+  {
+    "name": "R10_巴掌舵机PG002外形参考",
+    "file": "R10_巴掌舵机PG002外形参考.stl",
+    "color": "#434d5d",
+    "group": "palm",
+    "kind": "reference"
+  },
+  {
+    "name": "P_04_完整手掌75mm_带接口",
+    "file": "P_04_完整手掌75mm_带接口.stl",
+    "color": "#64bafa",
+    "group": "palm",
+    "kind": "reuse"
+  },
+  {
+    "name": "P_02_插入连接块",
+    "file": "P_02_插入连接块.stl",
+    "color": "#f2b35f",
+    "group": "palm",
+    "kind": "reuse"
+  },
+  {
+    "name": "F_ref_00",
+    "file": "F_ref_00.stl",
+    "color": "#828d97",
+    "group": "fist",
+    "kind": "reference"
+  },
+  {
+    "name": "F_ref_01",
+    "file": "F_ref_01.stl",
+    "color": "#828d97",
+    "group": "fist",
+    "kind": "reference"
+  },
+  {
+    "name": "F_ref_02",
+    "file": "F_ref_02.stl",
+    "color": "#828d97",
+    "group": "fist",
+    "kind": "reference"
+  },
+  {
+    "name": "F_ref_03",
+    "file": "F_ref_03.stl",
+    "color": "#828d97",
+    "group": "fist",
+    "kind": "reference"
+  },
+  {
+    "name": "F_ref_04",
+    "file": "F_ref_04.stl",
+    "color": "#828d97",
+    "group": "fist",
+    "kind": "reference"
+  },
+  {
+    "name": "F_ref_05",
+    "file": "F_ref_05.stl",
+    "color": "#828d97",
+    "group": "fist",
+    "kind": "reference"
+  },
+  {
+    "name": "F_ref_06",
+    "file": "F_ref_06.stl",
+    "color": "#828d97",
+    "group": "fist",
+    "kind": "reference"
+  },
+  {
+    "name": "F_ref_07",
+    "file": "F_ref_07.stl",
+    "color": "#828d97",
+    "group": "fist",
+    "kind": "reference"
+  },
+  {
+    "name": "F_ref_08",
+    "file": "F_ref_08.stl",
+    "color": "#828d97",
+    "group": "fist",
+    "kind": "reference"
+  },
+  {
+    "name": "F_ref_09",
+    "file": "F_ref_09.stl",
+    "color": "#828d97",
+    "group": "fist",
+    "kind": "reference"
+  },
+  {
+    "name": "F_ref_10",
+    "file": "F_ref_10.stl",
+    "color": "#828d97",
+    "group": "fist",
+    "kind": "reference"
+  },
+  {
+    "name": "F_ref_11",
+    "file": "F_ref_11.stl",
+    "color": "#828d97",
+    "group": "fist",
+    "kind": "reference"
+  },
+  {
+    "name": "F_ref_12",
+    "file": "F_ref_12.stl",
+    "color": "#828d97",
+    "group": "fist",
+    "kind": "reference"
+  },
+  {
+    "name": "F_ref_13",
+    "file": "F_ref_13.stl",
+    "color": "#828d97",
+    "group": "fist",
+    "kind": "reference"
+  },
+  {
+    "name": "F_guide_rod_-20",
+    "file": "F_guide_rod_-20.stl",
+    "color": "#a9b6bd",
+    "group": "fist",
+    "kind": "reference"
+  },
+  {
+    "name": "F_guide_rod_+20",
+    "file": "F_guide_rod_+20.stl",
+    "color": "#a9b6bd",
+    "group": "fist",
+    "kind": "reference"
+  },
+  {
+    "name": "F_crank",
+    "file": "F_crank.stl",
+    "color": "#e6ac43",
+    "group": "fist",
+    "kind": "reuse"
+  },
+  {
+    "name": "F_link",
+    "file": "F_link.stl",
+    "color": "#48ac93",
+    "group": "fist",
+    "kind": "reuse"
+  },
+  {
+    "name": "F_carriage",
+    "file": "F_carriage.stl",
+    "color": "#508ac9",
+    "group": "fist",
+    "kind": "reuse"
+  },
+  {
+    "name": "F_实际拳头腕杆",
+    "file": "F_实际拳头腕杆.stl",
+    "color": "#e35858",
+    "group": "fist",
+    "kind": "reuse"
+  },
+  {
+    "name": "R_Leg_1",
+    "file": "R_Leg_1.stl",
+    "color": "#90a9bd",
+    "group": "common",
+    "kind": "reuse"
+  },
+  {
+    "name": "R_Leg_-1",
+    "file": "R_Leg_-1.stl",
+    "color": "#90a9bd",
+    "group": "common",
+    "kind": "reuse"
+  },
+  {
+    "name": "R_foot_1",
+    "file": "R_foot_1.stl",
+    "color": "#90a9bd",
+    "group": "common",
+    "kind": "reuse"
+  },
+  {
+    "name": "R_foot_-1",
+    "file": "R_foot_-1.stl",
+    "color": "#90a9bd",
+    "group": "common",
+    "kind": "reuse"
+  },
+  {
+    "name": "E_hip_-25",
+    "file": "E_hip_-25.stl",
+    "color": "#6f7c90",
+    "group": "common",
+    "kind": "envelope"
+  },
+  {
+    "name": "E_hip_25",
+    "file": "E_hip_25.stl",
+    "color": "#6f7c90",
+    "group": "common",
+    "kind": "envelope"
+  },
+  {
+    "name": "04_左椭圆眼睛_平背粘贴",
+    "file": "04_左椭圆眼睛_平背粘贴.stl",
+    "color": "#273744",
+    "group": "common",
+    "kind": "part"
+  },
+  {
+    "name": "04_右椭圆眼睛_平背粘贴",
+    "file": "04_右椭圆眼睛_平背粘贴.stl",
+    "color": "#273744",
+    "group": "common",
+    "kind": "part"
+  },
+  {
+    "name": "11_巴掌新舵机桥",
+    "file": "11_巴掌新舵机桥.stl",
+    "color": "#358fb8",
+    "group": "palm",
+    "kind": "part"
+  },
+  {
+    "name": "13_独立承重座_打印滑动试验版",
+    "file": "13_独立承重座_打印滑动试验版.stl",
+    "color": "#f2ae45",
+    "group": "palm",
+    "kind": "part"
+  },
+  {
+    "name": "14A_半片限位压环",
+    "file": "14A_半片限位压环.stl",
+    "color": "#e9c877",
+    "group": "palm",
+    "kind": "part"
+  },
+  {
+    "name": "14B_半片限位压环",
+    "file": "14B_半片限位压环.stl",
+    "color": "#e9c877",
+    "group": "palm",
+    "kind": "part"
+  },
+  {
+    "name": "15_承重转盘与加强接杆一体",
+    "file": "15_承重转盘与加强接杆一体.stl",
+    "color": "#418eb5",
+    "group": "palm",
+    "kind": "part"
+  },
+  {
+    "name": "R11_原配舵盘_只传扭矩",
+    "file": "R11_原配舵盘_只传扭矩.stl",
+    "color": "#d5d9dc",
+    "group": "palm",
+    "kind": "reference"
+  },
+  {
+    "name": "12_承重转盘配套可拆罩",
+    "file": "12_承重转盘配套可拆罩.stl",
+    "color": "#61b5e4",
+    "group": "palm",
+    "kind": "part"
+  },
+  {
+    "name": "20_拳头底座_清理废弃孔耳",
+    "file": "20_拳头底座_清理废弃孔耳.stl",
+    "color": "#b9494b",
+    "group": "fist",
+    "kind": "part"
+  },
+  {
+    "name": "21_拳头护罩_共用螺丝敞口",
+    "file": "21_拳头护罩_共用螺丝敞口.stl",
+    "color": "#da696b",
+    "group": "fist",
+    "kind": "part"
+  }
+]

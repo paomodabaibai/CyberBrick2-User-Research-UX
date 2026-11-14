@@ -1,0 +1,141 @@
+{
+  "source": "E:\\课程作业\\大三上\\张茫 用户研究与体验设计\\宣传视频10.27\\DJI_20260914082134_0343_D.MP4",
+  "id": "V12",
+  "model": "faster-whisper-small CPU int8",
+  "status": "机器转写 未逐字听校",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 7.24,
+      "text": "没所谓,你接哪种模型,其实差不多天赖模型的这种水平可能慢慢都会趋于一致",
+      "avg_logprob": -0.351,
+      "no_speech_prob": 0.343
+    },
+    {
+      "start": 8.67,
+      "end": 20.5,
+      "text": "那么,同时呢,也是希望大家根据个人的需求,你去接入一些大约模型,然后让它产生一些和人更丰富的对话的衔接",
+      "avg_logprob": -0.351,
+      "no_speech_prob": 0.343
+    },
+    {
+      "start": 21.02,
+      "end": 27.42,
+      "text": "那么从而能够丰富我们的人机教育体,提高这种用户的丑而性,提高用户的年性",
+      "avg_logprob": -0.351,
+      "no_speech_prob": 0.343
+    },
+    {
+      "start": 27.42,
+      "end": 29.7,
+      "text": "不能说我今天玩了一下",
+      "avg_logprob": -0.276,
+      "no_speech_prob": 0.547
+    },
+    {
+      "start": 29.7,
+      "end": 31.26,
+      "text": "然后就觉得这个东西有意思",
+      "avg_logprob": -0.276,
+      "no_speech_prob": 0.547
+    },
+    {
+      "start": 31.26,
+      "end": 34.66,
+      "text": "或者说我们可以比如说几个组织间",
+      "avg_logprob": -0.276,
+      "no_speech_prob": 0.547
+    },
+    {
+      "start": 34.66,
+      "end": 35.74,
+      "text": "我们可以做联动",
+      "avg_logprob": -0.276,
+      "no_speech_prob": 0.547
+    },
+    {
+      "start": 35.74,
+      "end": 37.74,
+      "text": "比如说我们要做一个对抗型的东西",
+      "avg_logprob": -0.276,
+      "no_speech_prob": 0.547
+    },
+    {
+      "start": 37.74,
+      "end": 39.74,
+      "text": "比如说我做了一个什么小车",
+      "avg_logprob": -0.276,
+      "no_speech_prob": 0.547
+    },
+    {
+      "start": 39.74,
+      "end": 40.7,
+      "text": "你做了一个什么小车",
+      "avg_logprob": -0.276,
+      "no_speech_prob": 0.547
+    },
+    {
+      "start": 40.7,
+      "end": 42.06,
+      "text": "或者说你做一小季节",
+      "avg_logprob": -0.276,
+      "no_speech_prob": 0.547
+    },
+    {
+      "start": 42.06,
+      "end": 42.98,
+      "text": "你做一小冲哥",
+      "avg_logprob": -0.276,
+      "no_speech_prob": 0.547
+    },
+    {
+      "start": 42.98,
+      "end": 45.22,
+      "text": "然后我们可以做一些对抗型联动",
+      "avg_logprob": -0.276,
+      "no_speech_prob": 0.547
+    },
+    {
+      "start": 45.22,
+      "end": 48.7,
+      "text": "竞速的竞赛的或者是竞工的",
+      "avg_logprob": -0.276,
+      "no_speech_prob": 0.547
+    },
+    {
+      "start": 48.7,
+      "end": 52.26,
+      "text": "比如说我们在从A点到B点",
+      "avg_logprob": -0.276,
+      "no_speech_prob": 0.547
+    },
+    {
+      "start": 52.26,
+      "end": 54.62,
+      "text": "行走中间有障碍",
+      "avg_logprob": -0.276,
+      "no_speech_prob": 0.547
+    },
+    {
+      "start": 54.62,
+      "end": 57.62,
+      "text": "同时我们要去抓取,拿取一个东西",
+      "avg_logprob": -0.367,
+      "no_speech_prob": 0.177
+    },
+    {
+      "start": 57.62,
+      "end": 59.02,
+      "text": "而且拿取这个东西",
+      "avg_logprob": -0.367,
+      "no_speech_prob": 0.177
+    },
+    {
+      "start": 59.02,
+      "end": 61.02,
+      "text": "比如说我把拿取一个鸡蛋,想说",
+      "avg_logprob": -0.367,
+      "no_speech_prob": 0.177
+    }
+  ]
+}

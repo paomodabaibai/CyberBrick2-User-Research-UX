@@ -1,0 +1,99 @@
+{
+  "source": "E:\\课程作业\\大三上\\张茫 用户研究与体验设计\\宣传视频10.27\\DJI_20260914081201_0341_D.MP4",
+  "id": "V10",
+  "model": "faster-whisper-small CPU int8",
+  "status": "机器转写 未逐字听校",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.68,
+      "text": "通驾机构的基础之上我们还可以利用",
+      "avg_logprob": -0.427,
+      "no_speech_prob": 0.638
+    },
+    {
+      "start": 3.68,
+      "end": 6.0,
+      "text": "Zerobreak一些现有的产品",
+      "avg_logprob": -0.427,
+      "no_speech_prob": 0.638
+    },
+    {
+      "start": 6.0,
+      "end": 8.32,
+      "text": "一些现有的特性传感器等等",
+      "avg_logprob": -0.427,
+      "no_speech_prob": 0.638
+    },
+    {
+      "start": 8.32,
+      "end": 11.76,
+      "text": "来去处理我们自己想要做的东西",
+      "avg_logprob": -0.427,
+      "no_speech_prob": 0.638
+    },
+    {
+      "start": 11.76,
+      "end": 12.76,
+      "text": "那么",
+      "avg_logprob": -0.427,
+      "no_speech_prob": 0.638
+    },
+    {
+      "start": 12.76,
+      "end": 15.2,
+      "text": "这个课程一会儿呢",
+      "avg_logprob": -0.427,
+      "no_speech_prob": 0.638
+    },
+    {
+      "start": 15.2,
+      "end": 17.06,
+      "text": "在",
+      "avg_logprob": -0.427,
+      "no_speech_prob": 0.638
+    },
+    {
+      "start": 17.06,
+      "end": 18.5,
+      "text": "一会儿呢",
+      "avg_logprob": -0.427,
+      "no_speech_prob": 0.638
+    },
+    {
+      "start": 18.5,
+      "end": 19.5,
+      "text": "这个",
+      "avg_logprob": -0.427,
+      "no_speech_prob": 0.638
+    },
+    {
+      "start": 19.5,
+      "end": 22.06,
+      "text": "透露方面的这个石老师他就会",
+      "avg_logprob": -0.427,
+      "no_speech_prob": 0.638
+    },
+    {
+      "start": 22.06,
+      "end": 22.82,
+      "text": "到校",
+      "avg_logprob": -0.427,
+      "no_speech_prob": 0.638
+    },
+    {
+      "start": 22.82,
+      "end": 23.94,
+      "text": "那么",
+      "avg_logprob": -0.427,
+      "no_speech_prob": 0.638
+    },
+    {
+      "start": 23.94,
+      "end": 26.06,
+      "text": "来的时候他会给大家去讲",
+      "avg_logprob": -0.427,
+      "no_speech_prob": 0.638
+    }
+  ]
+}

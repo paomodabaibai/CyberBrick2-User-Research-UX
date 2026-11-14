@@ -1,0 +1,15 @@
+{
+  "source": "E:\\课程作业\\大三上\\张茫 用户研究与体验设计\\10.22最终汇报素材\\be79148c4faf9594d9c2c2b4252c66a8_raw.mp4",
+  "id": "V29",
+  "model": "faster-whisper-small CPU int8",
+  "status": "机器转写 未逐字听校",
+  "segments": [
+    {
+      "start": 0.37,
+      "end": 2.37,
+      "text": "謝謝",
+      "avg_logprob": -1.109,
+      "no_speech_prob": 0.572
+    }
+  ]
+}

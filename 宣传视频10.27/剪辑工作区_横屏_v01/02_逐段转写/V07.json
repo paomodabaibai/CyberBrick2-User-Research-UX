@@ -1,0 +1,22 @@
+{
+  "source": "E:\\课程作业\\大三上\\张茫 用户研究与体验设计\\宣传视频10.27\\966a5ffc0af47b62470421d054da1264_raw.mp4",
+  "id": "V07",
+  "model": "faster-whisper-small CPU int8",
+  "status": "机器转写 未逐字听校",
+  "segments": [
+    {
+      "start": 0.75,
+      "end": 3.75,
+      "text": "下面一句喉嚨發學手登場",
+      "avg_logprob": -0.787,
+      "no_speech_prob": 0.137
+    },
+    {
+      "start": 17.3,
+      "end": 19.3,
+      "text": "你這是從哪邊搭呀",
+      "avg_logprob": -0.787,
+      "no_speech_prob": 0.137
+    }
+  ]
+}
