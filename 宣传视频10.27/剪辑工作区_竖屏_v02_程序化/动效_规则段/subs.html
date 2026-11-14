@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><link rel="icon" href="data:,"><link rel="stylesheet" href="../fonts/fonts.css">
+<style>html,body{margin:0;background:transparent}</style></head>
+<body><canvas id="c" width="1080" height="1920"></canvas>
+<script>
+// 成片字幕：得意黑白字 + 深色描边，不用黑底条。安全区 X 60–900（右侧留给头像和点赞栏）、Y 220–1440（底部留给账号名、文案、进度条）
+const CX = 480, CY = 1398, MAXW = 840, SIZE = 60;
+const ctx = document.getElementById('c').getContext('2d');
+window.ready = () => document.fonts.load(`${SIZE}px Tech`, '棋甲');
+window.draw = text => {
+  ctx.clearRect(0, 0, 1080, 1920);
+  let size = SIZE; ctx.font = `${size}px Tech`;
+  const w = ctx.measureText(text).width;
+  if (w > MAXW) { size = Math.floor(size * MAXW / w); ctx.font = `${size}px Tech`; }
+  ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.lineJoin = 'round';
+  ctx.shadowColor = 'rgba(0,0,0,0.55)'; ctx.shadowBlur = 14; ctx.shadowOffsetY = 3;
+  ctx.strokeStyle = 'rgba(8,12,26,0.88)'; ctx.lineWidth = 11; ctx.strokeText(text, CX, CY);
+  ctx.shadowColor = 'transparent'; ctx.fillStyle = '#fff'; ctx.fillText(text, CX, CY);
+  return { width: ctx.measureText(text).width, size, png: document.getElementById('c').toDataURL('image/png') };
+};
+document.body.dataset.ready = '1';
+</script></body></html>

@@ -1,0 +1,1387 @@
+[
+  {
+    "color": "黑色",
+    "source": "(黑色)通用机器人组件部分(1).3mf",
+    "sha256": "c8a29e63c21dac00ef4fdd30e6d1e5874f8a4d40f5a4b33a778dae82b269807c",
+    "count": 20,
+    "parts": {
+      "C08_左眼_平背胶粘_打印1件.stl": 10,
+      "C09_右眼_平背胶粘_打印1件.stl": 10
+    },
+    "instances": [
+      {
+        "object_id": "2",
+        "name": "C08_左眼_平背胶粘_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            66.311,
+            258.051,
+            0.0
+          ],
+          [
+            81.311,
+            268.051,
+            2.4
+          ]
+        ],
+        "size_mm": [
+          15.0,
+          10.0,
+          2.4
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#161616"
+      },
+      {
+        "object_id": "4",
+        "name": "C09_右眼_平背胶粘_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            92.216,
+            257.1,
+            0.0
+          ],
+          [
+            107.216,
+            267.1,
+            2.4
+          ]
+        ],
+        "size_mm": [
+          15.0,
+          10.0,
+          2.4
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#161616"
+      },
+      {
+        "object_id": "6",
+        "name": "C08_左眼_平背胶粘_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            93.065,
+            229.059,
+            0.0
+          ],
+          [
+            108.065,
+            239.059,
+            2.4
+          ]
+        ],
+        "size_mm": [
+          15.0,
+          10.0,
+          2.4
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#161616"
+      },
+      {
+        "object_id": "8",
+        "name": "C09_右眼_平背胶粘_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            67.136,
+            229.685,
+            0.0
+          ],
+          [
+            82.136,
+            239.685,
+            2.4
+          ]
+        ],
+        "size_mm": [
+          15.0,
+          10.0,
+          2.4
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#161616"
+      },
+      {
+        "object_id": "9",
+        "name": "C09_右眼_平背胶粘_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            140.943,
+            68.906,
+            0.0
+          ],
+          [
+            155.943,
+            78.905,
+            2.4
+          ]
+        ],
+        "size_mm": [
+          15.0,
+          10.0,
+          2.4
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#161616"
+      },
+      {
+        "object_id": "10",
+        "name": "C09_右眼_平背胶粘_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            72.223,
+            154.57,
+            0.0
+          ],
+          [
+            87.223,
+            164.57,
+            2.4
+          ]
+        ],
+        "size_mm": [
+          15.0,
+          10.0,
+          2.4
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#161616"
+      },
+      {
+        "object_id": "11",
+        "name": "C09_右眼_平背胶粘_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            186.107,
+            153.739,
+            0.0
+          ],
+          [
+            201.107,
+            163.739,
+            2.4
+          ]
+        ],
+        "size_mm": [
+          15.0,
+          10.0,
+          2.4
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#161616"
+      },
+      {
+        "object_id": "12",
+        "name": "C09_右眼_平背胶粘_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            184.364,
+            256.159,
+            0.0
+          ],
+          [
+            199.364,
+            266.158,
+            2.4
+          ]
+        ],
+        "size_mm": [
+          15.0,
+          10.0,
+          2.4
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#161616"
+      },
+      {
+        "object_id": "13",
+        "name": "C09_右眼_平背胶粘_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            171.579,
+            40.357,
+            0.0
+          ],
+          [
+            186.579,
+            50.356,
+            2.4
+          ]
+        ],
+        "size_mm": [
+          15.0,
+          10.0,
+          2.4
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#161616"
+      },
+      {
+        "object_id": "14",
+        "name": "C09_右眼_平背胶粘_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            91.645,
+            129.662,
+            0.0
+          ],
+          [
+            106.645,
+            139.662,
+            2.4
+          ]
+        ],
+        "size_mm": [
+          15.0,
+          10.0,
+          2.4
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#161616"
+      },
+      {
+        "object_id": "15",
+        "name": "C09_右眼_平背胶粘_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            214.5,
+            125.718,
+            0.0
+          ],
+          [
+            229.5,
+            135.718,
+            2.4
+          ]
+        ],
+        "size_mm": [
+          15.0,
+          10.0,
+          2.4
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#161616"
+      },
+      {
+        "object_id": "16",
+        "name": "C09_右眼_平背胶粘_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            219.581,
+            231.035,
+            0.0
+          ],
+          [
+            234.581,
+            241.035,
+            2.4
+          ]
+        ],
+        "size_mm": [
+          15.0,
+          10.0,
+          2.4
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#161616"
+      },
+      {
+        "object_id": "17",
+        "name": "C08_左眼_平背胶粘_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            188.062,
+            130.991,
+            0.0
+          ],
+          [
+            203.062,
+            140.99,
+            2.4
+          ]
+        ],
+        "size_mm": [
+          15.0,
+          10.0,
+          2.4
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#161616"
+      },
+      {
+        "object_id": "18",
+        "name": "C08_左眼_平背胶粘_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            94.793,
+            153.507,
+            0.0
+          ],
+          [
+            109.793,
+            163.506,
+            2.4
+          ]
+        ],
+        "size_mm": [
+          15.0,
+          10.0,
+          2.4
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#161616"
+      },
+      {
+        "object_id": "19",
+        "name": "C08_左眼_平背胶粘_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            170.52,
+            67.849,
+            0.0
+          ],
+          [
+            185.52,
+            77.848,
+            2.4
+          ]
+        ],
+        "size_mm": [
+          15.0,
+          10.0,
+          2.4
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#161616"
+      },
+      {
+        "object_id": "20",
+        "name": "C08_左眼_平背胶粘_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            216.501,
+            257.565,
+            0.0
+          ],
+          [
+            231.501,
+            267.565,
+            2.4
+          ]
+        ],
+        "size_mm": [
+          15.0,
+          10.0,
+          2.4
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#161616"
+      },
+      {
+        "object_id": "21",
+        "name": "C08_左眼_平背胶粘_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            212.242,
+            152.521,
+            0.0
+          ],
+          [
+            227.242,
+            162.52,
+            2.4
+          ]
+        ],
+        "size_mm": [
+          15.0,
+          10.0,
+          2.4
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#161616"
+      },
+      {
+        "object_id": "22",
+        "name": "C08_左眼_平背胶粘_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            184.328,
+            231.311,
+            0.0
+          ],
+          [
+            199.328,
+            241.311,
+            2.4
+          ]
+        ],
+        "size_mm": [
+          15.0,
+          10.0,
+          2.4
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#161616"
+      },
+      {
+        "object_id": "23",
+        "name": "C08_左眼_平背胶粘_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            144.07,
+            38.815,
+            0.0
+          ],
+          [
+            159.07,
+            48.814,
+            2.4
+          ]
+        ],
+        "size_mm": [
+          15.0,
+          10.0,
+          2.4
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#161616"
+      },
+      {
+        "object_id": "24",
+        "name": "C08_左眼_平背胶粘_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            69.328,
+            129.81,
+            0.0
+          ],
+          [
+            84.328,
+            139.81,
+            2.4
+          ]
+        ],
+        "size_mm": [
+          15.0,
+          10.0,
+          2.4
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#161616"
+      }
+    ],
+    "settings": {
+      "printer_model": "Bambu Lab H2D",
+      "printer_settings_id": "Bambu Lab H2D 0.4 nozzle",
+      "print_settings_id": "0.20mm Standard @BBL H2D",
+      "nozzle_diameter": [
+        "0.4",
+        "0.4"
+      ],
+      "layer_height": "0.2",
+      "wall_loops": "4",
+      "sparse_infill_density": "15%",
+      "enable_support": "0",
+      "support_type": "tree(auto)",
+      "support_threshold_angle": "30",
+      "curr_bed_type": "Textured PEI Plate"
+    },
+    "gcode_present": false
+  },
+  {
+    "color": "白色",
+    "source": "(白色)通用机器人身体部分(2).3mf",
+    "sha256": "f64decbc65ad61eb8537d8b3800ec3811c30d0769f6035c19886deed6f4b0601",
+    "count": 10,
+    "parts": {
+      "C01_身体_打印1件.stl": 2,
+      "C02_主板托架_自攻底孔_打印1件.stl": 2,
+      "C03_电池开关后面板_打印1件.stl": 2,
+      "C04_短腿A_打印1件.stl": 2,
+      "C05_短腿B_打印1件.stl": 2
+    },
+    "instances": [
+      {
+        "object_id": "2",
+        "name": "C01_身体_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            220.282,
+            200.158,
+            0.0
+          ],
+          [
+            299.282,
+            275.658,
+            39.0
+          ]
+        ],
+        "size_mm": [
+          79.0,
+          75.5,
+          39.0
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Lite @BBL H2D",
+        "color_hex": "#FFFFFF"
+      },
+      {
+        "object_id": "4",
+        "name": "C02_主板托架_自攻底孔_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            213.623,
+            122.268,
+            0.0
+          ],
+          [
+            248.923,
+            152.568,
+            12.3
+          ]
+        ],
+        "size_mm": [
+          35.3,
+          30.3,
+          12.3
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Lite @BBL H2D",
+        "color_hex": "#FFFFFF"
+      },
+      {
+        "object_id": "6",
+        "name": "C03_电池开关后面板_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            275.853,
+            111.402,
+            0.0
+          ],
+          [
+            299.653,
+            155.902,
+            10.68
+          ]
+        ],
+        "size_mm": [
+          23.8,
+          44.5,
+          10.68
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Lite @BBL H2D",
+        "color_hex": "#FFFFFF"
+      },
+      {
+        "object_id": "8",
+        "name": "C04_短腿A_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            208.766,
+            36.618,
+            0.0
+          ],
+          [
+            225.766,
+            74.618,
+            42.0
+          ]
+        ],
+        "size_mm": [
+          17.0,
+          38.0,
+          42.0
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Lite @BBL H2D",
+        "color_hex": "#FFFFFF"
+      },
+      {
+        "object_id": "10",
+        "name": "C05_短腿B_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            270.101,
+            36.413,
+            0.0
+          ],
+          [
+            287.101,
+            74.413,
+            42.0
+          ]
+        ],
+        "size_mm": [
+          17.0,
+          38.0,
+          42.0
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Lite @BBL H2D",
+        "color_hex": "#FFFFFF"
+      },
+      {
+        "object_id": "12",
+        "name": "C01_身体_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            76.19,
+            191.895,
+            0.0
+          ],
+          [
+            155.19,
+            267.395,
+            39.0
+          ]
+        ],
+        "size_mm": [
+          79.0,
+          75.5,
+          39.0
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Lite @BBL H2D",
+        "color_hex": "#FFFFFF"
+      },
+      {
+        "object_id": "14",
+        "name": "C02_主板托架_自攻底孔_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            131.802,
+            112.971,
+            0.0
+          ],
+          [
+            167.102,
+            143.271,
+            12.3
+          ]
+        ],
+        "size_mm": [
+          35.3,
+          30.3,
+          12.3
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Lite @BBL H2D",
+        "color_hex": "#FFFFFF"
+      },
+      {
+        "object_id": "16",
+        "name": "C03_电池开关后面板_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            134.438,
+            36.024,
+            0.0
+          ],
+          [
+            158.238,
+            80.524,
+            10.68
+          ]
+        ],
+        "size_mm": [
+          23.8,
+          44.5,
+          10.68
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Lite @BBL H2D",
+        "color_hex": "#FFFFFF"
+      },
+      {
+        "object_id": "18",
+        "name": "C04_短腿A_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            76.259,
+            37.86,
+            0.0
+          ],
+          [
+            93.259,
+            75.86,
+            42.0
+          ]
+        ],
+        "size_mm": [
+          17.0,
+          38.0,
+          42.0
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Lite @BBL H2D",
+        "color_hex": "#FFFFFF"
+      },
+      {
+        "object_id": "20",
+        "name": "C05_短腿B_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            81.349,
+            106.487,
+            0.0
+          ],
+          [
+            98.349,
+            144.487,
+            42.0
+          ]
+        ],
+        "size_mm": [
+          17.0,
+          38.0,
+          42.0
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Lite @BBL H2D",
+        "color_hex": "#FFFFFF"
+      }
+    ],
+    "settings": {
+      "printer_model": "Bambu Lab H2D",
+      "printer_settings_id": "Bambu Lab H2D 0.4 nozzle",
+      "print_settings_id": "0.20mm Standard @BBL H2D",
+      "nozzle_diameter": [
+        "0.4",
+        "0.4"
+      ],
+      "layer_height": "0.2",
+      "wall_loops": "4",
+      "sparse_infill_density": "15%",
+      "enable_support": "1",
+      "support_type": "tree(auto)",
+      "support_threshold_angle": "30",
+      "curr_bed_type": "Textured PEI Plate"
+    },
+    "gcode_present": false
+  },
+  {
+    "color": "蓝色",
+    "source": "(蓝色)蓝色机器人组件部分(2).3mf",
+    "sha256": "a5c4277ccfac2d37bef2f22585067a3462267de279d0c58f92a4ea5829d2aca4",
+    "count": 10,
+    "parts": {
+      "B01_巴掌底座_打印1件.stl": 1,
+      "B02_舵机桥_打印1件.stl": 1,
+      "B03_承重座_新盖耳_打印1件.stl": 1,
+      "B04_压环A_打印1件.stl": 1,
+      "B05_压环B_打印1件.stl": 1,
+      "B06_圆肩盖_打印1件.stl": 1,
+      "B07_转盘接杆插芯一体_打印1件.stl": 1,
+      "B08_手掌_胶粘版_打印1件.stl": 1,
+      "C06_脚板A_打印1件.stl": 1,
+      "C07_脚板B_打印1件.stl": 1
+    },
+    "instances": [
+      {
+        "object_id": "2",
+        "name": "B01_巴掌底座_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            51.374,
+            212.437,
+            -0.0
+          ],
+          [
+            126.374,
+            287.437,
+            44.0
+          ]
+        ],
+        "size_mm": [
+          75.0,
+          75.0,
+          44.0
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#0A2989"
+      },
+      {
+        "object_id": "4",
+        "name": "B02_舵机桥_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            149.044,
+            112.452,
+            0.0
+          ],
+          [
+            215.044,
+            134.452,
+            3.0
+          ]
+        ],
+        "size_mm": [
+          66.0,
+          22.0,
+          3.0
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#0A2989"
+      },
+      {
+        "object_id": "6",
+        "name": "B03_承重座_新盖耳_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            241.976,
+            154.696,
+            0.0
+          ],
+          [
+            308.976,
+            208.696,
+            11.4
+          ]
+        ],
+        "size_mm": [
+          67.0,
+          54.0,
+          11.4
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#0A2989"
+      },
+      {
+        "object_id": "8",
+        "name": "B04_压环A_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            244.852,
+            102.972,
+            0.0
+          ],
+          [
+            298.851,
+            129.822,
+            4.0
+          ]
+        ],
+        "size_mm": [
+          54.0,
+          26.85,
+          4.0
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#0A2989"
+      },
+      {
+        "object_id": "10",
+        "name": "B05_压环B_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            159.368,
+            154.177,
+            0.0
+          ],
+          [
+            213.367,
+            181.027,
+            4.0
+          ]
+        ],
+        "size_mm": [
+          54.0,
+          26.85,
+          4.0
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#0A2989"
+      },
+      {
+        "object_id": "12",
+        "name": "B06_圆肩盖_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            156.78,
+            204.576,
+            0.0
+          ],
+          [
+            238.728,
+            286.524,
+            34.0
+          ]
+        ],
+        "size_mm": [
+          81.95,
+          81.95,
+          34.0
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#0A2989"
+      },
+      {
+        "object_id": "14",
+        "name": "B07_转盘接杆插芯一体_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            41.648,
+            133.126,
+            0.0
+          ],
+          [
+            132.148,
+            181.126,
+            15.47
+          ]
+        ],
+        "size_mm": [
+          90.5,
+          48.0,
+          15.47
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#0A2989"
+      },
+      {
+        "object_id": "16",
+        "name": "B08_手掌_胶粘版_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            240.171,
+            35.947,
+            0.0
+          ],
+          [
+            298.367,
+            65.74,
+            74.718
+          ]
+        ],
+        "size_mm": [
+          58.2,
+          29.79,
+          74.72
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#0A2989"
+      },
+      {
+        "object_id": "18",
+        "name": "C06_脚板A_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            144.454,
+            38.017,
+            0.0
+          ],
+          [
+            208.454,
+            80.017,
+            27.0
+          ]
+        ],
+        "size_mm": [
+          64.0,
+          42.0,
+          27.0
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#0A2989"
+      },
+      {
+        "object_id": "20",
+        "name": "C07_脚板B_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            65.267,
+            39.919,
+            0.0
+          ],
+          [
+            129.267,
+            81.919,
+            27.0
+          ]
+        ],
+        "size_mm": [
+          64.0,
+          42.0,
+          27.0
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#0A2989"
+      }
+    ],
+    "settings": {
+      "printer_model": "Bambu Lab H2D",
+      "printer_settings_id": "Bambu Lab H2D 0.4 nozzle",
+      "print_settings_id": "0.20mm Standard @BBL H2D",
+      "nozzle_diameter": [
+        "0.4",
+        "0.4"
+      ],
+      "layer_height": "0.2",
+      "wall_loops": "4",
+      "sparse_infill_density": "15%",
+      "enable_support": "1",
+      "support_type": "tree(auto)",
+      "support_threshold_angle": "30",
+      "curr_bed_type": "Textured PEI Plate"
+    },
+    "gcode_present": false
+  },
+  {
+    "color": "红色",
+    "source": "(红色)红色机器人组件部分(2).3mf",
+    "sha256": "9fe15b7eccc30c0c67bf8eb06380812bdc39ddc382217a9d4b68844554edc898",
+    "count": 10,
+    "parts": {
+      "C06_脚板A_打印1件.stl": 1,
+      "C07_脚板B_打印1件.stl": 1,
+      "R01_拳头底座_隐藏走线_打印1件.stl": 1,
+      "R02_拳头护罩_打印1件.stl": 1,
+      "R03_曲柄_打印1件.stl": 1,
+      "R04_连杆_打印1件.stl": 1,
+      "R05_滑架_打印1件.stl": 1,
+      "R06_拳头腕杆一体_打印1件.stl": 1,
+      "减速箱上壳_打印1件.stl": 1,
+      "减速箱下壳_打印1件.stl": 1
+    },
+    "instances": [
+      {
+        "object_id": "2",
+        "name": "C06_脚板A_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            237.007,
+            182.437,
+            0.0
+          ],
+          [
+            301.007,
+            224.437,
+            27.0
+          ]
+        ],
+        "size_mm": [
+          64.0,
+          42.0,
+          27.0
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#C12E1F"
+      },
+      {
+        "object_id": "4",
+        "name": "C07_脚板B_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            237.534,
+            36.88,
+            0.0
+          ],
+          [
+            301.534,
+            78.88,
+            27.0
+          ]
+        ],
+        "size_mm": [
+          64.0,
+          42.0,
+          27.0
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#C12E1F"
+      },
+      {
+        "object_id": "6",
+        "name": "R01_拳头底座_隐藏走线_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            47.53,
+            176.224,
+            0.0
+          ],
+          [
+            169.13,
+            251.224,
+            72.8
+          ]
+        ],
+        "size_mm": [
+          121.6,
+          75.0,
+          72.8
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#C12E1F"
+      },
+      {
+        "object_id": "8",
+        "name": "R02_拳头护罩_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            57.415,
+            46.595,
+            0.0
+          ],
+          [
+            140.524,
+            118.595,
+            22.0
+          ]
+        ],
+        "size_mm": [
+          83.11,
+          72.0,
+          22.0
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#C12E1F"
+      },
+      {
+        "object_id": "10",
+        "name": "R03_曲柄_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            178.024,
+            46.621,
+            0.0
+          ],
+          [
+            198.223,
+            59.017,
+            10.0
+          ]
+        ],
+        "size_mm": [
+          20.2,
+          12.4,
+          10.0
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#C12E1F"
+      },
+      {
+        "object_id": "12",
+        "name": "R04_连杆_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            156.83,
+            80.327,
+            0.0
+          ],
+          [
+            198.827,
+            88.327,
+            4.0
+          ]
+        ],
+        "size_mm": [
+          42.0,
+          8.0,
+          4.0
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#C12E1F"
+      },
+      {
+        "object_id": "14",
+        "name": "R05_滑架_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            256.663,
+            107.922,
+            0.0
+          ],
+          [
+            288.663,
+            155.922,
+            10.0
+          ]
+        ],
+        "size_mm": [
+          32.0,
+          48.0,
+          10.0
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#C12E1F"
+      },
+      {
+        "object_id": "16",
+        "name": "R06_拳头腕杆一体_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            178.717,
+            246.489,
+            0.0
+          ],
+          [
+            224.717,
+            277.687,
+            87.273
+          ]
+        ],
+        "size_mm": [
+          46.0,
+          31.2,
+          87.27
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#C12E1F"
+      },
+      {
+        "object_id": "18",
+        "name": "减速箱上壳_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            178.466,
+            152.508,
+            0.0
+          ],
+          [
+            232.816,
+            174.508,
+            7.65
+          ]
+        ],
+        "size_mm": [
+          54.35,
+          22.0,
+          7.65
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#C12E1F"
+      },
+      {
+        "object_id": "20",
+        "name": "减速箱下壳_打印1件.stl",
+        "printable": "1",
+        "bounds_mm": [
+          [
+            160.79,
+            110.357,
+            0.0
+          ],
+          [
+            215.14,
+            132.357,
+            15.85
+          ]
+        ],
+        "size_mm": [
+          54.35,
+          22.0,
+          15.85
+        ],
+        "material": "PLA",
+        "material_profile": "Bambu PLA Basic @BBL H2D",
+        "color_hex": "#C12E1F"
+      }
+    ],
+    "settings": {
+      "printer_model": "Bambu Lab H2D",
+      "printer_settings_id": "Bambu Lab H2D 0.4 nozzle",
+      "print_settings_id": "0.20mm Standard @BBL H2D",
+      "nozzle_diameter": [
+        "0.4",
+        "0.4"
+      ],
+      "layer_height": "0.2",
+      "wall_loops": "4",
+      "sparse_infill_density": "15%",
+      "enable_support": "1",
+      "support_type": "tree(auto)",
+      "support_threshold_angle": "30",
+      "curr_bed_type": "Textured PEI Plate"
+    },
+    "gcode_present": false
+  }
+]

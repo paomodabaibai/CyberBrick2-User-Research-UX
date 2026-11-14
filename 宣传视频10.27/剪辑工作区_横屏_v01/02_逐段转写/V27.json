@@ -1,0 +1,2864 @@
+{
+  "source": "E:\\课程作业\\大三上\\张茫 用户研究与体验设计\\10.22最终汇报素材\\10月22日 上午10点03分汇报录音.mp3",
+  "id": "V27",
+  "model": "faster-whisper-small CPU int8",
+  "status": "机器转写 未逐字听校",
+  "segments": [
+    {
+      "start": 0.43,
+      "end": 5.75,
+      "text": "还说到运输的,我们要把这个东西拿到现场去也蛮费劲的",
+      "avg_logprob": -0.31,
+      "no_speech_prob": 0.537
+    },
+    {
+      "start": 5.75,
+      "end": 8.31,
+      "text": "最好比如说,利用它现场的一个桌面",
+      "avg_logprob": -0.31,
+      "no_speech_prob": 0.537
+    },
+    {
+      "start": 8.31,
+      "end": 13.75,
+      "text": "我们在桌面上贴一些,贴纸就可以了",
+      "avg_logprob": -0.31,
+      "no_speech_prob": 0.537
+    },
+    {
+      "start": 13.75,
+      "end": 15.75,
+      "text": "这样的方式就可以了",
+      "avg_logprob": -0.31,
+      "no_speech_prob": 0.537
+    },
+    {
+      "start": 15.75,
+      "end": 22.86,
+      "text": "至于这个的,这块是怎么去做可能想一个更简易的方法",
+      "avg_logprob": -0.31,
+      "no_speech_prob": 0.537
+    },
+    {
+      "start": 22.86,
+      "end": 28.25,
+      "text": "就是尽量减少这种在运输过程中的麻烦",
+      "avg_logprob": -0.31,
+      "no_speech_prob": 0.537
+    },
+    {
+      "start": 28.25,
+      "end": 34.45,
+      "text": "比如说我们这样的一个场地是用一个什么样更简易的方式把它",
+      "avg_logprob": -0.468,
+      "no_speech_prob": 0.648
+    },
+    {
+      "start": 34.45,
+      "end": 39.98,
+      "text": "比如说我哪怕放几个盒子放几个现成的模块",
+      "avg_logprob": -0.468,
+      "no_speech_prob": 0.648
+    },
+    {
+      "start": 39.98,
+      "end": 41.78,
+      "text": "让它能够够处理",
+      "avg_logprob": -0.468,
+      "no_speech_prob": 0.648
+    },
+    {
+      "start": 41.78,
+      "end": 45.54,
+      "text": "我们一开始就做的模块的话",
+      "avg_logprob": -0.468,
+      "no_speech_prob": 0.648
+    },
+    {
+      "start": 45.54,
+      "end": 48.38,
+      "text": "但是后面当现如果让机器去打的话",
+      "avg_logprob": -0.468,
+      "no_speech_prob": 0.648
+    },
+    {
+      "start": 48.38,
+      "end": 49.78,
+      "text": "要打一打十九块",
+      "avg_logprob": -0.468,
+      "no_speech_prob": 0.648
+    },
+    {
+      "start": 49.78,
+      "end": 51.58,
+      "text": "然后就放在那边上",
+      "avg_logprob": -0.468,
+      "no_speech_prob": 0.648
+    },
+    {
+      "start": 51.58,
+      "end": 54.06,
+      "text": "如果我们这个斑斓键上去的话",
+      "avg_logprob": -0.468,
+      "no_speech_prob": 0.648
+    },
+    {
+      "start": 54.06,
+      "end": 56.54,
+      "text": "应该是可以只保留立面的结构",
+      "avg_logprob": -0.468,
+      "no_speech_prob": 0.648
+    },
+    {
+      "start": 56.54,
+      "end": 58.02,
+      "text": "然后把它拆下来带走",
+      "avg_logprob": -0.468,
+      "no_speech_prob": 0.648
+    },
+    {
+      "start": 58.02,
+      "end": 60.66,
+      "text": "然后底部的这一个当作归章",
+      "avg_logprob": -0.468,
+      "no_speech_prob": 0.287
+    },
+    {
+      "start": 60.66,
+      "end": 62.66,
+      "text": "对对对 就简单一点",
+      "avg_logprob": -0.468,
+      "no_speech_prob": 0.287
+    },
+    {
+      "start": 62.66,
+      "end": 63.38,
+      "text": "是吧",
+      "avg_logprob": -0.468,
+      "no_speech_prob": 0.287
+    },
+    {
+      "start": 64.9,
+      "end": 70.18,
+      "text": "然后你既然这个地图它的可变性比较多要",
+      "avg_logprob": -0.468,
+      "no_speech_prob": 0.287
+    },
+    {
+      "start": 70.18,
+      "end": 73.22,
+      "text": "所以它这个移动形式其实也不仅仅是说",
+      "avg_logprob": -0.468,
+      "no_speech_prob": 0.287
+    },
+    {
+      "start": 73.22,
+      "end": 74.82,
+      "text": "进速机球",
+      "avg_logprob": -0.468,
+      "no_speech_prob": 0.287
+    },
+    {
+      "start": 74.82,
+      "end": 76.74,
+      "text": "它可以是一个对面的位台",
+      "avg_logprob": -0.468,
+      "no_speech_prob": 0.287
+    },
+    {
+      "start": 76.74,
+      "end": 82.9,
+      "text": "可以是绕杖定速或者说是本身就是从协作出发去",
+      "avg_logprob": -0.468,
+      "no_speech_prob": 0.287
+    },
+    {
+      "start": 82.9,
+      "end": 88.9,
+      "text": "写作运作的一些救援物资或者一些其他类型的合作方式",
+      "avg_logprob": -0.332,
+      "no_speech_prob": 0.369
+    },
+    {
+      "start": 88.9,
+      "end": 91.9,
+      "text": "它的完善扣展会力非常的多要",
+      "avg_logprob": -0.332,
+      "no_speech_prob": 0.369
+    },
+    {
+      "start": 91.9,
+      "end": 97.5,
+      "text": "然后我们整体写作试用的推特扣完我们的代码",
+      "avg_logprob": -0.332,
+      "no_speech_prob": 0.369
+    },
+    {
+      "start": 97.5,
+      "end": 103.5,
+      "text": "然后所有的这个每一轮的让AI生成的这个MB零件",
+      "avg_logprob": -0.332,
+      "no_speech_prob": 0.369
+    },
+    {
+      "start": 103.5,
+      "end": 105.5,
+      "text": "还有模型",
+      "avg_logprob": -0.332,
+      "no_speech_prob": 0.369
+    },
+    {
+      "start": 105.5,
+      "end": 111.57,
+      "text": "然后包括生成实施的这个模型的拍摄文件",
+      "avg_logprob": -0.332,
+      "no_speech_prob": 0.369
+    },
+    {
+      "start": 111.57,
+      "end": 116.57,
+      "text": "以及控制它本身的在马哥伏卧这个生产来透过",
+      "avg_logprob": -0.48,
+      "no_speech_prob": 0.617
+    },
+    {
+      "start": 118.5,
+      "end": 122.5,
+      "text": "我们现在每一套这个机器人",
+      "avg_logprob": -0.48,
+      "no_speech_prob": 0.617
+    },
+    {
+      "start": 122.5,
+      "end": 127.5,
+      "text": "大概可以这个不见毛带可以拆尊为客打印结构",
+      "avg_logprob": -0.48,
+      "no_speech_prob": 0.617
+    },
+    {
+      "start": 127.5,
+      "end": 128.5,
+      "text": "可分辨控",
+      "avg_logprob": -0.48,
+      "no_speech_prob": 0.617
+    },
+    {
+      "start": 128.5,
+      "end": 132.5,
+      "text": "然后它不要它会有一套组织性的课程",
+      "avg_logprob": -0.48,
+      "no_speech_prob": 0.617
+    },
+    {
+      "start": 132.5,
+      "end": 133.5,
+      "text": "和可能为卧的资料",
+      "avg_logprob": -0.48,
+      "no_speech_prob": 0.617
+    },
+    {
+      "start": 133.5,
+      "end": 137.5,
+      "text": "然后这些东西都可以可以上传到",
+      "avg_logprob": -0.48,
+      "no_speech_prob": 0.617
+    },
+    {
+      "start": 137.5,
+      "end": 139.5,
+      "text": "这个拓除的生产上",
+      "avg_logprob": -0.48,
+      "no_speech_prob": 0.617
+    },
+    {
+      "start": 139.5,
+      "end": 142.5,
+      "text": "它打印是通过所有的打印去打印",
+      "avg_logprob": -0.384,
+      "no_speech_prob": 0.469
+    },
+    {
+      "start": 142.5,
+      "end": 146.5,
+      "text": "其中是Severgrade它们自己的一套配合系统",
+      "avg_logprob": -0.384,
+      "no_speech_prob": 0.469
+    },
+    {
+      "start": 146.5,
+      "end": 148.5,
+      "text": "然后分享是可以通过MeshWorld的",
+      "avg_logprob": -0.384,
+      "no_speech_prob": 0.469
+    },
+    {
+      "start": 148.5,
+      "end": 150.5,
+      "text": "然后玩家之间相互分享",
+      "avg_logprob": -0.384,
+      "no_speech_prob": 0.469
+    },
+    {
+      "start": 150.5,
+      "end": 153.5,
+      "text": "比如说新设计的魔法",
+      "avg_logprob": -0.384,
+      "no_speech_prob": 0.469
+    },
+    {
+      "start": 153.5,
+      "end": 156.5,
+      "text": "或者它又发现了一些什么新的组件",
+      "avg_logprob": -0.384,
+      "no_speech_prob": 0.469
+    },
+    {
+      "start": 156.5,
+      "end": 159.5,
+      "text": "就是从设计到打印到试玩",
+      "avg_logprob": -0.384,
+      "no_speech_prob": 0.469
+    },
+    {
+      "start": 159.5,
+      "end": 160.5,
+      "text": "到分享",
+      "avg_logprob": -0.384,
+      "no_speech_prob": 0.469
+    },
+    {
+      "start": 160.5,
+      "end": 162.5,
+      "text": "然后到分享之后的交流",
+      "avg_logprob": -0.384,
+      "no_speech_prob": 0.469
+    },
+    {
+      "start": 162.5,
+      "end": 164.5,
+      "text": "到再创作这一套",
+      "avg_logprob": -0.384,
+      "no_speech_prob": 0.469
+    },
+    {
+      "start": 164.5,
+      "end": 167.82,
+      "text": "都会有一个做什么的定买生态设计",
+      "avg_logprob": -0.384,
+      "no_speech_prob": 0.469
+    },
+    {
+      "start": 167.82,
+      "end": 172.82,
+      "text": "對於這套工具包,玩家同樣是有三種態度方式",
+      "avg_logprob": -0.42,
+      "no_speech_prob": 0.618
+    },
+    {
+      "start": 172.82,
+      "end": 176.82,
+      "text": "對於我們已經開始尋找了三種目的需求",
+      "avg_logprob": -0.42,
+      "no_speech_prob": 0.618
+    },
+    {
+      "start": 176.82,
+      "end": 180.82,
+      "text": "一個是玩家開箱之後可以把機器人上場",
+      "avg_logprob": -0.42,
+      "no_speech_prob": 0.618
+    },
+    {
+      "start": 180.82,
+      "end": 185.82,
+      "text": "然後在機器上可以馬上進行一場精彩的進行",
+      "avg_logprob": -0.42,
+      "no_speech_prob": 0.618
+    },
+    {
+      "start": 185.82,
+      "end": 191.14,
+      "text": "後面的機器可以在機器上搜集很多開箱的信息",
+      "avg_logprob": -0.42,
+      "no_speech_prob": 0.618
+    },
+    {
+      "start": 191.14,
+      "end": 197.14,
+      "text": "也可以自己建模,然後輕鬆改造印象中的對戰機器",
+      "avg_logprob": -0.42,
+      "no_speech_prob": 0.618
+    },
+    {
+      "start": 197.14,
+      "end": 202.14,
+      "text": "然后对于组织者不管拍摄一个像体感小型的人出名一场",
+      "avg_logprob": -0.509,
+      "no_speech_prob": 0.582
+    },
+    {
+      "start": 202.14,
+      "end": 204.38,
+      "text": "创作女在爱或者说机械人女在",
+      "avg_logprob": -0.509,
+      "no_speech_prob": 0.582
+    },
+    {
+      "start": 204.38,
+      "end": 208.73,
+      "text": "或者说单纯的服务于课堂的教室",
+      "avg_logprob": -0.509,
+      "no_speech_prob": 0.582
+    },
+    {
+      "start": 208.73,
+      "end": 211.93,
+      "text": "她都可以并购多套配件",
+      "avg_logprob": -0.509,
+      "no_speech_prob": 0.582
+    },
+    {
+      "start": 211.93,
+      "end": 217.53,
+      "text": "然后可以特殊完成一个初始的逻辑配置",
+      "avg_logprob": -0.509,
+      "no_speech_prob": 0.582
+    },
+    {
+      "start": 217.53,
+      "end": 220.17,
+      "text": "然后包括我们也可以提供",
+      "avg_logprob": -0.509,
+      "no_speech_prob": 0.582
+    },
+    {
+      "start": 220.17,
+      "end": 222.45,
+      "text": "一系列的合同手套团的衫质",
+      "avg_logprob": -0.509,
+      "no_speech_prob": 0.582
+    },
+    {
+      "start": 222.45,
+      "end": 225.05,
+      "text": "就能让她特殊的大女生名一场",
+      "avg_logprob": -0.509,
+      "no_speech_prob": 0.582
+    },
+    {
+      "start": 225.05,
+      "end": 226.61,
+      "text": "然后创作的微台赛",
+      "avg_logprob": -0.509,
+      "no_speech_prob": 0.582
+    },
+    {
+      "start": 226.61,
+      "end": 232.62,
+      "text": "然后这是我们给它设计的这个",
+      "avg_logprob": -0.376,
+      "no_speech_prob": 0.145
+    },
+    {
+      "start": 232.62,
+      "end": 234.54,
+      "text": "超控的APP",
+      "avg_logprob": -0.376,
+      "no_speech_prob": 0.145
+    },
+    {
+      "start": 234.54,
+      "end": 240.06,
+      "text": "就是当这个项目被有跟广泛的用户接触",
+      "avg_logprob": -0.376,
+      "no_speech_prob": 0.145
+    },
+    {
+      "start": 240.06,
+      "end": 242.18,
+      "text": "然后被跟着所使用的时候",
+      "avg_logprob": -0.376,
+      "no_speech_prob": 0.145
+    },
+    {
+      "start": 242.18,
+      "end": 245.62,
+      "text": "那么这个社区的生态大概是什么样子的",
+      "avg_logprob": -0.376,
+      "no_speech_prob": 0.145
+    },
+    {
+      "start": 245.62,
+      "end": 249.42,
+      "text": "首先这个APP里面的手面就是类似于",
+      "avg_logprob": -0.376,
+      "no_speech_prob": 0.145
+    },
+    {
+      "start": 249.42,
+      "end": 250.78,
+      "text": "红书的副部队的这个",
+      "avg_logprob": -0.376,
+      "no_speech_prob": 0.145
+    },
+    {
+      "start": 250.78,
+      "end": 254.3,
+      "text": "然后会用天南地委的人分享",
+      "avg_logprob": -0.376,
+      "no_speech_prob": 0.145
+    },
+    {
+      "start": 254.3,
+      "end": 256.62,
+      "text": "使用这个产品的体验",
+      "avg_logprob": -0.376,
+      "no_speech_prob": 0.145
+    },
+    {
+      "start": 256.62,
+      "end": 258.14,
+      "text": "或者是举办的比赛",
+      "avg_logprob": -0.376,
+      "no_speech_prob": 0.145
+    },
+    {
+      "start": 258.14,
+      "end": 262.74,
+      "text": "或者说是单纯分享自己新组的机器人",
+      "avg_logprob": -0.306,
+      "no_speech_prob": 0.362
+    },
+    {
+      "start": 262.74,
+      "end": 265.14,
+      "text": "然后在这个设计的这个模块",
+      "avg_logprob": -0.306,
+      "no_speech_prob": 0.362
+    },
+    {
+      "start": 265.14,
+      "end": 268.34,
+      "text": "就是植入的这个电线的环节",
+      "avg_logprob": -0.306,
+      "no_speech_prob": 0.362
+    },
+    {
+      "start": 268.34,
+      "end": 272.94,
+      "text": "就是他们可以在这里选择别人分享出来新的东西",
+      "avg_logprob": -0.306,
+      "no_speech_prob": 0.362
+    },
+    {
+      "start": 272.94,
+      "end": 275.74,
+      "text": "或者说官方提供一些新的模块",
+      "avg_logprob": -0.306,
+      "no_speech_prob": 0.362
+    },
+    {
+      "start": 275.74,
+      "end": 280.94,
+      "text": "然后中间这个加号就是可以分享自己的帖子的创作",
+      "avg_logprob": -0.306,
+      "no_speech_prob": 0.362
+    },
+    {
+      "start": 280.94,
+      "end": 284.74,
+      "text": "也可以分享自己图纸上的新的组件的设计",
+      "avg_logprob": -0.306,
+      "no_speech_prob": 0.362
+    },
+    {
+      "start": 284.74,
+      "end": 288.02,
+      "text": "然后或者说是非常一些配件信息",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.124
+    },
+    {
+      "start": 289.38,
+      "end": 290.82,
+      "text": "然后在这个",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.124
+    },
+    {
+      "start": 292.24,
+      "end": 293.08,
+      "text": "组方的模块",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.124
+    },
+    {
+      "start": 293.12,
+      "end": 295.68,
+      "text": "就是我们想预设的是想做那种",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.124
+    },
+    {
+      "start": 296.2,
+      "end": 297.68,
+      "text": "像索尼或者一些",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.124
+    },
+    {
+      "start": 298.0,
+      "end": 298.92,
+      "text": "电子的",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.124
+    },
+    {
+      "start": 299.36,
+      "end": 302.16,
+      "text": "他们的GF会设定自己的设备信息嘛",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.124
+    },
+    {
+      "start": 302.44,
+      "end": 304.96,
+      "text": "然后我们也可以做这个设备的配对",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.124
+    },
+    {
+      "start": 304.96,
+      "end": 306.08,
+      "text": "然后每一个设备",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.124
+    },
+    {
+      "start": 306.28,
+      "end": 307.56,
+      "text": "它的这个模块啊",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.124
+    },
+    {
+      "start": 308.24,
+      "end": 309.56,
+      "text": "战斗模块 战斗模块",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.124
+    },
+    {
+      "start": 309.68,
+      "end": 310.92,
+      "text": "各种各样的主控模块",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.124
+    },
+    {
+      "start": 311.16,
+      "end": 312.2,
+      "text": "每个模块进去",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.124
+    },
+    {
+      "start": 312.6,
+      "end": 314.52,
+      "text": "都会有一些非常",
+      "avg_logprob": -0.415,
+      "no_speech_prob": 0.124
+    },
+    {
+      "start": 314.52,
+      "end": 318.52,
+      "text": "让用户有掌控感的经济和信息游览",
+      "avg_logprob": -0.311,
+      "no_speech_prob": 0.746
+    },
+    {
+      "start": 318.52,
+      "end": 320.52,
+      "text": "这块户有明明有时间经历点",
+      "avg_logprob": -0.311,
+      "no_speech_prob": 0.746
+    },
+    {
+      "start": 320.52,
+      "end": 321.52,
+      "text": "我觉得也是",
+      "avg_logprob": -0.311,
+      "no_speech_prob": 0.746
+    },
+    {
+      "start": 321.52,
+      "end": 323.52,
+      "text": "做一个小路屏",
+      "avg_logprob": -0.311,
+      "no_speech_prob": 0.746
+    },
+    {
+      "start": 323.52,
+      "end": 324.52,
+      "text": "就是",
+      "avg_logprob": -0.311,
+      "no_speech_prob": 0.746
+    },
+    {
+      "start": 324.52,
+      "end": 329.41,
+      "text": "因为你大发而因的形式发生了",
+      "avg_logprob": -0.311,
+      "no_speech_prob": 0.746
+    },
+    {
+      "start": 329.41,
+      "end": 330.41,
+      "text": "这个小的很短的",
+      "avg_logprob": -0.311,
+      "no_speech_prob": 0.746
+    },
+    {
+      "start": 330.41,
+      "end": 331.41,
+      "text": "十几秒",
+      "avg_logprob": -0.311,
+      "no_speech_prob": 0.746
+    },
+    {
+      "start": 331.41,
+      "end": 332.41,
+      "text": "就是把这个小APP",
+      "avg_logprob": -0.311,
+      "no_speech_prob": 0.746
+    },
+    {
+      "start": 332.41,
+      "end": 334.41,
+      "text": "做一个小推广",
+      "avg_logprob": -0.311,
+      "no_speech_prob": 0.746
+    },
+    {
+      "start": 334.41,
+      "end": 340.43,
+      "text": "然后",
+      "avg_logprob": -0.311,
+      "no_speech_prob": 0.746
+    },
+    {
+      "start": 340.43,
+      "end": 341.43,
+      "text": "当我们的",
+      "avg_logprob": -0.311,
+      "no_speech_prob": 0.746
+    },
+    {
+      "start": 341.43,
+      "end": 342.43,
+      "text": "这个",
+      "avg_logprob": -0.311,
+      "no_speech_prob": 0.746
+    },
+    {
+      "start": 342.43,
+      "end": 344.43,
+      "text": "变成操控皮革手机之后",
+      "avg_logprob": -0.311,
+      "no_speech_prob": 0.746
+    },
+    {
+      "start": 344.43,
+      "end": 345.43,
+      "text": "它们一直在手机上",
+      "avg_logprob": -0.311,
+      "no_speech_prob": 0.746
+    },
+    {
+      "start": 345.43,
+      "end": 347.43,
+      "text": "开始这个变成操控",
+      "avg_logprob": -0.311,
+      "no_speech_prob": 0.746
+    },
+    {
+      "start": 347.43,
+      "end": 348.43,
+      "text": "然后",
+      "avg_logprob": -0.311,
+      "no_speech_prob": 0.746
+    },
+    {
+      "start": 348.43,
+      "end": 349.43,
+      "text": "个人纪念就是",
+      "avg_logprob": -0.311,
+      "no_speech_prob": 0.746
+    },
+    {
+      "start": 349.43,
+      "end": 350.43,
+      "text": "单身个人纪念",
+      "avg_logprob": -0.311,
+      "no_speech_prob": 0.746
+    },
+    {
+      "start": 350.43,
+      "end": 352.73,
+      "text": "跟个人姐姐这些恰恰自己的创作",
+      "avg_logprob": -0.332,
+      "no_speech_prob": 0.65
+    },
+    {
+      "start": 352.73,
+      "end": 355.67,
+      "text": "收藏自己的计划",
+      "avg_logprob": -0.332,
+      "no_speech_prob": 0.65
+    },
+    {
+      "start": 355.67,
+      "end": 359.17,
+      "text": "好 请大家为大家讲讲我们的这个创作的产品如何",
+      "avg_logprob": -0.332,
+      "no_speech_prob": 0.65
+    },
+    {
+      "start": 359.17,
+      "end": 362.97,
+      "text": "跟这个副主的现在的生态经历深度的融合",
+      "avg_logprob": -0.332,
+      "no_speech_prob": 0.65
+    },
+    {
+      "start": 362.97,
+      "end": 366.47,
+      "text": "首先就是线下的一个活动",
+      "avg_logprob": -0.332,
+      "no_speech_prob": 0.65
+    },
+    {
+      "start": 366.47,
+      "end": 369.47,
+      "text": "我们在这个具体的一个活动设计上是",
+      "avg_logprob": -0.332,
+      "no_speech_prob": 0.65
+    },
+    {
+      "start": 369.47,
+      "end": 373.87,
+      "text": "想做一个90分钟的Steam新少年的创作活动",
+      "avg_logprob": -0.332,
+      "no_speech_prob": 0.65
+    },
+    {
+      "start": 373.87,
+      "end": 376.77,
+      "text": "那么它大概包含就是三个阶段",
+      "avg_logprob": -0.332,
+      "no_speech_prob": 0.65
+    },
+    {
+      "start": 376.77,
+      "end": 378.17,
+      "text": "一个是观察结构",
+      "avg_logprob": -0.332,
+      "no_speech_prob": 0.65
+    },
+    {
+      "start": 378.17,
+      "end": 380.27,
+      "text": "然后亲手调试加上比赛副盘",
+      "avg_logprob": -0.332,
+      "no_speech_prob": 0.65
+    },
+    {
+      "start": 380.27,
+      "end": 387.31,
+      "text": "那么第一个20分钟呢我们先会让这个参与者去认识和观察我们机器人结构",
+      "avg_logprob": -0.188,
+      "no_speech_prob": 0.093
+    },
+    {
+      "start": 387.31,
+      "end": 390.11,
+      "text": "它的这个旋转与往复的这种机器运动",
+      "avg_logprob": -0.188,
+      "no_speech_prob": 0.093
+    },
+    {
+      "start": 390.11,
+      "end": 396.71,
+      "text": "并且提出一个对于这个小机器人现有的可以去改造的一个出自一个想法",
+      "avg_logprob": -0.188,
+      "no_speech_prob": 0.093
+    },
+    {
+      "start": 396.71,
+      "end": 399.95,
+      "text": "然后同时也让他们去思考我们可以通过哪些的改动",
+      "avg_logprob": -0.188,
+      "no_speech_prob": 0.093
+    },
+    {
+      "start": 399.95,
+      "end": 404.43,
+      "text": "让这个机器人在接下来的这种比赛和表现中可以变得更加好",
+      "avg_logprob": -0.188,
+      "no_speech_prob": 0.093
+    },
+    {
+      "start": 404.43,
+      "end": 407.15,
+      "text": "然后接下来35分钟是一个装备的潮式",
+      "avg_logprob": -0.188,
+      "no_speech_prob": 0.093
+    },
+    {
+      "start": 407.15,
+      "end": 411.19,
+      "text": "参与者可以去既有选择不同的一个外壳和攻击的模块",
+      "avg_logprob": -0.22,
+      "no_speech_prob": 0.461
+    },
+    {
+      "start": 411.19,
+      "end": 413.43,
+      "text": "对自己的机器人进行一个改装",
+      "avg_logprob": -0.22,
+      "no_speech_prob": 0.461
+    },
+    {
+      "start": 413.43,
+      "end": 417.67,
+      "text": "个性化改装并且完成这种遥控的练习和检查",
+      "avg_logprob": -0.22,
+      "no_speech_prob": 0.461
+    },
+    {
+      "start": 417.67,
+      "end": 421.35,
+      "text": "让他们之前提出的一个想法实际的动起来",
+      "avg_logprob": -0.22,
+      "no_speech_prob": 0.461
+    },
+    {
+      "start": 421.35,
+      "end": 424.67,
+      "text": "那么最后的35分钟我们组织一个比赛和复盘",
+      "avg_logprob": -0.22,
+      "no_speech_prob": 0.461
+    },
+    {
+      "start": 424.67,
+      "end": 427.11,
+      "text": "就是现在我们看到了这个地台的形式",
+      "avg_logprob": -0.22,
+      "no_speech_prob": 0.461
+    },
+    {
+      "start": 427.11,
+      "end": 428.59,
+      "text": "去进行这个轮流的对战",
+      "avg_logprob": -0.22,
+      "no_speech_prob": 0.461
+    },
+    {
+      "start": 428.59,
+      "end": 430.07,
+      "text": "记录我机器人的表现",
+      "avg_logprob": -0.22,
+      "no_speech_prob": 0.461
+    },
+    {
+      "start": 430.07,
+      "end": 433.79,
+      "text": "去解释个性化改装之后",
+      "avg_logprob": -0.22,
+      "no_speech_prob": 0.461
+    },
+    {
+      "start": 433.79,
+      "end": 436.15,
+      "text": "所带来的一些差异",
+      "avg_logprob": -0.22,
+      "no_speech_prob": 0.461
+    },
+    {
+      "start": 436.15,
+      "end": 437.75,
+      "text": "那么结束",
+      "avg_logprob": -0.254,
+      "no_speech_prob": 0.501
+    },
+    {
+      "start": 437.75,
+      "end": 440.31,
+      "text": "我们希望通过这样一个比较完整的活动",
+      "avg_logprob": -0.254,
+      "no_speech_prob": 0.501
+    },
+    {
+      "start": 440.31,
+      "end": 443.71,
+      "text": "让参计者去经历一个观察 设计",
+      "avg_logprob": -0.254,
+      "no_speech_prob": 0.501
+    },
+    {
+      "start": 443.71,
+      "end": 449.07,
+      "text": "实践到验证的这样一个创作的过程",
+      "avg_logprob": -0.254,
+      "no_speech_prob": 0.501
+    },
+    {
+      "start": 451.0,
+      "end": 453.16,
+      "text": "除了这种单次的线下活动",
+      "avg_logprob": -0.254,
+      "no_speech_prob": 0.501
+    },
+    {
+      "start": 453.16,
+      "end": 455.68,
+      "text": "我们也希望让整套这种桌游的产品",
+      "avg_logprob": -0.254,
+      "no_speech_prob": 0.501
+    },
+    {
+      "start": 455.68,
+      "end": 457.88,
+      "text": "成为拓除生态的一个创作入口",
+      "avg_logprob": -0.254,
+      "no_speech_prob": 0.501
+    },
+    {
+      "start": 457.88,
+      "end": 462.16,
+      "text": "它应该是主要设计到了三个部分",
+      "avg_logprob": -0.254,
+      "no_speech_prob": 0.501
+    },
+    {
+      "start": 462.16,
+      "end": 465.32,
+      "text": "首先就是拓除的3D打印机和耗材",
+      "avg_logprob": -0.254,
+      "no_speech_prob": 0.501
+    },
+    {
+      "start": 465.32,
+      "end": 467.36,
+      "text": "他们能够用我们的桌游",
+      "avg_logprob": -0.184,
+      "no_speech_prob": 0.512
+    },
+    {
+      "start": 467.36,
+      "end": 470.36,
+      "text": "提供你可以去复制去制造的结构的零件",
+      "avg_logprob": -0.184,
+      "no_speech_prob": 0.512
+    },
+    {
+      "start": 470.36,
+      "end": 472.36,
+      "text": "外观的组件还有扩展的配件",
+      "avg_logprob": -0.184,
+      "no_speech_prob": 0.512
+    },
+    {
+      "start": 472.36,
+      "end": 475.36,
+      "text": "让这个参与者能够持续的去进行",
+      "avg_logprob": -0.184,
+      "no_speech_prob": 0.512
+    },
+    {
+      "start": 475.36,
+      "end": 477.36,
+      "text": "他的个性化的改造交流阶段",
+      "avg_logprob": -0.184,
+      "no_speech_prob": 0.512
+    },
+    {
+      "start": 477.36,
+      "end": 480.36,
+      "text": "然后第二个是结合Sever Break的套件",
+      "avg_logprob": -0.184,
+      "no_speech_prob": 0.512
+    },
+    {
+      "start": 480.36,
+      "end": 483.36,
+      "text": "我们呢提供一个可以去附用的电控基础",
+      "avg_logprob": -0.184,
+      "no_speech_prob": 0.512
+    },
+    {
+      "start": 483.36,
+      "end": 486.36,
+      "text": "用同一套的这种电子零件",
+      "avg_logprob": -0.184,
+      "no_speech_prob": 0.512
+    },
+    {
+      "start": 486.36,
+      "end": 490.36,
+      "text": "去承接后续的个性化的改造和项目",
+      "avg_logprob": -0.184,
+      "no_speech_prob": 0.512
+    },
+    {
+      "start": 490.36,
+      "end": 494.36,
+      "text": "那么最后是基于拓主的这个Make a World的平台",
+      "avg_logprob": -0.184,
+      "no_speech_prob": 0.512
+    },
+    {
+      "start": 494.36,
+      "end": 499.16,
+      "text": "那么玩家可以在时间过后去分享他们打印模型",
+      "avg_logprob": -0.179,
+      "no_speech_prob": 0.714
+    },
+    {
+      "start": 499.16,
+      "end": 502.56,
+      "text": "配置然后把一场活动的作品",
+      "avg_logprob": -0.179,
+      "no_speech_prob": 0.714
+    },
+    {
+      "start": 502.56,
+      "end": 503.96,
+      "text": "去变成整个社区",
+      "avg_logprob": -0.179,
+      "no_speech_prob": 0.714
+    },
+    {
+      "start": 503.96,
+      "end": 506.96,
+      "text": "可以区别持续发现的这样一个创作的内容",
+      "avg_logprob": -0.179,
+      "no_speech_prob": 0.714
+    },
+    {
+      "start": 506.96,
+      "end": 513.95,
+      "text": "然后最后是我们的生涯模式",
+      "avg_logprob": -0.179,
+      "no_speech_prob": 0.714
+    },
+    {
+      "start": 513.95,
+      "end": 516.15,
+      "text": "我们希望通过这种活动的体验",
+      "avg_logprob": -0.179,
+      "no_speech_prob": 0.714
+    },
+    {
+      "start": 516.15,
+      "end": 517.55,
+      "text": "去吸引一波用户",
+      "avg_logprob": -0.179,
+      "no_speech_prob": 0.714
+    },
+    {
+      "start": 517.55,
+      "end": 521.15,
+      "text": "再通过这种套装和扩展",
+      "avg_logprob": -0.179,
+      "no_speech_prob": 0.714
+    },
+    {
+      "start": 521.15,
+      "end": 523.95,
+      "text": "扩展内容去支持长期的参与",
+      "avg_logprob": -0.179,
+      "no_speech_prob": 0.714
+    },
+    {
+      "start": 523.95,
+      "end": 526.55,
+      "text": "目前主要我们规划了三个业务的入口",
+      "avg_logprob": -0.179,
+      "no_speech_prob": 0.714
+    },
+    {
+      "start": 526.55,
+      "end": 528.19,
+      "text": "第一个是活动的体验",
+      "avg_logprob": -0.329,
+      "no_speech_prob": 0.111
+    },
+    {
+      "start": 528.19,
+      "end": 532.27,
+      "text": "主要是面向青少年专会营业生反对以及亲自活动",
+      "avg_logprob": -0.329,
+      "no_speech_prob": 0.111
+    },
+    {
+      "start": 532.27,
+      "end": 536.75,
+      "text": "我们主要提供一些设备代教和完成的这种类台形式",
+      "avg_logprob": -0.329,
+      "no_speech_prob": 0.111
+    },
+    {
+      "start": 536.75,
+      "end": 541.11,
+      "text": "然后形成活动的服务和器材俗令等这种收入的来源",
+      "avg_logprob": -0.329,
+      "no_speech_prob": 0.111
+    },
+    {
+      "start": 541.11,
+      "end": 544.99,
+      "text": "然后第二个是我们去卖这种教学套装",
+      "avg_logprob": -0.329,
+      "no_speech_prob": 0.111
+    },
+    {
+      "start": 544.99,
+      "end": 547.55,
+      "text": "主要是面向学校和一些科学商的行购",
+      "avg_logprob": -0.329,
+      "no_speech_prob": 0.111
+    },
+    {
+      "start": 548.61,
+      "end": 550.09,
+      "text": "提供一些设备",
+      "avg_logprob": -0.329,
+      "no_speech_prob": 0.111
+    },
+    {
+      "start": 550.09,
+      "end": 553.13,
+      "text": "然后备用的零件以及可附用的课程资料",
+      "avg_logprob": -0.329,
+      "no_speech_prob": 0.111
+    },
+    {
+      "start": 553.13,
+      "end": 556.53,
+      "text": "去进一步形成产品销售和贺成服务的一个收入",
+      "avg_logprob": -0.226,
+      "no_speech_prob": 0.402
+    },
+    {
+      "start": 556.53,
+      "end": 558.85,
+      "text": "然后第三个是我们的扩展内容",
+      "avg_logprob": -0.226,
+      "no_speech_prob": 0.402
+    },
+    {
+      "start": 558.85,
+      "end": 561.89,
+      "text": "我们面向已经参与过活动的玩家和创作者",
+      "avg_logprob": -0.226,
+      "no_speech_prob": 0.402
+    },
+    {
+      "start": 561.89,
+      "end": 566.93,
+      "text": "实际的去推出一些新的这个中油主题",
+      "avg_logprob": -0.226,
+      "no_speech_prob": 0.402
+    },
+    {
+      "start": 566.93,
+      "end": 568.53,
+      "text": "地图以及新的玩法",
+      "avg_logprob": -0.226,
+      "no_speech_prob": 0.402
+    },
+    {
+      "start": 568.53,
+      "end": 572.45,
+      "text": "然后通过扩展包和后面组织的线下的这种赛事活动",
+      "avg_logprob": -0.226,
+      "no_speech_prob": 0.402
+    },
+    {
+      "start": 572.45,
+      "end": 576.93,
+      "text": "去保持这种用户的参与的热情",
+      "avg_logprob": -0.226,
+      "no_speech_prob": 0.402
+    },
+    {
+      "start": 577.62,
+      "end": 581.12,
+      "text": "其实我简单的说两句",
+      "avg_logprob": -0.226,
+      "no_speech_prob": 0.402
+    },
+    {
+      "start": 581.12,
+      "end": 583.04,
+      "text": "也许跟你这有一点点关系",
+      "avg_logprob": -0.226,
+      "no_speech_prob": 0.402
+    },
+    {
+      "start": 583.04,
+      "end": 585.04,
+      "text": "我个人比较感兴趣的东西是",
+      "avg_logprob": -0.215,
+      "no_speech_prob": 0.467
+    },
+    {
+      "start": 585.04,
+      "end": 594.04,
+      "text": "就是我想有没有可能我们做一个类似于儿童教育的这种工作室",
+      "avg_logprob": -0.215,
+      "no_speech_prob": 0.467
+    },
+    {
+      "start": 594.04,
+      "end": 596.24,
+      "text": "然后去利用这套东西呢",
+      "avg_logprob": -0.215,
+      "no_speech_prob": 0.467
+    },
+    {
+      "start": 596.24,
+      "end": 598.44,
+      "text": "去做开发一些儿童的教育",
+      "avg_logprob": -0.215,
+      "no_speech_prob": 0.467
+    },
+    {
+      "start": 598.44,
+      "end": 599.44,
+      "text": "因为现在的儿童教育",
+      "avg_logprob": -0.215,
+      "no_speech_prob": 0.467
+    },
+    {
+      "start": 599.44,
+      "end": 600.84,
+      "text": "比如说我教小孩画画",
+      "avg_logprob": -0.215,
+      "no_speech_prob": 0.467
+    },
+    {
+      "start": 600.84,
+      "end": 608.54,
+      "text": "我觉得这个基本上已经是一个可以进入博物馆的一个一个一个一个创业项目",
+      "avg_logprob": -0.215,
+      "no_speech_prob": 0.467
+    },
+    {
+      "start": 608.54,
+      "end": 611.24,
+      "text": "就是这个东西对小孩的那种发展",
+      "avg_logprob": -0.215,
+      "no_speech_prob": 0.467
+    },
+    {
+      "start": 611.24,
+      "end": 612.44,
+      "text": "其实并没有多少小孩",
+      "avg_logprob": -0.215,
+      "no_speech_prob": 0.467
+    },
+    {
+      "start": 612.44,
+      "end": 615.96,
+      "text": "真正最终是成为一个专业的设计师和美术师",
+      "avg_logprob": -0.28,
+      "no_speech_prob": 0.19
+    },
+    {
+      "start": 615.96,
+      "end": 617.6,
+      "text": "那么家长",
+      "avg_logprob": -0.28,
+      "no_speech_prob": 0.19
+    },
+    {
+      "start": 618.0,
+      "end": 619.0,
+      "text": "所以我也是家长",
+      "avg_logprob": -0.28,
+      "no_speech_prob": 0.19
+    },
+    {
+      "start": 619.0,
+      "end": 620.64,
+      "text": "那么我心态是说",
+      "avg_logprob": -0.28,
+      "no_speech_prob": 0.19
+    },
+    {
+      "start": 620.64,
+      "end": 623.16,
+      "text": "希望孩子能够去创造",
+      "avg_logprob": -0.28,
+      "no_speech_prob": 0.19
+    },
+    {
+      "start": 623.16,
+      "end": 623.48,
+      "text": "是吧",
+      "avg_logprob": -0.28,
+      "no_speech_prob": 0.19
+    },
+    {
+      "start": 623.48,
+      "end": 624.88,
+      "text": "去能够去思考",
+      "avg_logprob": -0.28,
+      "no_speech_prob": 0.19
+    },
+    {
+      "start": 625.08,
+      "end": 625.96,
+      "text": "锻炼他的思维",
+      "avg_logprob": -0.28,
+      "no_speech_prob": 0.19
+    },
+    {
+      "start": 625.96,
+      "end": 626.8,
+      "text": "逻辑",
+      "avg_logprob": -0.28,
+      "no_speech_prob": 0.19
+    },
+    {
+      "start": 626.84,
+      "end": 628.04,
+      "text": "动手能力等等",
+      "avg_logprob": -0.28,
+      "no_speech_prob": 0.19
+    },
+    {
+      "start": 628.04,
+      "end": 629.76,
+      "text": "但我觉得这样的一套东西呢",
+      "avg_logprob": -0.28,
+      "no_speech_prob": 0.19
+    },
+    {
+      "start": 629.76,
+      "end": 630.96,
+      "text": "其实是很重要的",
+      "avg_logprob": -0.28,
+      "no_speech_prob": 0.19
+    },
+    {
+      "start": 630.96,
+      "end": 633.28,
+      "text": "不论他是尊重学文学理",
+      "avg_logprob": -0.28,
+      "no_speech_prob": 0.19
+    },
+    {
+      "start": 633.28,
+      "end": 634.32,
+      "text": "还是学什么",
+      "avg_logprob": -0.28,
+      "no_speech_prob": 0.19
+    },
+    {
+      "start": 634.32,
+      "end": 635.64,
+      "text": "还是学哲学",
+      "avg_logprob": -0.28,
+      "no_speech_prob": 0.19
+    },
+    {
+      "start": 635.88,
+      "end": 637.84,
+      "text": "其实没有关系",
+      "avg_logprob": -0.28,
+      "no_speech_prob": 0.19
+    },
+    {
+      "start": 637.84,
+      "end": 640.08,
+      "text": "因为这个是开发他的",
+      "avg_logprob": -0.28,
+      "no_speech_prob": 0.19
+    },
+    {
+      "start": 640.08,
+      "end": 641.88,
+      "text": "智力跟想像空间",
+      "avg_logprob": -0.188,
+      "no_speech_prob": 0.238
+    },
+    {
+      "start": 642.12,
+      "end": 644.94,
+      "text": "动手能力组织能力甚至是社交能力对吧",
+      "avg_logprob": -0.188,
+      "no_speech_prob": 0.238
+    },
+    {
+      "start": 645.2,
+      "end": 646.48,
+      "text": "我觉得是一个很好的",
+      "avg_logprob": -0.188,
+      "no_speech_prob": 0.238
+    },
+    {
+      "start": 646.74,
+      "end": 648.78,
+      "text": "那么我们有没有可能去",
+      "avg_logprob": -0.188,
+      "no_speech_prob": 0.238
+    },
+    {
+      "start": 649.04,
+      "end": 654.16,
+      "text": "开发这样的一个课程这个课程比如说刚才你说了我在多长时间里边90分钟",
+      "avg_logprob": -0.188,
+      "no_speech_prob": 0.238
+    },
+    {
+      "start": 654.42,
+      "end": 655.94,
+      "text": "还是一上午三个小时",
+      "avg_logprob": -0.188,
+      "no_speech_prob": 0.238
+    },
+    {
+      "start": 656.2,
+      "end": 656.72,
+      "text": "我都让",
+      "avg_logprob": -0.188,
+      "no_speech_prob": 0.238
+    },
+    {
+      "start": 657.24,
+      "end": 659.8,
+      "text": "他们做什么这个详细的流程是什么",
+      "avg_logprob": -0.188,
+      "no_speech_prob": 0.238
+    },
+    {
+      "start": 660.3,
+      "end": 662.86,
+      "text": "我需要的材料是什么我的成本是什么空间是什么",
+      "avg_logprob": -0.188,
+      "no_speech_prob": 0.238
+    },
+    {
+      "start": 663.12,
+      "end": 663.88,
+      "text": "最终",
+      "avg_logprob": -0.188,
+      "no_speech_prob": 0.238
+    },
+    {
+      "start": 664.14,
+      "end": 664.9,
+      "text": "我的",
+      "avg_logprob": -0.188,
+      "no_speech_prob": 0.238
+    },
+    {
+      "start": 665.16,
+      "end": 669.52,
+      "text": "这个得到让孩子们得到什么样的知识通过几次一周",
+      "avg_logprob": -0.188,
+      "no_speech_prob": 0.238
+    },
+    {
+      "start": 669.52,
+      "end": 672.96,
+      "text": "一次一周三小时半天的培训",
+      "avg_logprob": -0.205,
+      "no_speech_prob": 0.508
+    },
+    {
+      "start": 672.96,
+      "end": 676.24,
+      "text": "然后最终我经过两周三周四周五周",
+      "avg_logprob": -0.205,
+      "no_speech_prob": 0.508
+    },
+    {
+      "start": 676.24,
+      "end": 677.76,
+      "text": "最终我能达到什么样的效果",
+      "avg_logprob": -0.205,
+      "no_speech_prob": 0.508
+    },
+    {
+      "start": 677.76,
+      "end": 679.2,
+      "text": "它能够展过什么样的知识",
+      "avg_logprob": -0.205,
+      "no_speech_prob": 0.508
+    },
+    {
+      "start": 679.2,
+      "end": 682.36,
+      "text": "最终我能够产生什么样的一个产出",
+      "avg_logprob": -0.205,
+      "no_speech_prob": 0.508
+    },
+    {
+      "start": 682.36,
+      "end": 686.96,
+      "text": "我觉得这个其实是一个非常有意思的",
+      "avg_logprob": -0.205,
+      "no_speech_prob": 0.508
+    },
+    {
+      "start": 686.96,
+      "end": 689.52,
+      "text": "而且现在至少我看到的",
+      "avg_logprob": -0.205,
+      "no_speech_prob": 0.508
+    },
+    {
+      "start": 689.52,
+      "end": 694.25,
+      "text": "还是一个相对比较南海的空间",
+      "avg_logprob": -0.205,
+      "no_speech_prob": 0.508
+    },
+    {
+      "start": 694.25,
+      "end": 697.25,
+      "text": "你可能再往后随着胆基",
+      "avg_logprob": -0.205,
+      "no_speech_prob": 0.508
+    },
+    {
+      "start": 697.25,
+      "end": 700.93,
+      "text": "随着这种个人知道产品越来越进入家庭",
+      "avg_logprob": -0.281,
+      "no_speech_prob": 0.335
+    },
+    {
+      "start": 700.93,
+      "end": 704.65,
+      "text": "那可能这个东西就可能这个市场这个最有活力的",
+      "avg_logprob": -0.281,
+      "no_speech_prob": 0.335
+    },
+    {
+      "start": 704.65,
+      "end": 706.69,
+      "text": "于这个这个高峰期就过去了",
+      "avg_logprob": -0.281,
+      "no_speech_prob": 0.335
+    },
+    {
+      "start": 706.69,
+      "end": 708.89,
+      "text": "但是现在目前应该还没有过去",
+      "avg_logprob": -0.281,
+      "no_speech_prob": 0.335
+    },
+    {
+      "start": 709.33,
+      "end": 710.77,
+      "text": "所以我觉得随着AI的发展",
+      "avg_logprob": -0.281,
+      "no_speech_prob": 0.335
+    },
+    {
+      "start": 710.77,
+      "end": 714.69,
+      "text": "随着可对话生成是编程的这种发展",
+      "avg_logprob": -0.281,
+      "no_speech_prob": 0.335
+    },
+    {
+      "start": 714.93,
+      "end": 718.63,
+      "text": "那么其实这一波儿子的教育",
+      "avg_logprob": -0.281,
+      "no_speech_prob": 0.335
+    },
+    {
+      "start": 720.05,
+      "end": 722.93,
+      "text": "我觉得还是还是可以做的",
+      "avg_logprob": -0.281,
+      "no_speech_prob": 0.335
+    },
+    {
+      "start": 723.37,
+      "end": 725.13,
+      "text": "这是纯从创业角度",
+      "avg_logprob": -0.281,
+      "no_speech_prob": 0.335
+    },
+    {
+      "start": 725.13,
+      "end": 727.53,
+      "text": "如果是有感性的",
+      "avg_logprob": -0.444,
+      "no_speech_prob": 0.608
+    },
+    {
+      "start": 727.53,
+      "end": 729.57,
+      "text": "其实我真的自己想过这点上",
+      "avg_logprob": -0.444,
+      "no_speech_prob": 0.608
+    },
+    {
+      "start": 729.57,
+      "end": 733.46,
+      "text": "交别的可能不行",
+      "avg_logprob": -0.444,
+      "no_speech_prob": 0.608
+    },
+    {
+      "start": 733.46,
+      "end": 735.18,
+      "text": "但是小孩子还交不了嘛",
+      "avg_logprob": -0.444,
+      "no_speech_prob": 0.608
+    },
+    {
+      "start": 735.18,
+      "end": 735.66,
+      "text": "对吧",
+      "avg_logprob": -0.444,
+      "no_speech_prob": 0.608
+    },
+    {
+      "start": 735.66,
+      "end": 737.38,
+      "text": "一定没有呢",
+      "avg_logprob": -0.444,
+      "no_speech_prob": 0.608
+    },
+    {
+      "start": 737.38,
+      "end": 738.54,
+      "text": "一定可以交",
+      "avg_logprob": -0.444,
+      "no_speech_prob": 0.608
+    },
+    {
+      "start": 741.9,
+      "end": 743.46,
+      "text": "然后最后你在强调一下",
+      "avg_logprob": -0.444,
+      "no_speech_prob": 0.608
+    },
+    {
+      "start": 743.46,
+      "end": 745.22,
+      "text": "我们产品的一个目标",
+      "avg_logprob": -0.444,
+      "no_speech_prob": 0.608
+    },
+    {
+      "start": 745.22,
+      "end": 746.46,
+      "text": "就是想让这种",
+      "avg_logprob": -0.444,
+      "no_speech_prob": 0.608
+    },
+    {
+      "start": 746.46,
+      "end": 749.06,
+      "text": "周围我从你七星的娱乐体验",
+      "avg_logprob": -0.444,
+      "no_speech_prob": 0.608
+    },
+    {
+      "start": 749.06,
+      "end": 751.38,
+      "text": "让你承认你能够持续的去创作",
+      "avg_logprob": -0.444,
+      "no_speech_prob": 0.608
+    },
+    {
+      "start": 751.38,
+      "end": 753.06,
+      "text": "持续的学习和分享的",
+      "avg_logprob": -0.444,
+      "no_speech_prob": 0.608
+    },
+    {
+      "start": 753.06,
+      "end": 754.26,
+      "text": "一个开放式的产品",
+      "avg_logprob": -0.444,
+      "no_speech_prob": 0.608
+    },
+    {
+      "start": 754.26,
+      "end": 756.26,
+      "text": "生态必还",
+      "avg_logprob": -0.41,
+      "no_speech_prob": 0.673
+    },
+    {
+      "start": 758.6,
+      "end": 761.0,
+      "text": "这个是我们未来陈敏杰带的一个方向",
+      "avg_logprob": -0.41,
+      "no_speech_prob": 0.673
+    },
+    {
+      "start": 761.0,
+      "end": 763.0,
+      "text": "就是走向规模派的三步",
+      "avg_logprob": -0.41,
+      "no_speech_prob": 0.673
+    },
+    {
+      "start": 763.0,
+      "end": 765.0,
+      "text": "第一是产品的打磨",
+      "avg_logprob": -0.41,
+      "no_speech_prob": 0.673
+    },
+    {
+      "start": 765.0,
+      "end": 768.0,
+      "text": "第二是产品的试点和社群",
+      "avg_logprob": -0.41,
+      "no_speech_prob": 0.673
+    },
+    {
+      "start": 768.0,
+      "end": 771.0,
+      "text": "然后社区的一件事和扩展",
+      "avg_logprob": -0.41,
+      "no_speech_prob": 0.673
+    },
+    {
+      "start": 771.0,
+      "end": 773.0,
+      "text": "然后让我们的心态活动",
+      "avg_logprob": -0.41,
+      "no_speech_prob": 0.673
+    },
+    {
+      "start": 773.0,
+      "end": 777.0,
+      "text": "更容易去发生在我们人生的生产过程",
+      "avg_logprob": -0.41,
+      "no_speech_prob": 0.673
+    },
+    {
+      "start": 777.0,
+      "end": 778.0,
+      "text": "然后呢",
+      "avg_logprob": -0.41,
+      "no_speech_prob": 0.673
+    },
+    {
+      "start": 778.0,
+      "end": 781.0,
+      "text": "到时候你们可以跟那个曼宝老师沟通一下",
+      "avg_logprob": -0.41,
+      "no_speech_prob": 0.673
+    },
+    {
+      "start": 781.0,
+      "end": 786.0,
+      "text": "我們比如說我們現在想去做自己的自媒體",
+      "avg_logprob": -0.301,
+      "no_speech_prob": 0.402
+    },
+    {
+      "start": 786.0,
+      "end": 791.0,
+      "text": "我們就以它做起點什麼事都能有個開頭",
+      "avg_logprob": -0.301,
+      "no_speech_prob": 0.402
+    },
+    {
+      "start": 791.0,
+      "end": 792.0,
+      "text": "對吧",
+      "avg_logprob": -0.301,
+      "no_speech_prob": 0.402
+    },
+    {
+      "start": 792.0,
+      "end": 794.0,
+      "text": "所以我們就做它的宣傳",
+      "avg_logprob": -0.301,
+      "no_speech_prob": 0.402
+    },
+    {
+      "start": 794.0,
+      "end": 796.0,
+      "text": "做一些自媒體的手工術業",
+      "avg_logprob": -0.301,
+      "no_speech_prob": 0.402
+    },
+    {
+      "start": 796.0,
+      "end": 798.0,
+      "text": "手音不管是什麼樣",
+      "avg_logprob": -0.301,
+      "no_speech_prob": 0.402
+    },
+    {
+      "start": 798.0,
+      "end": 799.0,
+      "text": "就問他們",
+      "avg_logprob": -0.301,
+      "no_speech_prob": 0.402
+    },
+    {
+      "start": 799.0,
+      "end": 800.0,
+      "text": "他們覺得這個",
+      "avg_logprob": -0.301,
+      "no_speech_prob": 0.402
+    },
+    {
+      "start": 800.0,
+      "end": 802.0,
+      "text": "當然因為是1.0嘛",
+      "avg_logprob": -0.301,
+      "no_speech_prob": 0.402
+    },
+    {
+      "start": 802.0,
+      "end": 804.0,
+      "text": "所以我覺得不涉及到保密",
+      "avg_logprob": -0.301,
+      "no_speech_prob": 0.402
+    },
+    {
+      "start": 804.0,
+      "end": 806.0,
+      "text": "所以我覺得應該是問題不大",
+      "avg_logprob": -0.301,
+      "no_speech_prob": 0.402
+    },
+    {
+      "start": 806.0,
+      "end": 809.0,
+      "text": "咱們就可以去嘗試著自己去做一下",
+      "avg_logprob": -0.301,
+      "no_speech_prob": 0.402
+    },
+    {
+      "start": 809.0,
+      "end": 812.0,
+      "text": "然后他们怎么能够把这个东西做",
+      "avg_logprob": -0.263,
+      "no_speech_prob": 0.407
+    },
+    {
+      "start": 815.34,
+      "end": 818.34,
+      "text": "这是我们的一个未来设想",
+      "avg_logprob": -0.263,
+      "no_speech_prob": 0.407
+    },
+    {
+      "start": 818.34,
+      "end": 823.34,
+      "text": "我们想在上世纪年达到了一万的玩家",
+      "avg_logprob": -0.263,
+      "no_speech_prob": 0.407
+    },
+    {
+      "start": 823.34,
+      "end": 827.34,
+      "text": "然后上世三年达到不该十万的玩家",
+      "avg_logprob": -0.263,
+      "no_speech_prob": 0.407
+    },
+    {
+      "start": 827.34,
+      "end": 829.34,
+      "text": "对 就是不该拳头",
+      "avg_logprob": -0.263,
+      "no_speech_prob": 0.407
+    },
+    {
+      "start": 829.34,
+      "end": 833.34,
+      "text": "我觉得这个东西是怎么样才能有这样的一个规模",
+      "avg_logprob": -0.263,
+      "no_speech_prob": 0.407
+    },
+    {
+      "start": 833.34,
+      "end": 836.34,
+      "text": "其实就是说你的内容要能支持这个规模",
+      "avg_logprob": -0.263,
+      "no_speech_prob": 0.407
+    },
+    {
+      "start": 836.34,
+      "end": 837.34,
+      "text": "什么叫内容",
+      "avg_logprob": -0.263,
+      "no_speech_prob": 0.407
+    },
+    {
+      "start": 837.34,
+      "end": 839.34,
+      "text": "就是比如说我是一个家族化的",
+      "avg_logprob": -0.263,
+      "no_speech_prob": 0.407
+    },
+    {
+      "start": 839.34,
+      "end": 843.98,
+      "text": "系列这样的产品是一个最后变成了一个机器人军团",
+      "avg_logprob": -0.359,
+      "no_speech_prob": 0.764
+    },
+    {
+      "start": 846.52,
+      "end": 848.04,
+      "text": "才能够支持这样的",
+      "avg_logprob": -0.359,
+      "no_speech_prob": 0.764
+    },
+    {
+      "start": 848.04,
+      "end": 849.56,
+      "text": "就是你不如我就俩机器人",
+      "avg_logprob": -0.359,
+      "no_speech_prob": 0.764
+    },
+    {
+      "start": 849.56,
+      "end": 851.24,
+      "text": "那我玩两天我就玩腻了",
+      "avg_logprob": -0.359,
+      "no_speech_prob": 0.764
+    },
+    {
+      "start": 851.24,
+      "end": 852.76,
+      "text": "跟过很多很多机器人",
+      "avg_logprob": -0.359,
+      "no_speech_prob": 0.764
+    },
+    {
+      "start": 853.4,
+      "end": 857.54,
+      "text": "那天我就带着孩子看那个特别老的一个动画片",
+      "avg_logprob": -0.359,
+      "no_speech_prob": 0.764
+    },
+    {
+      "start": 857.54,
+      "end": 859.82,
+      "text": "叫什么边宁钢起源",
+      "avg_logprob": -0.359,
+      "no_speech_prob": 0.764
+    },
+    {
+      "start": 860.9,
+      "end": 862.7,
+      "text": "就讲他们俩最开始是吧",
+      "avg_logprob": -0.359,
+      "no_speech_prob": 0.764
+    },
+    {
+      "start": 862.7,
+      "end": 863.38,
+      "text": "逛的好朋友",
+      "avg_logprob": -0.359,
+      "no_speech_prob": 0.764
+    },
+    {
+      "start": 863.38,
+      "end": 868.29,
+      "text": "后来怎么走上各自不同的道路的那个起源",
+      "avg_logprob": -0.359,
+      "no_speech_prob": 0.764
+    },
+    {
+      "start": 868.29,
+      "end": 872.09,
+      "text": "那他便宜刚这么多年的发展 《海之宝》",
+      "avg_logprob": -0.385,
+      "no_speech_prob": 0.509
+    },
+    {
+      "start": 872.09,
+      "end": 875.29,
+      "text": "他就是 可能最开始就想了",
+      "avg_logprob": -0.385,
+      "no_speech_prob": 0.509
+    },
+    {
+      "start": 875.29,
+      "end": 877.49,
+      "text": "晴天珠 魏政年",
+      "avg_logprob": -0.385,
+      "no_speech_prob": 0.509
+    },
+    {
+      "start": 877.49,
+      "end": 879.89,
+      "text": "最后 这一下这个故事背景",
+      "avg_logprob": -0.385,
+      "no_speech_prob": 0.509
+    },
+    {
+      "start": 879.89,
+      "end": 881.69,
+      "text": "庞大的世界观一下就出来了",
+      "avg_logprob": -0.385,
+      "no_speech_prob": 0.509
+    },
+    {
+      "start": 881.69,
+      "end": 884.69,
+      "text": "赛博 赛博坦 清球 什么啦啦啦啦",
+      "avg_logprob": -0.385,
+      "no_speech_prob": 0.509
+    },
+    {
+      "start": 884.69,
+      "end": 887.49,
+      "text": "我觉得其实这两可以作为起点",
+      "avg_logprob": -0.385,
+      "no_speech_prob": 0.509
+    },
+    {
+      "start": 887.49,
+      "end": 889.09,
+      "text": "但是你一定要有一个",
+      "avg_logprob": -0.385,
+      "no_speech_prob": 0.509
+    },
+    {
+      "start": 889.09,
+      "end": 892.17,
+      "text": "是吧 世界观也好",
+      "avg_logprob": -0.385,
+      "no_speech_prob": 0.509
+    },
+    {
+      "start": 892.17,
+      "end": 893.97,
+      "text": "故事也好 背景也好",
+      "avg_logprob": -0.385,
+      "no_speech_prob": 0.509
+    },
+    {
+      "start": 893.97,
+      "end": 895.77,
+      "text": "他的家族化的产品也好",
+      "avg_logprob": -0.385,
+      "no_speech_prob": 0.509
+    },
+    {
+      "start": 895.77,
+      "end": 898.61,
+      "text": "我觉得这一系列的问题出了",
+      "avg_logprob": -0.385,
+      "no_speech_prob": 0.509
+    },
+    {
+      "start": 898.61,
+      "end": 903.82,
+      "text": "才能支撑起来你的这个商业计划",
+      "avg_logprob": -0.618,
+      "no_speech_prob": 0.359
+    },
+    {
+      "start": 903.82,
+      "end": 912.24,
+      "text": "你是一个就体验的传辑",
+      "avg_logprob": -0.618,
+      "no_speech_prob": 0.359
+    },
+    {
+      "start": 912.24,
+      "end": 915.07,
+      "text": "有同学想上来体验一下",
+      "avg_logprob": -0.618,
+      "no_speech_prob": 0.359
+    },
+    {
+      "start": 915.07,
+      "end": 917.67,
+      "text": "来,咱们找两位同学体验一下",
+      "avg_logprob": -0.618,
+      "no_speech_prob": 0.359
+    },
+    {
+      "start": 917.67,
+      "end": 918.39,
+      "text": "好不好",
+      "avg_logprob": -0.618,
+      "no_speech_prob": 0.359
+    },
+    {
+      "start": 920.02,
+      "end": 926.61,
+      "text": "最好就是这个",
+      "avg_logprob": -0.618,
+      "no_speech_prob": 0.359
+    },
+    {
+      "start": 926.61,
+      "end": 928.03,
+      "text": "不是上读的人来吧",
+      "avg_logprob": -0.618,
+      "no_speech_prob": 0.359
+    },
+    {
+      "start": 928.03,
+      "end": 928.79,
+      "text": "最后",
+      "avg_logprob": -0.618,
+      "no_speech_prob": 0.359
+    },
+    {
+      "start": 928.79,
+      "end": 936.79,
+      "text": "其实也没有太清楚",
+      "avg_logprob": -0.618,
+      "no_speech_prob": 0.359
+    },
+    {
+      "start": 936.79,
+      "end": 938.39,
+      "text": "他可能无比",
+      "avg_logprob": -0.618,
+      "no_speech_prob": 0.359
+    },
+    {
+      "start": 938.39,
+      "end": 939.91,
+      "text": "我找你",
+      "avg_logprob": -0.618,
+      "no_speech_prob": 0.359
+    },
+    {
+      "start": 939.91,
+      "end": 947.81,
+      "text": "好,抓紧时间",
+      "avg_logprob": -0.618,
+      "no_speech_prob": 0.359
+    },
+    {
+      "start": 947.81,
+      "end": 951.21,
+      "text": "发现之间咱们来把这事解决了",
+      "avg_logprob": -0.515,
+      "no_speech_prob": 0.227
+    },
+    {
+      "start": 965.61,
+      "end": 969.01,
+      "text": "你们都是明确跳的环了",
+      "avg_logprob": -0.515,
+      "no_speech_prob": 0.227
+    },
+    {
+      "start": 969.01,
+      "end": 970.21,
+      "text": "真正来一个老朋友",
+      "avg_logprob": -0.515,
+      "no_speech_prob": 0.227
+    },
+    {
+      "start": 970.21,
+      "end": 971.41,
+      "text": "其实咖啡就有玩法了",
+      "avg_logprob": -0.515,
+      "no_speech_prob": 0.227
+    },
+    {
+      "start": 971.41,
+      "end": 972.01,
+      "text": "对吧",
+      "avg_logprob": -0.515,
+      "no_speech_prob": 0.227
+    },
+    {
+      "start": 972.01,
+      "end": 975.41,
+      "text": "所以这个东西它的耐玩性一定要有",
+      "avg_logprob": -0.515,
+      "no_speech_prob": 0.227
+    },
+    {
+      "start": 980.36,
+      "end": 981.36,
+      "text": "你选一个",
+      "avg_logprob": -0.515,
+      "no_speech_prob": 0.227
+    },
+    {
+      "start": 981.36,
+      "end": 982.36,
+      "text": "你喜欢红颜色",
+      "avg_logprob": -0.515,
+      "no_speech_prob": 0.227
+    },
+    {
+      "start": 982.36,
+      "end": 983.96,
+      "text": "喜欢蓝颜色",
+      "avg_logprob": -0.515,
+      "no_speech_prob": 0.227
+    },
+    {
+      "start": 988.86,
+      "end": 990.26,
+      "text": "然后让他们组出一个人",
+      "avg_logprob": -0.515,
+      "no_speech_prob": 0.227
+    },
+    {
+      "start": 990.86,
+      "end": 991.86,
+      "text": "你们俩打",
+      "avg_logprob": -0.515,
+      "no_speech_prob": 0.227
+    },
+    {
+      "start": 992.86,
+      "end": 994.26,
+      "text": "那我可以打红颜色",
+      "avg_logprob": -0.515,
+      "no_speech_prob": 0.227
+    },
+    {
+      "start": 994.26,
+      "end": 1003.86,
+      "text": "呃 这是 反正这个",
+      "avg_logprob": -0.416,
+      "no_speech_prob": 0.496
+    },
+    {
+      "start": 1012.98,
+      "end": 1014.98,
+      "text": "这个如果真的咱们要去县站的话",
+      "avg_logprob": -0.416,
+      "no_speech_prob": 0.496
+    },
+    {
+      "start": 1014.98,
+      "end": 1017.98,
+      "text": "咱们也提前一天就得",
+      "avg_logprob": -0.416,
+      "no_speech_prob": 0.496
+    },
+    {
+      "start": 1017.98,
+      "end": 1019.98,
+      "text": "是吧 你肯定不能玩吧 才玩",
+      "avg_logprob": -0.416,
+      "no_speech_prob": 0.496
+    },
+    {
+      "start": 1019.98,
+      "end": 1022.98,
+      "text": "还没开始了 现在玩不了",
+      "avg_logprob": -0.416,
+      "no_speech_prob": 0.496
+    },
+    {
+      "start": 1022.98,
+      "end": 1025.98,
+      "text": "我说是 可能是这个芯片它",
+      "avg_logprob": -0.416,
+      "no_speech_prob": 0.496
+    },
+    {
+      "start": 1025.98,
+      "end": 1028.97,
+      "text": "是不是有点长",
+      "avg_logprob": -0.416,
+      "no_speech_prob": 0.496
+    },
+    {
+      "start": 1028.97,
+      "end": 1031.97,
+      "text": "就在从昨天晚上开始",
+      "avg_logprob": -0.416,
+      "no_speech_prob": 0.496
+    },
+    {
+      "start": 1031.97,
+      "end": 1033.97,
+      "text": "它就经常断命",
+      "avg_logprob": -0.416,
+      "no_speech_prob": 0.496
+    },
+    {
+      "start": 1033.97,
+      "end": 1038.65,
+      "text": "不是",
+      "avg_logprob": -0.416,
+      "no_speech_prob": 0.496
+    },
+    {
+      "start": 1042.6,
+      "end": 1046.9,
+      "text": "这个叫控制中国这样的东西",
+      "avg_logprob": -0.835,
+      "no_speech_prob": 0.272
+    },
+    {
+      "start": 1046.9,
+      "end": 1048.7,
+      "text": "再给我来当这个球打掉",
+      "avg_logprob": -0.835,
+      "no_speech_prob": 0.272
+    },
+    {
+      "start": 1057.7,
+      "end": 1058.3,
+      "text": "好了",
+      "avg_logprob": -0.835,
+      "no_speech_prob": 0.272
+    },
+    {
+      "start": 1101.89,
+      "end": 1103.41,
+      "text": "就在他们这段的过程中",
+      "avg_logprob": -0.835,
+      "no_speech_prob": 0.272
+    },
+    {
+      "start": 1103.41,
+      "end": 1104.45,
+      "text": "我也跟大家说",
+      "avg_logprob": -0.835,
+      "no_speech_prob": 0.272
+    },
+    {
+      "start": 1104.45,
+      "end": 1109.53,
+      "text": "比如说我们做这个就是做呆帽这个其实都不够了",
+      "avg_logprob": -0.566,
+      "no_speech_prob": 0.438
+    },
+    {
+      "start": 1109.53,
+      "end": 1113.17,
+      "text": "因为咱们在就是做本身就是一个研究的过程",
+      "avg_logprob": -0.566,
+      "no_speech_prob": 0.438
+    },
+    {
+      "start": 1113.17,
+      "end": 1113.81,
+      "text": "但是呢",
+      "avg_logprob": -0.566,
+      "no_speech_prob": 0.438
+    },
+    {
+      "start": 1114.57,
+      "end": 1117.53,
+      "text": "产品商品跟呆帽就关键了",
+      "avg_logprob": -0.566,
+      "no_speech_prob": 0.438
+    },
+    {
+      "start": 1117.53,
+      "end": 1119.93,
+      "text": "消费者你几乎是没有什么信息",
+      "avg_logprob": -0.566,
+      "no_speech_prob": 0.438
+    },
+    {
+      "start": 1119.93,
+      "end": 1120.93,
+      "text": "就是这个耐心的",
+      "avg_logprob": -0.566,
+      "no_speech_prob": 0.438
+    },
+    {
+      "start": 1120.93,
+      "end": 1122.61,
+      "text": "就是你必须是打开",
+      "avg_logprob": -0.566,
+      "no_speech_prob": 0.438
+    },
+    {
+      "start": 1123.09,
+      "end": 1125.69,
+      "text": "这是他他把电池按键就能使",
+      "avg_logprob": -0.566,
+      "no_speech_prob": 0.438
+    },
+    {
+      "start": 1125.69,
+      "end": 1129.33,
+      "text": "就是这个是一个非常重要的事情",
+      "avg_logprob": -0.566,
+      "no_speech_prob": 0.438
+    },
+    {
+      "start": 1129.33,
+      "end": 1131.65,
+      "text": "所以你说我玩儿靠谎了",
+      "avg_logprob": -0.566,
+      "no_speech_prob": 0.438
+    },
+    {
+      "start": 1131.65,
+      "end": 1137.65,
+      "text": "你說我對這些對方人愛歌的動作",
+      "avg_logprob": -0.87,
+      "no_speech_prob": 0.684
+    },
+    {
+      "start": 1137.65,
+      "end": 1141.65,
+      "text": "對於一些普通手的動作",
+      "avg_logprob": -0.87,
+      "no_speech_prob": 0.684
+    },
+    {
+      "start": 1161.65,
+      "end": 1164.85,
+      "text": "然后放进去 然后功夫之后就是",
+      "avg_logprob": -0.863,
+      "no_speech_prob": 0.595
+    },
+    {
+      "start": 1165.78,
+      "end": 1169.14,
+      "text": "然后就放进来 先不要碰",
+      "avg_logprob": -0.863,
+      "no_speech_prob": 0.595
+    },
+    {
+      "start": 1169.54,
+      "end": 1172.54,
+      "text": "这个就是控制它搬一样 搬搬一样",
+      "avg_logprob": -0.863,
+      "no_speech_prob": 0.595
+    },
+    {
+      "start": 1172.54,
+      "end": 1174.94,
+      "text": "然后这样子就是 还有一个选择上",
+      "avg_logprob": -0.863,
+      "no_speech_prob": 0.595
+    },
+    {
+      "start": 1175.94,
+      "end": 1179.01,
+      "text": "所以我就以为这样子",
+      "avg_logprob": -0.863,
+      "no_speech_prob": 0.595
+    },
+    {
+      "start": 1179.81,
+      "end": 1183.5,
+      "text": "要试一下 然后让它开始",
+      "avg_logprob": -0.863,
+      "no_speech_prob": 0.595
+    },
+    {
+      "start": 1184.1,
+      "end": 1188.49,
+      "text": "让它走两步",
+      "avg_logprob": -0.863,
+      "no_speech_prob": 0.595
+    },
+    {
+      "start": 1191.42,
+      "end": 1192.42,
+      "text": "开始 开始",
+      "avg_logprob": -0.863,
+      "no_speech_prob": 0.595
+    },
+    {
+      "start": 1193.74,
+      "end": 1194.34,
+      "text": "开始",
+      "avg_logprob": -0.863,
+      "no_speech_prob": 0.595
+    },
+    {
+      "start": 1194.34,
+      "end": 1195.54,
+      "text": "好 开始吧",
+      "avg_logprob": -0.863,
+      "no_speech_prob": 0.595
+    },
+    {
+      "start": 1201.08,
+      "end": 1201.88,
+      "text": "这个就摔",
+      "avg_logprob": -0.863,
+      "no_speech_prob": 0.595
+    },
+    {
+      "start": 1202.61,
+      "end": 1204.01,
+      "text": "蓝色小帮我怎么走了",
+      "avg_logprob": -0.863,
+      "no_speech_prob": 0.595
+    },
+    {
+      "start": 1204.01,
+      "end": 1205.01,
+      "text": "我要摸了",
+      "avg_logprob": -0.698,
+      "no_speech_prob": 0.402
+    },
+    {
+      "start": 1208.88,
+      "end": 1209.88,
+      "text": "又是这儿",
+      "avg_logprob": -0.698,
+      "no_speech_prob": 0.402
+    },
+    {
+      "start": 1211.45,
+      "end": 1213.25,
+      "text": "这还有些地形状态",
+      "avg_logprob": -0.698,
+      "no_speech_prob": 0.402
+    },
+    {
+      "start": 1214.08,
+      "end": 1215.08,
+      "text": "够了够了够了",
+      "avg_logprob": -0.698,
+      "no_speech_prob": 0.402
+    },
+    {
+      "start": 1216.37,
+      "end": 1217.57,
+      "text": "踏脚",
+      "avg_logprob": -0.698,
+      "no_speech_prob": 0.402
+    },
+    {
+      "start": 1221.94,
+      "end": 1222.54,
+      "text": "都出来了",
+      "avg_logprob": -0.698,
+      "no_speech_prob": 0.402
+    },
+    {
+      "start": 1222.54,
+      "end": 1223.34,
+      "text": "手往右转了",
+      "avg_logprob": -0.698,
+      "no_speech_prob": 0.402
+    },
+    {
+      "start": 1223.34,
+      "end": 1224.14,
+      "text": "手往右转",
+      "avg_logprob": -0.698,
+      "no_speech_prob": 0.402
+    },
+    {
+      "start": 1224.14,
+      "end": 1231.51,
+      "text": "左边左肚一点",
+      "avg_logprob": -0.698,
+      "no_speech_prob": 0.402
+    },
+    {
+      "start": 1231.51,
+      "end": 1233.31,
+      "text": "我来这儿等着捶你",
+      "avg_logprob": -0.698,
+      "no_speech_prob": 0.402
+    },
+    {
+      "start": 1233.31,
+      "end": 1233.91,
+      "text": "好",
+      "avg_logprob": -0.698,
+      "no_speech_prob": 0.402
+    },
+    {
+      "start": 1235.11,
+      "end": 1239.5,
+      "text": "你后腿",
+      "avg_logprob": -0.698,
+      "no_speech_prob": 0.402
+    },
+    {
+      "start": 1240.44,
+      "end": 1241.24,
+      "text": "到我车了",
+      "avg_logprob": -0.698,
+      "no_speech_prob": 0.402
+    },
+    {
+      "start": 1246.24,
+      "end": 1247.04,
+      "text": "能站起来吗",
+      "avg_logprob": -0.698,
+      "no_speech_prob": 0.402
+    },
+    {
+      "start": 1248.04,
+      "end": 1249.44,
+      "text": "我试一下",
+      "avg_logprob": -0.698,
+      "no_speech_prob": 0.402
+    },
+    {
+      "start": 1249.44,
+      "end": 1252.94,
+      "text": "那应该是不行的",
+      "avg_logprob": -0.715,
+      "no_speech_prob": 0.495
+    },
+    {
+      "start": 1252.94,
+      "end": 1253.94,
+      "text": "我再哭一会",
+      "avg_logprob": -0.715,
+      "no_speech_prob": 0.495
+    },
+    {
+      "start": 1253.94,
+      "end": 1260.26,
+      "text": "那可能推点注意这样攻击一点吧",
+      "avg_logprob": -0.715,
+      "no_speech_prob": 0.495
+    },
+    {
+      "start": 1260.26,
+      "end": 1267.85,
+      "text": "让我删你吧",
+      "avg_logprob": -0.715,
+      "no_speech_prob": 0.495
+    },
+    {
+      "start": 1267.85,
+      "end": 1270.63,
+      "text": "怎么删来着",
+      "avg_logprob": -0.715,
+      "no_speech_prob": 0.495
+    },
+    {
+      "start": 1270.63,
+      "end": 1272.15,
+      "text": "上面那一块",
+      "avg_logprob": -0.715,
+      "no_speech_prob": 0.495
+    },
+    {
+      "start": 1272.15,
+      "end": 1274.59,
+      "text": "你手机一点就删",
+      "avg_logprob": -0.715,
+      "no_speech_prob": 0.495
+    },
+    {
+      "start": 1274.59,
+      "end": 1278.87,
+      "text": "好可惜",
+      "avg_logprob": -0.715,
+      "no_speech_prob": 0.495
+    },
+    {
+      "start": 1278.87,
+      "end": 1306.28,
+      "text": "我不行我要先去打球啊",
+      "avg_logprob": -0.608,
+      "no_speech_prob": 0.405
+    },
+    {
+      "start": 1306.28,
+      "end": 1309.14,
+      "text": "你來打球",
+      "avg_logprob": -0.608,
+      "no_speech_prob": 0.405
+    },
+    {
+      "start": 1309.14,
+      "end": 1315.86,
+      "text": "我等不及了我",
+      "avg_logprob": -0.608,
+      "no_speech_prob": 0.405
+    },
+    {
+      "start": 1315.86,
+      "end": 1324.92,
+      "text": "那這就算我我先留分了",
+      "avg_logprob": -0.608,
+      "no_speech_prob": 0.405
+    },
+    {
+      "start": 1324.92,
+      "end": 1327.27,
+      "text": "你打的",
+      "avg_logprob": -0.608,
+      "no_speech_prob": 0.405
+    },
+    {
+      "start": 1327.27,
+      "end": 1328.27,
+      "text": "是假的",
+      "avg_logprob": -0.493,
+      "no_speech_prob": 0.571
+    },
+    {
+      "start": 1353.38,
+      "end": 1361.41,
+      "text": "但是我们会也许会研查一下这个球是什么状态",
+      "avg_logprob": -0.493,
+      "no_speech_prob": 0.571
+    },
+    {
+      "start": 1368.63,
+      "end": 1370.63,
+      "text": "因为它里面得放塑料",
+      "avg_logprob": -0.493,
+      "no_speech_prob": 0.571
+    },
+    {
+      "start": 1370.63,
+      "end": 1372.63,
+      "text": "不是得放磁铁",
+      "avg_logprob": -0.493,
+      "no_speech_prob": 0.571
+    },
+    {
+      "start": 1372.63,
+      "end": 1374.63,
+      "text": "那这个是磁吸的",
+      "avg_logprob": -0.493,
+      "no_speech_prob": 0.571
+    },
+    {
+      "start": 1380.63,
+      "end": 1382.91,
+      "text": "好 非常好",
+      "avg_logprob": -0.678,
+      "no_speech_prob": 0.228
+    },
+    {
+      "start": 1382.91,
+      "end": 1385.7,
+      "text": "好 咱们最后一锅",
+      "avg_logprob": -0.678,
+      "no_speech_prob": 0.228
+    },
+    {
+      "start": 1414.03,
+      "end": 1415.03,
+      "text": "好 最后一锅",
+      "avg_logprob": -0.678,
+      "no_speech_prob": 0.228
+    }
+  ]
+}

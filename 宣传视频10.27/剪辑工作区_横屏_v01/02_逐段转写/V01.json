@@ -1,0 +1,22 @@
+{
+  "source": "E:\\课程作业\\大三上\\张茫 用户研究与体验设计\\宣传视频10.27\\02554bd8092aa1217c3c4929fe352494.mp4",
+  "id": "V01",
+  "model": "faster-whisper-small CPU int8",
+  "status": "机器转写 未逐字听校",
+  "segments": [
+    {
+      "start": 1.94,
+      "end": 3.94,
+      "text": "我应该给同学们学会了",
+      "avg_logprob": -1.208,
+      "no_speech_prob": 0.069
+    },
+    {
+      "start": 4.68,
+      "end": 5.18,
+      "text": "了解",
+      "avg_logprob": -1.208,
+      "no_speech_prob": 0.069
+    }
+  ]
+}

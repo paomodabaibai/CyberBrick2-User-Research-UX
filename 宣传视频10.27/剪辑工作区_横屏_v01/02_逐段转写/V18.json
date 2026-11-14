@@ -1,0 +1,617 @@
+{
+  "source": "E:\\课程作业\\大三上\\张茫 用户研究与体验设计\\宣传视频10.27\\DJI_20260922154440_0336_D.MP4",
+  "id": "V18",
+  "model": "faster-whisper-small CPU int8",
+  "status": "机器转写 未逐字听校",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.0,
+      "text": "同性没有",
+      "avg_logprob": -0.365,
+      "no_speech_prob": 0.289
+    },
+    {
+      "start": 2.18,
+      "end": 3.48,
+      "text": "这是供电就行",
+      "avg_logprob": -0.365,
+      "no_speech_prob": 0.289
+    },
+    {
+      "start": 3.48,
+      "end": 4.51,
+      "text": "还是怎么样",
+      "avg_logprob": -0.365,
+      "no_speech_prob": 0.289
+    },
+    {
+      "start": 4.51,
+      "end": 7.51,
+      "text": "它就相当于给你扩展一些接口",
+      "avg_logprob": -0.365,
+      "no_speech_prob": 0.289
+    },
+    {
+      "start": 7.51,
+      "end": 9.91,
+      "text": "你就像个电脑的拓展",
+      "avg_logprob": -0.365,
+      "no_speech_prob": 0.289
+    },
+    {
+      "start": 9.91,
+      "end": 11.01,
+      "text": "有这个接口吗",
+      "avg_logprob": -0.365,
+      "no_speech_prob": 0.289
+    },
+    {
+      "start": 11.01,
+      "end": 12.01,
+      "text": "有时候",
+      "avg_logprob": -0.365,
+      "no_speech_prob": 0.289
+    },
+    {
+      "start": 13.09,
+      "end": 14.09,
+      "text": "给剥机的接口有",
+      "avg_logprob": -0.365,
+      "no_speech_prob": 0.289
+    },
+    {
+      "start": 15.08,
+      "end": 15.88,
+      "text": "就在板子上",
+      "avg_logprob": -0.365,
+      "no_speech_prob": 0.289
+    },
+    {
+      "start": 15.88,
+      "end": 17.88,
+      "text": "这上面不是有四个接口吗",
+      "avg_logprob": -0.365,
+      "no_speech_prob": 0.289
+    },
+    {
+      "start": 17.88,
+      "end": 19.38,
+      "text": "那不是四个剥机吗",
+      "avg_logprob": -0.365,
+      "no_speech_prob": 0.289
+    },
+    {
+      "start": 19.38,
+      "end": 20.88,
+      "text": "这上面不是有六个吗",
+      "avg_logprob": -0.365,
+      "no_speech_prob": 0.289
+    },
+    {
+      "start": 20.88,
+      "end": 21.88,
+      "text": "哪有六个",
+      "avg_logprob": -0.365,
+      "no_speech_prob": 0.289
+    },
+    {
+      "start": 21.88,
+      "end": 23.54,
+      "text": "哦 它是横着的",
+      "avg_logprob": -0.365,
+      "no_speech_prob": 0.289
+    },
+    {
+      "start": 23.54,
+      "end": 24.04,
+      "text": "对呀",
+      "avg_logprob": -0.365,
+      "no_speech_prob": 0.289
+    },
+    {
+      "start": 24.04,
+      "end": 24.54,
+      "text": "哦",
+      "avg_logprob": -0.365,
+      "no_speech_prob": 0.289
+    },
+    {
+      "start": 24.54,
+      "end": 25.54,
+      "text": "它横着的呀",
+      "avg_logprob": -0.365,
+      "no_speech_prob": 0.289
+    },
+    {
+      "start": 25.54,
+      "end": 27.86,
+      "text": "它横着的呀",
+      "avg_logprob": -0.365,
+      "no_speech_prob": 0.289
+    },
+    {
+      "start": 28.86,
+      "end": 30.86,
+      "text": "我们能用旁边这些接口吗",
+      "avg_logprob": -0.365,
+      "no_speech_prob": 0.289
+    },
+    {
+      "start": 30.86,
+      "end": 32.86,
+      "text": "不行啊 旁边他已经定死了",
+      "avg_logprob": -0.296,
+      "no_speech_prob": 0.184
+    },
+    {
+      "start": 32.86,
+      "end": 34.92,
+      "text": "LED的 还有电机的",
+      "avg_logprob": -0.296,
+      "no_speech_prob": 0.184
+    },
+    {
+      "start": 34.92,
+      "end": 41.83,
+      "text": "我们不可能为了一个拉个上面的攻击膜块又引出来吧",
+      "avg_logprob": -0.296,
+      "no_speech_prob": 0.184
+    },
+    {
+      "start": 41.83,
+      "end": 43.83,
+      "text": "又引出来个接收器",
+      "avg_logprob": -0.296,
+      "no_speech_prob": 0.184
+    },
+    {
+      "start": 43.83,
+      "end": 48.78,
+      "text": "这次到新的接收器的问题",
+      "avg_logprob": -0.296,
+      "no_speech_prob": 0.184
+    },
+    {
+      "start": 48.78,
+      "end": 52.46,
+      "text": "它能一个遥控器控制两个接收器吗",
+      "avg_logprob": -0.296,
+      "no_speech_prob": 0.184
+    },
+    {
+      "start": 52.46,
+      "end": 53.46,
+      "text": "可以啊",
+      "avg_logprob": -0.296,
+      "no_speech_prob": 0.184
+    },
+    {
+      "start": 53.46,
+      "end": 54.46,
+      "text": "可以啊",
+      "avg_logprob": -0.296,
+      "no_speech_prob": 0.184
+    },
+    {
+      "start": 54.46,
+      "end": 56.46,
+      "text": "2.0现在不是都在开放",
+      "avg_logprob": -0.296,
+      "no_speech_prob": 0.184
+    },
+    {
+      "start": 56.46,
+      "end": 59.26,
+      "text": "那肯定1.0肯定可以",
+      "avg_logprob": -0.296,
+      "no_speech_prob": 0.184
+    },
+    {
+      "start": 59.26,
+      "end": 60.26,
+      "text": "但是没事 我还是",
+      "avg_logprob": -0.296,
+      "no_speech_prob": 0.184
+    },
+    {
+      "start": 60.26,
+      "end": 61.26,
+      "text": "那只能这样了呀",
+      "avg_logprob": -0.296,
+      "no_speech_prob": 0.184
+    },
+    {
+      "start": 61.26,
+      "end": 62.26,
+      "text": "那还有啥办法",
+      "avg_logprob": -0.296,
+      "no_speech_prob": 0.184
+    },
+    {
+      "start": 62.26,
+      "end": 63.26,
+      "text": "就是两个接收板",
+      "avg_logprob": -0.296,
+      "no_speech_prob": 0.184
+    },
+    {
+      "start": 63.26,
+      "end": 64.26,
+      "text": "对呀",
+      "avg_logprob": -0.296,
+      "no_speech_prob": 0.184
+    },
+    {
+      "start": 64.26,
+      "end": 65.26,
+      "text": "尝到那个接收板的比较显然",
+      "avg_logprob": -0.296,
+      "no_speech_prob": 0.184
+    },
+    {
+      "start": 65.26,
+      "end": 66.26,
+      "text": "就一个都已经",
+      "avg_logprob": -0.296,
+      "no_speech_prob": 0.184
+    },
+    {
+      "start": 66.26,
+      "end": 67.22,
+      "text": "老师",
+      "avg_logprob": -0.44,
+      "no_speech_prob": 0.256
+    },
+    {
+      "start": 67.54,
+      "end": 68.3,
+      "text": "这个",
+      "avg_logprob": -0.44,
+      "no_speech_prob": 0.256
+    },
+    {
+      "start": 68.82,
+      "end": 69.86,
+      "text": "这太大了",
+      "avg_logprob": -0.44,
+      "no_speech_prob": 0.256
+    },
+    {
+      "start": 70.89,
+      "end": 71.93,
+      "text": "行 那我看看吧",
+      "avg_logprob": -0.44,
+      "no_speech_prob": 0.256
+    },
+    {
+      "start": 72.17,
+      "end": 73.97,
+      "text": "我再拿一个新的",
+      "avg_logprob": -0.44,
+      "no_speech_prob": 0.256
+    },
+    {
+      "start": 74.21,
+      "end": 75.49,
+      "text": "你这么一样的话",
+      "avg_logprob": -0.44,
+      "no_speech_prob": 0.256
+    },
+    {
+      "start": 75.49,
+      "end": 77.05,
+      "text": "它就是在里面刷的",
+      "avg_logprob": -0.44,
+      "no_speech_prob": 0.256
+    },
+    {
+      "start": 79.33,
+      "end": 80.13,
+      "text": "可以粘上",
+      "avg_logprob": -0.44,
+      "no_speech_prob": 0.256
+    },
+    {
+      "start": 80.13,
+      "end": 80.89,
+      "text": "可以粘一下",
+      "avg_logprob": -0.44,
+      "no_speech_prob": 0.256
+    },
+    {
+      "start": 82.63,
+      "end": 84.19,
+      "text": "反正的名字得记一下",
+      "avg_logprob": -0.44,
+      "no_speech_prob": 0.256
+    },
+    {
+      "start": 84.43,
+      "end": 85.47,
+      "text": "它这个尾号",
+      "avg_logprob": -0.44,
+      "no_speech_prob": 0.256
+    },
+    {
+      "start": 89.57,
+      "end": 90.61,
+      "text": "可以粘",
+      "avg_logprob": -0.44,
+      "no_speech_prob": 0.256
+    },
+    {
+      "start": 90.85,
+      "end": 92.13,
+      "text": "那就粘一个吧",
+      "avg_logprob": -0.44,
+      "no_speech_prob": 0.256
+    },
+    {
+      "start": 94.81,
+      "end": 97.09,
+      "text": "现在不吹东西就这么豪恨了",
+      "avg_logprob": -0.44,
+      "no_speech_prob": 0.256
+    },
+    {
+      "start": 99.5,
+      "end": 100.54,
+      "text": "到时候把那个",
+      "avg_logprob": -0.44,
+      "no_speech_prob": 0.256
+    },
+    {
+      "start": 100.54,
+      "end": 103.3,
+      "text": "Wait wait wait wait wait wait wait",
+      "avg_logprob": -0.445,
+      "no_speech_prob": 0.439
+    },
+    {
+      "start": 103.3,
+      "end": 104.54,
+      "text": "不对吧",
+      "avg_logprob": -0.445,
+      "no_speech_prob": 0.439
+    },
+    {
+      "start": 104.54,
+      "end": 109.44,
+      "text": "这对吗",
+      "avg_logprob": -0.445,
+      "no_speech_prob": 0.439
+    },
+    {
+      "start": 109.44,
+      "end": 110.0,
+      "text": "不对吧",
+      "avg_logprob": -0.445,
+      "no_speech_prob": 0.439
+    },
+    {
+      "start": 110.0,
+      "end": 111.04,
+      "text": "哦这对",
+      "avg_logprob": -0.445,
+      "no_speech_prob": 0.439
+    },
+    {
+      "start": 111.04,
+      "end": 111.76,
+      "text": "好像是这样的",
+      "avg_logprob": -0.445,
+      "no_speech_prob": 0.439
+    },
+    {
+      "start": 111.76,
+      "end": 112.56,
+      "text": "从这锁一句",
+      "avg_logprob": -0.445,
+      "no_speech_prob": 0.439
+    },
+    {
+      "start": 112.56,
+      "end": 113.68,
+      "text": "它就是这样的",
+      "avg_logprob": -0.445,
+      "no_speech_prob": 0.439
+    },
+    {
+      "start": 113.68,
+      "end": 114.68,
+      "text": "可以啊",
+      "avg_logprob": -0.445,
+      "no_speech_prob": 0.439
+    },
+    {
+      "start": 114.68,
+      "end": 115.28,
+      "text": "可以啊",
+      "avg_logprob": -0.445,
+      "no_speech_prob": 0.439
+    },
+    {
+      "start": 115.28,
+      "end": 116.76,
+      "text": "我以为我以为不太对呢",
+      "avg_logprob": -0.445,
+      "no_speech_prob": 0.439
+    },
+    {
+      "start": 116.76,
+      "end": 118.16,
+      "text": "到时候它那个",
+      "avg_logprob": -0.445,
+      "no_speech_prob": 0.439
+    },
+    {
+      "start": 118.16,
+      "end": 120.28,
+      "text": "那个结构不要锁得也死",
+      "avg_logprob": -0.445,
+      "no_speech_prob": 0.439
+    },
+    {
+      "start": 120.28,
+      "end": 124.21,
+      "text": "晚上还要弄带吗",
+      "avg_logprob": -0.445,
+      "no_speech_prob": 0.439
+    },
+    {
+      "start": 124.21,
+      "end": 124.77,
+      "text": "不是",
+      "avg_logprob": -0.445,
+      "no_speech_prob": 0.439
+    },
+    {
+      "start": 124.77,
+      "end": 126.37,
+      "text": "我感觉有点中了这玩意",
+      "avg_logprob": -0.445,
+      "no_speech_prob": 0.439
+    },
+    {
+      "start": 126.37,
+      "end": 128.29,
+      "text": "到时候帮着机器上帅飞了",
+      "avg_logprob": -0.445,
+      "no_speech_prob": 0.439
+    },
+    {
+      "start": 128.29,
+      "end": 129.37,
+      "text": "不是这样的吧",
+      "avg_logprob": -0.445,
+      "no_speech_prob": 0.439
+    },
+    {
+      "start": 129.37,
+      "end": 130.37,
+      "text": "哪有这样的",
+      "avg_logprob": -0.445,
+      "no_speech_prob": 0.439
+    },
+    {
+      "start": 130.37,
+      "end": 132.25,
+      "text": "它都没有办法控制",
+      "avg_logprob": -0.445,
+      "no_speech_prob": 0.439
+    },
+    {
+      "start": 132.25,
+      "end": 133.17,
+      "text": "不是不是",
+      "avg_logprob": -0.445,
+      "no_speech_prob": 0.439
+    },
+    {
+      "start": 133.17,
+      "end": 133.65,
+      "text": "那",
+      "avg_logprob": -0.445,
+      "no_speech_prob": 0.439
+    },
+    {
+      "start": 133.65,
+      "end": 135.09,
+      "text": "你刚不是说粘上吗",
+      "avg_logprob": -0.445,
+      "no_speech_prob": 0.439
+    },
+    {
+      "start": 135.09,
+      "end": 136.37,
+      "text": "沾上不就行了",
+      "avg_logprob": -0.443,
+      "no_speech_prob": 0.064
+    },
+    {
+      "start": 137.69,
+      "end": 139.21,
+      "text": "然后你甩一下看什么",
+      "avg_logprob": -0.443,
+      "no_speech_prob": 0.064
+    },
+    {
+      "start": 142.8,
+      "end": 144.08,
+      "text": "那个也沾死一点",
+      "avg_logprob": -0.443,
+      "no_speech_prob": 0.064
+    },
+    {
+      "start": 144.08,
+      "end": 145.36,
+      "text": "沾上就行了",
+      "avg_logprob": -0.443,
+      "no_speech_prob": 0.064
+    },
+    {
+      "start": 145.36,
+      "end": 146.4,
+      "text": "这个直接通进去",
+      "avg_logprob": -0.443,
+      "no_speech_prob": 0.064
+    },
+    {
+      "start": 146.4,
+      "end": 147.68,
+      "text": "直接弄点脚",
+      "avg_logprob": -0.443,
+      "no_speech_prob": 0.064
+    },
+    {
+      "start": 148.48,
+      "end": 150.04,
+      "text": "就行了呗",
+      "avg_logprob": -0.443,
+      "no_speech_prob": 0.064
+    },
+    {
+      "start": 151.26,
+      "end": 152.78,
+      "text": "这肚子也能放进去是吧",
+      "avg_logprob": -0.443,
+      "no_speech_prob": 0.064
+    },
+    {
+      "start": 153.64,
+      "end": 154.68,
+      "text": "放进去没有问题",
+      "avg_logprob": -0.443,
+      "no_speech_prob": 0.064
+    },
+    {
+      "start": 155.44,
+      "end": 156.96,
+      "text": "哎 你要拍是吗",
+      "avg_logprob": -0.443,
+      "no_speech_prob": 0.064
+    },
+    {
+      "start": 157.48,
+      "end": 159.28,
+      "text": "没事 我就随便拍一下",
+      "avg_logprob": -0.443,
+      "no_speech_prob": 0.064
+    },
+    {
+      "start": 159.28,
+      "end": 167.54,
+      "text": "可不可以撒刀",
+      "avg_logprob": -0.443,
+      "no_speech_prob": 0.064
+    },
+    {
+      "start": 167.78,
+      "end": 174.7,
+      "text": "有点搞笑啊",
+      "avg_logprob": -0.443,
+      "no_speech_prob": 0.064
+    }
+  ]
+}

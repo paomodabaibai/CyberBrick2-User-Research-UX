@@ -1,0 +1,11 @@
+/* 影片专用字体（随引擎打包，保证不同电脑渲染一致）。Noto Sans SC 为 GB2312 子集；Inter 为拉丁子集。均为 SIL OFL 许可。 */
+@font-face { font-family: FilmSC; font-weight: 500; src: url(NotoSansSC-Medium.woff) format('woff'); }
+@font-face { font-family: FilmSC; font-weight: 700; src: url(NotoSansSC-Bold.woff) format('woff'); }
+@font-face { font-family: FilmSC; font-weight: 900; src: url(NotoSansSC-Black.woff) format('woff'); }
+@font-face { font-family: FilmLatin; font-weight: 500; src: url(Inter-Medium.woff) format('woff'); }
+@font-face { font-family: FilmLatin; font-weight: 600; src: url(Inter-SemiBold.woff) format('woff'); }
+@font-face { font-family: FilmLatin; font-weight: 700; src: url(InterDisplay-Bold.woff) format('woff'); }
+/* 科技感字体（v02 第二轮）：得意黑 Smiley Sans（OFL，单字重斜体）；Orbitron（OFL，拉丁子集） */
+@font-face { font-family: Tech; font-weight: 100 900; src: url(SmileySans-Oblique.woff2) format('woff2'); }
+@font-face { font-family: Orb; font-weight: 700; src: url(Orbitron-700.woff2) format('woff2'); }
+@font-face { font-family: Orb; font-weight: 900; src: url(Orbitron-900.woff2) format('woff2'); }

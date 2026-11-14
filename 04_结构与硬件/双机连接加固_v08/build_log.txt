@@ -1,0 +1,230 @@
+E:\课程作业\大三上\张茫 用户研究与体验设计\04_结构与硬件\cad_runtime\Lib\site-packages\trimesh\triangles.py:302: RuntimeWarning: invalid value encountered in divide
+  center_mass = integrated[1:4] / volume
+{
+ "checks": {
+  "switch_ear": {
+   "hole_Y": -15.84,
+   "hole_Z": -27.23,
+   "ear_Y": [
+    -18.0,
+    -12.0
+   ],
+   "ear_rear_X": -34.22
+  },
+  "body_components": 1,
+  "body_is_volume": true,
+  "switch0_vs_body": 0.0,
+  "switch0_vs_panel": -7.579122514774402e-14,
+  "switch0_vs_board": 0.0,
+  "switch0_vs_tray": 0.0,
+  "switch0_vs_battery": 0.0,
+  "switch0_vs_usb_env": 0.0,
+  "switch0_vs_plug_env": 0.0,
+  "switch0_vs_hip-": 0.0,
+  "switch0_vs_hip+": 0.0,
+  "switch0_vs_palm_base": 0.0,
+  "switch0_vs_fist_base": 0.0,
+  "switch0_vs_guard": 0.0,
+  "switch1_vs_body": 0.0,
+  "switch1_vs_panel": 0.0,
+  "switch1_vs_board": 0.0,
+  "switch1_vs_tray": 0.0,
+  "switch1_vs_battery": 0.0,
+  "switch1_vs_usb_env": 0.0,
+  "switch1_vs_plug_env": 0.0,
+  "switch1_vs_hip-": 0.0,
+  "switch1_vs_hip+": 0.0,
+  "switch1_vs_palm_base": 0.0,
+  "switch1_vs_fist_base": 0.0,
+  "switch1_vs_guard": 0.0,
+  "switch2_vs_body": 0.0,
+  "switch2_vs_panel": 0.0,
+  "switch2_vs_board": 0.0,
+  "switch2_vs_tray": 0.0,
+  "switch2_vs_battery": 0.0,
+  "switch2_vs_usb_env": 0.0,
+  "switch2_vs_plug_env": 0.0,
+  "switch2_vs_hip-": 0.0,
+  "switch2_vs_hip+": 0.0,
+  "switch2_vs_palm_base": 0.0,
+  "switch2_vs_fist_base": 0.0,
+  "switch2_vs_guard": 0.0,
+  "switch3_vs_body": 0.0,
+  "switch3_vs_panel": 0.0,
+  "switch3_vs_board": 0.0,
+  "switch3_vs_tray": 0.0,
+  "switch3_vs_battery": 0.0,
+  "switch3_vs_usb_env": 0.0,
+  "switch3_vs_plug_env": 0.0,
+  "switch3_vs_hip-": 0.0,
+  "switch3_vs_hip+": 0.0,
+  "switch3_vs_palm_base": 0.0,
+  "switch3_vs_fist_base": 0.0,
+  "switch3_vs_guard": 0.0,
+  "palm_base_vs_body": 0.0,
+  "palm_base_vs_board": 0.0,
+  "palm_base_vs_tray": 0.0,
+  "palm_base_vs_battery": 0.0,
+  "palm_base_vs_hip-": 0.0,
+  "palm_base_vs_hip+": 0.0,
+  "palm_base_vs_plug_env": 0.0,
+  "palm_base_vs_usb_env": 0.0,
+  "palm_base_vs_panel": 0.0,
+  "fist_base_vs_body": 0.0,
+  "fist_base_vs_board": 0.0,
+  "fist_base_vs_tray": 0.0,
+  "fist_base_vs_battery": 0.0,
+  "fist_base_vs_hip-": 0.0,
+  "fist_base_vs_hip+": 0.0,
+  "fist_base_vs_plug_env": 0.0,
+  "fist_base_vs_usb_env": 0.0,
+  "fist_base_vs_panel": 0.0,
+  "body_vs_board": 0.0,
+  "body_vs_tray": 0.0,
+  "body_vs_battery": 0.0,
+  "body_vs_panel": 0.0,
+  "body_vs_hip-": 66.32199392070561,
+  "body_vs_hip+": 66.32199392070561,
+  "body_vs_plug_env": 0.0,
+  "body_vs_usb_env": 0.0,
+  "panel_vs_board": 0.0,
+  "battery_back0.5_hits_palm_base": true,
+  "battery_up0.5_hits_palm_base": true,
+  "tray_up0.4_hits_palm_base": true,
+  "battery_back0.5_hits_fist_base": true,
+  "battery_up0.5_hits_fist_base": true,
+  "tray_up0.4_hits_fist_base": true,
+  "tray_slide_x0.5_hits_body_pins": true,
+  "XH_plusY_free_mm": [
+   6.0,
+   "body"
+  ],
+  "XH_minusY_free_mm": [
+   5.5,
+   "body"
+  ],
+  "panel_hole_edge_min_mm": 1.8000000000000007,
+  "seat_bridge": 0,
+  "seat_cap": 0,
+  "rotor_seat": 0,
+  "rotor_cap": 0,
+  "rotor_horn": 0,
+  "cover_seat": 0,
+  "cover_cap": 0,
+  "13_独立承重座_v07_vs_servo": 1.566003413973203e-05,
+  "12_承重转盘罩_v08四角刀孔_vs_servo": 0,
+  "seat_vs_palm_base": 0,
+  "bridge_vs_palm_base": 0,
+  "servo_vs_palm_base_mm3": 0,
+  "rotor_sweep_max_mm3": 0,
+  "rotor_sweep_worst": null,
+  "bridge_screw_ISO7380_vs_rotor_mm3": 0,
+  "bridge_screw_ISO7380_head_top_gap_to_rotor_mm": 2.05,
+  "fist_base_vs_motor_refs_mm3": 0.0,
+  "fist_base_v06_vs_motor_refs_mm3": 0.0,
+  "driver_-30_-30": 0,
+  "driver_-30_30": 0,
+  "driver_30_-30": 0,
+  "driver_30_30": 0,
+  "fist_cycle_offset": [
+   -22.0,
+   0.0,
+   -0.0
+  ],
+  "fist_cycle_offset_consistent_ref07": true,
+  "fist_cycle_collisions": {},
+  "assembly": {
+   "B1_switch_M2.5_front_driver": {
+    "switch_clear": 0
+   },
+   "B2_board_screw_corridor_reaches_Y": {
+    "-29,-29.5": 3.0,
+    "-29,-6.5": 3.0,
+    "-5,-29.5": 3.0,
+    "-5,-6.5": 3.0
+   },
+   "S1_tray_board_drop_40mm": {},
+   "S2_switch_module_slide_18mm": {},
+   "S2_panel_screw_driver_from_rear": {
+    "-33.5": {},
+    "2.5": {}
+   },
+   "S3_battery_drop_40mm": {},
+   "S4_palm_module_lower_40mm": {},
+   "S4_fist_module_lower_40mm": {},
+   "S4_palm_deck_-30_-30": {
+    "static_hits": {},
+    "clear_hand_angles_deg": "22/24"
+   },
+   "S4_fist_deck_-30_-30": {
+    "static_hits": {},
+    "clear_crank_angles_deg": "12/12"
+   },
+   "S4_palm_deck_-30_30": {
+    "static_hits": {},
+    "clear_hand_angles_deg": "22/24"
+   },
+   "S4_fist_deck_-30_30": {
+    "static_hits": {},
+    "clear_crank_angles_deg": "12/12"
+   },
+   "S4_palm_deck_30_-30": {
+    "static_hits": {},
+    "clear_hand_angles_deg": "22/24"
+   },
+   "S4_fist_deck_30_-30": {
+    "static_hits": {},
+    "clear_crank_angles_deg": "12/12"
+   },
+   "S4_palm_deck_30_30": {
+    "static_hits": {},
+    "clear_hand_angles_deg": "22/24"
+   },
+   "S4_fist_deck_30_30": {
+    "static_hits": {},
+    "clear_crank_angles_deg": "12/12"
+   },
+   "P1_bridge_screws_open_above": {
+    "-29,-6": {},
+    "-29,6": {},
+    "29,-6": {},
+    "29,6": {}
+   },
+   "P2_cap_bolts": {
+    "25.3,19.9": {
+     "static": {},
+     "clear_hand_angles": "21/24"
+    },
+    "-14.6,19.9": {
+     "static": {},
+     "clear_hand_angles": "21/24"
+    },
+    "-14.6,-19.9": {
+     "static": {},
+     "clear_hand_angles": "21/24"
+    },
+    "25.3,-19.9": {
+     "static": {},
+     "clear_hand_angles": "21/24"
+    }
+   },
+   "P3_cover_screws": {
+    "-29.0,-18.0": {
+     "static": {},
+     "clear_hand_angles": "23/24"
+    },
+    "-29.0,18.0": {
+     "static": {},
+     "clear_hand_angles": "23/24"
+    }
+   }
+  }
+ },
+ "switch_shift_mm": [
+  -6.5,
+  4.5,
+  0
+ ],
+ "status": "v08 trial-fit model. Inserts, plug space and sliding bearing still need one physical test build. Do not batch print."
+}
+BUILD_COMPLETE

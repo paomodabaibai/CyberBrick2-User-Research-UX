@@ -1,0 +1,117 @@
+{
+  "changed": [
+    "15_转盘圆润实心杆与胶粘插芯_v11",
+    "13_承重座_v11内收盖耳",
+    "12_圆肩避孔罩_v11",
+    "P_04_手掌75mm胶粘接口_无横销孔_v11"
+  ],
+  "removed": [
+    "12_承重转盘罩_v08四角刀孔",
+    "13_独立承重座_v07",
+    "15_承重转盘与加强接杆一体",
+    "P_02_插入连接块",
+    "P_04_完整手掌75mm_带接口"
+  ],
+  "unchanged_hash_mismatch": [],
+  "scope": "New cover perimeter and inward cover mounts, one-piece arm+insert, hand pin holes removed. Fist/body/switch untouched.",
+  "parameters": {
+    "body_height_mm": 39,
+    "hand_longest_mm": 75,
+    "wrist_reference_reach_mm": 51,
+    "cover_top_Z": 37,
+    "deck_axes_XY": [
+      [
+        -30,
+        -30
+      ],
+      [
+        -30,
+        30
+      ],
+      [
+        30,
+        -30
+      ],
+      [
+        30,
+        30
+      ]
+    ],
+    "insert_nominal_mm": [
+      23,
+      12,
+      6
+    ],
+    "cavity_clearance_per_side_mm": 0.25
+  },
+  "parts": {
+    "15_转盘圆润实心杆与胶粘插芯_v11": {
+      "watertight": true,
+      "volume_mm3": 11619.100106877997,
+      "bounds": [
+        [
+          -18.66,
+          -24.0,
+          33.5
+        ],
+        [
+          71.84,
+          24.0,
+          48.97
+        ]
+      ],
+      "components": 1
+    },
+    "13_承重座_v11内收盖耳": {
+      "watertight": true,
+      "volume_mm3": 7269.605991626703,
+      "bounds": [
+        [
+          -33.0,
+          -27.0,
+          25.0
+        ],
+        [
+          34.0,
+          27.0,
+          36.4
+        ]
+      ],
+      "components": 1
+    },
+    "12_圆肩避孔罩_v11": {
+      "watertight": true,
+      "volume_mm3": 20083.054712033703,
+      "bounds": [
+        [
+          -37.5,
+          -37.5,
+          3.0
+        ],
+        [
+          37.5,
+          37.5,
+          37.0
+        ]
+      ],
+      "components": 1
+    },
+    "P_04_手掌75mm胶粘接口_无横销孔_v11": {
+      "watertight": true,
+      "volume_mm3": 37923.38829731219,
+      "bounds": [
+        [
+          56.34,
+          -14.892192840576172,
+          23.299111099243163
+        ],
+        [
+          131.34,
+          14.89220142364502,
+          78.80295059204101
+        ]
+      ],
+      "components": 1
+    }
+  }
+}

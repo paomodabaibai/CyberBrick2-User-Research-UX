@@ -1,0 +1,23 @@
+{
+  "parts": [
+    {
+      "part": "01_原高身体_前电池仓布局草案",
+      "is_volume": true,
+      "components": 1
+    },
+    {
+      "part": "02_竖置主板托架_布局草案",
+      "is_volume": true,
+      "components": 1
+    },
+    {
+      "part": "03_后置开关面板_布局草案",
+      "is_volume": true,
+      "components": 1
+    }
+  ],
+  "zero_overlap_checks": 74,
+  "unchanged_hip_checks": 2,
+  "pass": true,
+  "scope": "Nominal packing only, not manufacturing release or motion test"
+}

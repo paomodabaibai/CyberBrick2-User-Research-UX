@@ -1,0 +1,30 @@
+{
+  "serial": "80:F1:B2:1F:54:B0",
+  "port": "COM19",
+  "uploaded": {
+    "boot.py": "bb678af2fe7ecbd4fc3aaffe2e1a53f9efaac089c3873167cb1f7bb6c2f7cbc9",
+    "commissioning_hold": "f1cb6853e57e7f70014cf54a58272700d5b56740feadfd6f107bbb7d9369d400",
+    "main.py": "61564648afa779635b23c7c1005feade2f14dd590e980cb68ad68e9acfbe9ad0",
+    "otto_oscillator.py": "520028b4b0f8f3215941b3bf3290c9f4edb4514968da9ac6d7827639c406091a",
+    "robot_remote.py": "bb7fbc264f479d9de9c056e606230680f98b96e78e8f055cf0093cb155081f40",
+    "second_punch_main.py": "fb6b8e1c1b870f002336cf8b6abc41f3261f160a78077a112acc682c840007f4",
+    "second_remote_ready.py": "6025318bf22aa20659f0a77d965de47bed75a7cfd0779cfda584b909667582ed"
+  },
+  "preserved": {
+    ".ignore": "6aefe87063e3aa5ec145f678245adcf7dd63d712d1bd063a1ad84a188bc891a6",
+    "rc_config": "60b41d503596618371567c22ab67fa7954fc11acc4988fe7596d35c713f53892",
+    "app/control.mpy": "5256f0df698fe00bc4a97c00e0807a76151322f37b4a73a1aedc065b5b057eb2",
+    "app/devices.mpy": "945cfc9aa0a2466cfd23d4c9bfa1d4fc700e274cef156d745e99ea28183bdb66",
+    "app/parser.mpy": "016d3b1b42fa3bea1624a9c82dde51f675327404270e375a23e77d417522d83a",
+    "app/rc_main.py": "7a0f0a11e13ec9dbd7ba667778deb122e50e17b4fcb421eadd85c8e04801d785",
+    "bbl/buzzer.py": "13663395cd99cfae5dea26a7aa685c3f4628a55f36b98a82c84a77586c85e7a9",
+    "bbl/executor.py": "a8328b4500fd7174c41c80aa3fc6cb070fae882a6aa6a7108d08f122d7be4cdd",
+    "bbl/leds.py": "1dd8d6ec13b0458ef3ac46868d359cecd4e20fa890e0880646aefcd70aa441d5",
+    "bbl/motors.py": "f089d80b3f36f8160330cf8f9d335d89f1546b912fc253a599342ad48d118057",
+    "bbl/servos.py": "43eed401dcd74d874f8ef8892a270338c7083a94f3d14da542d9d59a61eda6bc",
+    "bbl/sleepModule.py": "6b6e384cb93d24fc9319093a04b68f33af4129a881a11eba51544e2b26b603a8",
+    "bbl/__init__.py": "702a6c90c6e49cb1402be3161c98e38b1349434f4380822aaa437549156590cc",
+    "log/logging.0.log": "98d5433a645e3469d0029a00fd0ee4f2fda1361da6507131ce2afd69367c7492"
+  },
+  "automatic_motion": false
+}

@@ -1,0 +1,133 @@
+{
+  "body_height_mm": 39,
+  "attack_shift_from_original_mm": 0,
+  "outer_upper_width_mm": 75,
+  "checks_mm3": {
+    "board_vs_battery": 0,
+    "board_vs_carrier": 0,
+    "battery_vs_carrier": 0,
+    "board_vs_body": 0.0,
+    "board_vs_hip_-25": 0.0,
+    "board_vs_hip_25": 0.0,
+    "board_vs_10_巴掌定位底座": 0.0,
+    "board_vs_20_拳头固定底座_含隐藏过线槽": 0.0,
+    "board_vs_switch_0": 0.0,
+    "board_vs_switch_1": 0.0,
+    "board_vs_switch_2": 0.0,
+    "board_vs_switch_3": 0.0,
+    "battery_vs_body": 0.0,
+    "battery_vs_hip_-25": 0.0,
+    "battery_vs_hip_25": 0.0,
+    "battery_vs_10_巴掌定位底座": 0.0,
+    "battery_vs_20_拳头固定底座_含隐藏过线槽": 0.0,
+    "battery_vs_switch_0": 0.0,
+    "battery_vs_switch_1": 0.0,
+    "battery_vs_switch_2": 0.0,
+    "battery_vs_switch_3": 0.0,
+    "carrier_vs_body": 0.0,
+    "carrier_vs_hip_-25": 0.0,
+    "carrier_vs_hip_25": 0.0,
+    "carrier_vs_10_巴掌定位底座": 0.0,
+    "carrier_vs_20_拳头固定底座_含隐藏过线槽": 0.0,
+    "carrier_vs_switch_0": 0.0,
+    "carrier_vs_switch_1": 0.0,
+    "carrier_vs_switch_2": 0.0,
+    "carrier_vs_switch_3": 0.0,
+    "switch_0_vs_body": 0.0,
+    "switch_0_vs_panel": 0.0,
+    "switch_0_vs_10_巴掌定位底座": 0.0,
+    "switch_0_vs_20_拳头固定底座_含隐藏过线槽": 0.0,
+    "switch_0_vs_E01_侧插头与弯线预留": 0.0,
+    "switch_0_vs_E02_USB数据线插拔预留": 0.0,
+    "switch_0_vs_hip_-25": 0.0,
+    "switch_0_vs_hip_25": 0.0,
+    "switch_1_vs_body": 0.0,
+    "switch_1_vs_panel": 0.0,
+    "switch_1_vs_10_巴掌定位底座": 0.0,
+    "switch_1_vs_20_拳头固定底座_含隐藏过线槽": 0.0,
+    "switch_1_vs_E01_侧插头与弯线预留": 0.0,
+    "switch_1_vs_E02_USB数据线插拔预留": 0.0,
+    "switch_1_vs_hip_-25": 0.0,
+    "switch_1_vs_hip_25": 0.0,
+    "switch_2_vs_body": 0.0,
+    "switch_2_vs_panel": 0.0,
+    "switch_2_vs_10_巴掌定位底座": 0.0,
+    "switch_2_vs_20_拳头固定底座_含隐藏过线槽": 0.0,
+    "switch_2_vs_E01_侧插头与弯线预留": 0.0,
+    "switch_2_vs_E02_USB数据线插拔预留": 0.0,
+    "switch_2_vs_hip_-25": 0.0,
+    "switch_2_vs_hip_25": 0.0,
+    "switch_3_vs_body": 0.0,
+    "switch_3_vs_panel": 0.0,
+    "switch_3_vs_10_巴掌定位底座": 0.0,
+    "switch_3_vs_20_拳头固定底座_含隐藏过线槽": 0.0,
+    "switch_3_vs_E01_侧插头与弯线预留": 0.0,
+    "switch_3_vs_E02_USB数据线插拔预留": 0.0,
+    "switch_3_vs_hip_-25": 0.0,
+    "switch_3_vs_hip_25": 0.0,
+    "side_plug_vs_R01_竖置原厂接收组合": 0.0,
+    "side_plug_vs_R02_前置立放电池": 0.0,
+    "side_plug_vs_02_竖置主板托架_布局草案": 0.0,
+    "side_plug_vs_03_后置开关面板_布局草案": 0.0,
+    "side_plug_vs_20_拳头固定底座_含隐藏过线槽": 0.0,
+    "side_plug_vs_10_巴掌定位底座": 0.0,
+    "side_plug_vs_E_hip_-25": 0.0,
+    "side_plug_vs_E_hip_25": 0.0,
+    "hip_original_overlap_-25": 66.32199392070561,
+    "hip_compact_overlap_-25": 66.32199392070561,
+    "hip_original_overlap_25": 66.32199392070561,
+    "hip_compact_overlap_25": 66.32199392070561,
+    "body_vs_10_巴掌定位底座": 0.0,
+    "body_vs_20_拳头固定底座_含隐藏过线槽": 0.0,
+    "switch_panel_vs_10_巴掌定位底座": 0.0,
+    "switch_panel_vs_20_拳头固定底座_含隐藏过线槽": 0.0
+  },
+  "board_connector_bbox_substitutions": [
+    6,
+    7
+  ],
+  "note": "Packing study only. Front wall relief and short front mount bosses required. Hip envelopes are not exact supplied servo geometry. Charge port, strap, switch mount screw access and complete harness unfinished.",
+  "bounds": {
+    "board": [
+      [
+        -32.0,
+        -5.78000020980835,
+        -32.50056838989258
+      ],
+      [
+        -2.0,
+        15.680001258850098,
+        -3.4994313716888428
+      ]
+    ],
+    "battery": [
+      [
+        18.200000000000003,
+        -25.6,
+        -35.49746683330665
+      ],
+      [
+        34.5,
+        25.6,
+        -7.1025331666933464
+      ]
+    ],
+    "carrier": [
+      [
+        -31.8,
+        5.2,
+        -32.3
+      ],
+      [
+        3.5,
+        17.5,
+        -2.0
+      ]
+    ]
+  },
+  "collisions_over_0_01_mm3": {},
+  "hip_added_overlap_mm3": {
+    "-25": 0.0,
+    "25": 0.0
+  }
+}

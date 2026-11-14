@@ -1,0 +1,239 @@
+{
+  "source": "E:\\课程作业\\大三上\\张茫 用户研究与体验设计\\宣传视频10.27\\560c6d46d3b32341c86007f3f5c09394_raw.mp4",
+  "id": "V05",
+  "model": "faster-whisper-small CPU int8",
+  "status": "机器转写 未逐字听校",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.74,
+      "text": "可以开了",
+      "avg_logprob": -0.314,
+      "no_speech_prob": 0.659
+    },
+    {
+      "start": 2.74,
+      "end": 4.06,
+      "text": "那直接开始吧",
+      "avg_logprob": -0.314,
+      "no_speech_prob": 0.659
+    },
+    {
+      "start": 4.06,
+      "end": 5.06,
+      "text": "来吧",
+      "avg_logprob": -0.314,
+      "no_speech_prob": 0.659
+    },
+    {
+      "start": 6.06,
+      "end": 10.17,
+      "text": "不是说好的角色展示吗",
+      "avg_logprob": -0.314,
+      "no_speech_prob": 0.659
+    },
+    {
+      "start": 11.17,
+      "end": 15.56,
+      "text": "我搞",
+      "avg_logprob": -0.314,
+      "no_speech_prob": 0.659
+    },
+    {
+      "start": 19.22,
+      "end": 21.22,
+      "text": "你怎么一直在转型",
+      "avg_logprob": -0.314,
+      "no_speech_prob": 0.659
+    },
+    {
+      "start": 23.93,
+      "end": 25.93,
+      "text": "我的卡住了",
+      "avg_logprob": -0.314,
+      "no_speech_prob": 0.659
+    },
+    {
+      "start": 30.17,
+      "end": 47.8,
+      "text": "南方没有打下球就获得了胜利",
+      "avg_logprob": -0.314,
+      "no_speech_prob": 0.659
+    },
+    {
+      "start": 47.8,
+      "end": 48.8,
+      "text": "小红的腿被打包了",
+      "avg_logprob": -0.314,
+      "no_speech_prob": 0.659
+    },
+    {
+      "start": 48.8,
+      "end": 49.8,
+      "text": "小红的腿被打包了",
+      "avg_logprob": -0.314,
+      "no_speech_prob": 0.659
+    },
+    {
+      "start": 49.8,
+      "end": 51.8,
+      "text": "赶紧组装一下行不行啊",
+      "avg_logprob": -0.314,
+      "no_speech_prob": 0.659
+    },
+    {
+      "start": 51.8,
+      "end": 55.53,
+      "text": "三天三天你别打了",
+      "avg_logprob": -0.454,
+      "no_speech_prob": 0.397
+    },
+    {
+      "start": 55.53,
+      "end": 64.31,
+      "text": "能放细续啊",
+      "avg_logprob": -0.454,
+      "no_speech_prob": 0.397
+    },
+    {
+      "start": 64.31,
+      "end": 67.53,
+      "text": "真是在自己转圈",
+      "avg_logprob": -0.454,
+      "no_speech_prob": 0.397
+    },
+    {
+      "start": 67.53,
+      "end": 69.53,
+      "text": "你看你打得动我吗",
+      "avg_logprob": -0.454,
+      "no_speech_prob": 0.397
+    },
+    {
+      "start": 69.53,
+      "end": 72.04,
+      "text": "吹他毙你",
+      "avg_logprob": -0.454,
+      "no_speech_prob": 0.397
+    },
+    {
+      "start": 72.04,
+      "end": 76.38,
+      "text": "胜利舞蹈",
+      "avg_logprob": -0.454,
+      "no_speech_prob": 0.397
+    },
+    {
+      "start": 80.65,
+      "end": 83.45,
+      "text": "这男生就像八长逆气",
+      "avg_logprob": -0.454,
+      "no_speech_prob": 0.397
+    },
+    {
+      "start": 83.45,
+      "end": 84.25,
+      "text": "要是再大一点",
+      "avg_logprob": -0.454,
+      "no_speech_prob": 0.397
+    },
+    {
+      "start": 84.25,
+      "end": 85.45,
+      "text": "他真的可以自己站起来",
+      "avg_logprob": -0.454,
+      "no_speech_prob": 0.397
+    },
+    {
+      "start": 85.45,
+      "end": 103.11,
+      "text": "顺利画面",
+      "avg_logprob": -0.454,
+      "no_speech_prob": 0.397
+    },
+    {
+      "start": 103.11,
+      "end": 104.71,
+      "text": "也算顺利画面",
+      "avg_logprob": -0.454,
+      "no_speech_prob": 0.397
+    },
+    {
+      "start": 104.71,
+      "end": 107.32,
+      "text": "他要嘲讽",
+      "avg_logprob": -0.454,
+      "no_speech_prob": 0.397
+    },
+    {
+      "start": 107.32,
+      "end": 113.78,
+      "text": "你知道按哪个键可以跳舞吧",
+      "avg_logprob": -0.454,
+      "no_speech_prob": 0.397
+    },
+    {
+      "start": 113.78,
+      "end": 117.14,
+      "text": "你是说的那个什么伤心的人",
+      "avg_logprob": -0.935,
+      "no_speech_prob": 0.066
+    },
+    {
+      "start": 117.14,
+      "end": 139.81,
+      "text": "看调",
+      "avg_logprob": -0.935,
+      "no_speech_prob": 0.066
+    },
+    {
+      "start": 147.38,
+      "end": 148.7,
+      "text": "就是在步步逼着",
+      "avg_logprob": -0.935,
+      "no_speech_prob": 0.066
+    },
+    {
+      "start": 150.06,
+      "end": 152.5,
+      "text": "但是为什么要我捧风静你出发",
+      "avg_logprob": -0.935,
+      "no_speech_prob": 0.066
+    },
+    {
+      "start": 152.5,
+      "end": 154.18,
+      "text": "你怎么看这",
+      "avg_logprob": -0.935,
+      "no_speech_prob": 0.066
+    },
+    {
+      "start": 154.78,
+      "end": 160.51,
+      "text": "好热大",
+      "avg_logprob": -0.935,
+      "no_speech_prob": 0.066
+    },
+    {
+      "start": 180.08,
+      "end": 182.36,
+      "text": "我怎么觉得你对他的伤害是灵了",
+      "avg_logprob": -0.935,
+      "no_speech_prob": 0.066
+    },
+    {
+      "start": 183.44,
+      "end": 185.69,
+      "text": "好热啊",
+      "avg_logprob": -0.935,
+      "no_speech_prob": 0.066
+    },
+    {
+      "start": 185.69,
+      "end": 188.14,
+      "text": "好 可以了",
+      "avg_logprob": -0.935,
+      "no_speech_prob": 0.066
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "source": "E:\\课程作业\\大三上\\张茫 用户研究与体验设计\\10.22最终汇报素材\\df4ea8d6edf3e056c7e6fb76a67e5709_raw.mp4",
+  "id": "V30",
+  "model": "faster-whisper-small CPU int8",
+  "status": "机器转写 未逐字听校",
+  "segments": [
+    {
+      "start": 0.21,
+      "end": 4.21,
+      "text": "蓝色的小朋友们不懂玩了",
+      "avg_logprob": -0.647,
+      "no_speech_prob": 0.256
+    },
+    {
+      "start": 10.19,
+      "end": 13.19,
+      "text": "这里有些异形状态",
+      "avg_logprob": -0.647,
+      "no_speech_prob": 0.256
+    },
+    {
+      "start": 13.19,
+      "end": 16.86,
+      "text": "过了多久",
+      "avg_logprob": -0.647,
+      "no_speech_prob": 0.256
+    },
+    {
+      "start": 30.7,
+      "end": 32.7,
+      "text": "我来这等着吹你",
+      "avg_logprob": -0.647,
+      "no_speech_prob": 0.256
+    },
+    {
+      "start": 32.7,
+      "end": 40.43,
+      "text": "哎呦",
+      "avg_logprob": -0.506,
+      "no_speech_prob": 0.512
+    },
+    {
+      "start": 45.56,
+      "end": 47.56,
+      "text": "能站起来吗",
+      "avg_logprob": -0.506,
+      "no_speech_prob": 0.512
+    },
+    {
+      "start": 47.56,
+      "end": 49.56,
+      "text": "我试一下",
+      "avg_logprob": -0.506,
+      "no_speech_prob": 0.512
+    },
+    {
+      "start": 49.56,
+      "end": 52.56,
+      "text": "那应该是不行",
+      "avg_logprob": -0.506,
+      "no_speech_prob": 0.512
+    },
+    {
+      "start": 56.56,
+      "end": 59.56,
+      "text": "那可能推一点距离就让公平一点",
+      "avg_logprob": -0.506,
+      "no_speech_prob": 0.512
+    },
+    {
+      "start": 79.47,
+      "end": 101.66,
+      "text": "好激怒的一搭转",
+      "avg_logprob": -0.727,
+      "no_speech_prob": 0.581
+    },
+    {
+      "start": 101.66,
+      "end": 105.53,
+      "text": "不行我要先去打球了",
+      "avg_logprob": -0.727,
+      "no_speech_prob": 0.581
+    },
+    {
+      "start": 105.53,
+      "end": 112.04,
+      "text": "你来打球",
+      "avg_logprob": -0.727,
+      "no_speech_prob": 0.581
+    },
+    {
+      "start": 112.04,
+      "end": 120.97,
+      "text": "我打球直接了我",
+      "avg_logprob": -0.727,
+      "no_speech_prob": 0.581
+    },
+    {
+      "start": 120.97,
+      "end": 125.13,
+      "text": "那这种就算我先赌分了",
+      "avg_logprob": -0.727,
+      "no_speech_prob": 0.581
+    },
+    {
+      "start": 125.13,
+      "end": 127.19,
+      "text": "可以打了吗",
+      "avg_logprob": -0.727,
+      "no_speech_prob": 0.581
+    },
+    {
+      "start": 127.19,
+      "end": 129.83,
+      "text": "可以用到的盒子",
+      "avg_logprob": -0.727,
+      "no_speech_prob": 0.581
+    },
+    {
+      "start": 129.83,
+      "end": 136.38,
+      "text": "要分这么大吗",
+      "avg_logprob": -0.727,
+      "no_speech_prob": 0.581
+    },
+    {
+      "start": 136.38,
+      "end": 138.41,
+      "text": "分的",
+      "avg_logprob": -0.727,
+      "no_speech_prob": 0.581
+    },
+    {
+      "start": 138.41,
+      "end": 140.41,
+      "text": "分这么大",
+      "avg_logprob": -0.727,
+      "no_speech_prob": 0.581
+    },
+    {
+      "start": 140.41,
+      "end": 160.62,
+      "text": "你擦一下这个球是谁要的",
+      "avg_logprob": -0.933,
+      "no_speech_prob": 0.462
+    }
+  ]
+}

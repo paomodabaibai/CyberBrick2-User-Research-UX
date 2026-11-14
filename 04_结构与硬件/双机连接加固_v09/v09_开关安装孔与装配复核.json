@@ -1,0 +1,63 @@
+{
+  "scope": "Only switch mounting-ear hole and affected paths rechecked. Unchanged checks inherited, not rerun.",
+  "holes": {
+    "v08": {
+      "pilot_center_YZ": [
+        -15.83847482214,
+        -27.22903812944
+      ],
+      "PCB_hole_center_YZ": [
+        -14.999999999999998,
+        -27.25
+      ],
+      "offset_mm": 0.8387368045937189
+    },
+    "v09": {
+      "pilot_center_YZ": [
+        -15.0,
+        -27.25
+      ],
+      "PCB_hole_center_YZ": [
+        -14.999999999999998,
+        -27.25
+      ],
+      "offset_mm": 1.7763568394002505e-15
+    }
+  },
+  "checks_mm3": {
+    "v08_M2.5_shaft_vs_PCB": 2.8712324523680195,
+    "v09_M2.5_shaft_vs_PCB": 0.0,
+    "module_vs_01_原高身体_v08": 6.063298011819521e-13,
+    "module_vs_02_竖置主板托架_布局草案": 0.0,
+    "module_vs_R02_前置立放电池": 0.0,
+    "module_vs_E02_USB数据线插拔预留": 0.0,
+    "module_vs_E01_侧插头与弯线预留": 0.0,
+    "module_vs_10_巴掌定位底座_v07电池限位": 0.0,
+    "module_vs_20_拳头底座_v07尾部入线": 0.0,
+    "module_vs_21_拳头护罩_共用螺丝敞口": 0.0,
+    "module_vs_receiver_conservative": 0.0,
+    "module_vs_switch_closed_solids": -7.593925488436071e-14,
+    "bench_driver_vs_module": 0.0,
+    "bench_driver_vs_switch": 0.0
+  },
+  "paths": {
+    "rear_insertion_0_to_18mm_step_0.5": {}
+  },
+  "outer_panel_M3_axes_YZ": [
+    [
+      -33.5,
+      -28.5
+    ],
+    [
+      2.5,
+      -28.5
+    ]
+  ],
+  "mesh": {
+    "watertight": true,
+    "positive_volume": true,
+    "CAD_solids": 1
+  },
+  "unexpected_other_mesh_changes": [],
+  "note": "Screw pilot intentionally smaller than M2.5 for self tapping. Interference in plastic pilot is intended; PCB hole must clear shank. Physical thread strength remains untested."
+}

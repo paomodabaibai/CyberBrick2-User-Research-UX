@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon/chip" clip-path="url(#clip0_0_119)">
+<path id="Vector" d="M7.5 5H12.5C13.8807 5 15 6.11929 15 7.5V12.5C15 13.8807 13.8807 15 12.5 15H7.5C6.11929 15 5 13.8807 5 12.5V7.5C5 6.11929 6.11929 5 7.5 5Z" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" stroke="#151517"/>
+<path id="Vector_2" d="M7.5 1.66667V5M12.5 1.66667V5M7.5 15V18.3333M12.5 15V18.3333M1.66667 7.5H5M1.66667 12.5H5M15 7.5H18.3333M15 12.5H18.3333" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" stroke="#151517"/>
+</g>
+<defs>
+<clipPath id="clip0_0_119">
+<rect width="20" height="20" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,22 @@
+{
+  "source": "E:\\课程作业\\大三上\\张茫 用户研究与体验设计\\宣传视频10.27\\DJI_20260914091619_0345_D.MP4",
+  "id": "V14",
+  "model": "faster-whisper-small CPU int8",
+  "status": "机器转写 未逐字听校",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "text": "咱们这大朋友的动作有没有问题",
+      "avg_logprob": -0.614,
+      "no_speech_prob": 0.396
+    },
+    {
+      "start": 2.0,
+      "end": 4.0,
+      "text": "可以 留个位一下",
+      "avg_logprob": -0.614,
+      "no_speech_prob": 0.396
+    }
+  ]
+}
